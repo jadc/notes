@@ -1,4 +1,3 @@
-# jad's notes
 This repo is where I store notes for my classes and/or other miscellaneous know-how.  
 It'll be frequetly updated throughout the years unless I prefer another note-taking solution, but for the time being I will be using Vim to write notes and pushing everything to this repo.
 

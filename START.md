@@ -1,3 +1,1 @@
-# jad's notes
-
-## [Testing Notes](/testing)
+## [Testing Notes](/notes/testing)
