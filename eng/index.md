@@ -1,3 +1,3 @@
-#### [🡐](../START.md)
+#### [<==](../START.md)
 
 ## Do you honestly need notes for *English*?

@@ -1,11 +1,11 @@
-#### [🡐](./index.html)
+#### [<==](./index.html)
 
 # The Nature of Science  
 The majority of this section is from **Biology 35 IB**.  
-| [Vocabulary](#vocabulary) |
+1. [Vocabulary](#vocabulary)
+2. [The Limitations of Science](#the-limitations-of-science)
 
-
-### Vocabulary  
+## Vocabulary  
 | Word | Definition |
 | ---- | ---------- |
 | **Observation** | **Information** collected directly from the **five senses**. *(seeing, hearing, smelling, tasting, or touching)* |
@@ -15,7 +15,7 @@ The majority of this section is from **Biology 35 IB**.
 | **Supernatural Forces** | A power that can **do anything**, and therefore cannot be **proven or disproven**. |
 | **Pseudoscience** | Any system of belief that **misuses science to 'prove' their beliefs.** |
 
-### The Limitations of Science
+## The Limitations of Science
 Science is a tool to help us **understand nature**, but it has it's **limitations**.  
 * Science must follow certain rules.
 * Science can only solve certain types of problems.
