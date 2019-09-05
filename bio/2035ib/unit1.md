@@ -2,8 +2,11 @@
 
 # The Nature of Science  
 The majority of this section is from **Biology 35 IB**.  
-1. [Vocabulary](#vocabulary)
-2. [The Limitations of Science](#the-limitations-of-science)
+
+| Table of Contents |
+| --- |
+| [Vocabulary](#vocabulary) |
+| [The Limitations of Science](#the-limitations-of-science) |
 
 ## Vocabulary  
 
