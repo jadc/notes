@@ -6,6 +6,7 @@ The majority of this section is from **Biology 35 IB**.
 2. [The Limitations of Science](#the-limitations-of-science)
 
 ## Vocabulary  
+
 | Word | Definition |
 | ---- | ---------- |
 | **Observation** | **Information** collected directly from the **five senses**. *(seeing, hearing, smelling, tasting, or touching)* |
