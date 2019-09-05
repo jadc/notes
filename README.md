@@ -3,5 +3,5 @@ I will be frequently iterating upon this repo throughout the years—unless I pr
 As for the time being, I will be using **[Vim](https://www.vim.org)** to write notes and pushing everything to this repo.
 
 The intended way of viewing my notes is by using [**GitHub's built-in markdown viewer**](https://github.github.com/gfm/), which can be accessed via the **link below**.
-# [View the notes... 📝](https://jad.red/notes/START.html)
-###### [Mirror](http://jadc.github.io/notes/START.html)
+# [View the notes... 📝](START.html)
+###### [Mirror](https://github.com/jadc/notes/blob/master/START.md)
