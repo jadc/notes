@@ -1,10 +1,10 @@
-## [<](../)
+## [<](./)
 
 # The Nature of Science  
 The majority of this section is from **Biology 35 IB**.  
 
 | Table of Contents |
-| --- |
+| ----------------- |
 | [Vocabulary](#vocabulary) |
 | [The Limitations of Science](#the-limitations-of-science) |
 
