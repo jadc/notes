@@ -1,4 +1,4 @@
-## [<](./)
+## [<](../)
 
 # Biology 20 IB & Biology 35 IB
 

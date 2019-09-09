@@ -1,4 +1,4 @@
-## [<](./)
+## [<](../)
 
 # Review of Chemistry 10 (and more...)
 

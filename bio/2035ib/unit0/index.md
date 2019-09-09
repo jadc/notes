@@ -1,4 +1,4 @@
-## [<](./)
+## [<](../)
 
 # The Nature of Science  
 The majority of this section is from **Biology 35 IB**.  
