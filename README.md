@@ -4,10 +4,10 @@ As for the time being, I will be using **[Vim](https://www.vim.org)** to write n
 
 The intended way of viewing my notes is by using [**GitHub's built-in markdown viewer**](https://github.github.com/gfm/), which can be accessed via the **links below**.
 
-## [Math 🔢](/math)  
-## [Biology 🔬](/bio)  
-## [Chemistry ☣️](/chem)  
-## [Physics 🏃](/phys)  
-## [English 💬](/eng)  
-## [Social 📚](/social)  
-## [Miscellaneous ❓](/misc)  
+## [Math 🔢](./math)  
+## [Biology 🔬](./bio)  
+## [Chemistry ☣️](./chem)  
+## [Physics 🏃](./phys)  
+## [English 💬](./eng)  
+## [Social 📚](./social)  
+## [Miscellaneous ❓](./misc)  
