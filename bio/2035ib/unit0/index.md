@@ -63,8 +63,9 @@ These groups of people...
 ### Poorly Done
 Science, like any job, can be done poorly. The following are guidelines for good science.
 
-| **Controlled** | <span style="font-weight:normal">**One variable** at a time is tested.</span> |
-| -------------- | - |
+| Guideline | Description |
+| --------- | ----------- |
+| **Controlled** | **One variable** at a time is tested. |
 | **Repeatable** | Different scientists should be able to **repeat the procedures**, and get the **same results**. |
 | **Cause-effect** | Does **something cause something** else to happen? <br> Therefore, a **change in one** must result in a **matching change** in the other. |
 | **Species-specific** | Experiements on one species may not produce the **same results with others.** |
