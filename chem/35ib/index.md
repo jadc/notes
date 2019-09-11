@@ -4,4 +4,6 @@
 
 | Unit | Title |
 | :--: | :---: |
-| 0    | [Review of Chemistry 10 (and more...)](./unit0) |
+| 0    | [The Basics of Chemical Bonding](./unit0) |
+| 1    | [Organic Chemistry](./unit1) |
+

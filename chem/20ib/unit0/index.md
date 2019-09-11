@@ -1,0 +1,18 @@
+<a href="../" style="position: fixed; top: 0; left: 0.5em; font-size: 2em; font-weight: 900"><</a>
+
+# Review of Chemistry 10 (and more...)
+
+| Table of Contents |
+| ----------------- |
+| [Models of the Atom (quick summary)](#models-of-the-atom) |
+
+<hr>
+
+## Models of the Atom
+| Model | Creator | Name | Description |
+| :---: | :-----: | :--: | ----------- |
+| <img src="images/dalton.jpg" style="width: 6em"> | John<br>Dalton | Billiard Ball | All matter composed of **atoms**—**tiny, indivisible particles**. <br> Atoms of **different elements** have **different sizes/shape/etc.** |
+| <img src="images/thomson.jpg" style="width: 6em"> | J. J.<br>Thomson | Plum Pudding | **Positively charged sphere** with negatively charged **electrons embedded**. |
+| <img src="images/rutherford.jpg" style="width: 6em"> | Ernest<br>Rutherford | Nuclear | Positively charged **nucleus surrounded by electrons**.<br>Proved this with **gold foil experiement**. |
+| <img src="images/bohr.jpg" style="width: 6em"> | Niel<br>Bohr | Orbital | Electrons are in specific **energy levels**. |
+| <img src="images/quantum.jpg" style="width: 6em"> | Modern Science | Quantum Mechanical | Electrons occupy **orbitals**—**probability patterns of movement** of electrons around the nucleus. |
