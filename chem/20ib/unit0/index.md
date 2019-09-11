@@ -1,4 +1,4 @@
-<a href="../" style="position: fixed; top: 0; left: 0.5em; font-size: 2em; font-weight: 900"><</a>
+<a href="../" style="position: fixed; top: 0; left: 0.5em; font-size: 2em; font-weight: 900">&lt;</a>
 
 # Review of Chemistry 10 (and more...)
 
@@ -9,6 +9,7 @@
 <hr>
 
 ## Models of the Atom
+
 | Model | Creator | Name | Description |
 | :---: | :-----: | :--: | ----------- |
 | <img src="images/dalton.jpg" style="width: 6em"> | John<br>Dalton | Billiard Ball | All matter composed of **atoms**—**tiny, indivisible particles**. <br> Atoms of **different elements** have **different sizes/shape/etc.** |
