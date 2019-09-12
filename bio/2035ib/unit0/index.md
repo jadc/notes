@@ -146,8 +146,21 @@ They must be all followed, in order, but you can start anywhere.
 | [Background Information](#background-information) |
 | [Hypothesis](#hypothesis) |
 | [Experimental Design](#experimental-design) |
-| [](#) |
-| [](#) |
+| [^ Variables](#variables) |
+| [^ Materials](#materials) |
+| [^ Safety](#safety) |
+| [^ Procedure](#procedure) |
+| [Evidence](#evidence) |
+| [Analysis](#analysis) |
+| [^ Tables](#tables) |
+| [^ Graphs](#graphs) |
+| [^ Diagrams](#diagrams) |
+| [Interpretation/Discussion](#interpretation/discussion) |
+| [Evaluation](#evaluation) |
+| [Synthesis](#synthesis) |
+| [References](#references) |
+| [Lab Format Summary](#summary) |
+
 
 
 ## Problem
@@ -274,9 +287,31 @@ As in, how do the experimental results **compare** to your hypothesized results.
 If they are different, **explain why** they might be, and **provide reasoning behind each statement**.
 
 ### Evaluation
+Make some **conclusions** that can be drawn from this experiment. (You can start by summarizing the main things you dicused in the interpretation section.)
 
+**Evaluate the hypothesis.** (was it verified, falsified, or inconclusive?)
+
+**Evaluate the background research** you used to make the hypothesis.  If your hypothesis was falsified, it is most likely **experimental error** or an **error in your background research**.
+
+List the **weaknesses** of the experiment as well as **how significant** they were. _(e.g. precision and accuracy of the measurements was a weakness, because...)_
+
+**Evaluate the experimental design**: The procedure, management of time, and any technological skills that were used.  
+Attempt to explain the **limitations, weaknesses, and errors/possible sources of errors**.  
+
+For each of these, also discuss how the **experiment could have changed/improved** to produce better results.  
+These proposed modifications should be **realistic and clearly specified**. _(e.g. modifications to experimental techniques and/or the data range)_
+
+Don't just say "human error."
 
 ### Synthesis
-
+Using all the information you have collected—background information, information gained during the experiment, etc...  
+**Propose a new hypothesis** or **suggest possible studies** that one might attempt to further or more appropriately investigate the question.
 
 ### References
+All referenced material should be listed at the end of the lab in this section.  
+**APA Format** should be used.
+
+# TODO: APA Format
+
+## Summary
+TODO
