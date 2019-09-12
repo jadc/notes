@@ -139,29 +139,26 @@ The ten principles detail what scientists do and how they think.
 The following details the major stages in developing a lab.  
 They must be all followed, in order, but you can start anywhere.
 
-| Steps |
-| :---: |
-| [Problem (or Purpose)](#problem) |
-| [Rational for the Study](#rational) |
-| [Background Information](#background-information) |
-| [Hypothesis](#hypothesis) |
-| [Experimental Design](#experimental-design) |
-| [^ Variables](#variables) |
-| [^ Materials](#materials) |
-| [^ Safety](#safety) |
-| [^ Procedure](#procedure) |
-| [Evidence](#evidence) |
-| [Analysis](#analysis) |
-| [^ Tables](#tables) |
-| [^ Graphs](#graphs) |
-| [^ Diagrams](#diagrams) |
-| [Interpretation/Discussion](#interpretation/discussion) |
-| [Evaluation](#evaluation) |
-| [Synthesis](#synthesis) |
-| [References](#references) |
-| [Lab Format Summary](#summary) |
-
-
+## Steps  
+[Lab Format Summary](#lab-format-summary)
+1. [Problem/Purpose](#problem)
+2. [Rational](#rational)
+3. [Background Information](#background-information)
+4. [Hypothesis](#hypothesis)
+5. [Experimental Design](#experimental-design)
+   * [Variables](#variables)
+   * [Materials](#materials)
+   * [Safety](#safety)
+   * [Procedure](#procedure)
+6. [Evidence](#evidence)
+7. [Analysis](#analysis)
+   * [Tables](#tables)
+   * [Graphs](#graphs)
+   * [Diagrams](#diagrams)
+8. [Interpretation/Discussion](#interpretation/discussion)
+9. [Evaluation](#evaluation)
+10. [Synthesis](#synthesis)
+11. [References](#references)
 
 ## Problem
 For a **problem lab**, state the **question to be answered** in the experiment.  
@@ -194,6 +191,10 @@ All referenced material should be **listed in alphabetical order** at the end of
 
 ## Hypothesis
 Using your background research and more, write a **direct qualitative and/or quantitative hypothesis**.  
+
+A hypothesis is a **possible answer** to the question based on **observation**, with an **reason/explanation** for your answer.  
+It must always be able to be **disproven**. (no supernatural forces)
+
 The hypothesis must be **specific to the lab** you are conducting and directly **related to the research question**.
 
 **Quantitative**: Data that can be counted, measured, and **expressed using numbers**.  
@@ -211,10 +212,12 @@ List the following.
 
 #### Control Group
 Also known as just "control," this group is **the standard that you compare to**.  
-In other words, it is the group that has not been manipulated. The baseline, if you will.
+In other words, it is the group that has not been manipulated. The baseline, if you will.  
+You must have at least **5 trials/cases/tests** of the control group. 
 
 #### Experimental Group(s)
-This group (or multiple, for multiple experiments) recieve(s) **one specific manipulation** to differentiate themselves from the **control group**.
+This group (or multiple, for multiple experiments) recieve(s) **one specific manipulation** to differentiate themselves from the **control group**.  
+You must have at least **5 trials/cases/tests** of each experimental group. 
 
 #### Manipulated (Independent) Variable
 The manipulated variable is the variable that you change.  
@@ -228,7 +231,8 @@ More specifically, look for things that **changed in the experimental group**, b
 #### Controlled Variables
 The controlled variables are anything that **must be kept the same** within **both the experimental and control groups**.  
 Otherwise they could **interfere the cause-and-effect relationship** you are investigating by causing more than one manipulation, which you should not do.  
-Do not mix this up with the control group; that is more of a baseline you set up.
+Do not mix this up with the control group; that is more of a baseline you set up.  
+You should state **3-5 controlled variables**.
 
 ### Materials
 Record in point form all **appropriate substances and equipment** that will be used during the experiment. Include **sizes and quantities** of materials.  
@@ -240,8 +244,13 @@ State any **safety precautions** you must make. For instance, safety instruction
 ### Procedure
 Prepare a numbered list of **specific** instructions to be followed to perform your experiment.  
 Only include steps that you **actually did** and materials that you **actually used**.  
-Any other scientist unaffiliated with you should be able to **interpret your instructions** and **perform an identical experiment**.  
-Detailed instructions for common techniques is unneeded. _e.g. aseptic technique_
+Any other scientist unaffiliated with you should be able to **interpret your instructions** and **perform an identical experiment**; however, detailed instructions for common techniques are unneeded.
+
+Choose appropriate **intervals** for the manipulated variables.
+> i.e. How often will you measure the growth of the plants in an experiment?
+
+Determine the sample size, **minimum 5 subjects**.  
+Determine an appropriate number of trials, **minimum 5 trials**.
 
 ### Evidence
 Record **all raw qualitative and quantitative** data necessary to answer the question posed in the problem.  
@@ -256,21 +265,30 @@ Remember that these all require a **relevant and appropriate title**.
 If a **quantitative prediction** was made, **calculate a percent error** (?) of that compared to the **actual evidence**.
 
 #### Tables
+There should be **no variation** in significant digits, uncertanty, and percision. (number of decimal places)  
+In addition, include any **unexpected observations** that may have affected results.
+
 Column headings should include **what it is**, **units**, and the **uncertainty of measurement**.
 
-# TODO: Show headings, explain standard deviation, and uncertainty
-> | d |
+> TODO: Show headings, explain uncertainty
+> | ? |
 > | - |
 
-There should be no variation in significant digits, uncertanty, and percision. (number of decimal places)
+Include the **mean** and **standard deviation** of all your data points in the table.
 
-Include any **unexpected observations** that may have affected results.
+#### Mean
+![Mean Formula](https://latex.codecogs.com/gif.latex?\dpi{200}&space;\bar{x}=\frac{\Sigma&space;x}{n})  
+The sum of all data points divided by the amount of data points.
+
+#### Standard Deviation
+![Standard Deviation Formula](https://latex.codecogs.com/gif.latex?\dpi{200}&space;\sqrt\frac{\sum\left(x-\bar{x}\right)}{n-1})  
+> TODO: Better description of whats going on here.
 
 #### Graphs
 Graphs need an **appropriate scales**, **labeled axis with units**, and **accurately plotted data points** with **best-fit lines/curves**.  
 Use **error bars** on plot points to account for **uncertainties**.
 
-# TODO: Describe error bars
+> TODO: Describe error bars
 
 #### Diagrams
 Raw drawings should be converted to **labeled, size accurate diagrams**.  
@@ -287,7 +305,7 @@ As in, how do the experimental results **compare** to your hypothesized results.
 If they are different, **explain why** they might be, and **provide reasoning behind each statement**.
 
 ### Evaluation
-Make some **conclusions** that can be drawn from this experiment. (You can start by summarizing the main things you dicused in the interpretation section.)
+Make some **conclusions** that can be drawn from this experiment. (You can start by summarizing the main things you discussed in the interpretation section.)
 
 **Evaluate the hypothesis.** (was it verified, falsified, or inconclusive?)
 
@@ -311,7 +329,23 @@ Using all the information you have collected—background information, informati
 All referenced material should be listed at the end of the lab in this section.  
 **APA Format** should be used.
 
-# TODO: APA Format
+### TODO: APA Format. Do we need to know it, or can we just use EasyBib? We'll never know!
 
-## Summary
-TODO
+## Lab Format Summary
+| Section                                                       | Summary |
+| ------------------------------------------------------------- | ------- |
+| [Problem/Purpose](#problem)                                   | Problem Lab: State the question you're answering.<br>Purpose Lab: State what you are observing. |
+| [Rational](#rational)                                         | State why do you care?<br>State ethical concerns and how you've addressed them. |
+| [Background<br>Information](#background-information)          | Research accepted information about your problem.<br>Used to create a hypothesis, and refer back to during interpretation. |
+| [Hypothesis](#hypothesis)                                     | Write a qualitative and/or quantitative possible explanation to the problem.<br>Must be able to be disproven.<br>Must be specific to lab and related to question. | 
+| [Experimental<br>Design](#experimental-design)                | Write a 1-2 sentence summarized plan for your procedure.  |
+| [Variables](#variables)                                       | List control group and experiment group(s).<br>List manipulated, responding, and controlled variables. |
+| [Materials](#materials)                                       | State all substances, equipment, sizes and quantities needed. |
+| [Safety](#safety)                                             | State any safety precautions. |
+| [Procedure](#procedure)                                       | List of specific instructions to repeat your experiment.<br>State recording intervals, sample size, and number of trials. |
+| [Evidence](#evidence)                                         | Record all raw qualitative and quantitative data. |
+| [Analysis](#analysis)                                         | Manipulate the raw data for easier interpretation. |
+| [Interpretation/<br>Discussion](#interpretation/discussion)   | Answer the question with evidence and analyzed results.<br>Compare experiment results to hypothesized results, explain why there are differences. |
+| [Evaluation](#evaluation)                                     | Make conclusions that can be drawn from this experiment.<br>Evaluate the hypothesis. (true, false, or unsure)<br>Evaluate the background information (errors in experiment or research?)<br>Evaluate the experimental design. (limitations, weaknesses, or errors?) |
+| [Synthesis](#synthesis)                                       | Propose a new hypothesis or suggest possible studies. |
+| [References](#references)                                     | All referenced material in APA Format. |
