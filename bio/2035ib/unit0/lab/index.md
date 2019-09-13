@@ -139,15 +139,8 @@ Column headings should include **what it is**, **units**, and the **uncertainty 
 > | ? |
 > | - |
 
-Include the **mean** and **standard deviation** of all your data points in the table.
-
-#### Mean
-![Mean Formula](https://latex.codecogs.com/gif.latex?\dpi{200}&space;\bar{x}=\frac{\Sigma&space;x}{n})  
-The sum of all data points divided by the amount of data points.
-
-#### Standard Deviation
-![Standard Deviation Formula](https://latex.codecogs.com/gif.latex?\dpi{200}&space;\sqrt\frac{\sum\left(x-\bar{x}\right)}{n-1})  
-> TODO: Better description of whats going on here.
+Include the **mean** and **standard deviation** of all your data points in the table.  
+[Click here to see how to do that.](./mean-and-sd)
 
 #### Graphs
 Graphs need an **appropriate scales**, **labeled axis with units**, and **accurately plotted data points** with **best-fit lines/curves**.  
@@ -197,6 +190,7 @@ All referenced material should be listed at the end of the lab in this section.
 ### TODO: APA Format. Do we need to know it, or can we just use EasyBib? We'll never know!
 
 ## Lab Format Summary
+
 | Section                                                       | Summary |
 | ------------------------------------------------------------- | ------- |
 | [Problem/Purpose](#problem)                                   | Problem Lab: State the question you're answering.<br>Purpose Lab: State what you are observing. |
