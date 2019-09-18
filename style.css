@@ -1,0 +1,62 @@
+:root {
+	/* Colors */
+	--theme-color: #0366d6;
+	--strong-color: inherit;
+	/*--mark-background: purple;*/
+
+	/* Table Coloring */
+	--table-cell-padding: 1em 2em;
+
+	/* Sidebar */
+	--sidebar-width: 25rem;
+	--sidebar-name-font-weight: 600;
+	--sidebar-nav-link-font-weight: 600;
+	--sidebar-nav-link-color: #0366d6;
+
+	/* Links */
+	--link-color: #0366d6;
+	--link-color--hover: #004693;
+	--link-text-decoration: none;
+	--link-text-decoration--hover: underline;
+}
+
+/* Replaces strikethrough (~~lorem~~) with highlighting */
+.content del {
+	font-weight: inherit;
+	text-decoration: none;
+	background-color: var(--mark-background);
+	border-radius: 3px;
+}
+
+/* IB Logo (i hate seeing this logo) */
+#ib {
+	position: relative;
+	color: transparent;
+	background-image: url(../assets/ib.svg);
+	background-size: 100% 100%;
+}
+
+/* Image fanciness */
+img {
+	border-radius: 4px;
+	transition: 250ms all ease !important;
+}
+
+img:hover {
+	transform: scale(1.05);
+	image-rendering: crisp-edges;
+}
+
+/* Math Sizing */
+span.katex {
+	font-size: 1.5em;
+}
+
+/* Fixes ugly tables */
+table {
+	width: auto !important;
+}
+
+td, th, tr {
+	border: 1px solid var(--table-cell-border-color) !important;
+}

@@ -1,4 +1,5 @@
 **🔬  Chemistry 35 IB**
 
-* [The Basics of Chemical Bonding](chem/35ib/unit0.md)
-* [Organic Chemistry](chem/35ib/unit1.md)
+* [The Basics of Chemical Bonding](unit0.md)
+* [Organic Chemistry](unit1.md)
+* [Biochemistry](unit2.md)
