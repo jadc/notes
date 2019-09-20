@@ -87,10 +87,23 @@ Due to the periodic table arrangement, with some exceptions...
 
 By this logic, the ~~most metallic element is francium~~ and the ~~most non-metallic element is fluorine~~. (note, noble gasses don't react like non-metals, so they don't count)
 
-> **Electron Energy Level Diagram (Bohr Model)**  
+# Diagrams
+## Electron Energy Level Diagram (Bohr Model)
 Although this diagram is no longer accurate (quantum mechanical model) it still is somewhat useful and may appear in tests.  
 Here is the model for oxygen: it has 8 protons, 8 neutrons, 8 electrons split between the first 2 energy levels, and it has 6 valence electrons.  
 ![Energy Level Model](images/unit0/energy-level-model.png)
+
+## Electron Configuration Diagram
+Also known as the electron arrangement diagram, this is just a shorthand for Bohr's model.  
+Simply list the ~~amount of electrons in each energy level~~, and ~~seperate~~ each number with a ~~period~~.
+<h1>
+$X.Y.Z$
+</h1>
+> e.g.  
+Chlorine is in row 3, so it has 3 energy levels.  
+The first two levels are full, but the 3rd level isnt.  
+Chlorine is in column 17, meaning its 3rd level, the valence level, has 7 electrons.
+Therefore, a chlorine atom's electron configuration is $2.8.7$.
 
 # Isotopes
 Atoms of an ~~element~~ have the ~~same number of protons~~; this is what identifies which element an atom is.  
@@ -143,11 +156,9 @@ $\frac{(75*35)+(25*17)}{100}$
 $=30.5\frac{g}{mol}$
 </h3>
 
-### Relative Mass of Subatomic Partices
+### Relative Mass of ~~Subatomic~~ Particles
 | Particle | Relative Mass    | Relative Charge |
 | :------: | :--------------: | :-------------: |
 | proton   |      $1$         |       $+1$      |
 | neutron  |      $1$         |        $0$      |
 | electron | $\frac{1}{1840}$ |       $-1$      |
-
-!> TODO: Finish atomic mass explanation
