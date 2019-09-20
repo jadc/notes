@@ -6,6 +6,15 @@ As the course continues and further notes are created, the distinction and organ
 
 ---
 
+# Scientific Knowledge
+### Empirical Knowledge  
+Knowledge gained through ~~observation~~.  
+(*e.g. quantitative, as in measurements, or qualitative, as in descriptions using five senses*)
+
+### Theoretial Knowledge
+Knowledge that explains/describes observations of non-observables.  
+(*e.g. you can't see an atom... if you can, speak with your doctor*)
+
 # Models
 
 | Model | Name | Description |
@@ -39,6 +48,9 @@ There are two types of exchanges.
 * **Ionic**: ~~Losing or gaining~~ electrons.
 * **Covalent**: ~~Sharing~~ electrons. (aka. molecular)
 
+~~Metal~~ atoms form ~~positive~~ charged ions, known as ~~cations~~.  
+~~Non-metal~~ atoms form ~~negatively~~ charged ions, known as ~~anions~~.
+
 # Periodic Table Patterns
 ![Periodic Table](images/unit0/periodic-table.png)
 
@@ -70,16 +82,16 @@ There are still elements missing charges beyond this ruling, but since it wasn't
 ### Chemical Properties
 Elements in the same column have ~~similar chemical properties~~, and are assigned names because of this quality.
 
-| Column # | Name |
-| :------: | :--: |
-| 1 | Alkali Metals |
-| 2 | Alkali Earth Metals |
-| 3-12 | Transition Metals |
-| 13-16<br>under staircase<br>(yellow) | (Post) Transition Metals |
-| 13-16<br>touching staircase<br>(green) | Metalloids |
-| 13-16<br>above staircase<br>(blue) | Non-metals |
-| 17 | Halogens |
-| 18 | Noble Gasses |
+| Column # | Name | Reactivity |
+| :------: | :--: | :--------: |
+| **1** | Alkali Metals | ~~Most reactive metals~~.<br>~~Explode in water~~ |
+| **2** | Alkali Earth Metals | ~~Pretty reactive~~ metals, less than alkali |
+| **3-12** | Transition Metals | Don't follow any reactivity rules |
+| **13-16**<br>under staircase<br>(yellow) | (Post) Transition Metals |
+| **13-16**<br>touching staircase<br>(green) | Metalloids |
+| **13-16**<br>above staircase<br>(blue) | Non-metals |
+| **17** | Halogens | ~~Most reactive non-metals~~ |
+| **18** | Noble Gasses | ~~Non-reactive~~, inert |
 
 Due to the periodic table arrangement, with some exceptions...
 * ~~non-metallic properties~~ increase as you go from ~~left to right~~.
@@ -94,15 +106,17 @@ Here is the model for oxygen: it has 8 protons, 8 neutrons, 8 electrons split be
 ![Energy Level Model](images/unit0/energy-level-model.png)
 
 ## Electron Configuration Diagram
-Also known as the electron arrangement diagram, this is just a shorthand for Bohr's model.  
-Simply list the ~~amount of electrons in each energy level~~, and ~~seperate~~ each number with a ~~period~~.
-<h1>
-$X.Y.Z$
-</h1>
-> e.g.  
-Chlorine is in row 3, so it has 3 energy levels.  
+Also known as the electron arrangement diagram, this is just a shorthand for Bohr's model.
+
+Simply list the ~~amount of electrons in each energy level~~, and ~~seperate~~ each number with a ~~period~~. This means the last number in this diagram are the number of valence electrons.
+
+#### Formula
+<h1>$X.Y.Z$</h1>
+
+#### Example
+> Chlorine is in row 3, so it has 3 energy levels.  
 The first two levels are full, but the 3rd level isnt.  
-Chlorine is in column 17, meaning its 3rd level, the valence level, has 7 electrons.
+Chlorine is in column 17, meaning its 3rd level, the valence level, has 7 electrons.  
 Therefore, a chlorine atom's electron configuration is $2.8.7$.
 
 # Isotopes
@@ -122,7 +136,9 @@ $^A_ZX^{\pm c}$
 **Z** = ~~Atomic Number~~ (the number of protons, the number of electrons, and identifies the element the atom belongs to)  
 **c** = ~~Charge~~ (atoms do not have charges, so this is usually blank. however, if an atom gains/loses an electron, it'll become an ion and be written here)
 
-> Example for the aforementioned carbon isotope.  
+#### Example
+
+> The aforementioned carbon isotope, carbon-12.
 > <h1>$^{12}_{6}C$</h1>
 
 # Moles
@@ -134,7 +150,7 @@ The mass of electrons are negligable, so ~~atomic mass~~ is sum of the ~~number 
 Unlike the following measurements of mass, atomic mass is not an average, and should be a whole number.
 
 ## Molar Mass
-Discussed in the [moles section](#moles).
+!> Coming soon...
 
 ## Relative Atomic Mass
 The "atomic mass" on the period table is actually the ~~average relative molar mass~~ of all ~~naturally occuring isotopes~~ of the element.
@@ -162,3 +178,77 @@ $=30.5\frac{g}{mol}$
 | proton   |      $1$         |       $+1$      |
 | neutron  |      $1$         |        $0$      |
 | electron | $\frac{1}{1840}$ |       $-1$      |
+
+# Properties
+### Physical Properties
+A property that can be ~~observed or measured~~ ~~without changing~~ the ~~chemical composition~~ of a substance.  
+These changes are ~~reverseable~~.  
+*(e.g. colour, density, volume, mass, boiling point, melting point, conductivity)*
+
+#### Metals and Non-metals
+The physical properties of ~~metals~~ are...
+* ~~Shiny, lustrous~~
+* ~~Ductile~~ (stretch without crumbling)
+* ~~Malleable~~ (compress, bend, and reshape without cracking/breaking)
+* ~~Excellent conductors~~, ~~poor insulators~~
+
+The physical properties of ~~non-metals~~ are basically the ~~opposites~~ of the above.
+
+### Chemical Properties
+A property that can ~~only~~ be observed by ~~changing the chemical composition~~ of a substance.  
+These changes are ~~irreversable~~.  
+*(e.g. flammability, reactivity, heat of combustion)*
+
+### What's the difference?
+The chemical formula/composition/identity does not change when looking for physical properties.  
+For instance, melting a substance only changes the spaces between molecules, but the molecules are the same regardless of state.
+
+The chemical formula/composition/identity does change when looking for chemical properties.  
+For instance, to test flammability, a combustion reaction must occur, which alters the chemical composition of the substance.
+
+In addition, chemical changes leave signs that they have happened, such as...
+* Bubbling (when not boiling)
+* Odor
+* Colour Change
+* Temperature Change
+* Rust/rotting
+* Precipitate Formation (cloudy material)
+* and more...
+
+# <span id="ib">IB</span> Periodic Table & Properties
+!> Under construction...
+## Chemical Properties
+
+### Properties of Elements in the same group
+#### Group 1: Alkali Metals
+p.7, slide 1
+
+#### Group 7: Halogens
+p.7, slide 2
+
+#### Test for Halide Ions
+p.7, slide 3
+
+### Change from Metallic to Non-Metallic Nature of Elements Across Period 3
+p.7, slide 4
+
+## Periodicity
+p.8, slide 1
+
+## Physical Properties
+p.8, slide 2-3
+
+### Ionization Energies
+p.8, slide 4 & p.9, slide 2
+page 8 of ib data booklet
+
+### Electron Arrangement
+p.9, slide 3
+
+### Particle Radius
+all p.10
+#### Atomic Radius
+
+#### Ionic Radius
+
+# End of ib content. Under construction. Let me enjoy my long weekend >:[
