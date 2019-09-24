@@ -83,15 +83,59 @@ The following biological organization levels are what we study in Ecology.
 
 # Matter cycles, energy flows.
 Matter is ~~recycled~~; organisms take energy and materials from their environment, and release energy and materials back to the environment.  
-Energy ~~cannot be recycled~~; it is constantly ~~replenished from the sun~~, and is mostly wasted as heat.
+Energy ~~cannot be recycled~~; it is constantly ~~replenished from the sun~~, and is mostly (~90%) wasted as heat and leaves.
 
 # Equilibrium in the Biosphere
 **Biodiversity** is the ~~number of different species~~ in an ecosystem.
 
 ## Food Relationships
-Organisms are connected by food chains (linear) and food webs (multiple food chains).  
+Organisms are connected by ~~food chains (linear)~~ and ~~food webs (multiple food chains)~~.  
+These are the sequences of ~~who eats who~~, and the ~~transfer of materials and energy~~ from ~~organism to organism~~.  
+
 The extinction of one species could create a ~~domino effect~~.  
+The more ~~complicated and interconnected~~ the food web, the ~~more stable~~ the ecosystem, as it has "backups" if a species were to go extinct.
+
 **Trophic levels** are the position of different organisms in the food chain.
+
+### Producers
+Also known as ~~autotrophs~~. ("self-feeders")    
+These are located in the ~~1st trophic level~~.
+
+Most producers, sometimes named **photosynthesizers**, trap and convert ~~light energy~~ into ~~stored chemical energy~~ through ~~photosynthesis~~.  
+Some producers, named **chemosynthesizers**, form carbohydrates (CH, organics) from the ~~energy released~~ from the ~~breakdown of inorganic substances~~ like sulfur.
+
+### Consumers
+Also known as ~~heterotrophs~~. ("other-feeders")
+
+Consumers depend on other organisms for food. They do not make their own.  
+There are multiple levels.
+
+#### Primary Consumers
+Primary Consumers are **herbivores**, animals that only eat plants.  
+These are located in the ~~2nd trophic level~~ almost always, because they are the only consumers who will eat the producers.
+
+#### Secondary Consumers
+Secondary Consumers are **carnivores**, animals that only eat other animals.  
+These are located in the ~~3rd trophic level~~, as they eat the 2nd trophic level, primary consumers.
+
+#### Tertiary and so on...
+Tertiary Consumers eat the secondary consumers.  
+This trend continues until the ~~top of the food chain~~ is reached.
+In addition, **omnivores** are animals that can eat both plants and other animals; they can ~~fit into any trophic levels that herbivores and carnivores can~~.
+
+### Decomposers and Scavengers
+At any point in the food chain/web, these two feed on **detritus**: dead organic matter.
+
+Decomposers are also known as ~~detrivores~~, ~~saprophytes~~, or ~~saprovores~~. (saprovores specifically liquify and then absorb their food)  
+Decomposers are ~~small organisms~~ (like bacteria, fungi, worms, etc.) that feed on dead organic matter and ~~return the nutrients to the soil~~.  
+Decomposers ~~feed nutrients to the producers~~.
+These are located in the ~~last trophic level~~.
+
+Scavengers are ~~larger animals~~ (like vultures) that eat dead or dying organic matter. They ~~do not~~ directly ~~return nutrients to the soil~~.
+This makes them located in the ~~2nd last trophic level~~.
+
+
+### Summary
 
 | Trophic Level | Name | Purpose |
 | :-----------: | :--: | :-----: |
@@ -109,10 +153,10 @@ They can provide an ~~early warning to unbalance~~ in the ecosystem.
 
 ~~Frogs~~ are good indicator species, as they occupy ~~2 different ecosystems~~ and ~~2 different food chains~~ from tadpole to adult life.  
 The disappearance of frogs has been linked to...
-* Loss of Habitat
-* Poor Air & Water Quality
-* Climate Change
-* Ultraviolet Radiation (from ozone layer thinning)
+* ~~Loss of Habitat~~
+* ~~Poor Air & Water Quality~~
+* ~~Climate Change~~
+* ~~Ultraviolet Radiation~~ (from ozone layer thinning)
 Frogs ~~breathe through their thin skin~~, so that leaves them very vulnerable to poor air & water quality as well as UV radiation.
 
 ### Terms
@@ -123,3 +167,5 @@ Frogs ~~breathe through their thin skin~~, so that leaves them very vulnerable t
 | **Extirpated** Species | ~~No longer exist in an area~~. Can be found in others. |
 | **Threatened** Species | ~~Likely to become endangered~~/close to extinction if ~~factors that make them vulnerable are not reversed~~. |
 | **Special Concern** Species | At risk due to low/declining numbers at the ~~edges of its range~~ or in a ~~restricted area~~. |
+
+
