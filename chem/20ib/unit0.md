@@ -51,6 +51,62 @@ There are two types of exchanges.
 ~~Metal~~ atoms form ~~positive~~ charged ions, known as ~~cations~~.  
 ~~Non-metal~~ atoms form ~~negatively~~ charged ions, known as ~~anions~~.
 
+# Ionic Compounds
+## Identification
+If a compound ~~starts with a metal or $NH^+_4$~~, that compound is ionic.  
+The ionic compound starts with a metal/ammonium, and ends with a non-metal or anion.
+
+## Formula
+In ionic compounds, you must ~~balance ion charges~~.  
+All ionic compounds are ~~solid~~ in room temperature.
+
+### Examples
+> sodium phosphide  
+$Na^+$ and $P^{-3}$  
+= $Na_3P_{(s)}$
+
+> magnesium borate  
+$Mg^{2+}$ and $BO^-3_3$  
+= $Mg_3(BO_3)_{2 (s)}$
+
+## Nomenclature (Naming)
+1. Name the metal (or ammonium)
+2. Name the non-metal/anion
+	a. The anion name should end in `-ide`, unless it is a polyatomic.
+There are ~~no prefixes~~, and there are no capitals unless it is the start of a sentence.
+
+### Examples
+> $NaCl$  
+sodium chloride
+
+> $SrCO_{3 (s)}$  
+strontium carbonate
+
+## Multivalent Metals
+Multivalent metals are metals that have ~~more than one charge~~ listed on the periodic table.  
+The top charge is the most common in nature.
+
+Naming them is the same as ionic compounds, but state the ~~roman numeral of the charge~~ you're using after the element name.
+
+### Examples
+> $Cu^{2+}O^{-2}_{(s)}$  
+copper (II) oxide
+
+## Hydrates
+Hydrates are ~~ionic compounds~~ with ~~water molecules trapped~~ between the compound's molecules.
+
+The formula is just like an ionic compound, but at the end there is a ~~dot, number of water molecules, and $H_2O$~~.  
+> $MgSO_4 \cdot 7H_2O_{(s)}$
+
+The naming is just like an ionic compound, but at the end you state the ~~numerical prefix~~ (see molecular compounds) and the word ~~"hydrate."~~  
+> magnesium sulfate heptahydrate
+
+Alternatively, a less common but nearer naming method is below.
+> magnesium sulfate-7-water
+
+# Molecular Compounds
+
+
 # Periodic Table Patterns
 ![Periodic Table](images/unit0/periodic-table.png)
 
@@ -142,7 +198,7 @@ $^A_ZX^{\pm c}$
 > <h1>$^{12}_{6}C$</h1>
 
 # Moles
-TBD
+!> Coming soon...
 
 # Mass
 ## Atomic Mass
@@ -251,4 +307,3 @@ all p.10
 
 #### Ionic Radius
 
-# End of ib content. Under construction. Let me enjoy my long weekend >:[
