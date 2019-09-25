@@ -126,16 +126,15 @@ In addition, **omnivores** are animals that can eat both plants and other animal
 ### Decomposers and Scavengers
 At any point in the food chain/web, these two feed on **detritus**: dead organic matter.
 
+Scavengers are ~~larger animals~~ (like vultures) that eat dead or dying organic matter. They ~~do not~~ directly ~~return nutrients to the soil~~.
+This makes them located in the ~~2nd last trophic level~~.
+
 Decomposers are also known as ~~detrivores~~, ~~saprophytes~~, or ~~saprovores~~. (saprovores specifically liquify and then absorb their food)  
 Decomposers are ~~small organisms~~ (like bacteria, fungi, worms, etc.) that feed on dead organic matter and ~~return the nutrients to the soil~~.  
 Decomposers ~~feed nutrients to the producers~~.
 These are located in the ~~last trophic level~~.
 
-Scavengers are ~~larger animals~~ (like vultures) that eat dead or dying organic matter. They ~~do not~~ directly ~~return nutrients to the soil~~.
-This makes them located in the ~~2nd last trophic level~~.
-
-
-### Summary
+### Summary of Food Relationships
 
 | Trophic Level | Name | Purpose |
 | :-----------: | :--: | :-----: |
@@ -168,4 +167,43 @@ Frogs ~~breathe through their thin skin~~, so that leaves them very vulnerable t
 | **Threatened** Species | ~~Likely to become endangered~~/close to extinction if ~~factors that make them vulnerable are not reversed~~. |
 | **Special Concern** Species | At risk due to low/declining numbers at the ~~edges of its range~~ or in a ~~restricted area~~. |
 
+## Ecosystem Terms
+### Biomass
+**Biomass** is the ~~total dry weight~~ of ~~all organisms~~ being measured ~~per unit area~~.  
+It represents ~~energy stored in organic form~~, i.e. stored chemical energy. (e.g. glucose)
 
+It should be mentioned that to measure biomass, you must dehydrate biological material completely, killing it in the process. :(
+
+### Productivity
+**Productivity** is the ~~total~~ amount of ~~energy~~ ~~converted into organic compounds~~ in a ~~given length of time~~. (gross income)
+
+**Net Productivity** is the productivity ~~minus~~ all the ~~cost of metabolic activities~~ (energy used by every cell) of the producer. (net income)  
+(Productivity is ~~not always dependent on biomass~~. For example, cutting the lawn increases productivity, because the grass wants to grow back faster, but decreases biomass)
+
+Productivity is measured as a ~~rate of increase of energy (calories)~~ or as ~~biomass~~.
+
+Productivity can target autotrophs (plants) and that is called ~~primary productivity~~.  
+It can also target heterotrophs (animals) and that is called ~~secondary productivity~~, and so on...
+
+## Laws of Thermodynamics
+There are two laws of thermodynamics, and they are key to understanding energy transfer.
+
+### First Law
+.
+
+### Second Law
+.
+
+## Efficiency of Energy Transfer
+.
+
+# Pyramids
+.
+
+## Pyramid of Biomass (Land: $\frac{g}{m^2}$ Water: $\frac{mg}{m^3}$)
+.
+
+## Pyramid of Numbers
+.
+
+## Pyramid of Energy ($\frac{kcal}{m^2}$)
