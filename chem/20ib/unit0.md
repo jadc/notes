@@ -106,6 +106,88 @@ Alternatively, a less common but nearer naming method is below.
 
 # Molecular Compounds
 
+## Binary Molecular Compounds
+### Identification
+If a compound consists of ~~two non-metals~~, that compound is molecular.  
+
+### Formula
+Molecular compounds do not need to have balanced charged.
+The state of a molecular compound varies, and is covered later in the bonding unit.
+
+### Nomenclature
+1. Name the first element (if there is only one, do not put a "mono" prefix)
+2. Name the second element, ending in `-ide`.
+3. Use prefixes on both names to specify quantities...
+	a. `mono-`, `di-`, `tri-`, `tetra-`, `penta-`, `hexa-`, `hepta-`, `nona-`, `deca-`
+
+## Hydrogen Compounds
+### Identification
+If a compound ~~starts with $H$~~ or ~~ends with $COOH$~~.  
+Hydrogen compounds ~~form acids~~ when ~~aqueous~~; (dissolved in water) before that, they can be any state.
+Hydrogen compounds are molecular, but you need to ~~balance charges~~ and ~~name them like ionic compounds~~.
+
+### Nomenclature
+1. Write "`hydrogen`".
+2. Name the rest (anion) as if it were ionic. (end in `-ide`)
+
+#### Examples
+> $H_2S_{(g)}$  
+  => hydrogen sulfide
+
+> $CH_3COOH_{(l)}$  
+  => hydrogen acetate
+
+## Acids
+### Identification
+As stated before, acids are ~~hydrogen compounds dissolved in water~~, aka. aqueous.  
+If a compound follows the hydrogen compound identification rules, and its aqueous, its an acid.
+
+### Nomenclature
+The following is the most common, "classical" system.  
+Basically just take the name of the hydrogen compound, and perform the following based on that.
+
+#### Ends in `-ide`
+If the name ends in `-ide`, take the anion root and put it in here.  
+> hydro\_\_\_\_\_ic acid
+
+For example, hydrogen chloride becomes hydrochloric acid.
+
+#### Ends in `-ate`
+If the name ends in `-ate`, take the anion root and put it in here.  
+> \_\_\_\_\_ic acid
+
+For example, hydrogen chlorate becomes chloric acid.
+
+#### Ends in `-ite`
+If the name ends in `-ite`, take the anion root and put it in here.
+> \_\_\_\_\_ous acid
+
+For example, hydrogen chlorite becomes chlorous acid.
+
+The rarer, "modern" IUPAC system is basically just prepending "`aqueous`" to the hydrogen compound name.  
+For example, hydrogen phosphate becomes aqueous hydrogen phosphate. Now if only everyone used that. >:(
+
+# Solubility Table
+![Solubility Table](images/unit0/solubility-table.jpg)
+The solubility table states a few (not all) solubility of different molecules.
+
+## When
+You should check the solubility of ~~every compound~~ if ~~water~~ is stated to be anywhere, or if ~~any compound is aqueous~~.
+
+## Use
+To check solubility, find the ~~anion in the headers~~.  
+Then, look for where your cation is.
+
+The rows will either be...
+* ~~"(very soluble)"~~: Will dissolve in water, and become aqueous. (aq)
+* ~~"(slighlty soluble)"~~: Will not dissolve in water, and will become solid. (as a precipitate, making the water cloudly as it will be suspended)
+
+## Tips
+"Group 1 Ions" means all the elements in group 1, alkali metals.
+
+Multivalent elements ~~make a difference in solubility~~.
+
+If something isn't on the table, ~~assume it does not dissolve~~ in water.
 
 # Periodic Table Patterns
 ![Periodic Table](images/unit0/periodic-table.png)
