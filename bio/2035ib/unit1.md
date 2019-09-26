@@ -169,8 +169,10 @@ Frogs ~~breathe through their thin skin~~, so that leaves them very vulnerable t
 
 ## Ecosystem Terms
 ### Biomass
-**Biomass** is the ~~total dry weight~~ of ~~all organisms~~ being measured ~~per unit area~~.  
+**Biomass** is the ~~total dry weight~~ of ~~all organisms~~ being measured ~~per unit area~~ ~~per unit time~~.  
 It represents ~~energy stored in organic form~~, i.e. stored chemical energy. (e.g. glucose)
+
+$\frac{\frac{g}{m^2}}{year}$
 
 It should be mentioned that to measure biomass, you must dehydrate biological material completely, killing it in the process. :(
 
@@ -185,25 +187,121 @@ Productivity is measured as a ~~rate of increase of energy (calories)~~ or as ~~
 Productivity can target autotrophs (plants) and that is called ~~primary productivity~~.  
 It can also target heterotrophs (animals) and that is called ~~secondary productivity~~, and so on...
 
+### Monocultures
+**Monocultures** are the growth of ~~one specific plant species~~ instead of many different species.  
+This leaves that ecosystem very vulnerable if that species were to go away.
+
+### Miscellaneous Terms
+| Term | Definition |
+| :--: | ---------- |
+| **Habitat** | The ~~home~~ of an organism |
+| **Niche** | An organism's ~~role~~ in the ecosystem<br>*(e.g. place in food web, habitat, breeding area, times of activity)* |
+| **Abiotic Factor** | ~~Non-living influence~~ on an ecosystem |
+| **Biotic Factor** | ~~Living influence~~ on an ecosystem |
+| **Limitting Factors** | Limittations on ~~growth~~, ~~abundance~~, or ~~distributions~~ of a population. *(e.g. space)* |
+| **Carrying Capacity** | ~~Maximum number~~ of individuals of a species an ~~ecosystem can support~~. |
+
 ## Laws of Thermodynamics
 There are two laws of thermodynamics, and they are key to understanding energy transfer.
 
 ### First Law
-.
+Energy ~~cannot~~ be ~~created or destroyed~~.  
+Only ~~changed~~ from one ~~form~~ to another.
 
 ### Second Law
-.
+Every ~~energy transfer~~, energy is ~~lost~~.  
+This "waste" energy is often ~~heat~~.
 
 ## Efficiency of Energy Transfer
-.
+**Ecological Efficiency** is the ~~net productivity~~ at one ~~trophic level~~ ~~divded~~ by the net productivity at the level ~~below~~.
+
+### Rule of Ten
+On every energy transfer, ~~10%~~ of the energy is actually ~~transferred~~.  
+90% is the energy is lost as...
+* ~~Heat~~ (2nd law of thermodynamics)
+* Used in ~~metabolism~~ (Energy used by every cell)
+* Other biological processess (~~movement~~, ~~digestion~~, etc...)
+* ~~Waste~~
+
+> For example, about 2% of the sun's energy is actually used for photosynthesis.  
+Lets say plants contain 100% of available energy, the 2nd trophic level (primary consumer, herbivore) will recieve 10% of the plant's energy from eating it.  
+At the 3rd trophic level (secondary consumer, carnivore) eating the primary consumer will recieve 1% of the plant's energy.  
+And so on...
+
+This means that if ~~humans eat at lower trophic levels, they would get more energy~~.  
+Instead of eating a cow that ate some corn and getting 1% of the energy... eat the corn and get 10%!
+
+### Biological Amplification
+As you move through the food web, ~~toxins build up and multiply~~ ~~every transfer~~.  
+Even a tiny concentration of toxins can severely effect the top of the food chain.
 
 # Pyramids
-.
+The following are common diagrams used when describing energy loss at each stage and how fewer animals can be supported at higher trophic levels.
 
 ## Pyramid of Biomass (Land: $\frac{g}{m^2}$ Water: $\frac{mg}{m^3}$)
-.
+![Pyramid of Biomass](images/unit1/biomass.jpg)
+
+This pyramid is based on the ~~dry mass of tissue of an organism~~ at ~~each trophic level~~.  
+This pyramid only indicates organic material present at ~~one time~~, not total amounts produced, or the rate of production.
+
+### Inverse?
+The pyramid of biomass ~~can be inverted~~.  
+This can only happen if ~~producers have very high reproduction rates~~, or  
+if a ~~small biomass~~ of a producer can ~~supply enough food~~ for a ~~larger biomass~~ of a consumer.
+
+> For example, pythoplankton may have less biomass than zooplankton as the zooplankton consumes pythoplankton at a very fast rate, preventing the chance that they can develop into a larger sized population.
+
+> Another example, there aren't many trees in a forest, but they produce enough food for many consumers.
 
 ## Pyramid of Numbers
-.
+![Pyramid of Numbers](images/unit1/numbers.jpg)
+
+This pyramid is based on the ~~number of organisms~~ ~~at each trophic level~~.
+This pyramid only indicates organic material present at ~~one time~~, not total amounts produced, or the rate of production.
+
+### Inverse?
+Yes.
 
 ## Pyramid of Energy ($\frac{kcal}{m^2}$)
+![Pyramid of Energy](images/unit1/energy.jpg)
+
+This pyramid is based on ~~energy trapped in organic matter~~ at ~~each trophic level~~.
+
+### Inverse?
+~~No!~~ There must always be more energy at lower trophic levels to maintain life at the higher.
+
+# Limnology
+Limnology is the study of ponds and other similar aquatic systems.
+
+## Levels
+![Water Levels](images/unit1/levels.jpg)
+
+There are 3 levels of water.
+
+| Level | Location | Temperature |
+| :---: | :------: | :---------: |
+| ~~**Epilimnion**~~ | Highest level | Warms up in the summer |
+| ~~**Thermocline**~~ | Between epilimnion<br>& hypolimnion | Temperature rapidly changes |
+| ~~**Hypolimnion**~~ | Lowest level | Low temperature all year |
+
+## Zones
+![Water Zones](images/unit1/zones.jpg)
+
+There are 4 zones of water.
+
+| Zone | Location | Enough light for photosynthesis? |
+| :--: | :------: | :---------: |
+| ~~**Littoral**~~ | From the shore<br>to where plants stop growing on the sea floor | Enough |
+| ~~**Limnetic**~~ | Anywhere that sunlight can still reach | Enough |
+| ~~**Profundal**~~ | Beneath limnetic, sunlight can no longer reach | Not enough |
+| ~~**Benthic**~~ | Sea floor | Not enough |
+
+## Lake Types
+| ~~Oligotrophic~~ | ~~Eutrophic~~ |
+| ---------------- | ------------- |
+| - deep, cold     | - shallow, warm |
+| - low nutrient levels | - high nutrient levels |
+| - limited numbers of few organisms | - many photosynthetic organisms |
+| - clear water | - murky water (from photosynthetic organisms) |
+
+Over time, ~~oligotrophic~~ lakes ~~becomes eutrophic~~.
