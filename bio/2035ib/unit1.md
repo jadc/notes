@@ -191,6 +191,20 @@ It can also target heterotrophs (animals) and that is called ~~secondary product
 **Monocultures** are the growth of ~~one specific plant species~~ instead of many different species.  
 This leaves that ecosystem very vulnerable if that species were to go away.
 
+### Calories
+There are two units named calories.
+
+### Small Calorie (aka. Gram Calorie)
+The amount of ~~heat energy needed~~ to ~~raise~~ the ~~temperature of one *gram* of water~~ by ~~one degree~~ Celsius or Kelvin.
+
+Often denoted as $cal$.
+
+### Large Calorie (aka. food calorie or kilocalorie)
+The amount of ~~heat energy needed~~ to ~~raise~~ the ~~temperature of one *kilogram* of water~~ by ~~one degree~~ Celsius or Kelvin.
+
+Often denoted as $Cal$ or $kcal$.  
+$1 kcal = 1000 cal$
+
 ### Miscellaneous Terms
 | Term | Definition |
 | :--: | ---------- |
@@ -198,7 +212,7 @@ This leaves that ecosystem very vulnerable if that species were to go away.
 | **Niche** | An organism's ~~role~~ in the ecosystem<br>*(e.g. place in food web, habitat, breeding area, times of activity)* |
 | **Abiotic Factor** | ~~Non-living influence~~ on an ecosystem |
 | **Biotic Factor** | ~~Living influence~~ on an ecosystem |
-| **Limitting Factors** | Limittations on ~~growth~~, ~~abundance~~, or ~~distributions~~ of a population. *(e.g. space)* |
+| **Limitting Factors** | Limitations on ~~growth~~, ~~abundance~~, or ~~distributions~~ of a population. *(e.g. space)* |
 | **Carrying Capacity** | ~~Maximum number~~ of individuals of a species an ~~ecosystem can support~~. |
 
 ## Laws of Thermodynamics
@@ -213,7 +227,7 @@ Every ~~energy transfer~~, energy is ~~lost~~.
 This "waste" energy is often ~~heat~~.
 
 ## Efficiency of Energy Transfer
-**Ecological Efficiency** is the ~~net productivity~~ at one ~~trophic level~~ ~~divded~~ by the net productivity at the level ~~below~~.
+**Ecological Efficiency** is the ~~net productivity~~ at one ~~trophic level~~ ~~divided~~ by the net productivity at the level ~~below~~.
 
 ### Rule of Ten
 On every energy transfer, ~~10%~~ of the energy is actually ~~transferred~~.  
