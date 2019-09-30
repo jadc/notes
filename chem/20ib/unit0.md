@@ -178,12 +178,12 @@ For example, hydrogen phosphate becomes aqueous hydrogen phosphate. Now if only 
 # Multiatomic Elements
 Some specific elements, when ~~by themselves~~, must be in specific quantities.
 
-## Diatomic
+### Diatomic
 The following are all the diatomic elements you need to memorize.
 
 $Br_2$, $I_2$, $N_2$, $Cl_2$, $H_2$, $O_2$, $F_2$
 
-## Multiatomic
+### Multiatomic
 The following are all the multiatomic elements you need to memorize.
 
 $P_4$, $S_8$
@@ -203,7 +203,7 @@ The rows will either be...
 * ~~"(very soluble)"~~: Will dissolve in water, and become aqueous. (aq)
 * ~~"(slighlty soluble)"~~: Will not dissolve in water, and will become solid. (as a precipitate, making the water cloudly as it will be suspended)
 
-## Tips
+### Tips
 "Group 1 Ions" means all the elements in group 1, alkali metals.
 
 Multivalent elements ~~make a difference in solubility~~.
@@ -300,9 +300,6 @@ $^A_ZX^{\pm c}$
 > The aforementioned carbon isotope, carbon-12.
 > <h1>$^{12}_{6}C$</h1>
 
-# Moles
-!> Coming soon...
-
 # Mass
 ## Atomic Mass
 The mass of electrons are negligable, so ~~atomic mass~~ is sum of the ~~number of protons and neutrons~~ in an atom.  
@@ -314,7 +311,7 @@ A mole is a convenient measurement used by chemist, just like how a "dozen" mean
 ### Avogadro's Number
 Avogadro's Number equals...
 
-$6.02\times10^23$
+$6.02\times 10^23$
 
 ...atoms, molecules, or ions. ~~One mole is equal to avogadro's number~~.  
 Such a high number is used due to atomic particles being extraordinarily small.
@@ -329,7 +326,7 @@ Then, ~~add~~ the mass of all the elements together.
 
 #### Example
 > $H_2O$  
-$2\timesH (1.01) + 1\timesO (16.00)$  
+$2\times H (1.01) + 1\times O (16.00)$  
 $= 18.02 \frac{g}{mol}$
 
 ### Hydrates
@@ -337,8 +334,12 @@ To calculate the molar mass of a hydrate, it is exactly the same as a compound, 
 
 #### Example
 > $CuSO_4\cdot5H_2O$  
-Add the molar mass of...
-$1\timesCu + 1\timesS + 4\timesO + 10\timesH + 5\timesO$
+Add the molar mass of...  
+$1\times Cu$  
+\+ $1\times S$  
+\+ $4\times O$  
+\+ $10\times H$  
+\+ $5\times O$
 
 ### Mass to Moles
 Use the following formula.
@@ -346,6 +347,7 @@ Use the following formula.
 <h1>
 $n = \frac{m}{M}$
 </h1>
+
 $n$ = Number of moles  
 $m$ = Mass (in grams)  
 $M$ = Molar Mass (in $\frac{g}{mol}$)
@@ -354,10 +356,10 @@ $M$ = Molar Mass (in $\frac{g}{mol}$)
 
 #### Example
 > *Find the number of moles in 5.5 grams of $NaCl$*  
-M = molar mass of NaCl = $58.44 \frac{g}{mol}$  
-m = mass = $5.5 g$  
-n = number of moles = $\frac{5.5 g}{58.44 g\cdotmol^-1}$
-n = $0.094 mol$
+M = molar mass of NaCl = $58.44\,\frac{g}{mol}$  
+m = mass = $5.5\,g$  
+n = number of moles = $\frac{5.5\,g}{58.44\,g\cdot mol^{-1}}$  
+n = $0.094\,mol$
 
 !> Todo: Describe unit analysis
 
