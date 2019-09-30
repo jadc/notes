@@ -15,6 +15,12 @@ Knowledge gained through ~~observation~~.
 Knowledge that explains/describes observations of non-observables.  
 (*e.g. you can't see an atom... if you can, speak with your doctor*)
 
+# Significant Digits
+I won't be going over the entirety of sig digs here, but here are some things that are new...
+
+If you are only ~~adding or substracting~~ in an equation, your final answer should use the ~~lowest number~~ of ~~decimal places~~ in the question. (i.e. not sig digs)  
+If you are ~~multiplying or dividing~~, (even if you also are adding or substracting) your final answer should use the ~~lowest siginificant digit~~.
+
 # Models
 
 | Model | Name | Description |
@@ -142,6 +148,8 @@ Hydrogen compounds are molecular, but you need to ~~balance charges~~ and ~~name
 As stated before, acids are ~~hydrogen compounds dissolved in water~~, aka. aqueous.  
 If a compound follows the hydrogen compound identification rules, and its aqueous, its an acid.
 
+In addition, if a compound ~~ends in $OH$~~ and is ~~ionic~~, it is a ~~base~~.
+
 ### Nomenclature
 The following is the most common, "classical" system.  
 Basically just take the name of the hydrogen compound, and perform the following based on that.
@@ -166,6 +174,19 @@ For example, hydrogen chlorite becomes chlorous acid.
 
 The rarer, "modern" IUPAC system is basically just prepending "`aqueous`" to the hydrogen compound name.  
 For example, hydrogen phosphate becomes aqueous hydrogen phosphate. Now if only everyone used that. >:(
+
+# Multiatomic Elements
+Some specific elements, when ~~by themselves~~, must be in specific quantities.
+
+## Diatomic
+The following are all the diatomic elements you need to memorize.
+
+$Br_2$, $I_2$, $N_2$, $Cl_2$, $H_2$, $O_2$, $F_2$
+
+## Multiatomic
+The following are all the multiatomic elements you need to memorize.
+
+$P_4$, $S_8$
 
 # Solubility Table
 ![Solubility Table](images/unit0/solubility-table.jpg)
@@ -287,8 +308,58 @@ $^A_ZX^{\pm c}$
 The mass of electrons are negligable, so ~~atomic mass~~ is sum of the ~~number of protons and neutrons~~ in an atom.  
 Unlike the following measurements of mass, atomic mass is not an average, and should be a whole number.
 
+## Mole
+A mole is a convenient measurement used by chemist, just like how a "dozen" means 12.
+
+### Avogadro's Number
+Avogadro's Number equals...
+
+$6.02\times10^23$
+
+...atoms, molecules, or ions. ~~One mole is equal to avogadro's number~~.  
+Such a high number is used due to atomic particles being extraordinarily small.
+
 ## Molar Mass
-!> Coming soon...
+### Elements
+The atomic/molar mass of an element is stated on the periodic table.
+
+### Compounds
+To calculate the molar mass of a compound, ~~multiply~~ each molar mass of an element of the compound by it's ~~subscript~~. (not coefficient)  
+Then, ~~add~~ the mass of all the elements together.
+
+#### Example
+> $H_2O$  
+$2\timesH (1.01) + 1\timesO (16.00)$  
+$= 18.02 \frac{g}{mol}$
+
+### Hydrates
+To calculate the molar mass of a hydrate, it is exactly the same as a compound, but ~~multiply the $H_2O$ by its coefficient~~.
+
+#### Example
+> $CuSO_4\cdot5H_2O$  
+Add the molar mass of...
+$1\timesCu + 1\timesS + 4\timesO + 10\timesH + 5\timesO$
+
+### Mass to Moles
+Use the following formula.
+
+<h1>
+$n = \frac{m}{M}$
+</h1>
+$n$ = Number of moles  
+$m$ = Mass (in grams)  
+$M$ = Molar Mass (in $\frac{g}{mol}$)
+
+*Tip: If a variable is in moles, it often becomes capitalized*
+
+#### Example
+> *Find the number of moles in 5.5 grams of $NaCl$*  
+M = molar mass of NaCl = $58.44 \frac{g}{mol}$  
+m = mass = $5.5 g$  
+n = number of moles = $\frac{5.5 g}{58.44 g\cdotmol^-1}$
+n = $0.094 mol$
+
+!> Todo: Describe unit analysis
 
 ## Relative Atomic Mass
 The "atomic mass" on the period table is actually the ~~average relative molar mass~~ of all ~~naturally occuring isotopes~~ of the element.
@@ -389,3 +460,32 @@ all p.10
 
 #### Ionic Radius
 
+# Balancing Chemical Equations
+## Rules
+These rules are not required, but they will help you significantly.
+
+1. Balance the element you have the ~~most of first~~.
+2. If that element is ~~joined~~ to something, balance that ~~next~~.
+3. Treat ~~polyatomic ions~~ as ~~one group~~. (i.e. like an element)
+4. If an atom appears in ~~more than one compound~~ on ~~one side~~ of the equation, ~~do it last~~. (happens often with oxygen)
+5. In any ~~combustion~~ reaction, ~~balance carbons first~~, then ~~balance hydrogens~~, then ~~balance oxygens last~~.
+
+You can have ~~fractional coefficients~~ when you balance.
+
+~~Balance~~ the ~~sum of an element~~ on ~~each side~~.  
+In other words, if there were 2 oxygen in one compound and 3 in another on one side, balance for 5 oxygens on the other side.
+
+## Types of Chemical Reactions
+### Formation/Synthesis
+
+
+### Decomposition
+
+
+### Single Replacement
+
+
+### Double Replacement
+
+
+### Combustion
