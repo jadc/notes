@@ -37,7 +37,7 @@ This will make more sense as you progress in the unit.
 
 #### Example
 > $\textrm{CH}_3\textrm{COOH}_{(l)}$  
-The first carbon ($\textrm{C}$) is bonded to 3 hydrogens ($\textrm{H}$) as well as another carbon. ($\textrm{C}$) This other carbon is bonded to an oxygen $\textrm{O}$ as well as an oxygen $\textrm{O}$ thats bonded to a hydrogen ($\textrm{H}$)
+The first carbon ($\textrm{C}$) is bonded to 3 hydrogens ($\textrm{H}_3$) as well as another carbon. ($\textrm{C}$) This other carbon is bonded to an oxygen $\textrm{O}$ as well as an oxygen $\textrm{O}$ thats bonded to a hydrogen ($\textrm{H}$)
 
 # Diagrams
 There are three types of diagrams used to draw organic compounds.
