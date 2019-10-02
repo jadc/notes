@@ -226,5 +226,5 @@ A structural isomer has the ~~same formula~~, ~~different structure~~, ~~differe
 
 ## Example
 > **butane and methylpropane**  
-Empirical formula for both is $\textrm{C}_4\textrm{H}_10$  
+Empirical formula for both is $\textrm{C}_4\textrm{H}_{10}$  
 Butane is one chain of 4 carbons, while methyplpropane is a chain of 3 carbons with a branch of 1 carbon.
