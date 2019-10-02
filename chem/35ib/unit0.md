@@ -92,6 +92,13 @@ Because of this, they are ~~saturated~~, meaning that ~~all possible hydrogen bo
 $\textrm{C}_n\textrm{H}_{2n+2}$
 </h1>
 
+### Physical Properties
+Alkanes are ~~non-polar~~.  
+Non-polar molecules ~~only dissolve in non-polar solutions~~.  
+They can dissolve in ~~benzene~~, but ~~not water~~.
+
+Alkanes have ~~low boiling points~~. The boiling point of molecule gets ~~larger as molecule gets larger~~.
+
 ## Alkenes
 Alkenes are hydrocarbons containing ~~at least one double bond~~.  
 Because of this, they are ~~unsaturated~~.
@@ -166,7 +173,11 @@ Anything that is sticking off of and not a part of the main chain is a ~~branch~
 
 ~~Branches of branches cannot exist~~. There are no ways of naming these, so make sure the main chain is set up to prevent this.
 
-Lastly, branches cannot be located at the ~~ends of the main chain~~. This would make them just a part of the main chain.
+Branches cannot be located at the ~~ends of the main chain~~. This would make them just a part of the main chain.  
+*(It should be mentioned that other elements, like iodine, can go to the end of the main chain. This is covered more in the hydrocarbon derivitives portion)*
+
+Branches should be written in ~~alphabetical order~~ ~~ignoring any prefixes~~ (like di-, tri-, etc...)  
+For instance, write an etyhl branch before a methyl branch.
 
 ### Size
 When naming a branch, you start with the number of carbons it has. It is the ~~same naming as a root prefix~~.  
@@ -206,3 +217,14 @@ It is important to mention that if there is ~~only one possible location for a b
   You could count from left to right and say the methyl branch is at 2, or you could count right to left and say the methyl branch is 3.  
   The correct choice would be left to right, as it gives you the lowest number.  
   If you include everything, the name of this is **2-methylpentane**. 
+
+# Structural Isomers
+Structural isomers are molecules with the ~~same empirical formula~~ (i.e. same number of elements), but ~~different structural formula~~.  
+Most of the time this occurs when you ~~remove a carbon from the main chain~~ and ~~replace it with a branch~~.
+
+A structural isomer has the ~~same formula~~, ~~different structure~~, ~~different names~~ and ~~different properties~~.
+
+## Example
+> **butane and methylpropane**  
+Empirical formula for both is $\textrm{C}_4\textrm{H}_10$  
+Butane is one chain of 4 carbons, while methyplpropane is a chain of 3 carbons with a branch of 1 carbon.
