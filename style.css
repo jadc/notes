@@ -1,4 +1,6 @@
 :root {
+	/* Base */
+	--base-font-size: 20px;
 	/* Colors */
 	--theme-color: #0366d6;
 	--strong-color: inherit;
