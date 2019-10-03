@@ -160,6 +160,8 @@ The diagram for benzene is just a diagram of a cyclohexane, so a hexagon, with a
 
 ![Benzene](images/unit0/benzene.png)
 
+![Benzene Alternative](images/unit0/benzene2.png)
+
 You may also see it drawn as with double bonds. This is not entirely accurate as benzene has no true double bonds.
 
 ### Physical Properties
@@ -167,8 +169,6 @@ Benezene is ~~non-polar~~ with ~~nothing on it~~.
 Benzene is ~~polar~~ if it has ~~branches on it~~.
 
 It is large enough to be a ~~liquid at room temperature~~.
-
-![Benzene Alternative](images/unit0/benzene2.png)
 
 # Hydrocarbon Nomenclature
 There are three components to naming a hydrocarbon.  
