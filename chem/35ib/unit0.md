@@ -146,7 +146,7 @@ For instance, cyclopropane looks like a triangle, cyclobutane looks like a squar
 When a cyclic is a branch, it must connect to the main branch with a line. ~~Do not mistake this line as another carbon. It is only a bond.~~
 
 ## Benzene
-Alkanes, alkenes, alkynes, and cyclics are all aliphatics. Aromatics are hydrocarbons containing ~~benzene~~. ~~($\textrm{C}_6\textrm{H}_{6 (l)})~~  
+Alkanes, alkenes, alkynes, and cyclics are all aliphatics. Aromatics are hydrocarbons containing ~~benzene~~. ~~($\textrm{C}_6\textrm{H}_{6 (l)}$)~~  
 Benzene is a ~~6 carbon ring~~ with ~~no true double or triple bonds~~.
 
 It is rather an ~~intermediate form~~ between a single and a double bond. (resonance hybrid)  
@@ -168,7 +168,7 @@ Benzene is ~~polar~~ if it has ~~branches on it~~.
 
 It is large enough to be a ~~liquid at room temperature~~.
 
-![Benzene Alternative](images/unit0/benezene2.png)
+![Benzene Alternative](images/unit0/benzene2.png)
 
 # Hydrocarbon Nomenclature
 There are three components to naming a hydrocarbon.  
@@ -315,7 +315,7 @@ Most of the time this occurs when you ~~remove a carbon from the main chain~~ an
 
 A structural isomer has the ~~same formula~~, ~~different structure~~, ~~different names~~ and ~~different properties~~.
 
-## Example
+### Example
 > **butane and methylpropane**  
 Empirical formula for both is $\textrm{C}_4\textrm{H}_{10}$  
 Butane is one chain of 4 carbons, while methyplpropane is a chain of 3 carbons with a branch of 1 carbon.
