@@ -57,13 +57,58 @@ You can only use interval notation for ~~real numbers~~. You couldn't use interv
 > $x$ is less than or equal to 6  
   => $(-\infty, 6]$
 
+### Restrictions
+The following should be kept in mind when determining the domain.
+
+| Type | Restriction |
+| :--: | :---------: |
+| Line ($x$) | $x \epsilon\Reals$ |
+| Quadratic ($x^2$) | $x \epsilon\Reals$ |
+| Radical ($\sqrt{x}$) | $\textrm{radicand} \geq 0$<br><h5>*e.g. $\sqrt{x - 3}$ <br> $x - 3 \geq 0$ <br> $x \geq 3$*</h5> |
+| Fraction ($\frac{x}{y}$) | $\textrm{denominator} \neq 0$ |
 
 # Sum and Differences of Functions
-.
+## Equation
+To get the sum or difference of two functions, you really just get the sum or difference. It is nothing special.
 
+* **Sum of Fractions**: $(f + g)(x) = f(x) + g(x)$
+* **Difference of Fractions**: $(f - g)(x) = f(x) - g(x)$
+
+#### Examples
+$f(x) = 2x + 1$  
+$g(x) = x - 2$  
+
+> **What is $(f + g)(x)$?**  
+  $= 2x + 1 + x - 2$  
+  $= 3x - 1$  
+  Therefore, $(f + g)(x) = 3x - 1$
+
+> **What is $(f - g)(x)$?**  
+  $= 2x + 1 - (x - 2)$
+  $= 2x + 1 - x + 2$  
+  $= x + 3$  
+  Therefore, $(f - g)(x) = x + 3$
+
+## Domain
+The domain of a combined function is the ~~common domain~~ of ~~both individual~~ functions.
+
+You can get this by ~~getting the domain of both functions~~, then choosing the domain that overlaps/~~applies to both functions~~.
+
+#### Example
+$f(x) = \sqrt{x-3}$  
+$g(x) = \sqrt{x-7}$
+
+> The domain of $f(x)$ is $x \geq 3$  
+> The domain of $g(x)$ is $x \geq 7$  
+>
+> Therefore, the domain of $(f + g)(x)$ is $x \geq 7$
+
+## Range
+The range of a combined function is determined using the ~~graph~~.  
+Finding the range algebraically is not at the Math 30 level.
 
 # Products and Quotients of Functions
-.
+
 
 
 # Composite Functions
@@ -78,7 +123,7 @@ You can only use interval notation for ~~real numbers~~. You couldn't use interv
 .
 
 
-# Combing Transformations
+# Combining Transformations
 .
 
 
