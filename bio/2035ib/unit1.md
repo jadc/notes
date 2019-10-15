@@ -428,7 +428,8 @@ $\textrm{NH}_4^+ -\!\!\!(\textrm{nitrifying bacteria})\!\!\!\rightarrow \textrm{
 
 #### Assimilation
 Assimilation is to make a part of yourself, to consume. Therefore...  
-Plants ~~consume nitrates~~ to ~~produce amino acids and nucleotides~~, which they use to make ~~proteins and nucleic acids~~.
+Plants ~~consume nitrates~~ to ~~produce amino acids and nucleotides~~, which they use to make ~~proteins and nucleic acids~~.  
+Proteins are a ~~chain of amino acids~~ bonded together.
 
 $\textrm{NO}_3 -\!\!\!(\textrm{plants use})\!\!\!\rightarrow \textrm{amino acids + nucleotides} -\!\!\!(\textrm{plants make})\!\!\!\rightarrow \textrm{proteins + nucleic acids}$ 
 
