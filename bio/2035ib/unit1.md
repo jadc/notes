@@ -252,8 +252,11 @@ Even a tiny concentration of toxins can severely effect the top of the food chai
 # Pyramids
 The following are common diagrams used when describing energy loss at each stage and how fewer animals can be supported at higher trophic levels.
 
-## Pyramid of Biomass (Land: $\frac{g}{m^2}$ Water: $\frac{mg}{m^3}$)
+## Pyramid of Biomass 
 ![Pyramid of Biomass](images/unit1/biomass.jpg)
+
+Units for Land: $\frac{g}{m^2}$  
+Units for Water: $\frac{mg}{m^3}$
 
 This pyramid is based on the ~~dry mass of tissue of an organism~~ at ~~each trophic level~~.  
 This pyramid only indicates organic material present at ~~one time~~, not total amounts produced, or the rate of production.
@@ -276,8 +279,10 @@ This pyramid only indicates organic material present at ~~one time~~, not total 
 ### Inverse?
 Yes.
 
-## Pyramid of Energy ($\frac{kcal}{m^2}$)
+## Pyramid of Energy
 ![Pyramid of Energy](images/unit1/energy.jpg)
+
+Units: $\frac{kcal}{m^2}$
 
 This pyramid is based on ~~energy trapped in organic matter~~ at ~~each trophic level~~.
 
@@ -319,3 +324,132 @@ There are 4 zones of water.
 | - clear water | - murky water (from photosynthetic organisms) |
 
 Over time, ~~oligotrophic~~ lakes ~~becomes eutrophic~~.
+
+# Biogeochemical Cycles
+This is **chapter 3**.
+
+Biogeochemical Cycles involve two main processess
+* ~~**Digestion**~~: Breaking down to ~~incorporate~~ as a ~~part of a body~~.
+* ~~**Decay**~~: Of dead bodies/feces to become ~~part of the living world~~.
+
+<h1>
+CHNOPS
+</h1>
+
+These following elements, ~~carbon, hydrogen, nitrogen, oxygen, phopsphorous, and sulphur~~, are responsible for 95% of all mass of all biota.  
+They are all reused in cycles.
+
+## Oxygen Cycle
+~~21%~~ of the atmosphere is oxygen.  
+~~Produced by photosynthesis~~, ~~used in cellular respiration~~.
+
+## Carbon Cycle
+~~0.04%~~ of the atmosphere is ~~carbon dioxide~~.  
+~~Produced by cellular respiration~~, ~~used in photosynthesis~~.
+
+Dead matter that ~~does not get decomposed~~ gets buried and becomes ~~fossil fuels~~.  
+Carbon dioxide is ~~released~~ when fossil fuels are ~~burnt~~.
+
+## Carbon-Oxygen Cycle
+Carbon and oxygen are found in all organic compounds. (e.g. ~~carbs~~, ~~fats~~, ~~proteins~~, ~~<span id="ib">IB</span> nucleic acids~~)  
+~~Combustion~~ and ~~decaying organic matter~~ release carbon dioxide.
+
+### Photosynthesis
+Done by autotrophs/producers, photosynthesis is the process of ~~creating food~~.
+
+$6\textrm{CO}_2 + 6\textrm{H}_2\textrm{O} -\!\!\!(\textrm{chlorophyll, sunlight, enzymes})\!\!\!\rightarrow \textrm{C}_6\textrm{H}_{12}\textrm{O}_6 + 6\textrm{O}_2$
+
+The ~~**chlorophyll**~~ takes ~~Carbon Dioxide~~ & ~~Oxygen~~ **with ~~sunlight~~ and enzymes** produces ~~Glucose~~ & ~~Oxygen~~
+
+### Cellular Respiration
+Done by all biota, cellular respiration is the process of ~~using food~~.
+
+$\textrm{C}_6\textrm{H}_{12}\textrm{O}_6 + 6\textrm{O}_2 -\!\!\!(\textrm{mitochondria})\!\!\!\rightarrow 6\textrm{CO}_2 + 6\textrm{H}_2\textrm{O} + \textrm{ATP} + \textrm{Heat}$
+
+The ~~**mitochondria**~~ takes ~~Glucose~~ & ~~Oxygen~~ and produces ~~Carbon Dioxide~~, ~~Oxygen~~, ~~ATP~~, & ~~Heat~~.
+
+## Climate Effects
+The **greenhouse effect** involves gases, **greenhouse gases**, in the atmosphere ~~trapping infrared radiation~~ that is trying to escape into space and warming the planet up.  
+
+### Greenhouse Gases
+The main greenhouse gases are...
+* **carbon dioxide**  
+  $\textrm{CO}_{2 (g)}$
+* **methane**  
+  $\textrm{CH}_{4 (g)}$
+* **water vapour**  
+  $\textrm{H}_2\textrm{O}_{(g)}$
+* **nitrous oxides**  
+  $\textrm{NO}_{x (g)}$
+* **ozone**  
+  $\textrm{O}_{3 (g)}$  
+  When in lower altitudes, ozone absorbs heat
+* **CFC's**  
+  Aka. Chloroflurocarbons are propellents that were found to ~~thin the ozone layer~~. (The chlorine made ozone into oxygen)  
+  A thinner ozone layer causes cancer, cataracts, reduced photosynthesis, and genetic damage from ~~increased UV light exposure~~.
+
+### Other
+The 1992 Earth Summit was a treaty signed by many industrialized countries to stabilize carbon dioxide emissions by the end of the century.
+
+Atomic warfare and volcanic ash create an ~~albedo effect~~, meaning high reflectivity of the Earth's surface, which may ~~cool the planet down~~.
+
+## Nitrogen Cycle
+<span id="ib">IB</span> *Although still in the Alberta curriculum, IB favours this cycle.*
+
+~~78%~~ of the atmosphere is nitrogen gas.  
+Nitrogen is used to make ~~DNA~~ and ~~amino acids~~. (and ~~proteins~~ are made from amino acids)  
+
+### Nitrogen Fixation
+Nitrogen fixing is the process of ~~converting nitrogen gas into ammonium ions~~.  
+~~Nitrogen gas itself~~ ~~cannot be used~~, and must be converted into a usable form.
+
+### Physical
+~~10%~~ of nitrogen is fixed this way.
+
+Triggered by ~~lightning~~ and/or ~~photochemical smog~~.  
+Causes nitrogen gas to react with oxygen to produce nitrates.
+
+$\textrm{N}_{2 (g)} + \textrm{O}_2 -\!\!\!(\textrm{lightning/photochemical smog})\!\!\!\rightarrow \textrm{NO}_3$
+
+### Biological
+~~90%~~ of nitrogen is fixed this way.
+
+#### Fixing
+* In aquatic situations, bacteria in blue-green algae like ~~cyanobacteria~~ convert ~~nitrogen gas~~ into ~~ammonium ions~~.
+* In land situations, bacteria such as ~~rhizobium~~ live in ~~legume~~ roots and ~~form nodules~~ where they convert ~~nitrogen gas~~ into ~~ammonium ions~~.
+  * **Legume** are plants that are members of the pea family. (peas, beans, peanuts, alfalfa, clover, potatoes, etc.)
+
+$\textrm{N}_{2 (g)} -\!\!\!(\textrm{rhizobium legume nodules OR cyanobacterium})\!\!\!\rightarrow \textrm{NH}_4^+$
+
+#### Nitrification
+Then, ~~**nitrifying bacteria**~~ convert ammonium ions into ~~nitrites~~ then ~~nitrates~~. Nitrates can be used.
+
+$\textrm{NH}_4^+ -\!\!\!(\textrm{nitrifying bacteria})\!\!\!\rightarrow \textrm{NO}_2 -\!\!\!(\textrm{nitrifying bacteria})\!\!\!\rightarrow \textrm{NO}_3$
+
+#### Assimilation
+Assimilation is to make a part of yourself, to consume. Therefore...  
+Plants ~~consume nitrates~~ to ~~produce amino acids and nucleotides~~, which they use to make ~~proteins and nucleic acids~~.
+
+$\textrm{NO}_3 -\!\!\!(\textrm{plants use})\!\!\!\rightarrow \textrm{amino acids + nucleotides} -\!\!\!(\textrm{plants make})\!\!\!\rightarrow \textrm{proteins + nucleic acids}$ 
+
+#### Decomposition
+Decomposer bacteria break down dead plant and animal proteins ~~into amino acids~~ OR into urine then ~~into urea~~.
+
+$\textrm{dead bodies} -\!\!\!(\textrm{decomposer bacteria})\!\!\!\rightarrow \textrm{proteins}$  
+$\textrm{proteins} -\!\!\!(\textrm{decomposer bacteria})\!\!\!\rightarrow \textrm{amino acids}$  
+$\textrm{proteins} -\!\!\!(\textrm{decomposer bacteria})\!\!\!\rightarrow \textrm{urine} -\!\!\!(\textrm{decomposer bacteria})\!\!\!\rightarrow \textrm{urea}$
+
+#### Ammonification
+Then, the amino acids or urea are converted into ammonium ions by ~~ammonifying bacteria~~.
+
+$\textrm{amino acids OR urea} -\!\!\!(\textrm{ammonifying bacteria})\!\!\!\rightarrow \textrm{NH}_4^+$
+
+#### Denitification
+Denitrifying bacteria remove nitrogen from ecosystems. These bacteria gain energy from converting nitrates, nitrites, or ammonium ions ~~back into unusable nitrogen gas~~.  
+Denitrifying bacteria are ~~**anaerobic**~~, meaning they ~~dislike oxygen~~. People often ~~aerate~~ their soil, by punching holes into it, to decrease denitrification.
+
+$\textrm{NO}_3 \rightarrow \textrm{NO}_2 \rightarrow \textrm{NH}_4^+ \rightarrow \textrm{N}_{2 (g)}$
+
+### Human Damage
+Humans add nitrates to ecosystems as ~~fertilizer~~.  
+Too much fertilizer can cause ~~eutrophication~~ in lakes, when algae grows too quickly, dies, and the ~~decomposing algae uses all the oxygen~~ in the water and kills all life.
