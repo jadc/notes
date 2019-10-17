@@ -453,4 +453,58 @@ $\textrm{NO}_3 \rightarrow \textrm{NO}_2 \rightarrow \textrm{NH}_4^+ \rightarrow
 
 ### Human Damage
 Humans add nitrates to ecosystems as ~~fertilizer~~.  
-Too much fertilizer can cause ~~eutrophication~~ in lakes, when algae grows too quickly, dies, and the ~~decomposing algae uses all the oxygen~~ in the water and kills all life.
+Too much fertilizer can cause ~~**eutriphication**~~ in lakes, when algae grows too quickly, dies, and the ~~decomposing algae uses all the oxygen~~ in the water and kills all life.
+
+## Hydrologic Cycle
+This cycle is regarding the movement of water through the environment, atmosphere, and Earth.
+
+This cycle is ~~mainly abiotic~~, biota have little effect.
+
+The volume of water in the biosphere is ~~fairly constant~~.
+
+### Stages
+| Term | Description |
+| :--: | ----------- |
+| **Precipitation** | water moving from ~~atmosphere to Earth~~.<br>(rain, snow, etc.) |
+| **Evaporation** | water moving from ~~Earth to atmosphere~~.<br>(to form clouds in condensation which eventually precipitates) |
+| **Absorption** | water moving from ~~environment into living organisms~~.<br>(drinking/absorbing) |
+| **Transpiration** | water ~~loss from plants~~<br>(water evaporates from stoma) |
+| **Perspiration** | water ~~loss from animals~~<br>(sweat) |
+| **Exhalation** | water ~~loss during respiration~~<br>(exhaling or cellular respiration) |
+| **Percolation** | movement of ~~water down soil~~<br>(water table forms above bedrock/clay) |
+| **Leaching** | ~~seeping~~ water ~~carrying dissolved organic matter and minerals~~ to ~~lower layers of soil~~ |
+
+### Acid Rain
+Rain is normally ~~slightly acidic at 5.5 - 5.9 pH~~.
+
+Acid rain contains ~~sulfur dioxide $\textrm{SO}_2$~~ and ~~nitrogen oxides $\textrm{NO}_x$~~, which form ~~sulfuric and nitric acids~~.
+
+Main source of sulfur dioxides is ~~burning fossil fuels~~ and ~~extracting hydrogen sulfide from "sour gas"~~. *(e.g. coal burning plants, metal smelters, oil refineries)*  
+Main source of nitrous oxides is ~~internal combustion engines~~, as well as processing ~~nitrogen fertilizers~~ and ~~fossil fuel burning~~.
+
+~~Alkaline soils~~ minimize the impact of acid rain by ~~neutralizing acids before runoff~~.
+
+Acid rain ~~leaches out heavy metals~~ from the soil and into lakes and rivers. Not good!
+
+## Phosphorous Cycle
+Phosphorous is used in ~~cell membranes~~, ~~DNA~~, ~~ATP~~, and ~~bones~~.
+
+Plants can only absorb phosphorous in ~~phosphate~~ form. ($\textrm{PO}_4$)  
+Phosphate is found in ~~rock~~ and ~~guano~~, and ~~leeches out via precipitation~~.
+
+It is found in ~~fertilizers~~. Harvesting crops ~~removes nitrogen and phosphorous~~ from the soil, interrupting natural cycles.  
+Fertilizing soil can fix this, but can also make soil ~~10x more acidic~~.  
+Eutriphication can occur like mentioned earlier in human damage.
+
+## Sulfur Cycle
+
+Sulfur is used in ~~production of proteins~~.
+
+Plants can only absorb sulfur in ~~sulfate~~ form. ($\textrm{SO}_4$)  
+Sulfur is found in ~~rocks and sulfur deposits~~.  
+Like mentioned earlier, sulfur can contribute to acid rain.
+
+# Characteristics of Ecosystems
+This is **chapter 4**.
+
+
