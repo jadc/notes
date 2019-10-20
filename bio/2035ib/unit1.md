@@ -326,7 +326,7 @@ There are 4 zones of water.
 Over time, ~~oligotrophic~~ lakes ~~becomes eutrophic~~.
 
 # Biogeochemical Cycles
-This is **chapter 3**.
+This is **Chapter 3**.
 
 Biogeochemical Cycles involve two main processess
 * ~~**Digestion**~~: Breaking down to ~~incorporate~~ as a ~~part of a body~~.
@@ -487,7 +487,7 @@ Main source of nitrous oxides is ~~internal combustion engines~~, as well as pro
 Acid rain ~~leaches out heavy metals~~ from the soil and into lakes and rivers. Not good!
 
 ## Phosphorous Cycle
-Phosphorous is used in ~~cell membranes~~, ~~DNA~~, ~~ATP~~, and ~~bones~~.
+Phosphorous is used in ~~cell membranes~~, ~~DNA~~ (~~nucleic acids~~), ~~ATP~~, and ~~bones~~.
 
 Plants can only absorb phosphorous in ~~phosphate~~ form. ($\textrm{PO}_4$)  
 Phosphate is found in ~~rock~~ and ~~guano~~, and ~~leeches out via precipitation~~.
@@ -505,6 +505,114 @@ Sulfur is found in ~~rocks and sulfur deposits~~.
 Like mentioned earlier, sulfur can contribute to acid rain.
 
 # Characteristics of Ecosystems
-This is **chapter 4**.
+This is **Chapter 4**.
 
+## Terms
 
+| Term | Definition |
+| :--: | ---------- |
+| **Ecotones** | ~~Transition~~ zones ~~between ecosystems~~. Often have greater biodiversity than the ecosystems it borders. |
+| **Ecoclines** | ~~Transition~~ zones ~~between biomes~~. |
+| **Artificial Ecosystems** | Ecosystems planned and maintained by humans. (e.g. parks, farms, etc.) |
+| **Natural Ecosystems** | Ecosystems that are naturally occuring. (e.g. lakes, forests, deserts, etc.) |
+
+## Niche
+**Ecological Niche**  
+An organism's ~~role in an ecosystem~~; this includes things such as...
+* Placement in ~~food web~~
+* ~~Habitat~~
+* ~~Breeding area~~
+* ~~Time of activity~~
+
+**Fundamental Niche**  
+All ways an individual can ~~potentially~~ ~~interact with its surroundings~~.
+
+**Realized Niche**  
+An organisms ~~actual interactions~~ with its surroundings.
+
+## Competition
+
+### Gause's Law or The Principle of Competitive Exclusion
+Two organisms ~~cannot occupy the same niche~~ (use the ~~same limited resources~~) for long without one species being ~~displaced or repressed~~.
+
+### Types of Competition
+
+| Type | Definition |
+| :--: | ---------- |
+| **Competition** | Any ~~struggle~~ that occurs between ~~two individuals~~ for the ~~same resource~~. |
+| **Exploitative Competition** | Use of a ~~limited resource~~ ~~between~~ two or more organisms. |
+| **Interference Competition** | One organism ~~blocking access to a resource~~ from another organism. |
+| **Destructive Competition** | Organisms ~~fighting~~. Can be reduced by **territorial organization**. |
+| **Territorial Organization** | Different organisms ~~organized into specific areas~~ as to not compete with each other.<br>*(e.g. mice eat berries on the ground, while birds eat berries from the tree)* |
+| **Interspecific Competition** | Competition ~~between different species~~, often for ~~one thing~~. |
+| **Intraspecific Competition** | Competition ~~within the same species~~.<br>Fiercer, as the same species have the ~~same niche~~, so they ~~compete for everything~~ |
+
+### Reducing Competition
+Competition can be reduced by factors and symbiotic relationships such as...
+
+| Factor | Definition |
+| :----: | ---------- |
+| **Predation** | The ~~preying of an animal~~ on others. |
+| **Parasitism** | One individual ~~benefits~~, the other is ~~harmed~~. | 
+| **Commensalism** | One individual ~~benefits~~, the other is ~~unaffected~~. |
+| **Mutualism** | ~~Both individuals benefit~~. |
+| **Periodicity** | Alternating ~~periods of activity~~ to avoid competition.<br>*(e.g. hawk is diurnal, active during day,<br>owl is nocturnal, active during night)* |
+
+**Lotka-Volterra Theory**  
+Predator and prey numbers are ~~correlated~~, with some lag, in predictable ~~**cyclic ossilations**~~.  
+In other words, as predator numbers increase, prey numbers decrease, which cause predator numbers to decrease, and prey numbers to increase. And so on...  
+![Lotka-Volterra Model](images/unit1/lotka.gif)
+
+**Seasonal Community Changes**  
+Seasonal temperature changes force animals to adjust or die.
+* **Hibernation**: ~~Sleeping through cold weather~~. Rate of ~~metabolism drops~~, so low energy requirements.
+* **Estivation**: ~~Summer hibernation~~. Sleep to beat the heat.
+* **Migration**: ~~Moving~~ to more ~~favorable conditions~~, such as warmer regions or better food supply.
+
+**Lunar Rhythms**  
+Organism rhythms being ~~affected by the moon~~, which causes ~~tides~~.  
+Organisms on coasts have to ~~adjust to wide variation~~ in environmental conditions.
+
+**Annual Rhythms**  
+~~Reproductive cycles~~ of plants and animals in ~~yearly rhythm~~ in response to ~~seasonal changes~~.  
+*(e.g. trees losing their leaves in the fall)*
+
+# Biomes
+A biome is a large geopgraphical region with a ~~characteristic climate~~, dominated by ~~specific types of plants and animals~~.  
+Characteristics include...
+* ~~**Physiographic**~~ (flat, bumpy, etc.)
+* ~~**Climatic**~~ (precipitation and temperature)
+* ~~**Edaphic**~~ (soil characteristics: dark/light? nutrient rich?)
+* ~~**Biotic Factors**~~
+
+~~Precipitation~~ is the ~~limiting factor~~ that detminers if a biome is a ~~forest~~, ~~grassland~~, or ~~desert~~.  
+~~Temperature~~ is the ~~limiting factor~~ that determines the ~~type of biome~~. (in order of coolest to warmest, ~~boreal~~, ~~temperate~~, or ~~tropical~~)
+
+These two limiting factors, as well as ~~light intensity~~ and ~~length of growing season~~, determine the ~~type of plant~~ that can grow in a biome, and ~~in turn the type of other organisms~~ that can live there.
+
+## Forests
+.
+
+### Boreal Coniferous Forest (Taiga)
+.
+
+### Temperate Deciduous Forest
+.
+
+### Tropical Rain Forests
+.
+
+## Grasslands
+.
+
+## Deserts
+.
+
+### Tundra (Cold Desert)
+.
+
+### Hot Deserts
+.
+
+## Mountain Biomes
+.
