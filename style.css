@@ -51,17 +51,6 @@ blockquote {
 	background-size: 100% 100%;
 }
 
-/* Image fanciness */
-img {
-	border-radius: 4px;
-	transition: 250ms all ease !important;
-}
-
-img:hover {
-	transform: scale(1.05);
-	image-rendering: crisp-edges;
-}
-
 /* Fixes ugly tables */
 table {
 	width: auto !important;

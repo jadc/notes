@@ -591,28 +591,97 @@ Characteristics include...
 These two limiting factors, as well as ~~light intensity~~ and ~~length of growing season~~, determine the ~~type of plant~~ that can grow in a biome, and ~~in turn the type of other organisms~~ that can live there.
 
 ## Forests
-.
 
 ### Boreal Coniferous Forest (Taiga)
-.
+* **Precipitation**: $75 \space\textrm{-}\space 100 \frac{cm}{year}$
+* **Temperature**: $-30^\circ\textrm{C} \space\textrm{-}\space +20^\circ\textrm{C}$
+* **Fauna**
+  * Moss
+  * Lichen
+  * Cone-bearing, coniferous trees (aka. evergreen)
+* **Flora**
+  * Deer
+  * Foxes
+  * Rabbits
+* **Other**
+  * Contains **muskeg**: spongy mixture of land and water. ideal for insects.
+  * Long, harsh winters
 
 ### Temperate Deciduous Forest
-.
+* **Precipitation**: $75 \space\textrm{-}\space 125 \frac{cm}{year}$
+* **Temperature**: $\textrm{warmer than taiga}$
+* **Fauna**
+  * Broad leaf, deciduous trees
+  * Some cone-bearing, coniferous trees (aka. evergreen)
+* **Flora**: Tend to be smaller
+  * Birds
+  * Beaver
+  * Rabbits
 
 ### Tropical Rain Forests
-.
+* **Precipitation**: $200 \space\textrm{-}\space 400 \frac{cm}{year}$
+* **Temperature**: $\textrm{high}$
+* **Fauna**: Very diverse, dense vegetation
+  * Tall, broad-leaved trees
+* **Flora**: Very diverse
+  * Monkeys
+  * Tree Frogs
+  * Reptiles
+* **Other**
+  * Lack of seasonal variation
+  * Contains most medicines in the world, as well as oils, gums, resins, rubber, fibre, dye, species, tea, coffee, fruits, nuts, etc.
 
 ## Grasslands
-.
+* **Precipitation**: $25 \space\textrm{-}\space 75 \frac{cm}{year}$
+* **Temperature**: $-45^\circ\textrm{C} \space\textrm{-}\space +45^\circ\textrm{C}$
+* **Fauna**
+  * Grasses
+  * Trees (only in river valleys, percipitation too low)
+* **Flora**: Mostly herbivores
+  * Bison
+  * Prairie Dogs
+  * Ground Squirrels
+* **Other**
+  * Most fertile soil (lots of humus)
+  * First agriculture attempts here (wheat, corn, etc.) 
 
 ## Deserts
-.
+* **Precipitation**: $\textrm{less than } 25 \frac{cm}{year}$
+* **Temperature**: $\textrm{wide range}$
+* **Fauna & Flora**: Adapted to conserve water
 
-### Tundra (Cold Desert)
-.
+### Cold Deserts (Tundra)
+* **Soil**: Rock particles
+* **Fauna**: Must conserve heat for photosynthesis. Grow close to ground, away from wind, and clustered.
+  * Mosses
+  * Lichens
+  * Grasses
+* **Flora**
+  * Caribou
+  * Foxes
+  * Migrating Birds
+* **Other**
+  * Permafrost (keeps soil frozen year round)
 
 ### Hot Deserts
-.
+* **Soil**: Sand
+* **Temperature**: very hot days, cold nights
+* **Flora**: Mostly nocturnal
+* **Other**:
+  * Clearly defined seasons (rain in the winter)
 
 ## Mountain Biomes
-.
+Mountains contain many biomes.  
+~~Increasing altitude~~ produces changes ~~similar to increasing latitude~~.  
+In other words, cooler biomes as you go up.
+
+![Mountain Biomes](images/unit1/mountain.jpg)
+
+Biomes at the base of a mountain will be the same as the surrounding area.
+
+Mountains ~~affect rainfall patterns~~, as they cause clouds to rise, which cause them to precipitate.
+
+## Bonus Diagrams
+**Precipitation and their biomes**
+
+![Precipitation](images/unit1/precipitation.jpg)
