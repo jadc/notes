@@ -2,7 +2,7 @@
 
 ---
 
-# The Biosphere as a Closed System
+# C1. The Biosphere as a Closed System
 **Ecology** is the study of ~~inter-relationships~~ between ~~biotic and abiotic~~ parts of the biosphere.
 
 An **open system** is any system that involves the exchange of both ~~energy and matter~~ with its surroundings.  
@@ -81,12 +81,13 @@ The following biological organization levels are what we study in Ecology.
 | **Biomes** | ~~Characteristic~~ world ecosystems with ~~particular patterns~~ of abiotic and biotic factors.<br>Their limiting factors are precipitation and temperature averages. |
 | **Biosphere** | Earth's thin layer of ~~air, land, and water~~. It supports ~~life~~.<br>Upper boundaries are most limited by ~~availability of oxygen~~.<br>Lower boundaries are most limited by ~~availability of sunlight~~. |
 
-# Matter cycles, energy flows.
+
+# C2. Equilibrium in the Biosphere
+**Biodiversity** is the ~~number of different species~~ in an ecosystem.
+
+## Matter cycles, energy flows.
 Matter is ~~recycled~~; organisms take energy and materials from their environment, and release energy and materials back to the environment.  
 Energy ~~cannot be recycled~~; it is constantly ~~replenished from the sun~~, and is mostly (~90%) wasted as heat and leaves.
-
-# Equilibrium in the Biosphere
-**Biodiversity** is the ~~number of different species~~ in an ecosystem.
 
 ## Food Relationships
 Organisms are connected by ~~food chains (linear)~~ and ~~food webs (multiple food chains)~~.  
@@ -290,7 +291,7 @@ This pyramid is based on ~~energy trapped in organic matter~~ at ~~each trophic 
 ~~No!~~ There must always be more energy at lower trophic levels to maintain life at the higher.
 
 # Limnology
-Limnology is the study of ponds and other similar aquatic systems.
+Limnology is the study of freshwater, i.e. ponds and other similar aquatic systems.
 
 ## Levels
 ![Water Levels](images/unit1/levels.jpg)
@@ -299,21 +300,35 @@ There are 3 levels of water.
 
 | Level | Location | Temperature |
 | :---: | :------: | :---------: |
-| ~~**Epilimnion**~~ | Highest level | Warms up in the summer |
-| ~~**Thermocline**~~ | Between epilimnion<br>& hypolimnion | Temperature rapidly changes |
-| ~~**Hypolimnion**~~ | Lowest level | Low temperature all year |
+| **Epilimnion** | Highest level | Warms up in the summer |
+| **Thermocline** | Between epilimnion<br>& hypolimnion | Temperature rapidly changes |
+| **Hypolimnion** | Lowest level | Low temperature all year |
 
-## Zones
-![Water Zones](images/unit1/zones.jpg)
+## Lentic Zones
+![Lentic Water Zones](images/unit1/lentic-zones.jpg)
 
-There are 4 zones of water.
+There are 4 zones of **standing water**: any body of water that isn't actively moving. (ponds, lakes)
+
+Ponds have light penetrate to the bottom, so ~~ponds have no profundal region~~.  
+Lakes have light not penetrate all the way to the bottom, so ~~lakes have a profundal region~~.
 
 | Zone | Location | Enough light for photosynthesis? |
 | :--: | :------: | :---------: |
-| ~~**Littoral**~~ | From the shore<br>to where plants stop growing on the sea floor | Enough |
-| ~~**Limnetic**~~ | Anywhere that sunlight can still reach | Enough |
-| ~~**Profundal**~~ | Beneath limnetic, sunlight can no longer reach | Not enough |
-| ~~**Benthic**~~ | Sea floor | Not enough |
+| **Littoral** | From the shore<br>to where plants stop growing on the sea floor | Enough |
+| **Limnetic** | Anywhere that sunlight can still reach | Enough |
+| **Profundal** | Beneath limnetic, sunlight can no longer reach | Not enough |
+| **Benthic/Benthos** | Sea floor | Not enough |
+
+## Lotic Zones
+![Lotic Water Zones](images/unit1/lotic-zones.jpg)
+
+There are 3 zones of **flowing water**" any body of water that is actively moving. (rivers, streams)
+
+| Zone | Location |
+| :--: | :------: |
+| **Rapids** | ~~Current is strong~~ enough to ~~keep bottom clear~~ of loose material. ~~Oxygen is plentiful~~. |
+| **Middle Area** | ~~Slower, wider river~~. ~~More light and photosynthesis~~. |
+| **Pool Zone** | ~~Current is much slower~~. ~~Carrying sediment~~. ~~Less light and photosynthesis~~. |
 
 ## Lake Types
 | ~~Oligotrophic~~ | ~~Eutrophic~~ |
@@ -323,10 +338,25 @@ There are 4 zones of water.
 | - limited numbers of few organisms | - many photosynthetic organisms |
 | - clear water | - murky water (from photosynthetic organisms) |
 
-Over time, ~~oligotrophic~~ lakes ~~becomes eutrophic~~.
+Over time, ~~oligotrophic~~ lakes ~~becomes eutrophic~~, growing from the ~~edges inward~~.
 
-# Biogeochemical Cycles
-This is **Chapter 3**.
+## Types of Pollution
+*You likely don't need to memorize this...*
+
+| Pollutant | Description |
+| :-------: | ----------- |
+| **Oil Spills** | ~~Affects bird life~~. ~~Reduces oxygen uptake in fish~~. Makes water murky, reducing light, ~~reducing photosynthesis~~, and lastly reducing oxygen. |
+| **Salt** | Salts like ~~$\textrm{NaCl}~~ can give chlorine to the formation of ~~$\textrm{HgCl}$~~ |
+| **Acids** | Sulfuric and nitric acids end up in the water from ~~strip mines~~. pH < 4 means little to no life. |
+| **Organic Wastes** | Human waste, animal waste, detergents, grease, oil, pulp |
+| **Thermal Pollution** | ~~Higher temperatures~~ ~~decrease~~ ~~dissolved oxygen levels.~~ |
+
+# Oceanography
+Oceanography is the study of marine, i.e. ocean water.
+
+!> TODO
+
+# C3. Biogeochemical Cycles
 
 Biogeochemical Cycles involve two main processess
 * ~~**Digestion**~~: Breaking down to ~~incorporate~~ as a ~~part of a body~~.
@@ -453,7 +483,9 @@ $\textrm{NO}_3 \rightarrow \textrm{NO}_2 \rightarrow \textrm{NH}_4^+ \rightarrow
 
 ### Human Damage
 Humans add nitrates to ecosystems as ~~fertilizer~~.  
-Too much fertilizer can cause ~~**eutriphication**~~ in lakes, when algae grows too quickly, dies, and the ~~decomposing algae uses all the oxygen~~ in the water and kills all life.
+Too much fertilizer can cause ~~**eutriphication**~~ in lakes.  
+**Lake eutriphication** is when algae grows too quickly, dies, and the ~~decomposing algae uses all the oxygen~~ in the water and kills all life.  
+In addition, decomposition releases ~~phosphates~~, which contribute to the ~~algal bloom~~.
 
 ## Hydrologic Cycle
 This cycle is regarding the movement of water through the environment, atmosphere, and Earth.
@@ -504,8 +536,7 @@ Plants can only absorb sulfur in ~~sulfate~~ form. ($\textrm{SO}_4$)
 Sulfur is found in ~~rocks and sulfur deposits~~.  
 Like mentioned earlier, sulfur can contribute to acid rain.
 
-# Characteristics of Ecosystems
-This is **Chapter 4**.
+# C4. Characteristics of Ecosystems
 
 ## Terms
 
@@ -590,6 +621,7 @@ Characteristics include...
 
 These two limiting factors, as well as ~~light intensity~~ and ~~length of growing season~~, determine the ~~type of plant~~ that can grow in a biome, and ~~in turn the type of other organisms~~ that can live there.
 
+# Terrestrial Biomes
 ## Forests
 
 ### Boreal Coniferous Forest (Taiga)
@@ -685,3 +717,4 @@ Mountains ~~affect rainfall patterns~~, as they cause clouds to rise, which caus
 **Precipitation and their biomes**
 
 ![Precipitation](images/unit1/precipitation.jpg)
+
