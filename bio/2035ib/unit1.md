@@ -346,7 +346,7 @@ Over time, ~~oligotrophic~~ lakes ~~becomes eutrophic~~, growing from the ~~edge
 | Pollutant | Description |
 | :-------: | ----------- |
 | **Oil Spills** | ~~Affects bird life~~. ~~Reduces oxygen uptake in fish~~. Makes water murky, reducing light, ~~reducing photosynthesis~~, and lastly reducing oxygen. |
-| **Salt** | Salts like ~~$\textrm{NaCl}~~ can give chlorine to the formation of ~~$\textrm{HgCl}$~~ |
+| **Salt** | Salts like ~~$\textrm{NaCl}$~~ can give chlorine to the formation of ~~$\textrm{HgCl}$~~ |
 | **Acids** | Sulfuric and nitric acids end up in the water from ~~strip mines~~. pH < 4 means little to no life. |
 | **Organic Wastes** | Human waste, animal waste, detergents, grease, oil, pulp |
 | **Thermal Pollution** | ~~Higher temperatures~~ ~~decrease~~ ~~dissolved oxygen levels.~~ |
@@ -354,7 +354,16 @@ Over time, ~~oligotrophic~~ lakes ~~becomes eutrophic~~, growing from the ~~edge
 # Oceanography
 Oceanography is the study of marine, i.e. ocean water.
 
-!> TODO
+Oceans account for ~~70% of the Earth's surface~~, ~~90% of food production and oxygen release~~, and contains ~~75% $\textrm{NaCl}$~~.
+
+## Zones
+| Zone | Location | Description |
+| :--: | :------: | ----------- |
+| **Pelagic Zone** | Open Sea | Contains ~~producers~~ (phytoplankton, algae) and ~~consumers~~. (zooplankton, jellyfish, fish, mammals) |
+| **Pelagic Benthic Zone** | Ocean Floor | ~~No light; no producers~~. |
+| **Littoral Zone** | Shallow Shore | ~~Light reaches bottom~~. ~~**Most productive**~~. |
+| **Intertidal Zone** | Region ~~covered in high tide~~, ~~exposed in low tide~~ | Organisms adapted to periods of dryness.<br>~~**Most diverse and abundant life forms.**~~ |
+| **Spray Zone** | Within spraying distance of ocean | Only ~~land plants~~ adapted to ~~high salt levels~~. |
 
 # C3. Biogeochemical Cycles
 
@@ -590,7 +599,7 @@ Competition can be reduced by factors and symbiotic relationships such as...
 | **Periodicity** | Alternating ~~periods of activity~~ to avoid competition.<br>*(e.g. hawk is diurnal, active during day,<br>owl is nocturnal, active during night)* |
 
 **Lotka-Volterra Theory**  
-Predator and prey numbers are ~~correlated~~, with some lag, in predictable ~~**cyclic ossilations**~~.  
+Predator and prey numbers are ~~correlated~~, with some lag, in predictable ~~**cyclic oscillations**~~.  
 In other words, as predator numbers increase, prey numbers decrease, which cause predator numbers to decrease, and prey numbers to increase. And so on...  
 ![Lotka-Volterra Model](images/unit1/lotka.gif)
 
@@ -609,14 +618,35 @@ Organisms on coasts have to ~~adjust to wide variation~~ in environmental condit
 *(e.g. trees losing their leaves in the fall)*
 
 # Biomes
-A biome is a large geopgraphical region with a ~~characteristic climate~~, dominated by ~~specific types of plants and animals~~.  
-Characteristics include...
+A biome is a large geographical region with a ~~characteristic climate~~, dominated by ~~specific types of plants and animals~~.  
+
+## Limiting Factors
+Characteristics of said biomes, also known as limiting factors, include...
 * ~~**Physiographic**~~ (flat, bumpy, etc.)
-* ~~**Climatic**~~ (precipitation and temperature)
+  * **Latitude** (angle $\textrm{N}^\circ$ or $\textrm{S}^\circ$ the equator)  
+    Higher = ~~less solar energy~~ and ~~varied day lengths~~ with seasons.
+  * **Altitude**  
+    Higher = ~~cooler~~ temperatures, ~~more wind~~, and ~~poorer soil~~.
+  * **Topography** (physical features of the top of land)  
+    Affect ~~precipitation patterns~~, as in mountains and river valleys.
+* ~~**Climatic**~~ (physical features of an area)
+  * **Moisture/Precipitation**: Certain plants/animals are ~~adapted to dry/moist environments~~.
+  * **Temperature**: Limits ~~type~~ of organisms that can ~~survive~~.
+  * **Light**: Affects ~~photosynthesis~~ and therefore ~~food chains~~.
+  * **Wind**: Affects ~~soil~~. Increases ~~heat/water loss~~ in organisms.
+  * **Fire**: ~~Unlocks nutrients~~ stored in biomass. Increases ~~sunlight to forest floor~~.
 * ~~**Edaphic**~~ (soil characteristics: dark/light? nutrient rich?)
+  * Soil contains organic and inorganic matter.
+  * Decomposition area to return matter to producers.
+  * Vegetation slows erosion and prevents water run-off.
+  * Soil layers include...
+    * **Litter**: Upper layer. Partially decomposed ~~leaves/grasses~~. ~~Limits temperature variation~~, and ~~slows water loss~~.
+    * **Topsoil**: Small particles of ~~rock mixed with humus~~. (~~decaying matter~~) Contains ~~$\textrm{O}_2$ for decomposition~~.
+    * **Subsoil**: ~~More rock~~ particles, ~~less organic~~ material. Iron, aluminum, and phosphorus is abundant.
+    * **Bedrock**: Composed of rock. Unbreakable without [Creative Mode](https://minecraft.gamepedia.com/Creative), [commands](https://minecraft.gamepedia.com/Commands), or [third party map editing tools](https://minecraft.gamepedia.com/Programs_and_editors/Mapping#Map_Editors).
 * ~~**Biotic Factors**~~
 
-~~Precipitation~~ is the ~~limiting factor~~ that detminers if a biome is a ~~forest~~, ~~grassland~~, or ~~desert~~.  
+~~Precipitation~~ is the ~~limiting factor~~ that determines if a biome is a ~~forest~~, ~~grassland~~, or ~~desert~~.  
 ~~Temperature~~ is the ~~limiting factor~~ that determines the ~~type of biome~~. (in order of coolest to warmest, ~~boreal~~, ~~temperate~~, or ~~tropical~~)
 
 These two limiting factors, as well as ~~light intensity~~ and ~~length of growing season~~, determine the ~~type of plant~~ that can grow in a biome, and ~~in turn the type of other organisms~~ that can live there.
@@ -718,3 +748,146 @@ Mountains ~~affect rainfall patterns~~, as they cause clouds to rise, which caus
 
 ![Precipitation](images/unit1/precipitation.jpg)
 
+# Population Ecology
+
+**Demography** is study of size and structure of populations over time.
+
+## Population Density  
+~~Number~~ of organisms in a ~~certain area~~ at a ~~certain time~~.
+
+### Formula
+<h1>
+$D = \frac{n}{S}$
+</h1>
+
+$D$ = Population Density  
+$n$ = Number of Organisms  
+$S$ = Space Occupied
+
+### Number of Organisms ($n$)
+The number of organisms is affected by 4 things.
+* **Natality**: # of ~~births~~
+* **Mortality**: # of ~~deaths~~
+* **Immigration**: # that ~~move **i**n~~
+* **Emigration**: # that ~~move out/**e**xit~~
+
+## Rate of Density Change ($R$)
+The delta of density over the delta of time.
+
+### Formula
+<h1>
+$R = \frac{\Delta D}{\Delta t}$
+
+$R = \frac{D_f - D_i}{t_f - t_i}$
+</h1>
+
+$R$ = Rate of Density Change  
+$D$ = Population Density  
+$t$ = Time (often in years)
+
+## Assumptions
+Assumptions can be made with data you collect. For instance, if you measure 30 people and 10 have blue eyes, it can be assumed that of 300 people, 100 have blue eyes.  
+
+?> Honestly I don't know what this part is talking about, ask Fischer lol.
+
+## Sampling Techniques
+### Mark-Release-Recapture
+1. Capture all of an organism
+2. Mark them all some way
+3. Release them
+4. Later, recapture the organisms
+5. Count the number of marked and unmarked organisms. That is your population change.
+
+### Quadrat Sampling
+More used for plants.
+1. Take random samples of a complete area of a population
+  * Count number of organisms within fixed sampling area (e.g. 1m x 1m area)
+2. Extrapolate from that data to approximately calculate complete population size
+
+## Growth Curves
+Population increases and decreases can be summarized in two curves.
+
+![Curves](images/unit1/curves.jpg)
+
+### Carrying Capacity ($K$)
+The ~~number of organisms~~ that an ~~ecosystem~~ and its resources ~~can maintain in equilibrium~~ without damaging said resources.
+
+### S-Shaped Curves
+Common with ~~animals~~.  
+Slowly rises at first, then increases quickly, and then reaches ~~equilibrium near the carrying capacity~~ and oscillates there.
+
+**Lag Phase**: Slow rate of population increase.  
+**Log Phase**: Very rapid increase.  
+**Slow Down Phase**: Increasing, but at a slower rate.  
+**Equilibrium Phase**: Population remains relatively constant, only making cyclic oscillations. # of births = # of deaths.
+
+### J-Shaped Curves
+Common with ~~insects~~.  
+~~Very quickly increases~~, almost vertical, greatly surpassing the carrying capacity. ~~Exceeding the carrying capacity~~ may cause a ~~population crash~~.  
+Crashes can also occur when populations meet ~~environmental resistance~~, all the factors that limit or slow the growth.
+
+### Factors
+**Density Dependent Factors** are factors which depend on population density.  
+They are often ~~biotic~~, like natality, mortality, food supply, competition, space, disease, predation, parasites, wastes, pollution.
+
+**Density Independent Factors** are factors which occur no matter the population density.  
+They are often ~~abiotic~~, like weather, temperature, humidity, light.
+
+## Ecological Succession
+
+?> The following is pretty useless in actual exams. Why do we learn it? One of the world's (Fischer's) greatest mysteries...
+
+The process of one ~~biotic community~~ being ~~replaced by another~~.
+
+Communities pass through a sequence of ~~predictable transitional stages~~ called ~~**seres**~~, each one called a ~~**sere**~~.  
+At each stage, a ~~dominant plant~~ exerts control over other plant species.
+
+### Factors
+1. **Light**
+   Pioneers plants of a succession/replacement need a great deal of light.
+2. **Accumulation of Humus (organic material**
+   Also useful for pioneer plants.
+3. **Directed by Climate**
+   Final stage depends on climate.
+
+### Types
+#### Primary Succession
+* Occurs in areas where ~~no plants have lived before~~, ~~no soil present~~.
+* Takes about 200 years
+* Starts with lichens. (mutualistic association of fungi and algae)
+* Hyphae grow into rocks
+  * They secrete chemicals that erode the rock
+
+#### Secondary Succession
+* Occurs after a community has been ~~killed off~~, but ~~soil remains~~.
+* First plants to appear are pioneers, eventually leading to a climax community.
+* Faster than primary succession, as soil is already present, so plants from nearby can move in.
+
+### Trends
+The following are trends that take place during both successions.
+* Bare land first captured by **r-strategists**.
+  * Slowly replaced by more adapted to dense communities **k-strategists**.
+* Total number of species increase initially, then stabilize.
+* Net primary productivity will increase until a stable level.
+* Inorganic nutrients in organisms and soil will increase, with more and more being stored in plant tissue.
+* Total biomass and amount of nonliving organic matter will increase until a stable level.
+* Height of plants will increase. More variation in vertical strata. (microclimates within layers of a forest)
+* Food webs become more complex, relationships become more specialized.
+
+### Terms
+* **Climax Vegetation**
+  The vegetation when at a stable state, in equilibrium with environment.
+* **Poly Climax**
+  Mixed area of climax communities of different biomes within ecotones.
+* **Climax Community**
+  Community that is stable, but not static.  
+  No population growth, energy flow and biomass in equilibrium, net primary productivity is zero.
+
+### <span id="ib">IB</span> Ecological Succession Classification
+* **Autogenic**
+  * Induced by organisms
+  * Inhibition = Inhibit growth of newcomers or themselves
+  * Facilitation = Alternatives in the environment by one species enables the species in the next stage to grow
+* **Allogenic**
+  * Outside factors cause succession. (e.g. fire, floods)
+In most cases, both autogenic and allogenic factors are involved.
