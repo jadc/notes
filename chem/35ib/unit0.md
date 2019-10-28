@@ -367,7 +367,7 @@ $\textrm{R}$ represents the rest of a hydrocarbon.
 | Group | Functional Group<br>Name & Formula | Nomenclature | Properties |
 | :---- | :--------------------------------: | :----------: | :--------: |
 | **Halogenoalkanes**<br>(aka. **Alkyll Halides**) | $\textrm{R}-\textrm{X}$<br>$\textrm{X}$ = Halogen | Name halogens like branch prefix.<br>Ends in `-o` | &nbsp; |
-| **Alcohols** | . | . | . | 
+| **Alcohols** | $\textrm{R}-\textrm{OH}<br>Hydroxyl | Position between `e`, replace `e` with `-ol` | - Polar<br>- Toxic<br>- Small molecules soluable<br>- Large molecules insoluable | 
 | **Carboxylic Acids** | . | . | . | 
 | **Esters** | . | . | . | 
 | <span id="ib">IB</span> **Ethers** | . | . | . | 
