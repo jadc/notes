@@ -84,7 +84,11 @@ Hydrocarbons that ~~contain benzene~~.
 
 # Hydrocarbons
 ## Alkanes
-Alkanes are hydrocarbons containing ~~only single carbon-to-carbon bonds~~.  
+<h1>
+$\textrm{C} - \textrm{C}$
+</h1>
+
+Alkanes are hydrocarbons containing ~~only single **carbon-to-carbon** bonds~~.  
 Because of this, they are ~~saturated~~, meaning that ~~all possible hydrogen bonds are made~~. They are saturated with hydrogen.
 
 ### General Formula
@@ -100,7 +104,11 @@ They can dissolve in ~~benzene~~, but ~~not water~~.
 Alkanes have ~~low boiling points~~. The boiling point of molecule gets ~~larger as molecule gets larger~~.
 
 ## Alkenes
-Alkenes are hydrocarbons containing ~~at least one double bond~~.  
+<h1>
+$\textrm{C} = \textrm{C}$
+</h1>
+
+Alkenes are hydrocarbons containing ~~at least one **carbon-to-carbon** double bond~~.  
 Because of this, they are ~~unsaturated~~.
 
 ### General Formula
@@ -116,7 +124,11 @@ This formula only works if there is ~~only one double bond~~.
 ~~More atoms means higher boiling point~~. Since alkenes have less atoms due to the double bond, ~~alkenes boiling point~~ is ~~lower than alkanes~~.
 
 ## Alkynes
-Alkynes are hydrocarbons containing ~~at least one triple bond~~.
+<h1>
+$\textrm{C} \equiv \textrm{C}$
+</h1>
+
+Alkynes are hydrocarbons containing ~~at least one triple **carbon-to-carbon** bond~~.
 Because of this, they are ~~unsaturated~~.
 
 ### General Formula
@@ -333,3 +345,34 @@ Use the following table to help you identify the type of hydrocarbon compound wh
 Just remember the pattern.
 
 # Hydrocarbon Derivitives
+
+# Organic Chemistry Summary Table
+## Hydrocarbons
+### Aliphatics
+| Group | General Formula | Functional Group,<br>Formula & Nomenclataure | Properties |
+| :---- | :-------------: | :------------------------------------------: | :--------- |
+| **Alkanes** | $\textrm{C}_n\textrm{H}_{2n+2}$ | Single carbon to carbon bonds.<br>$\textrm{C}-\textrm{C}$<br>Ends in `-ane` | - Non-polar<br>- Low boiling point<br>- Saturated |
+| **Alkenes** | $\textrm{C}_n\textrm{H}_{2n}$ | Double carbon to carbon bonds.<br>$\textrm{C}=\textrm{C}$<br>Ends in `-ene` | - Non-polar<br>- Lower BP than alkanes |
+| **Alkynes** | $\textrm{C}_n\textrm{H}_{2n-2}$ | Triple carbon to carbon bonds.<br>$\textrm{C}\equiv\textrm{C}$<br>Ends in `-yne` | - Non-polar<br>- Higher BP than alkanes |
+| **Cyclics** | One step ahead in pattern.<br>Cycloalkanes: $\textrm{C}_n\textrm{H}_{2n}$<br>Cycloalkenes: $\textrm{C}_n\textrm{H}_{2n-2}$<br>Cycloalkynes: $\textrm{C}_n\textrm{H}_{2n-4}$ | Carbon-to-carbon bonds with no terminal carbon.<br>Starts with `cyclo-` | &nbsp; |
+
+### Aromatics
+| Group | Functional Group,<br>Formula & Nomenclataure | Properties |
+| :---- | :------------------------------------------: | :--------- |
+| **Benzene** | Contains $\textrm{C}_6\textrm{H}_{6 (l)}$<br>Main chain: `benzene`<br>Branch: `phenyl-` | - Non-polar on its own<br>- Polar with branches |
+
+## Hydrocarbon Derivatives
+$\textrm{R}$ represents the rest of a hydrocarbon.
+
+| Group | Functional Group<br>Name & Formula | Nomenclature | Properties |
+| :---- | :--------------------------------: | :----------: | :--------: |
+| **Halogenoalkanes**<br>(aka. **Alkyll Halides**) | $\textrm{R}-\textrm{X}$<br>$\textrm{X}$ = Halogen | Name halogens like branch prefix.<br>Ends in `-o` | &nbsp; |
+| **Alcohols** | . | . | . | 
+| **Carboxylic Acids** | . | . | . | 
+| **Esters** | . | . | . | 
+| <span id="ib">IB</span> **Ethers** | . | . | . | 
+| <span id="ib">IB</span> **Aldehydes** | . | . | . | 
+| <span id="ib">IB</span> **Ketones** | . | . | . | 
+| <span id="ib">IB</span> **Amines** | . | . | . | 
+| <span id="ib">IB</span> **Amides** | . | . | . | 
+| <span id="ib">IB</span> **Nitriles** | . | . | . | 
