@@ -322,7 +322,7 @@ The naming of benzene is very similar to cyclics, with a few key differences.
 * Benzene as a branch ~~does not get lowest number priority~~.
 
 # Structural Isomers
-Structural isomers are molecules with the ~~same empirical formula~~ (i.e. same number of elements), but ~~different structural formula~~.  
+Structural isomers are molecules with the same empirical formula (i.e. ~~same quantity of every single element~~), but ~~different structural formula~~.  
 Most of the time this occurs when you ~~remove a carbon from the main chain~~ and ~~replace it with a branch~~.
 
 A structural isomer has the ~~same formula~~, ~~different structure~~, ~~different names~~ and ~~different properties~~.
@@ -344,7 +344,169 @@ Use the following table to help you identify the type of hydrocarbon compound wh
 
 Just remember the pattern.
 
-# Hydrocarbon Derivitives
+# Hydrocarbon Derivatives
+Hydrocarbon derivatives are hydrocarbons (carbon-to-carbon compounds with vacant orbitals bonded to hydrogen) with a ~~specific arrangement of atoms besides carbon or hydrogen~~.
+
+This specific arrangement of atoms is called the ~~**functional group**~~.
+
+## General Rules
+$\textrm{R}$ in general formulas represents the rest of the hydrocarbon. (Not another functional group!)
+
+A **terminal carbon** is a carbon on the end of a chain.
+
+The priorities of numbering of different functional groups is not something that is directly tested, but the general jist of it is, from ~~highest to lowest priority for lowest number~~...
+* Multibonds (double, triple)
+* Carboxylic Acids
+* Alcohols
+* Halogens
+* Branches
+These different groups are often not mixed together, so this order is not completely accurate or even necessary.
+
+All prefixes must be ~~ordered alphabetically~~, ignoring quantity prefixes. (di-, tri-, etc...)  
+For instance, ethyl should be written first, then methyl.
+
+## Halogenoalkanes
+Also known as alkyll halides.
+
+### General Formula
+A hydrocarbon with ~~atleast one halogen~~.
+<h1>
+$\textrm{R}-\textrm{X}$
+</h1>
+
+$\textrm{X}$ = Halogen
+
+### Nomenclature
+* The main chain must have ~~all the halogens attached~~.
+* Name the halogens like branches, as in prefixes with quantities (di-, tri-, etc...) if applicable. However...
+* The prefixes should ~~end in `-o`~~
+  * `fluro-`, `chloro-`, `bromo-`, `iodo-`, `astatido-`
+
+### Examples
+> A butane chain with a chlorine on the 1st carbon is called "1-chlorobutane."
+
+### Properties
+Halogenoalkanes vary too much from each other to have generalized properties.
+
+## Alcohols
+
+### General Formula
+<h1>
+$\textrm{R}-\textrm{OH}$
+</h1>
+
+The functional group of alcohols is called a ~~**hydroxyl**~~. ($-\textrm{OH}$)  
+Not to be confused with hydroxide, which is an ion.
+
+### Nomenclature
+* The main chain must have ~~all hydroxyls attached~~.
+* Replace the "e" in the suffix with ~~`-ol`~~
+* Between the rest of the suffix and `-ol`, ~~state the position~~ of the hydroxyl if applicable, seperating the number with dashes.
+* If there are ~~multiple alcohols/hydroxyls~~, prefix the `-ol` with ~~quantitative prefixes~~. (di-, tri-, etc...)
+  * If you do use the quantitative prefixes, ~~put back the "e"~~ you took out earlier. (unless the prefix starts with a vowel)
+    * This is because that "e" must be removed if the suffix starts with a vowel.
+* A benzene ring with a hydroxyl attached is called ~~**phenol**~~. It just is. Remember it.
+
+### Examples
+> A propane chain with a hydroxyl on the 2nd carbon is called "propan-2-ol."
+
+> A ethane chain with two hydroxyls on the 1st and 2nd carbon is called "ethane-1,2-diol."
+
+### Properties
+* The hydroxyl is ~~polar~~.
+* They are ~~soluable~~ in water.
+* They are ~~toxic~~.
+* They ~~increase the boiling/melting points~~ of compounds they are attached to.
+* In all polar hydrocarbons, ~~small molecules are water soluable~~, but ~~larger molecules are not water soluble~~.
+
+## Carboxylic Acids
+
+### General Formula
+![](images/unit0/carboxylic.png)
+
+The functional group of carboxylic acids is a ~~**carboxyl**~~. ($-\textrm{COOH}$)  
+It is actually the combination of a hydroxyl ($\textrm{C}-\textrm{OH}$, highlighted in blue) and a carbonyl. ($\textrm{C}=\textrm{O}$, highlighted in green)
+
+### Nomenclature
+* The main chain must have contain the ~~carboxyl on a terminal carbon~~.
+* Drop the "e" and replace it with `-oic acid`
+  * Do not specify numbers for position. This is because the carboxyl is ~~always numbered one~~.
+* The only exception is benzene. Drop the "ene" in benzene to create "~~benzoic acid~~."
+
+### Examples
+> A pentane chain with a carboxyl a terminal carbon is called "pentanoic acid."
+
+> ~~**Important Tip**~~  
+> Cyclics and Aromatics with a carboxyl are often drawn with the carboxyl bonded to a mysterious carbon, and that mysterious carbon is what is bonded to the cyclic/aromatic. This is intentional and is not explicitly stated, but it is correct.  
+> ![](images/unit0/benzoic.png)
+
+### Properties
+* ~~Very polar~~
+* ~~High boiling/melting points~~
+* Smaller molecules soluable, larger insoluable.
+* ~~Weak acids~~
+
+## Esters
+
+### General Formula
+![](images/unit0/ester.png)
+
+The functional group of esters is a $\textrm{C}-\textrm{O}$ bond *and* a carbonyl. ($\textrm{C}=\textrm{O}$)  
+This functional group is ~~between two different hydrocarbon chains~~.
+
+An ester is formed when ~~**an alcohol reacts with a carboxylic acid**~~.
+
+### Nomenclature
+* The main chain is the ~~chain attached to the carbonyl~~. ($\textrm{C}=\textrm{O}$)
+  * The carbon the double bonded oxygen is attached to ~~counts in the main chain~~.
+* After naming the main chain, drop the "e" and add `-oate`.
+* The chain attached to the single bonded oxygen ($\textrm{C}-\textrm{O}$) is ~~named as a branch~~.
+  * Name this branch before the main chain, ~~seperating them with a space~~.
+* The chains are numbered ~~outward left and right from the ester's carbon~~, with that carbon being ~~numbered 1~~.
+
+### Examples
+> An ester with a propane attached to the carbonyl and a butane attached to the single bonded oxygen is called "butyl propanoate."
+
+### Properties
+* ~~Somewhat polar~~.
+* ~~Lower boilng/melting~~ point than ~~alcohols or carboxylic acids~~.
+* Smaller soluable, larger insoluable
+* ~~Nice smelling, fruit-like aromas~~.
+
+## Properties Tips
+### Boiling/Melting Points
+Boiling/Melting Points are higher if your compound...
+* Contains ~~hydrogen bonding~~
+* ~~Large~~
+
+### Solubility
+Solubility of a compound is higher if your compound...
+* Is ~~polar~~
+* ~~Small~~
+
+## Classifying Compounds
+Halogenoalkanes, alcohols, and amines can be classified to ~~primary ($1^\circ$), secondary ($2^\circ$), or tertiary ($3^\circ$)~~.
+
+### Halogenoalkanes & Alcohols
+The classification for halogenoalkanes and alcohols is the ~~number of carbons attached to the carbon the functional group is attached to~~.  
+For halogenoalkanes, they are called ~~$\textrm{X}^\circ$ alkyl halide~~, where $\textrm{X}$ is the classification.  
+For alcohols, they are called ~~$\textrm{X}^\circ$ alcohol~~, where $\textrm{X}$ is the classification.
+
+#### Example
+| No Classification | $1^\circ$ Primary | $2^\circ$ Secondary | $3^\circ$ Tertiary |
+| :-: | :-: | :-: | :-: |
+| ![Diagram](images/unit0/class0.png) | ![Diagram](images/unit0/class1.png) | ![Diagram](images/unit0/class2.png) | ![Diagram](images/unit0/class3.png) |
+
+### Amines
+The classification for amines are the ~~number of carbons attached directly to the nitrogen atom~~.  
+They are called ~~$\textrm{X}^\circ$ amine~~, where $\textrm{X}$ is the classification.
+
+
+
+
+
+
+
 
 # Organic Chemistry Summary Table
 ## Hydrocarbons
@@ -364,11 +526,11 @@ Just remember the pattern.
 ## Hydrocarbon Derivatives
 $\textrm{R}$ represents the rest of a hydrocarbon.
 
-| Group | Functional Group<br>Name & Formula | Nomenclature | Properties |
-| :---- | :--------------------------------: | :----------: | :--------: |
+| Group | Functional Group | Nomenclature | Properties |
+| :---- | :--------------------------------: | :----------: | :--------- |
 | **Halogenoalkanes**<br>(aka. **Alkyll Halides**) | $\textrm{R}-\textrm{X}$<br>$\textrm{X}$ = Halogen | Name halogens like branch prefix.<br>Ends in `-o` | &nbsp; |
-| **Alcohols** | $\textrm{R}-\textrm{OH}<br>Hydroxyl | Position between `e`, replace `e` with `-ol` | - Polar<br>- Toxic<br>- Small molecules soluable<br>- Large molecules insoluable | 
-| **Carboxylic Acids** | . | . | . | 
+| **Alcohols** | $\textrm{R}-\textrm{OH}$<br>Hydroxyl | Position between `e`, replace `e` with `-ol` | - Polar<br>- Toxic<br>- Small molecules soluable<br>- Large molecules insoluable | 
+| **Carboxylic Acids** | $\textrm{R}-\textrm{COOH}$<br>Carboxyl | Ends in `-oic acid` | - Very polar<br>- High BP<br>- Weak acids<br>- Small molecules soluable<br>- Large molecules insoluable | 
 | **Esters** | . | . | . | 
 | <span id="ib">IB</span> **Ethers** | . | . | . | 
 | <span id="ib">IB</span> **Aldehydes** | . | . | . | 
