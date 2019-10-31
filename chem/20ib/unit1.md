@@ -88,8 +88,18 @@ However, not every valence orbital of carbon is filled. We need more hydrogens.
 ### Multibonds
 If your empirical formula seemingly doesn't have enough of something to fill all orbitals, you may need to make double or triple bonds.
 
-For instance, $\textrm{CH}_3$) doesn't have enough hydrogens to fill all of carbon's orbitals with just single bonds.  
+For instance, $\textrm{CH}_3$ doesn't have enough hydrogens to fill all of carbon's orbitals with just single bonds.  
 ![](images/unit0/lewis-ionic3d.jpg)
 
 ## Lewis Dot Diagram for Polyatomic Ions
+* Count the ~~total number of valence electrons~~ in ~~all atoms~~ of the polyatomic.
+* Subtract/add electrons based on the polyatomic's charge.
+  * *e.g. If the polyatomic had a 1+ charge, subtract 1 electron from the total count*
+* This number equals the total number of dots on the diagram.
 
+* The atom with the ~~highest bonding capacity~~ is the ~~central atom~~.
+* ~~Attach~~ the other atoms with a ~~bonding pair of electrons between~~.
+* Make up the ~~rest of the total~~ number of electrons by ~~adding lone pairs~~ to ~~any atom~~.
+
+### Example
+$\textrm{BR}
