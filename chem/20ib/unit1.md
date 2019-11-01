@@ -100,6 +100,55 @@ For instance, $\textrm{CH}_3$ doesn't have enough hydrogens to fill all of carbo
 * The atom with the ~~highest bonding capacity~~ is the ~~central atom~~.
 * ~~Attach~~ the other atoms with a ~~bonding pair of electrons between~~.
 * Make up the ~~rest of the total~~ number of electrons by ~~adding lone pairs~~ to ~~any atom~~.
+* Add ~~square brackets and charge~~ like any other ionic compound.
 
 ### Example
-$\textrm{BR}
+$\textrm{BrO}^{-}$
+
+$\textrm{Br} = 7 e^-$  
+$\textrm{O} = 6 e^-$  
+$^- = 1$ extra electron 
+Total number of electrons in compound = $14 e^-$
+
+![](images/unit0/polyatomic.jpg)  
+*Outlined electrons are lone pairs that were added to make up the total.*
+
+# Electronegativity
+* Valence electrons of another atom are attracted to an atom's nucleus. (the protons)
+* The ~~farther from the nucleus~~ an electron is, the ~~weaker the attraction~~.
+* The valence electrons don't just get attracted to their own nucleus because ~~inner electrons are in the way~~.
+* The ~~more protons~~ in the nucleus, the ~~greater the attraction~~.
+
+* **Electronegativity** is the ability of an atom to ~~attract a pair of bonding electrons~~ into its valence.
+  * It was created by ~~Linus Pauling~~.
+  * Electronegativity ~~increases~~ as you move from the ~~bottom left to the top right~~ of the periodic table.
+  * The electronegitivity of an element is on the periodic table.
+
+# Bond Polarity
+## Non-polar
+A covalent bond is nonpolar if the ~~sharing of electrons is equal~~.  
+This only occurs when the bond is between...
+* Two ~~identical atoms~~
+* Two atoms with the ~~same electronegativity~~
+
+Non-polar bonds can be represented with ~~structural diagrams~~, using an ~~arrow pointing in both directions~~.  
+e.g. $\textrm{C} \longleftrightarrow \textrm{C}$
+
+## Polar
+A covalent bond is polar if the ~~sharing of electrons is not equal~~.  
+This occurs when the bond is between...
+* Two atoms with differing electronegativity
+* The ~~more electronegative~~ atom will ~~attract~~ the ~~less electronegative~~ more strongly
+  * This makes the more electronegative atom have a ~~slight negative charge~~. ($\delta^-$)
+  * Therefore the less electronegative atom has a ~~slight positive charge~~. ($\delta^+$)
+* The ~~greater the difference~~ in electronegativity, the ~~more polar the bond~~.
+
+Polar bonds can be represented with ~~structural diagrams~~, using an ~~arrow pointing towards the higher electronegativity~~.  
+e.g. $\textrm{C} \longleftarrow \textrm{H} $, $\textrm{Cl} \longrightarrow \textrm{F}$
+
+## Ionic Bonds
+If the electronegativity difference is high enough (> 1.8), electrons can be ~~completely transferred~~ to another atom.  
+This is an ionic bond, it forms ~~cations (+) and anions (-)~~. It also forms crystal lattice structures.
+
+# Molecule Polarity
+
