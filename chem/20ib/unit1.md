@@ -48,23 +48,23 @@ The lewis dot diagram is used to represent the valence electron and bonding of a
   * If ~~every orbital has a dot~~ and you still have more valence electrons, then ~~start pairing~~ them up.
 		* Alternatively, instead of two dots you may draw a line. Means the same thing.
 ### Example
-![](images/unit0/lewis-atoms.jpg)
+![](images/unit1/lewis-atoms.jpg)
 
 ## Lewis Dot Diagram for Ionic Compounds
 In ionic compouds, an electron transfer occurs. To explain how to draw the diagram, lets use $\textrm{NaCl}$ as an example.
 
 The following are the lewis dot diagrams for sodium and chloride on their own.  
-![](images/unit0/lewis-ionic0.jpg)
+![](images/unit1/lewis-ionic0.jpg)
 As you can see, sodium has one electron that it transfers to chlorine to fill it's bonding pair to make it full.  
 Sodium lost an electron, it has a $1+$ charge. Chlorine gained an electron, it has a $1-$ charge.
 
 To draw a lewis dot diagram of an ionic compound, essentially draw how the ~~dots look like after the transfer~~, surround each atom in ~~square brackets~~, and ~~state the charge in the top right~~ and ~~quantities in the bottom right~~.  
-![](images/unit0/lewis-ionic1.jpg)
+![](images/unit1/lewis-ionic1.jpg)
 
 ### Example
 This is the lewis dot diagram for $\textrm{Mg}^{2+}_3\textrm{P}^{3-}_2$
 
-![](images/unit0/lewis-ionic2.jpg)
+![](images/unit1/lewis-ionic2.jpg)
 
 ## Lewis Dot Diagram for Molecular Compounds
 * Draw a Lewis dot diagram for every atom
@@ -77,19 +77,19 @@ This is the lewis dot diagram for $\textrm{Mg}^{2+}_3\textrm{P}^{3-}_2$
 $\textrm{CH}_4$
 
 These are the lewis/electron-dot diagrams for carbon and hydrogen on their own.  
-![](images/unit0/lewis-ionic3a.jpg]
+![](images/unit1/lewis-ionic3a.jpg]
 
 Then, we can put them together and they share electrons.  
-![](images/unit0/lewis-ionic3b.jpg]
+![](images/unit1/lewis-ionic3b.jpg]
 
 However, not every valence orbital of carbon is filled. We need more hydrogens.  
-![](images/unit0/lewis-ionic3c.jpg]
+![](images/unit1/lewis-ionic3c.jpg]
 
 ### Multibonds
 If your empirical formula seemingly doesn't have enough of something to fill all orbitals, you may need to make double or triple bonds.
 
 For instance, $\textrm{CH}_3$ doesn't have enough hydrogens to fill all of carbon's orbitals with just single bonds.  
-![](images/unit0/lewis-ionic3d.jpg)
+![](images/unit1/lewis-ionic3d.jpg)
 
 ## Lewis Dot Diagram for Polyatomic Ions
 * Count the ~~total number of valence electrons~~ in ~~all atoms~~ of the polyatomic.
@@ -110,7 +110,7 @@ $\textrm{O} = 6 e^-$
 $^- = 1$ extra electron 
 Total number of electrons in compound = $14 e^-$
 
-![](images/unit0/polyatomic.jpg)  
+![](images/unit1/polyatomic.jpg)  
 *Outlined electrons are lone pairs that were added to make up the total.*
 
 # Electronegativity
@@ -144,11 +144,73 @@ This occurs when the bond is between...
 * The ~~greater the difference~~ in electronegativity, the ~~more polar the bond~~.
 
 Polar bonds can be represented with ~~structural diagrams~~, using an ~~arrow pointing towards the higher electronegativity~~.  
-e.g. $\textrm{C} \longleftarrow \textrm{H} $, $\textrm{Cl} \longrightarrow \textrm{F}$
+e.g. $\textrm{C} \longleftarrow \textrm{H}$, $\textrm{Cl} \longrightarrow \textrm{F}$
 
 ## Ionic Bonds
 If the electronegativity difference is high enough (> 1.8), electrons can be ~~completely transferred~~ to another atom.  
 This is an ionic bond, it forms ~~cations (+) and anions (-)~~. It also forms crystal lattice structures.
 
 # Molecule Polarity
+Polar bonds can result in the molecule itself being polar.  
+This is called a ~~**dipole**~~: where there are a positive ($\delta^+$) and negative ($\delta^-$) ends to a molecule.
 
+## Effects/Forces of Polar Bonds
+The effects/forces of polar bonds are the ~~direction a molecule is pushed~~ towards due to the ~~polar bonds~~.
+
+For instance, if this carbon and hydrogen were in a molecule, the molecule would be polar in the left direction.  
+$\textrm{C} \longleftarrow \textrm{H}$
+
+However, the polar bond's push/effects can be ~~cancelled~~ by another polar bond's with the exact same electronegativity's ~~push in the opposing direction~~.  
+$\textrm{H} \longrightarrow \textrm{C} \longleftarrow \textrm{H}$  
+This molecule has polar bonds, but the molecule is non-polar as it does not get pushed in any direction.
+
+Lastly, the higher the electornegativity, the more polar something is. If a polar bond is opposed by another polar bond, but that bond has a ~~lower electronegativity~~, then the molecule still moves in a direction and is ~~still polar~~.  
+$\textrm{N} \longleftarrow \textrm{C} \longrightarrow \textrm{O}$  
+In this example, oxygen has a highe electronegativity than nitrogen, so the molecule is still polar towards the right.
+
+## Polar Molecules
+A molecule is polar if...
+* The shape is ~~not symmetrical~~
+* The ~~effects/forces~~ of the polar bonds ~~do not cancel~~ (the bonds don't cancel)
+  * If this is the case, then the molecule has a dipole
+
+## Non-polar Molecules
+A molecule is non-polar if...
+* Every bond in the molecule is a ~~non-polar bond~~, or...
+* The ~~effects/forces~~ of the polar bonds ~~cancel~~
+
+## Examples
+| Structural Diagram | Formula | Bonds? | Molecule? |
+| :----------------: | :-----: | :----: | :-------: |
+| ![](images/unit1/polar0.jpg) | $\textrm{CO}_{2}$ | Polar | Non-polar |
+| ![](images/unit1/polar1.jpg) | $\textrm{CCl}_{4}$ | Polar | Non-polar |
+| ![](images/unit1/polar2.jpg) | $\textrm{NH}_{3}$ | Polar | Polar |
+| ![](images/unit1/polar3.jpg) | $\textrm{C}_{2}\textrm{H}_{6}$ | Polar | Non-polar |
+
+# <span id="ib">IB</span> Stereochemistry
+Also known as VSEPR, sterochemistry is regarding the ~~shapes of molecules in 3 dimensions~~.  
+In addition, <span id="ib">IB</span> **bond angles** are the ~~angle formed between 2 bonds~~.
+
+## Drawing in 3D
+At this level, you don't actually need to draw 3D molecules. However, you need to know how to identify them.
+
+| Bond Appearance | Meaning |
+| :-------------: | :-----: |
+| Normal, solid line | The atom is on the page |
+| Dotted Line<br>or<br>Wedge | The atom is in the page (down, into your desk) |
+| Wedge | The atom is out of the page (up) |
+
+If you decide to use wedges, you must either ~~fill them in or leave them hollow~~ to distinguish between the atom going up or down. ~~Whichever you choose does not matter~~, the point is that they are ~~distinguished~~.
+
+$\textrm{SiF}_{4 (g)}$  
+![](vsepr0.jpg)
+
+## Guidelines
+| General Formula | Has lone pairs? | Name | Shape | Bond Angle |
+| :-------------: | :-------------: | :--: | :---: | :--------: |
+| $\textrm{AX}$   | N/A | Linear | ![](images/unit1/vsepr1.jpg) | $180^\circ$ |
+| $\textrm{AX}_{2}$   | N/A | Linear | ![](images/unit1/vsepr1.jpg) | $180^\circ$ |
+| $\textrm{AX}_{2}$   | N/A | Linear | ![](images/unit1/vsepr1.jpg) | $180^\circ$ |
+| $\textrm{AX}_{3}$   | N/A | Linear | ![](images/unit1/vsepr1.jpg) | $180^\circ$ |
+| $\textrm{AX}_{3}$   | N/A | Linear | ![](images/unit1/vsepr1.jpg) | $180^\circ$ |
+| $\textrm{AX}_{4}$   | N/A | Linear | ![](images/unit1/vsepr1.jpg) | $180^\circ$ |
