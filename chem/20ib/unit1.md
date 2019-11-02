@@ -1,7 +1,5 @@
 # Bonding
 
-?> These notes are unfinished and subject to change.
-
 ---
 
 # Development of Bonding Theory
@@ -51,7 +49,7 @@ The lewis dot diagram is used to represent the valence electron and bonding of a
 ![](images/unit1/lewis-atoms.jpg)
 
 ## Lewis Dot Diagram for Ionic Compounds
-In ionic compouds, an electron transfer occurs. To explain how to draw the diagram, lets use $\textrm{NaCl}$ as an example.
+In ionic compounds, an electron transfer occurs. To explain how to draw the diagram, lets use $\textrm{NaCl}$ as an example.
 
 The following are the lewis dot diagrams for sodium and chloride on their own.  
 ![](images/unit1/lewis-ionic0.jpg)
@@ -203,14 +201,118 @@ At this level, you don't actually need to draw 3D molecules. However, you need t
 If you decide to use wedges, you must either ~~fill them in or leave them hollow~~ to distinguish between the atom going up or down. ~~Whichever you choose does not matter~~, the point is that they are ~~distinguished~~.
 
 $\textrm{SiF}_{4 (g)}$  
-![](vsepr0.jpg)
+![](images/unit1/vsepr0.png)
 
 ## Guidelines
-| General Formula | Has lone pairs? | Name | Shape | Bond Angle |
-| :-------------: | :-------------: | :--: | :---: | :--------: |
-| $\textrm{AX}$   | N/A | Linear | ![](images/unit1/vsepr1.jpg) | $180^\circ$ |
-| $\textrm{AX}_{2}$   | N/A | Linear | ![](images/unit1/vsepr1.jpg) | $180^\circ$ |
-| $\textrm{AX}_{2}$   | N/A | Linear | ![](images/unit1/vsepr1.jpg) | $180^\circ$ |
-| $\textrm{AX}_{3}$   | N/A | Linear | ![](images/unit1/vsepr1.jpg) | $180^\circ$ |
-| $\textrm{AX}_{3}$   | N/A | Linear | ![](images/unit1/vsepr1.jpg) | $180^\circ$ |
-| $\textrm{AX}_{4}$   | N/A | Linear | ![](images/unit1/vsepr1.jpg) | $180^\circ$ |
+Determining which shape a compound would be depends on a few factors.
+* Number of atoms bonded to the central atom
+* If the central atom's element has lone pairs
+
+| General Formula | Has lone pairs? | Name | Shape Example | Bond Angle |
+| :-------------: | :-------------: | :--: | :-----------: | :--------: |
+| $\textrm{AX}$   | N/A | Linear | ![](images/unit1/vsepr1.png) | $180^\circ$ |
+| $\textrm{AX}_{2}$   | No | Linear | ![](images/unit1/vsepr2.png) | $180^\circ$ |
+| $\textrm{AX}_{2}$   | Yes | V-Shaped or Bent | ![](images/unit1/vsepr3.png) | $104.5^\circ$ |
+| $\textrm{AX}_{3}$   | No | Trigonal Planar | ![](images/unit1/vsepr4.png) | $120^\circ$ |
+| $\textrm{AX}_{3}$   | Yes | Pyramidal | ![](images/unit1/vsepr5.png) | $107.5^\circ$ |
+| $\textrm{AX}_{4}$   | N/A | Tetrahedral | ![](images/unit1/vsepr0.png) | $109.5^\circ$ |
+
+# Forces of Attraction
+## Intramolecular Forces
+Bonds ~~within a molecule~~, which holds the molecule together.
+
+### Covalent Bonds
+Sharing of valence electrons.
+* Polar: Unequal sharing.
+* Non-polar: Equal sharing.
+
+### Ionic Bonds
+Transfer of valence electrons.
+
+## Intermolecular Forces
+Bonds ~~between molecules~~.
+
+The forces between molecules are ~~much weaker~~ than the forces within.
+
+There are different types of intermolecular forces for molecular compounds.
+
+### London Dispersion Forces (LDF)
+* ~~**All molecular compounds~~ have these forces**
+  * In ~~non-polar molecules~~, LDF are the ~~only force~~ affecting.
+* Electrons in one molecule are attracted to the nucleus of atoms in another molecule.
+* The ~~more electrons~~ in a molecule, the ~~more LDFs~~ present.
+* The ~~shape~~ of the molecule affects ~~how closely~~ the molecules can ~~approach each other~~, which results in ~~stronger LDF~~.
+
+### Dipole-dipole Forces (DD)
+* ~~**All polar molecular bonds~~ have these forces**
+* The molecules have ~~dipoles~~, one side positive and one side negative.
+  * Other molecules are ~~attracted to these poles by their poles~~ and they ~~line up end to end~~ by electrostatic (+ to -) forces.
+
+### Hydrogen Bonds (HB)
+* ~~In polar molecular compounds only~~.
+* Occurs only when ~~**hydrogen is bonded directly to fluorine, oxygen, or nitrogen**~~.
+  * Emphasis on "directly," as something like $\textrm{CH}_{3}\textrm{O}$ ~~does not contain hydrogen bonding~~, as the oxygen is actually bonded to the carbon.
+* This is because the higher electronegative atom pulls hydrogen so much, that it actually strips away an electron from hydrogen.
+  * This leaves hydrogen's proton exposed.
+  * This proton is attracted to molecules with negative charges.
+
+These are the different types of intermolecular forces for everything else.
+
+### Metallic
+* For metallic ~~elements~~, not compounds.
+* Metals are ~~malleable~~: can be bent and reshaped without breaking
+* Metals are ~~ductile~~: can be stretched out into wire without breaking
+* Valence electrons in metals detach from their atoms
+  * This forms a close packed lattice of positive ions, in a "sea" of delocalized electrons.
+* Bonds between the positive ions and the electrons make them ~~stronger than molecular compound bonds~~. 
+  * The strength of the bond depends on the charge and radius of the metal ions.
+* Metals are also ~~conduictive and lusterous~~, thought to be because of the "sea" of electrons constantly moving.
+
+#### Alloys
+* Not a compound, but ~~metallic solid solutions~~ (solutions don't always mean dissolved in water) of more than one metal.
+* Alloys are ~~less ductile and malleable~~ than metals.
+* Alloys are ~~harder~~ than the pure metals they derive from.
+
+### Ionic Bonding
+* ~~Attraction between oppositely charged ions~~.
+* Ionic compounds are ~~brittle solids~~ at room temperature. (due to the bonds being so strong, they aren't flexible)
+* The strength of the force is determined by...
+  * ~~Distance between the ions~~ (influenced by ionic radius)
+  * ~~Size of the charge on each ion~~
+* Therefore, small ions with high charges have stronger ionic bonding.
+
+![](images/unit1/lattice.gif)
+
+* Ions in solid ionic compounds are in a ~~crystal lattice~~.
+  * Large amount of energy needed to break this lattice, so ~~high boiling/melting points~~.
+* Many ionic compounds are ~~soluable in water~~.
+* Solid ionic compounds ~~cannot conduct electricity~~.
+  * However, when ~~molten/in a solution~~, ions are free to move so they conduct.
+
+### Network Covalent
+* Strongest chemical bonding forces in nature.
+* Held together by ~~networks of covalent bonding~~.
+  * Series of tetrahedals connected to each other.
+* ~~There are only three...~~
+  * **Diamond**  
+    $\textrm{C}_{(s)}$
+  * **Carborundum**  
+    $\textrm{SiC}_{(s)}$
+  * **Silica**  
+    $\textrm{SiO}_{2 (s)}$
+
+## Weakest to Strongest Intermolecular Forces
+This also means lowest to highest boiling/melting point.
+
+| LDF | DD | HB | Metallic | Ionic | Network Covalent |
+| :-: | :-: | :-: | :-: | :-: | :-: |
+| Molecular | Polar molecular | Polar molecular, H-bonding | Metal element | Starts with metal or $\textrm{NH}^{+}_{4}$ | $\textrm{C}_{(s)}$, $\textrm{SiC}_{(s)}$, or $\textrm{SiO}_{2 (s)}$ |
+
+The ~~stronger the intermolecular forces~~, the ~~higher the melting/boiling points~~, as ~~more energy is required to break~~ the intermolecular bonds.
+
+### Example
+Lowest to highest boiling point.
+
+| $\textrm{PH}_{3 (l)}$ | $\textrm{C}_{25}\textrm{H}_{52 (s)}$ | $\textrm{HCl}_{(g)}$ | $\textrm{H}_{2}\textrm{O}_{(l)}$ | $\textrm{Cu}_{(s)}$ | $\textrm{NH}_{4}\textrm{NO}_{3 (s)}$ | $\textrm{C}_{(s)}$ |
+| :-: | :-: | :-: | :-: | :-: | :-: | :-: |
+| LDF | LDF<br>(but more) | LDF & DD | LDF, DD, & HB | Metallic forces | Ionic forces | Network covalent forces |
