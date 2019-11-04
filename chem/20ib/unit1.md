@@ -185,6 +185,19 @@ A molecule is non-polar if...
 | ![](images/unit1/polar2.jpg) | $\textrm{NH}_{3}$ | Polar | Polar |
 | ![](images/unit1/polar3.jpg) | $\textrm{C}_{2}\textrm{H}_{6}$ | Polar | Non-polar |
 
+## Solubility
+When it comes to molecular solubility, ~~like-dissolves-like~~. (i.e. a polar molecule dissolves in a polar substance, a non-polar molecule dissolves in a non-polar substance)
+
+This is called ~~miscibility~~, the ability of substances to ~~dissolve in each other~~. Water and oil are immiscible, as water is polar and oil is not.
+
+Consumption introduces some problems.
+* Consuming polar substances is okay
+  * The substance dissolves into your urine and you urinate it out.
+* Consuming non-polar substances can be bad
+  * The substance does not dissolve into your urine, but dissolves into your ~~fat~~.
+  * This can cause said substance to ~~accumulate to toxic levels~~.
+  * *Examples include Vitamin D, and DDT*
+
 # <span id="ib">IB</span> Stereochemistry
 Also known as VSEPR, sterochemistry is regarding the ~~shapes of molecules in 3 dimensions~~.  
 In addition, <span id="ib">IB</span> **bond angles** are the ~~angle formed between 2 bonds~~.
@@ -234,13 +247,14 @@ Bonds ~~between molecules~~.
 
 The forces between molecules are ~~much weaker~~ than the forces within.
 
-There are different types of intermolecular forces for molecular compounds.
+There are different types of intermolecular forces for molecular compounds, ~~ordered in increasing boiling point~~.
 
 ### London Dispersion Forces (LDF)
 * ~~**All molecular compounds~~ have these forces**
-  * In ~~non-polar molecules~~, LDF are the ~~only force~~ affecting.
+  * In ~~non-polar molecules~~ and ~~diatomic/polyatomic elements~~, LDF are the ~~only force~~ affecting.
 * Electrons in one molecule are attracted to the nucleus of atoms in another molecule.
-* The ~~more electrons~~ in a molecule, the ~~more LDFs~~ present.
+* The ~~more **total** electrons~~ in a molecule, the ~~more LDFs~~ present.
+  * If you were comparing two molecules with only LDFs, the more polar/higher BP/more LDFs would be the one with more total electrons
 * The ~~shape~~ of the molecule affects ~~how closely~~ the molecules can ~~approach each other~~, which results in ~~stronger LDF~~.
 
 ### Dipole-dipole Forces (DD)
@@ -310,9 +324,44 @@ This also means lowest to highest boiling/melting point.
 
 The ~~stronger the intermolecular forces~~, the ~~higher the melting/boiling points~~, as ~~more energy is required to break~~ the intermolecular bonds.
 
+A compound can have ~~any combination of the first three~~ intermolecular forces. (LDF, DD, and HB)  
+However, the other intermolecular forces have to be ~~the only ones~~. (metal, ionic, network covalent)  
+In other words, you cannot have an ionic compound with hydrogen bonding. (good example of this is ~~hydroxide, a polyatomic, not hydrogen bonding~~)
+
 ### Example
 Lowest to highest boiling point.
 
 | $\textrm{PH}_{3 (l)}$ | $\textrm{C}_{25}\textrm{H}_{52 (s)}$ | $\textrm{HCl}_{(g)}$ | $\textrm{H}_{2}\textrm{O}_{(l)}$ | $\textrm{Cu}_{(s)}$ | $\textrm{NH}_{4}\textrm{NO}_{3 (s)}$ | $\textrm{C}_{(s)}$ |
 | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
 | LDF | LDF<br>(but more) | LDF & DD | LDF, DD, & HB | Metallic forces | Ionic forces | Network covalent forces |
+
+# Creating Empirical Molecular Formulas
+
+## Combustion Analysis
+Gives ~~percentage concentration~~ of ~~each element in a compound~~.
+
+## Mass Spectrometer
+Determines the ~~molar mass of a compound~~.
+
+## Determining Formulas
+Using the two aforementioned tools, you can determine an emprirical molecular formula.
+
+Get the molar mass of each element in a compound using the percentage and mass of compound.  
+Then, divide the molar mass of each element of the compound by its molar mass on the periodic table. This gets you the moles.  
+The moles are the number of an element you write in the emprical formula.
+
+1. $\textrm{molar mass of compound} \times \textrm{% of element in compound} = \textrm{molar mass of element in compound}$
+2. $\textrm{molar mass of element in compound} \div \textrm{molar mass of element in periodic table} = \textrm{# of moles of element in compound}$
+
+### Example
+Molar mass of compound = $58 g \cdot mol^{-1}$  
+Carbon concentration = $82.5%$  
+Hydrogen concentration = $17.5%$
+
+1. 
+  * $58 g \cdot mol^{-1} \times 0.825 = 47.85 g$
+  * $58 g \cdot mol^{-1} \times 0.175 = 10.15 g$
+2.
+  * $47.85 g \div 12.01 g \cdot mol^{-1} = 4 \textrm{moles of C}$
+  * $10.15 g \div 1.01 g \cdot mol^{-1} = 10 \textrm{moles of H}$
+3. The empirical molecular formula is $\textrm{C}_{4}\textrm{H}\textrm{10}$
