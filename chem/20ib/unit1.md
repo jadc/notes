@@ -120,11 +120,11 @@ Total number of electrons in compound = $14 e^-$
 * **Electronegativity** is the ability of an atom to ~~attract a pair of bonding electrons~~ into its valence.
   * It was created by ~~Linus Pauling~~.
   * Electronegativity ~~increases~~ as you move from the ~~bottom left to the top right~~ of the periodic table.
-  * The electronegitivity of an element is on the periodic table.
+  * The electronegativity of an element is on the periodic table.
 
 # Bond Polarity
 ## Non-polar
-A covalent bond is nonpolar if the ~~sharing of electrons is equal~~.  
+A covalent bond is non-polar if the ~~sharing of electrons is equal~~.  
 This only occurs when the bond is between...
 * Two ~~identical atoms~~
 * Two atoms with the ~~same electronegativity~~
@@ -158,13 +158,13 @@ The effects/forces of polar bonds are the ~~direction a molecule is pushed~~ tow
 For instance, if this carbon and hydrogen were in a molecule, the molecule would be polar in the left direction.  
 $\textrm{C} \longleftarrow \textrm{H}$
 
-However, the polar bond's push/effects can be ~~cancelled~~ by another polar bond's with the exact same electronegativity's ~~push in the opposing direction~~.  
+However, the polar bond's push/effects can be ~~cancelled~~ by another polar bond's (with the exact same electronegativity) ~~push in the opposing direction~~.  
 $\textrm{H} \longrightarrow \textrm{C} \longleftarrow \textrm{H}$  
 This molecule has polar bonds, but the molecule is non-polar as it does not get pushed in any direction.
 
 Lastly, the higher the electornegativity, the more polar something is. If a polar bond is opposed by another polar bond, but that bond has a ~~lower electronegativity~~, then the molecule still moves in a direction and is ~~still polar~~.  
 $\textrm{N} \longleftarrow \textrm{C} \longrightarrow \textrm{O}$  
-In this example, oxygen has a highe electronegativity than nitrogen, so the molecule is still polar towards the right.
+In this example, oxygen has a higher electronegativity than nitrogen, so the molecule is still polar towards the right.
 
 ## Polar Molecules
 A molecule is polar if...
@@ -229,6 +229,13 @@ Determining which shape a compound would be depends on a few factors.
 | $\textrm{AX}_{3}$   | No | Trigonal Planar | ![](images/unit1/vsepr4.png) | $120^\circ$ |
 | $\textrm{AX}_{3}$   | Yes | Pyramidal | ![](images/unit1/vsepr5.png) | $107.5^\circ$ |
 | $\textrm{AX}_{4}$   | N/A | Tetrahedral | ![](images/unit1/vsepr0.png) | $109.5^\circ$ |
+
+**Tip**: Remember that the shape is based on the quantities of certain elements, and not the number of bonds. In other words, double or triple bonds do not effect the shape, only quantities. (e.g. $\textrm{CH}_3$ is not a tetrahedral just because it has a double bond.)
+
+## Multiple Central Atoms
+If a compound has multiple central atoms and you need to name it as a VSEPR shape, the compound has ~~multiple VSEPR shapes~~.  
+Focus on ~~each central atom~~, and determine the VSEPR shape of a compound ~~if it had only that central atom~~.  
+Then progress to the ~~next central atom~~, (~~hydrogen can never be the central atom~~) and keep repeating this process until you have every central atom's shape named.
 
 # Forces of Attraction
 ## Intramolecular Forces
@@ -344,14 +351,14 @@ Gives ~~percentage concentration~~ of ~~each element in a compound~~.
 Determines the ~~molar mass of a compound~~.
 
 ## Determining Formulas
-Using the two aforementioned tools, you can determine an emprirical molecular formula.
+Using the two aforementioned tools, you can determine an empirical molecular formula.
 
 Get the molar mass of each element in a compound using the percentage and mass of compound.  
 Then, divide the molar mass of each element of the compound by its molar mass on the periodic table. This gets you the moles.  
-The moles are the number of an element you write in the emprical formula.
+The moles are the number of an element you write in the empirical formula.
 
-1. $\textrm{molar mass of compound} \times \textrm{% of element in compound} = \textrm{molar mass of element in compound}$
-2. $\textrm{molar mass of element in compound} \div \textrm{molar mass of element in periodic table} = \textrm{# of moles of element in compound}$
+1. molar mass of compound * % of element in compound = molar mass of element in compound
+2. molar mass of element in compound / molar mass of element in periodic table = # of moles of element in compound
 
 ### Example
 Molar mass of compound = $58 g \cdot mol^{-1}$  
