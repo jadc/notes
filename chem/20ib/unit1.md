@@ -44,7 +44,7 @@ The lewis dot diagram is used to represent the valence electron and bonding of a
 * Fill the orbitals with ~~dots/electrons~~ equal to the ~~number of valence electrons~~ that element has. (ones place of column #)
   * Draw ~~one dot in each orbital first~~, going ~~clockwise or counterclockwise~~ over each one
   * If ~~every orbital has a dot~~ and you still have more valence electrons, then ~~start pairing~~ them up.
-		* Alternatively, instead of two dots you may draw a line. Means the same thing.
+    * Alternatively, instead of drawing the two dots for lone pairs, you may draw a line. This only applies to lone pairs though, and not two bonding electrons. (which also appear as two dots)
 ### Example
 ![](images/unit1/lewis-atoms.jpg)
 
@@ -75,13 +75,13 @@ This is the lewis dot diagram for $\textrm{Mg}^{2+}_3\textrm{P}^{3-}_2$
 $\textrm{CH}_4$
 
 These are the lewis/electron-dot diagrams for carbon and hydrogen on their own.  
-![](images/unit1/lewis-ionic3a.jpg]
+![](images/unit1/lewis-ionic3a.jpg)
 
 Then, we can put them together and they share electrons.  
-![](images/unit1/lewis-ionic3b.jpg]
+![](images/unit1/lewis-ionic3b.jpg)
 
 However, not every valence orbital of carbon is filled. We need more hydrogens.  
-![](images/unit1/lewis-ionic3c.jpg]
+![](images/unit1/lewis-ionic3c.jpg)
 
 ### Multibonds
 If your empirical formula seemingly doesn't have enough of something to fill all orbitals, you may need to make double or triple bonds.
