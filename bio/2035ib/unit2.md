@@ -40,18 +40,102 @@ Within each thylakoid is a space called the ~~**lumen**~~.
 Each grana is interconnected by flattened thylakoids called ~~**lamellae**~~.  
 All of these parts are suspended in an aqueous solution called ~~**stroma**~~, which contains ~~enzymes~~ necessary for photosynthesis.
 
-### Light-dependent Reactions
-* Occurs within the ~~thylakoid membrane~~.  
-* Uses ~~photosystems I & II~~ to gather sunlight.
-  * Photosystems contain ~~pigments~~, molecules that absorb light.
-    * Chlorophyll A (absorbs all colours but green)
-    * Chlorophyll B (absorbs all colours but green)
-    * Carotenoids (absorbs all colours but yellow and orange, don't decompose in fall so we see them)
-  * Pigments can be seperated and identified with ~~paper chromatography~~.
+## Photosystems
+There are two ~~**photosystems**~~ in the thylakoid membrane, ~~photosystem I and photosystem II~~.  
+
+### Photosystem I
+Also known as ~~**P680**~~, as it is driven by wavelengths shorter than 680 nm.
+
+### Photosystem II
+Also known as ~~**P700**~~, as it is driven by wavelengths longer than 680 nm.
+
+## Pigments
+Photosystems contain ~~**pigments**~~, molecules that ~~absorb light~~.  
+Colours that pigments ~~don't absorb~~ (therefore, reflected) are what ~~colour they appear as~~.
+
+These are the main ones...
+  * Chlorophyll A (absorbs all colours but green)
+  * Chlorophyll B (absorbs all colours but green)
+  * Carotenoids (absorbs all colours but yellow and orange)
+    * In the fall, ~~chlorophylls decompose, but carotenoids don't~~. This is why leaves turn orange/yellow.
+
+### Accessories
+Chlorophyll A is the ~~only~~ pigment that can ~~transfer energy to carbon fixation~~, covered later.  
+Therefore, other pigments are ~~**accessory pigments**~~, which give their energy to chlorophyll A.
+
+### Spectrums
+#### Absorption
+The wavelengths of light that each pigment absorbs can be measured with a ~~**spectrophotometer**~~, which forms an ~~**absorption spectrum**~~.  
+$x$ represents visible light, ~~peaks represent absorbed~~ light, and ~~valleys represent reflected~~/passed through light.
+
+![](images/unit2/absorption.png)
+
+#### <span id="ib">IB</span> Action
+Every ~~volume of oxygen produced~~ in the photosynthesis reaction, ~~under different wavelengths~~, is what the ~~**action spectrum**~~ represents.  
+It is very similar to absorption spectrums, except instead of light absorbed, it is oxygen produced.  
+They look ~~very similar to absorption spectrums~~.
+
+### Chromatography
+A process that can be used to ~~seperate plant pigments~~ on ~~chromatography paper~~.
+
+### Normalized Differential Vegetation Index (NDVI)
+Unhealthy plants ~~don't reflect as much green and infared light~~ as healthy plants.  
+This can be identified with satellites using NDVI.
+
+### Compact Airborne Spectrographic Imagers (CASI)
+Similar to NDVI, but instead ~~deeply pink/red regions are healthy~~ while ~~duller/darker areas have thin/missing vegetation~~>
+ 
+## Reaction Terms
+| Term | Meaning |
+| :--: | ------- |
+| **Rx** | Reaction |
+| **Reduction Rx** | A reaction where a molecule or atom ~~gains electrons/hydrogens.~~ |
+| **Oxidation Rx** | A reaction where a molecule or atom ~~loses electrons/hydrogens.~~ |
+| **Endergonic Rx** | A reaction that ~~absorbs energy~~. |
+| **Exogonic Rx** | A reaction that ~~releases energy~~. |
+
+## Important Molecules
+### $\textrm{NAD}^+$ & $\textrm{NADP}^+$
+This molecule is an ~~electron carrier molecule~~.  
+It can carry ~~one hydrogen and two electrons~~.
+
+$\textrm{NAD}^+$ & $\textrm{NADP}^+$ do the same thing, but $\textrm{NADP}^+$ is ~~only found in photosynthesis~~.
+
+### $\textrm{NADH+H}^+$ & $\textrm{NADPH+H}^+$
+This is the ~~reduced form~~ of the aforementioned molecule.  
+Some people may call it $\textrm{NADH}$, but technically there is a hydrogen ion (aka. proton) attached unintentionally, and isn't used.
+
+### $\textrm{ATP}$
+This molecule is an ~~energy currency molecule~~, and is called adenosine triphosphate.  
+ATP releases energy by ~~breaking~~ one of its ~~phosphate bonds~~.
+
+### $\textrm{ADP} + \textrm{P}_i$
+This is the ~~reduced form~~ of the aforementioned molecule.  
+When ATP breaks one of its phosphate bonds, it comes adenosine diphosphate.  
+$\textrm{P}_i$ is called ~~inorganic phosphate~~, and when ~~added to ADP, it forms ATP~~.
+
+## Light-Dependent Reactions
+
+### Non-cyclic Photophosphorylation
+More common.
+Occurs within the ~~thylakoid membrane~~.  
+
+* ~~Starting with photosystem **II**~~, protons ($\textrm{H}^+$) from sunlight energy reach the photosystem.
+* Electrons are excited by protons, and ~~gain energy~~.
+* 
+
+### <span id="ib">ib</span> Cyclic Photophosphorylation
+~~Only~~ involves photosystem I, and only performs chemiosmosis.
+
+
+
+?> Ignore below...
+
 * Converts sunlight into...
-  * Electron carrier molecule ~~**NADPH**~~
+  * Electron carrier molecule ~~**NADPH+H+**~~
   * Energy currency molecule ~~**ADP**~~
+  * ~~$\textrm{O}_2$~~ (waste)
 
 ### Light-independent Reactions
 * Occurs within the ~~stroma~~.
-* 
+* Uses energy from NADPH+H+ and ADP, as well as carbon from $\textrm{CO}_2, to form carbohydrates.
