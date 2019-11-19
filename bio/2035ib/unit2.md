@@ -85,7 +85,7 @@ This can be identified with satellites using NDVI.
 ### Compact Airborne Spectrographic Imagers (CASI)
 Similar to NDVI, but instead ~~deeply pink/red regions are healthy~~ while ~~duller/darker areas have thin/missing vegetation~~>
 
-# History
+## History
 
 | When | Who | What |
 | :--: | :-: | ---- |
@@ -143,28 +143,86 @@ More common.
 Occurs within the ~~thylakoid membrane~~.  
 
 * ~~Starting with photosystem **II**~~, protons ($\textrm{H}^+$) from sunlight energy reach the photosystem.
-* The electron is excited by protons, and it ~~gains energy~~.
+* ~~Two electrons~~ from photolysis (covered later) is excited by protons, and it ~~gains energy~~.
   * This causes it to ~~raise up to a higher level electron acceptor~~.
-* The electron is then passed ~~down an electron transport system~~, through ~~redox reactions~~, releasing the excitement energy.
+* The electrons are then passed ~~down an electron transport system~~, through ~~redox reactions~~, releasing the excitement energy.
   * This energy is used to ~~pump in protons from the stroma into the thylakoid lumen~~.
-* The electron reaches ~~photosystem I~~, which recieves more protons from sunlight energy.
-* The electron is once again excited, and gains energy.
+* The electrons reaches ~~photosystem I~~, which recieves more protons from sunlight energy.
+* The electrons are once again excited, and gains energy.
   * This causes it to once again raise up to a another higher level electron acceptor.
-* The electron is once again passed down another electron transport system, releasing the excitement energy.
-  * This energy is now used to ~~combine $\textrm{NADP}^+$ and a proton~~ to form $\textrm{NADPH}+\textrm{H}^+$
+* The electrons are once again passed down another electron transport system, releasing the excitement energy.
+  * This energy is now used to ~~combine $\textrm{NADP}^+$, a proton, and the two electrons~~ to form $\textrm{NADPH}+\textrm{H}^+$
+
+![](images/unit2/noncyclic.png)
+
+#### Photolysis
+* The cycle is ready to start again, but photosystem II is now missing two electrons.
+  * Water is split in a process called ~~**photolysis**~~.
+  * ~~Two electrons from each hydrogen~~ is given to photosystem II, and the ~~cycle may begin again~~.
+  * The oxygen from water combines with another oxygen later to form ~~$\textrm{O}_2$ gas~~, and escapes as waste.
+    * Photolysis gets one oxygen, so photolysis must run twice before an oxygen gas can be formed.
+  * The hydrogens, now photons, enter the ~~thylakoid lumen~~.
+
+![](images/unit2/photolysis.jpg)
+
+#### Chemiosmosis
+The electrons energy was used to pump in protons from the stroma into the thylakoid lumen. The purpose of this was to perform ~~**Chemiosmosis**~~.
+
+* The ~~concentration~~ of protons within the ~~thylakoid lumen~~ is now ~~significantly higher than the stroma~~.
+  * This causes the protons in the lumen to passively ~~try to get into the stroma~~, leaving the thylakoid.
+* The protons flow out of ~~protein channel $\textrm{CF}_0\textrm{CF}_1$~~
+  * $\textrm{CF}_0$ complex is a channel that allows protons from the lumen to cross the membrane and into the $\textrm{CF}_1$\
+  * $\textrm{CF}_1$ complex is a bulbous head containing ~~ATP synthetase~~, which uses the ~~kinetic energy of protons~~ travelling to perform the ~~phosphorylation of ADP~~.
+* ~~**Phosphorylation**~~ is the process of adding a phosphate to something.
+* $\textrm{ADP}$ and $\textrm{P}_i$ in the stroma go to the $\textrm{CF}_1$ complex and get combined to form ~~ATP~~.
+
+![](images/unit2/chemiosmosis.png)
+
+### Summary (In/Out)
+| In | Out |
+| :-: | :-: |
+| $\textrm{H}_2\textrm{O}$<br>light<br>$\textrm{ADP} + \textrm{P}_i$<br>$\textrm{NADP}$ | $\textrm{O}_2$ (waste)<br>$\textrm{ATP}$<br>$\textrm{NADPH}+\textrm{H}^+$ |
 
 ### <span id="ib">ib</span> Cyclic Photophosphorylation
 ~~Only~~ involves photosystem I, and only performs chemiosmosis.
 Occurs in the ~~abscence of $\textrm{NADP}^+$ and $\textrm{CO}_2$~~, and is triggered by ~~light~~.
 
-
-?> Ignore below...
-
-* Converts sunlight into...
-  * Electron carrier molecule ~~**NADPH+H+**~~
-  * Energy currency molecule ~~**ADP**~~
-  * ~~$\textrm{O}_2$~~ (waste)
-
-### Light-independent Reactions
+## Light-Independent Reactions
+* Also called carbon-fixation, dark reactions, Calvin cycle.
 * Occurs within the ~~stroma~~.
-* Uses energy from NADPH+H+ and ADP, as well as carbon from $\textrm{CO}_2, to form carbohydrates.
+* Light energy ~~is not needed~~. (energy comes from $\textrm{ATP}$ and $\textrm{NADPH}+\textrm{H}^+$ from light dependent Rx)
+* The Calvin cycle must be ~~**run 6 times**~~ to produce ~~one glucose~~.
+
+### Carboxylation
+* ~~RuBP~~ is a ~~$\textrm{CO}_2$ acceptor~~.
+  * Requires enzyme ~~**Rubisco**~~, the worlds ~~most important enzyme~~, for being the ~~link between the living and nonliving world~~.
+* Three RuBP and three $\textrm{CO}_2$ form an ~~three molecules of an unstable 6 carbon sugar~~.
+* The three unstable 6 carbon sugars divides into ~~six 3 carbon substances~~ called ~~**3PG**~~ (also called ~~**PGA**~~)
+
+### Phopshorylation
+* Six $\textrm{ATP} donates ~~six phosphates~~ to make the six 3PG's into a ~~more reactive form~~ called ~~**DPG**~~
+  * Anything with ~~two inorganic phosphates~~ is ~~very unstable~~ and really want to get ~~rid of a phosphate~~.
+* $\textrm{ADP} returns to the light-dependent reactions to get a new phosphate.
+
+### Reduction
+* Six $\textrm{NADPH}+\textrm{H}^+$ gives six hydrogens to the six DPG's, ~~replacing the phosphate~~ and forming the ~~final product **G3P**~~ (also called ~~**PGAL**~~).
+* $\textrm{NADP}^+$ and $\textrm{P}_i$ return to the light-dependent reactions.
+
+### G3P Uses
+~~Six G3P~~ is the final product of the Calvin cycle being ~~run three times~~, but there are three things that can be done with it. It can be...
+* Burnt and used as ~~fuel~~ (sent to mitochondria)
+* Converted into ~~glucose~~ (two G3P's linked form glucose)
+* Enter the ~~regeneration pathway~~ (reuse)
+  * ~~5/6 of the G3P~~ produced are reused
+  * G3P is converted into ~~RuP~~
+  * Three ATP donate a total of three phosphates, making RuP into ~~RuBP~~
+  * This is called the ~~Regeneration pathway~~
+
+!> UNFINISHED
+
+![](images/unit2/calvin.png)
+
+### Summary (In/Out)
+| In | Out |
+| :-: | :-: |
+| $\textrm{ATP}$<br>$\textrm{NADPH}+\textrm{H}^+$<br>3$\textrm{CO}_2$ | $\textrm{ADP} + \textrm{P}_i$<br>$\textrm{NADP}^+$<br>Two $\textrm{C}_3\textrm{H}_6\textrm{O}_3$ |
