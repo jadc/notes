@@ -9,12 +9,12 @@
 
 ## Reaction
 ### Net Reaction
-$6\textrm{CO}_2 + 6\textrm{H}_2\textrm{O} -\!\!(\textrm{chlorophyll, sunlight, enzymes})\!\!\rightarrow \textrm{C}_6\textrm{H}_{12}\textrm{O}_6 + 6\textrm{O}_2$
+$6\textrm{CO}_2 + 6\textrm{H}_2\textrm{O} -\!\!-(\textrm{chlorophyll, sunlight, enzymes})\!\!\longrightarrow \textrm{C}_6\textrm{H}_{12}\textrm{O}_6 + 6\textrm{O}_2$
 
 ### Actual Reaction
 The net reaction doesn't include the water taken in and created on both sides. The water on the product end is ~~new water~~, not just recycled.
 
-$6\textrm{CO}_2 + 12\textrm{H}_2\textrm{O} -\!\!(\textrm{chlorophyll, sunlight, enzymes})\!\!\rightarrow \textrm{C}_6\textrm{H}_{12}\textrm{O}_6 + 6\textrm{O}_2 + 6\textrm{H}_2\textrm{O}$
+$6\textrm{CO}_2 + 12\textrm{H}_2\textrm{O} -\!\!-(\textrm{chlorophyll, sunlight, enzymes})\!\!\longrightarrow \textrm{C}_6\textrm{H}_{12}\textrm{O}_6 + 6\textrm{O}_2 + 6\textrm{H}_2\textrm{O}$
 
 # Leaf
 ![](images/unit2/leaf.png)
@@ -123,7 +123,7 @@ $\textrm{NAD}^+$ & $\textrm{NADP}^+$ do the same thing, but $\textrm{NADP}^+$ is
 This is the ~~reduced form~~ of the aforementioned molecule.  
 Some people may call it $\textrm{NADH}$, but technically there is an extra hydrogen ion (aka. proton) attached unintentionally, and isn't used.
 
-$\textrm{NADP}^+ + \textrm{H}^+ + 2\textrm{e}^- \rightarrow \textrm{NADPH} + \textrm{H}^+$
+$\textrm{NADP}^+ + \textrm{H}^+ + 2\textrm{e}^- \longrightarrow \textrm{NADPH} + \textrm{H}^+$
 
 ### $\textrm{ATP}$
 This molecule is an ~~energy currency molecule~~, and is called adenosine triphosphate.  
@@ -134,7 +134,7 @@ This is the ~~reduced form~~ of the aforementioned molecule.
 When ATP breaks one of its phosphate bonds, it comes adenosine diphosphate.  
 $\textrm{P}_i$ is called ~~inorganic phosphate~~, and when ~~added to ADP, it forms ATP~~.
 
-$\textrm{ADP} + \textrm{P}_i \rightarrow \textrm{ATP}$
+$\textrm{ADP} + \textrm{P}_i \longrightarrow \textrm{ATP}$
 
 ## Light-Dependent Reactions
 
@@ -191,53 +191,77 @@ Occurs in the ~~abscence of $\textrm{NADP}^+$ and $\textrm{CO}_2$~~, and is trig
 * Also called carbon-fixation, dark reactions, Calvin cycle.
 * Occurs within the ~~stroma~~.
 * Light energy ~~is not needed~~. (energy comes from $\textrm{ATP}$ and $\textrm{NADPH}+\textrm{H}^+$ from light dependent Rx)
+* [**Very helpful YouTube video on the Calvin cycle**](https://www.youtube.com/watch?v=0UzMaoaXKaM)
 
-* The Calvin cycle must be ~~**run 3 times**~~ to produce ~~one `G3P`~~.
-  * Two `G3P` make one glucose, so the calvin cycle runs 6 times to make glucose.
-  * The quantities specified below reflect this requirement, but keep in mind that the quantities below are not all run at once.
-
-### Carboxylation
-* ~~`RuBP`~~ is a ~~$\textrm{CO}_2$ acceptor~~.
+### 1. Carboxylation
+* ~~`RuBP`~~ is a 5 carbon long ~~$\textrm{CO}_2$ acceptor~~.
   * Requires enzyme ~~**Rubisco**~~, the worlds ~~most important enzyme~~, for being the ~~link between the living and nonliving world~~.
-* Three `RuBP` and three $\textrm{CO}_2$ form ~~three molecules of an unstable 6 carbon sugar~~.
-* The three unstable 6 carbon sugars divide into ~~six 3 carbon substances~~ called ~~**`3PG`**~~ (also called ~~**`PGA`**~~)
+* `RuBP` and the carbon from $\textrm{CO}_2$ form a molecule of an ~~unstable 6 carbon sugar~~.
 
-### Phopshorylation
-* Six $\textrm{ATP}$ donates ~~six phosphates~~ to make the six `3PG`'s into a ~~more reactive form~~ called ~~**`DPG`**~~
+> $\textrm{CO}_2 + \textrm{RuBP} \longrightarrow 6\textrm{C}$
+
+* The unstable 6 carbon sugar divide into ~~two 3 carbon substances~~ called ~~**`3PG`**~~ (also called ~~**`PGA`**~~)
+
+> $6\textrm{C} \longrightarrow \textrm{3PG} + \textrm{3PG}$
+
+### 2. Phopshorylation
+* Two $\textrm{ATP}$ donate ~~phosphates~~ to each `3PG` to make them into a ~~more reactive form~~ called ~~**`DPG`**~~
   * Anything with ~~two inorganic phosphates~~ is ~~very unstable~~ and really want to get ~~rid of a phosphate~~.
+
+> $\textrm{G3P} + \textrm{G3P} -\!\!-(2\times\textrm{ATP})\!\!\longrightarrow \textrm{DPG} + \textrm{DPG}$
+
 * The $\textrm{ADP}$s returns to the light-dependent reactions to get a new phosphate.
 
-### Reduction
-* Six $\textrm{NADPH}+\textrm{H}^+$ gives six hydrogens to the six `DPG`'s, ~~replacing the phosphate~~ and forming the ~~final product **`G3P`**~~ (also called ~~**`PGAL`**~~).
+> $+ 2\times\textrm{ADP} + 2\times\textrm{P}_i$
+
+### 3. Reduction
+* $\textrm{NADPH}+\textrm{H}^+$ give a hydrogen to the each `DPG`'s, ~~replacing the phosphate~~ and forming the ~~final product **`G3P`**~~ (also called ~~**`PGAL`**~~).
+
+> $\textrm{DPG} + \textrm{DPG} -\!\!-(2\times\textrm{NADPH} + \textrm{H}^+)\!\!\longrightarrow \textrm{G3P} + \textrm{G3P}$
+
 * $\textrm{NADP}^+$ and $\textrm{P}_i$ return to the light-dependent reactions.
 
-### G3P Uses
-~~Six `G3P`~~ is the final product of the Calvin cycle being ~~run three times~~, but there are three things that can be done with it. It can be...
-* Burnt and used as ~~fuel~~ (sent to mitochondria)
-* Converted into ~~glucose~~ (two `G3P`'s linked form glucose)
-* Enter the ~~regeneration pathway~~ (reuse)
-  * ~~5/6 of the `G3P`~~ produced are reused
-  * G3P is converted into ~~`RuP`~~
-  * Three ATP donate a total of three phosphates, making RuP into ~~`RuBP`~~
-  * This is called the ~~Regeneration pathway~~
+> $+ 2\times\textrm{NADP} + 2\times\textrm{P}_i$
 
-![](images/unit2/calvin.png)
+### G3P Uses
+~~2 `G3P`~~ is the final product of the Calvin cycle being run.  
+There are three things that can be done with it.
+
+#### Fuel
+A `G3P` can be burnt and used as ~~fuel~~ (sent to mitochondria)
+
+> $\textrm{G3P} \longrightarrow \textrm{mitochondria...}$
+
+#### Glucose
+2 `G3P`'s linked together form glucose.  
+Other carbohydrates can also be formed.
+
+> $\textrm{G3P} + \textrm{G3P} \longrightarrow \textrm{C}_6\textrm{H}_{12}\textrm{O}_6$
+
+#### Regeneration Pathway
+There are ~~**six Calvin cycles run at once.**~~  
+~~**5/6** of those cycles~~ reuse the `G3P`
+
+* 12 `G3P` are made after 6 cycles
+* 2 `G3P` are used in glucose or burnt, the other 10 `G3P` are used in the regeneration pathway
+* 10 `G3P` are converted back into 10 ~~`RuP`~~
+
+> $10\times\textrm{G3P} \longrightarrow 10\times\textrm{RuP}$
+
+* There are now 10 `G3P`'s, or 30 carbons available.
+* 30 carbons is exactly enough to form ~~6 five carbon chains~~ through a ~~complicated mixing~~ of the carbons.
+* ATP donate a ~~phosphate to each~~ of the 6 five carbon chains to finally ~~make them `RuBP`~~
+* The ~~six new `RuBP`'s~~ are distributed to the six Calvin cycles.
+* The Calvin cycle may now restart.
+
+![](images/unit2/calvin-cycle.png)
 
 ### Summary (In/Out)
-However many carbon dioxides you put in is how many carbons you have in the products.  
 The total number of ATP used includes both the main cycle and the regeneration cycle.
 
-#### To Get One G3P
-This is the Calvin cycle ran 3 times. (the diagram)
-
-| In | Out |
-| -- | -- |
-| $3\times\textrm{CO}_2$ <br> $9\times\textrm{ATP}$ <br> $6\times\textrm{NADPH}+\textrm{H}^+$ | `G3P` <br> $9\times(\textrm{ADP} + \textrm{P}_i)$ <br> $6\times\textrm{NADP}^+$ |
-
-6 ATP in main cycle, 3 ATP in regeneration cycle.
-
-#### To Get One Glucose (2 G3P)
-This is the Calvin cycle ran 6 times.
+#### To Get One Glucose
+This is the Calvin cycle ran 6 times, which is what the above diagram shows.  
+While you only need 2 `G3P` to form glucose, remember that glucose is only formed after the `RuBP`'s are restocked.
 
 | In | Out |
 | -- | -- |
