@@ -276,6 +276,10 @@ While you only need 2 `G3P` to form glucose, remember that glucose is only forme
 
 # Cellular Respiration
 
+## Mitochondria
+Cellular Respiration occurs in an organelle called the ~~**mitochondria**~~, which is found in ~~both plant and animal cells~~.  
+
+
 ## Storage
 ### Plants
 * Plants build up glucose and store it as ~~**starch**~~.
@@ -297,7 +301,7 @@ While you only need 2 `G3P` to form glucose, remember that glucose is only forme
 ~~**Catabolism**~~ means to break down, so ~~glucose catabolism~~ means the ~~breaking down/release of stored energy~~, i.e. respiration.  
 **Anabolism** means to build up.
 
-Remember these values. They are negative as they represent a ~~decrease in the free energy used~~. A bit of an odd way of putting it, but it be like dat !
+Remember these values. They are negative as they represent a ~~decrease in the **free energy ($\Delta G$)** used~~. A bit of an odd way of putting it, but it be like dat !
 
 | Storage Form | Change To Total Used Energy |
 | :----------: | :-----------: |
@@ -339,9 +343,7 @@ Substrate-level phosphorylation is the ~~direct transfer of a phosphate~~ to ADP
 The $\textrm{NADH}+\textrm{H}^+$ produced will go to the ETS for Chemiosmosis.
 
 ### Equation
-$\textrm{C}_6\textrm{H}_{12}\textrm{O}_6 + 4(\textrm{ADP} + \textrm{P}_i) -\!\!-(2\textrm{ATP} + 2\textrm{NAD}^+)\longrightarrow 2\times\textrm{pyruvate} + 4\textrm{ATP} + 2\textrm{NADH}+\textrm{H}^+$
-
-### Inhibiton and Stimulation
+$\textrm{C}_6\textrm{H}_{12}\textrm{O}_6 + 4(\textrm{ADP} + \textrm{P}_i) -\!\!-(2\textrm{ATP} + 2\textrm{NAD}^+)\!\!\longrightarrow 2\times\textrm{pyruvate} + 4\textrm{ATP} + 2\textrm{NADH}+\textrm{H}^+$
 
 ### Key Enzymes
 Glycolysis is a complex series of reactions, but all you need to know is specific enzymes that are involved.
@@ -371,7 +373,7 @@ All types of cellular respiration ~~start with glycolysis~~.
 
 ### Aerobic Respiration
 * The products of glycolysis are oxidized/used, and the $\textrm{e}^-$ and $\textrm{H}^+$ are sent through ~~electron transport systems~~. (ETS)
-  * The kinetic energy of the electron movement ~~release free energy $\deltaG$~~ which is used to ~~pump protons~~ and power ~~chemiosmosis~~.
+  * The kinetic energy of the electron movement ~~release free energy ($\Delta G$)~~ which is used to ~~pump protons~~ and power ~~chemiosmosis~~.
 * At the end of the ETS, the $\textrm{e}^-$ and $\textrm{H}^+$ combine with an $\textrm{O}_2$ to form $\textrm{H}_2\textrm{O}$
   * ~~Oxygen is the **final electron accepter**~~
 
@@ -391,3 +393,10 @@ All types of cellular respiration ~~start with glycolysis~~.
 Aerobic Respiration goes through the following 4 steps.
 
 ## Glycolysis
+The actual chemistry of glycolysis is complicated and you don't need to know it completely.  
+Just know the inputs, outputs, and important enzymes of glycolysis.
+
+## Linkage Reaction
+Also called ~~**pyruvate oxidation**~~ or ~~oxidative decarboxylation~~.  
+
+It occurs in the mitochondrion
