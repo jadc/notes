@@ -9,12 +9,12 @@
 
 ## Reaction
 ### Net Reaction
-$6\textrm{CO}_2 + 6\textrm{H}_2\textrm{O} -\!\!-(\textrm{chlorophyll, sunlight, enzymes})\!\!\longrightarrow \textrm{C}_6\textrm{H}_{12}\textrm{O}_6 + 6\textrm{O}_2$
+> $6\textrm{CO}_2 + 6\textrm{H}_2\textrm{O} -\!\!-(\textrm{chlorophyll, sunlight, enzymes})\!\!\longrightarrow \textrm{C}_6\textrm{H}_{12}\textrm{O}_6 + 6\textrm{O}_2$
 
 ### Actual Reaction
 The net reaction doesn't include the water taken in and created on both sides. The water on the product end is ~~new water~~, not just recycled.
 
-$6\textrm{CO}_2 + 12\textrm{H}_2\textrm{O} -\!\!-(\textrm{chlorophyll, sunlight, enzymes})\!\!\longrightarrow \textrm{C}_6\textrm{H}_{12}\textrm{O}_6 + 6\textrm{O}_2 + 6\textrm{H}_2\textrm{O}$
+> $6\textrm{CO}_2 + 12\textrm{H}_2\textrm{O} -\!\!-(\textrm{chlorophyll, sunlight, enzymes})\!\!\longrightarrow \textrm{C}_6\textrm{H}_{12}\textrm{O}_6 + 6\textrm{O}_2 + 6\textrm{H}_2\textrm{O}$
 
 # Leaf
 ![](images/unit2/leaf.png)
@@ -110,26 +110,31 @@ Similar to NDVI, but instead ~~deeply pink/red regions are healthy~~ while ~~dul
 | **Oxidation Rx** | A reaction where a molecule or atom ~~loses electrons/hydrogens.~~ |
 | **Redox Rx** | A reaction involving ~~red~~uction and ~~ox~~idation. It is the ~~transfer of electrons~~ from ~~one chemical species (atom/molecule/ion) to another~~. |
 | **Endergonic Rx** | A reaction that ~~absorbs energy~~. |
-| **Exogonic Rx** | A reaction that ~~releases energy~~. |
+| **Exergonic Rx** | A reaction that ~~releases energy~~. |
 
 ## Key Molecules
-### $\textrm{NAD}^+$ & $\textrm{NADP}^+$
+### Intermediate Molecules
+#### $\textrm{NAD}^+$ & $\textrm{NADP}^+$
 This molecule is an ~~electron carrier molecule~~.  
 It can carry ~~one proton and two electrons~~.
 
 $\textrm{NAD}^+$ & $\textrm{NADP}^+$ do the same thing, but $\textrm{NADP}^+$ is ~~only found in photosynthesis~~.
 
-### $\textrm{NADH+H}^+$ & $\textrm{NADPH+H}^+$
+#### $\textrm{NADH+H}^+$ & $\textrm{NADPH+H}^+$
 This is the ~~reduced form~~ of the aforementioned molecule.  
 Some people may call it $\textrm{NADH}$, but technically there is an extra hydrogen ion (aka. proton) attached unintentionally, and isn't used.
 
 $\textrm{NADP}^+ + \textrm{H}^+ + 2\textrm{e}^- \longrightarrow \textrm{NADPH} + \textrm{H}^+$
 
-### $\textrm{ATP}$
+#### $\textrm{FAD}^+$ & $\textrm{FADH}_2$
+This is similar to $\textrm{NAD}$ and $\textrm{NADH}+\textrm{H}^+$ respectively, but is used ~~exclusively in cellular respiration~~, covered later.
+
+### Energy Molecules
+#### $\textrm{ATP}$
 This molecule is an ~~energy currency molecule~~, and is called adenosine triphosphate.  
 ATP releases energy by ~~breaking~~ one of its ~~phosphate bonds~~.
 
-### $\textrm{ADP} + \textrm{P}_i$
+#### $\textrm{ADP} + \textrm{P}_i$
 This is the ~~reduced form~~ of the aforementioned molecule.  
 When ATP breaks one of its phosphate bonds, it comes adenosine diphosphate.  
 $\textrm{P}_i$ is called ~~inorganic phosphate~~, and when ~~added to ADP, it forms ATP~~.
@@ -268,3 +273,59 @@ While you only need 2 `G3P` to form glucose, remember that glucose is only forme
 | $6\times\textrm{CO}_2$ <br> $18\times\textrm{ATP}$ <br> $12\times\textrm{NADPH}+\textrm{H}^+$ | Two `G3P` <br> $18\times(\textrm{ADP} + \textrm{P}_i)$ <br> $12\times\textrm{NADP}^+$ |
 
 12 ATP in main cycle, 6 ATP in regeneration cycle.
+
+# Cellular Respiration
+
+## Storage
+### Plants
+* Plants build up glucose and store it as ~~**starch**~~.
+* Excess starch can be converted into ~~lipids called **oils**~~ for ~~even more permanent storage~~
+  * Oils are in ~~liquid form~~.
+
+### Animals
+* Animals store excess glucose as ~~animal starch called **glycogen**~~.
+  * This is stored in ~~lean muscle mass~~ and the ~~liver~~.
+* Excess glycogen is converted into ~~lipids called **fats**~~ for ~~even more permanent storage~~.
+  * Fats are in ~~solid form~~.
+
+### Using Stored Energy
+* Glucose, starch, glycogen, oils, and fats are all ~~organic molecules~~ that contain ~~stored potential chemical energy~~.
+* However, they are ~~too large for direct use from cells~~.
+* Plants and animals must use cellular respiration to convert the stored energy into usable form ~~ATP~~.
+
+#### Output
+~~**Catabolism**~~ means to break down, so ~~glucose catabolism~~ means the ~~breaking down/release of stored energy~~, i.e. respiration.  
+**Anabolism** means to build up.
+
+Remember these values. They are negative as they represent a ~~decrease in the free energy used~~. A bit of an odd way of putting it, but it be like dat !
+
+| Storage Form | Change To Total Used Energy |
+| :----------: | :-----------: |
+| ATP | $-7.30 \frac{kcal}{mol}$ |
+| Glucose | $-686 \frac{kcal}{mol}$ |
+
+## Formula
+The ~~mitochondria~~ is an organelle which perform the following reaction
+
+> $\textrm{glucose} + \textrm{oxygen} \longrightarrow \textrm{carbon dioxide} + \textrm{water} + \textrm{energy}$
+
+> $\textrm{C}_6\textrm{H}_{12}\textrm{O}_6 + 6\textrm{O}_2 \longrightarrow 6\textrm{CO}_2 + 6\textrm{H}_2\textrm{O} + \textrm{ATP} + \textrm{Heat}$
+
+This reaction is an ~~oxidation reaction~~, as a hydrogen is removed from the ~~carbon based molecule~~.  
+It is also ~~exergonic~~.
+
+## ATP Uses
+* **Active Transport**  
+  Moving things in/out cells ~~against the concentration gradient~~.
+* **Motion**  
+  Muscle ~~contraction~~, ~~endocytosis~~, ~~exocytosis~~, etc...   
+* **Building Molecules**  
+  Linking amino acids to ~~form proteins~~, ~~making DNA~~, etc...
+* **Toggling Reactions**  
+  By modifying ~~enzyme shapes~~.
+* **Bioluminescence**  
+  $\textrm{luciferin} + \textrm{O}_2 + \textrm{ATP} \longrightarrow \textrm{light}$
+
+# Respiration
+## Glycolysis
+!> UNDER CONSTRUCTION !
