@@ -328,4 +328,66 @@ It is also ~~exergonic~~.
 
 # Respiration
 ## Glycolysis
-!> UNDER CONSTRUCTION !
+~~**Glycolysis**~~ takes a glucose, 2 ATP, 2 NAD, and 4 ADP + Pi.  
+This outputs two 3 carbon compounds called pyruvate, 4 ATP (net 2, 2 were used), and 2 NADH+H+.
+
+It occurs outside the mitchondria, in the ~~cytoplasm~~.
+
+The small amount of ATP produced is done via ~~**substrate-level phosphorylation**~~  
+Substrate-level phosphorylation is the ~~direct transfer of a phosphate~~ to ADP to form ATP, rather than chemiosmosis.
+
+The $\textrm{NADH}+\textrm{H}^+$ produced will go to the ETS for Chemiosmosis.
+
+### Equation
+$\textrm{C}_6\textrm{H}_{12}\textrm{O}_6 + 4(\textrm{ADP} + \textrm{P}_i) -\!\!-(2\textrm{ATP} + 2\textrm{NAD}^+)\longrightarrow 2\times\textrm{pyruvate} + 4\textrm{ATP} + 2\textrm{NADH}+\textrm{H}^+$
+
+### Inhibiton and Stimulation
+
+### Key Enzymes
+Glycolysis is a complex series of reactions, but all you need to know is specific enzymes that are involved.
+
+#### Kinases
+Kinases are enzymes assosiated with ~~phosphorylations~~, or making/using $\textrm{ATP}$.
+
+#### Dehydrogenases
+Dehydrogenases are assosiated with the ~~oxidation of hydrogen from a substance~~ and given to ~~$\textrm{NADH}+\textrm{H}^+$~~, hence the name "dehydrogen."
+
+#### <span id="ib">ib</span> Phosphofructokinases
+Phosphofructokinase is an allosteric enzyme, which means its ~~shape is different when toggled on or off~~.
+
+Phosphofructokinase, and therfore glycolysis is stimulated/activated/turned ~~on~~ when...
+* High amounts of $\textrm{ADP}$, meaning ~~all $\textrm{ATP}$ were used~~.
+* When in hard working muscles, theres a ~~higher $\textrm{ATP}$ demand~~, so it works 100x more.
+
+Phosphofructokinase, and therefore glycolysis is inhibited/deactivated/turned ~~off~~ when...
+* High amounts of $\textrm{ATP}$, ~~no need~~ to make more.
+* Presence of citric acid, it ~~makes $\textrm{ATP}$ itself~~.
+
+## Respiration Types Overview
+All types of cellular respiration ~~start with glycolysis~~.
+* ~~**Aerobic Respiration**~~
+* ~~**Anaerobic Respiration**~~ (Alberta curriculum groups this with fermentation)
+* ~~**Fermentation**~~
+
+### Aerobic Respiration
+* The products of glycolysis are oxidized/used, and the $\textrm{e}^-$ and $\textrm{H}^+$ are sent through ~~electron transport systems~~. (ETS)
+  * The kinetic energy of the electron movement ~~release free energy $\deltaG$~~ which is used to ~~pump protons~~ and power ~~chemiosmosis~~.
+* At the end of the ETS, the $\textrm{e}^-$ and $\textrm{H}^+$ combine with an $\textrm{O}_2$ to form $\textrm{H}_2\textrm{O}$
+  * ~~Oxygen is the **final electron accepter**~~
+
+### Anaerobic Respiration
+* Exactly the same as aerobic respiration, except...
+* Instead of $\textrm{O}_2$ being the final electron acceptor, ~~inorganic ions are~~
+  * Such as sulfate, nitrate, or $\textrm{CO}_2$
+  * These form hydrogen sulfide, nitrite, nitrous oxides, and methane
+
+### Fermentation
+* The products of glycolysis are converted into ~~energy-rich organic wastes~~.
+* ~~Inefficient substrate-level phosphorylation~~ is used to make ATP, rather than ETS or chemiosmosis.
+* Small organisms that live on less energy do this, such as bacteria, yeast.
+* In humans, when theres a ~~lack of oyxgen~~, ~~fermentation occurs~~, building up ~~**lactic acid**~~ and ~~cramping~~ your muscles.
+
+# Aerobic Respiration
+Aerobic Respiration goes through the following 4 steps.
+
+## Glycolysis
