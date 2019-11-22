@@ -127,7 +127,8 @@ Some people may call it $\textrm{NADH}$, but technically there is an extra hydro
 $\textrm{NADP}^+ + \textrm{H}^+ + 2\textrm{e}^- \longrightarrow \textrm{NADPH} + \textrm{H}^+$
 
 #### $\textrm{FAD}^+$ & $\textrm{FADH}_2$
-This is similar to $\textrm{NAD}$ and $\textrm{NADH}+\textrm{H}^+$ respectively, but is used ~~exclusively in cellular respiration~~, covered later.
+This molecule is also an electron carrier molecule.
+Unlike $\textrm{NAD}^+$, $\textrm{FAD^+}$ can carry ~~two protons and two electrons~~.
 
 ### Energy Molecules
 #### $\textrm{ATP}$
@@ -337,8 +338,8 @@ This outputs two 3 carbon compounds called pyruvate, 4 ATP (net 2, 2 were used),
 
 It occurs outside the mitchondria, in the ~~cytoplasm~~.
 
-The small amount of ATP produced is done via ~~**substrate-level phosphorylation**~~  
-Substrate-level phosphorylation is the ~~direct transfer of a phosphate~~ to ADP to form ATP, rather than chemiosmosis.
+The small amount of ATP produced is done via ~~**substrate-level phosphorylation**~~ (~~**SLP**~~)  
+Substrate-level phosphorylation is the ~~direct transfer of a phosphate~~ to ADP to form ATP, rather than through chemiosmosis.
 
 The $\textrm{NADH}+\textrm{H}^+$ produced will go to the ETS for Chemiosmosis.
 
@@ -399,4 +400,38 @@ Just know the inputs, outputs, and important enzymes of glycolysis.
 ## Linkage Reaction
 Also called ~~**pyruvate oxidation**~~ or ~~oxidative decarboxylation~~.  
 
-It occurs in the mitochondrion
+It occurs in the across the ~~outer membrane~~, linking the products from glycolysis from the cytoplasm right into the matrix.
+
+* Pyruvate can enter the mitchondria
+* The 3 carbon pyruvate is converted into the ~~2 carbon **acetyl-CoA**~~
+  * A carbon in the pyruvate, which was also binded with two oxygen, is ~~decarboxylated~~.
+    * This means ~~$\textrm{CO}_2$ is removed~~ from pyruvate.
+    * ~~**Coenzyme A** (**CoA**)~~ ~~takes the place~~ of the ~~removed carbon dioxide~~ to form acetyl-CoA.
+    * The removal of the carbon dioxide is why acetyl-CoA is 2 carbons long, rather than 3 like pyruvate.
+* In addition, an ~~$\textrm{NAD}^+$~~ comes along and gets ~~reduced~~ into ~~$\textrm{NADH}+\textrm{H}^+$~~.
+* This is done by the enzyme ~~pyruvate dehydrogenase~~.
+* This process is done ~~twice~~ -- for each pyruvate.
+
+### Summary (In/Out)
+This is ~~run twice~~ for both pyruvates.
+
+| In | Out |
+| :-: | :-: |
+| $\textrm{pyruvate (3C)}$ <br> $\textrm{NAD}^+$ | $\textrm{acetyl-CoA (2C)}$ <br> $\textrm{CO}_2$ <br> $\textrm{NADH}+\textrm{H}^+$ |
+
+## Krebs Cycle
+Also called ~~**The Citric Acid Cycle**~~ (~~**TCA**~~)
+
+It occurs within the ~~matrix of the mitochondria~~.
+
+* The $\textrm{NADH}+\textrm{H}^+$ from glycolysis ~~cannot enter the mitochondria~~ directly.
+  * However, the $2\textrm{e}^-$ and $2\textrm{H}^+$ can ~~enter as $\textrm{FADH}_2$~~.
+* ~~Acetyl-CoA is oxidized~~ and therefore reduces $\textrm{NAD}^+$ and $\textrm{FAD}^+$ into ~~$\textrm{NADH}+\textrm{H}^+$ and $\textrm{FADH}_2$~~
+  * These two electron carrier molecules send their $\textrm{e}^-$ and $\textrm{H}^+$ to the ETS for the next step.
+
+### Summary (In/Out)
+| In | Out |
+| :-: | :-: |
+| $\textrm{acetyl-CoA}$ <br> $3\times\textrm{NAD}^+$ <br> $\textrm{FAD}^+$ <br> $\textrm{GDP/ADP}$ (via SLP) | $2\times\textrm{CO}_2$ (exhaled) <br> $3\times\textrm{NADH}+\textrm{H}^+$ <br> $\textrm{FADH}_2$ <br> $\textrm{GTP/ATP}$ |
+
+($\textrm{GDP/GTP}$ is nearly identical to $\textrm{ADP/ATP}$, whichever is made depends on the organism)
