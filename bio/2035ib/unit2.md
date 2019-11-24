@@ -112,35 +112,34 @@ Similar to NDVI, but instead ~~deeply pink/red regions are healthy~~ while ~~dul
 | **Endergonic Rx** | A reaction that ~~absorbs energy~~. |
 | **Exergonic Rx** | A reaction that ~~releases energy~~. |
 
-## Key Molecules
-### Intermediate Molecules
-#### $\textrm{NAD}^+$ & $\textrm{NADP}^+$
-This molecule is an ~~electron carrier molecule~~.  
-It can carry ~~one proton and two electrons~~.
+## Intermediate Molecules
+Also known as ~~electron carrier molecules~~.  
+~~The textbook and internet may define these molecules differently, but THIS is the correct definition.~~
 
-$\textrm{NAD}^+$ & $\textrm{NADP}^+$ do the same thing, but $\textrm{NADP}^+$ is ~~only found in photosynthesis~~.
+They can carry ~~**two hydrogens** (as two protons and two electrons)~~.
 
-#### $\textrm{NADH+H}^+$ & $\textrm{NADPH+H}^+$
-This is the ~~reduced form~~ of the aforementioned molecule.  
-Some people may call it $\textrm{NADH}$, but technically there is an extra hydrogen ion (aka. proton) attached unintentionally, and isn't used.
+There are three, they all ~~behave the same~~.  
+In their oxidized form, i.e. without two hydrogens, they are...
+* **NAD<sup>+</sup>**
+* **NADP<sup>+</sup>** (exclusive to photosynthesis)
+* **FAD<sup>+</sup>** (exclusive to respiration)
 
-$\textrm{NADP}^+ + \textrm{H}^+ + 2\textrm{e}^- \longrightarrow \textrm{NADPH} + \textrm{H}^+$
+In their reduced form, i.e. with two hydrogens, they are...
+* **NADH+H<sup>+</sup>**
+* **NADPH+H<sup>+</sup>**
+* **FADH<sub>2</sub>**
 
-#### $\textrm{FAD}^+$ & $\textrm{FADH}_2$
-This molecule is also an electron carrier molecule.
-Unlike $\textrm{NAD}^+$, $\textrm{FAD^+}$ can carry ~~two protons and two electrons~~.
+This is the extent that you need to know.  
+> However, you might have noticed that FADH<sub>2</sub> makes sense, it has two hydrogens, while the others have a hydrogen and a proton. Refer to this diagram to see why.  
+  ![](images/unit2/nad.jpg)
 
-### Energy Molecules
-#### $\textrm{ATP}$
-This molecule is an ~~energy currency molecule~~, and is called adenosine triphosphate.  
-ATP releases energy by ~~breaking~~ one of its ~~phosphate bonds~~.
+## Energy Molecules
+Also known as ~~energy currency molecules~~.
 
-#### $\textrm{ADP} + \textrm{P}_i$
-This is the ~~reduced form~~ of the aforementioned molecule.  
-When ATP breaks one of its phosphate bonds, it comes adenosine diphosphate.  
-$\textrm{P}_i$ is called ~~inorganic phosphate~~, and when ~~added to ADP, it forms ATP~~.
+This molecule bonded to ~~three inorganic phosphates~~, and when it ~~breaks~~ one of the bonds, it ~~releases energy~~.
 
-$\textrm{ADP} + \textrm{P}_i \longrightarrow \textrm{ATP}$
+In its oxidized form, it is **ADP**. (andenosine ~~di~~phosphate)  
+In its reduced form it is **ATP**. (andenosine ~~tri~~phosphate)
 
 ## Light-Dependent Reactions
 
@@ -157,7 +156,7 @@ Occurs within the ~~thylakoid membrane~~.
 * The electrons are once again excited, and gains energy.
   * This causes it to once again raise up to a another higher level electron acceptor.
 * The electrons are once again passed down another electron transport system, releasing the excitement energy.
-  * This energy is now used to ~~combine $\textrm{NADP}^+$, a proton, and the two electrons~~ to form $\textrm{NADPH}+\textrm{H}^+$
+  * This energy is now used to ~~combine $\textrm{NADP}^+$, two protons, and the two electrons~~ to form $\textrm{NADPH}+\textrm{H}^+$
 
 ![](images/unit2/noncyclic.png)
 
@@ -167,7 +166,7 @@ Occurs within the ~~thylakoid membrane~~.
   * ~~Two electrons from each hydrogen~~ is given to photosystem II, and the ~~cycle may begin again~~.
   * The oxygen from water combines with another oxygen later to form ~~$\textrm{O}_2$ gas~~, and escapes as waste.
     * Photolysis gets one oxygen, so photolysis must run twice before an oxygen gas can be formed.
-  * The hydrogens, now photons, enter the ~~thylakoid lumen~~.
+  * The hydrogens, now protons, enter the ~~thylakoid lumen~~.
 
 ![](images/unit2/photolysis.jpg)
 
@@ -280,6 +279,7 @@ While you only need 2 `G3P` to form glucose, remember that glucose is only forme
 ## Mitochondria
 Cellular Respiration occurs in an organelle called the ~~**mitochondria**~~, which is found in ~~both plant and animal cells~~.  
 
+![](images/unit2/mito.png)
 
 ## Storage
 ### Plants
@@ -424,6 +424,10 @@ Also called ~~**The Citric Acid Cycle**~~ (~~**TCA**~~)
 
 It occurs within the ~~matrix of the mitochondria~~.
 
+It is run ~~twice for each acetyl-CoA~~.
+
+The purpose of the Krebs cycle is to extract the energy from acetyl-CoA and give it to electron carrier molecules to give to the electron transport chain.
+
 * The $\textrm{NADH}+\textrm{H}^+$ from glycolysis ~~cannot enter the mitochondria~~ directly.
   * However, the $2\textrm{e}^-$ and $2\textrm{H}^+$ can ~~enter as $\textrm{FADH}_2$~~.
 * ~~Acetyl-CoA is oxidized~~ and therefore reduces $\textrm{NAD}^+$ and $\textrm{FAD}^+$ into ~~$\textrm{NADH}+\textrm{H}^+$ and $\textrm{FADH}_2$~~
@@ -435,3 +439,81 @@ It occurs within the ~~matrix of the mitochondria~~.
 | $\textrm{acetyl-CoA}$ <br> $3\times\textrm{NAD}^+$ <br> $\textrm{FAD}^+$ <br> $\textrm{GDP/ADP}$ (via SLP) | $2\times\textrm{CO}_2$ (exhaled) <br> $3\times\textrm{NADH}+\textrm{H}^+$ <br> $\textrm{FADH}_2$ <br> $\textrm{GTP/ATP}$ |
 
 ($\textrm{GDP/GTP}$ is nearly identical to $\textrm{ADP/ATP}$, whichever is made depends on the organism)
+
+## Electron Transport System (ETS)
+Multiple ETS's are located within the ~~cristae~~ of the mitochondria (membrane of matrix).
+
+All of the $\textrm{NADH}+\textrm{H}^+$ and $\textrm{FADH}_2$ made in the previous steps donates their protons and electrons here.  
+
+* The electrons pass through a series of ~~redox reactions~~, which releases free energy.
+* After the ETS, the two electrons, two protons, and an oxygen (in aerobic) come along to form the ~~waste, $\textrm{H}_2\textrm{O}$~~.
+  * This makes oxygen the ~~final electron acceptor~~ (in aerobic respiration)
+
+### Pumping
+Each intermediate molecule donates electrons and protons to ETS, and they cause the following protons to be pumped.
+
+| Intermediate Molecule | Pumped |
+| :-------------------: | :----: |
+| $\textrm{NADH}+\textrm{H}^+$ | $6\times\textrm{H}^+$ |
+| $\textrm{FADH}_2$ | $4\times\textrm{H}^+$ |
+
+## Chemiosmosis
+* The free energy from the ETS is used to ~~pump protons (FROM the intermediate molecules)~~ from the matrix ~~into the outer compartment~~.
+* The proton concentration in the ~~outer compartment is higher~~ than the matrix
+  * Protons in the outer compartment reenter the matrix through the $\textrm{F}_0\textrm{F}_1$ complex
+    * This complex is just like the $\textrm{CF}_0\textrm{CF}_1$ complex in chloroplasts, except that the $\textrm{F}_1$ (bulbous head) points into the matrix.
+  * The kinetic energy of the protons moving is used to ~~create ATP~~.
+    * ~~**Every 2 $\textrm{H}^+$'s** that pass through the complex **produces 1 $\textrm{ATP}$**~~
+  * The protons, now back in the matrix, bind with two electrons and an oxygen to form ~~waste $\textrm{H}_2\textrm{O}$~~.
+
+By this logic, since $\textrm{NADH}+\textrm{H}^+$ pumps 6 protons, it ~~creates 3 ATP~~.  
+$\textrm{FADH}_2$ pumps 4 protons, so it ~~creates 2 ATP~~.
+
+## Other Uses of H<sup>+</sup> Gradient
+!> TODO
+
+## Totals
+1 glucose creates...
+* 2 net ATP via SLP in Glycolysis
+* 2 net ATP via SLP in TCA Cycle
+* 32 ATP from Chemiosmosis
+* ~~**= 36 net total ATP**~~ (actually 38 ATP, but glycolysis uses 2 ATP)
+
+# Anaerobic Cellular Respiration
+~~All organisms must **recycle $\textrm{NAD}^+$ back to glycolysis**~~, or else they'll die.
+
+Some organisms are...
+* ~~**facultative anaerobes**~~: prefers oxygen, but can respire without it
+* ~~**facultative aerobes**~~: prefers no oxygen, but can respire with it
+
+Without oxygen, the ETS cannot run.  
+This means the $\textrm{NADH}+\textrm{H}^+$ has no where to give its products and be oxidized.  
+Glycolysis requires that it be oxidized, so glycolysis ceases and the organism dies.
+
+However! If $\textrm{NADH}+\textrm{H}^+$ is oxidized some other way, it can be recycled to glycolysis and life can continue.  
+The other ways are ~~alcoholic fermentation~~, and ~~lactic acid fermentation~~.
+
+## Alcoholic Fermentation
+This fermentation is done to produce the world's different alcohols.
+
+* The products of glycolysis are pyruvate and $\textrm{NADH}+\textrm{H}^+$.
+* $\textrm{NADH}+\textrm{H}^+$ is reduced and its energy is used to decarboxylate pyruvate.
+* This releases a $\textrm{CO}_2$ and pyruvate becomes the ~~2 carbon compound ethyl alcohol~~. (IUPAC: ethanol)
+
+### Summary (In/Out)
+| In | Out |
+| :-: | :-: |
+| $\textrm{pyruvate}$ <br> $\textrm{NADH}+\textrm{H}^+$ | $\textrm{ethanol}$ <br> $\textrm{CO}_2$ <br> $\textrm{NAD}^+$ |
+
+## Lactic Acid Fermentation
+This fermentation is done by animals.
+
+* $\textrm{NADH}+\textrm{H}^+$ is reduced and its energy is used to convert pyruvate into ~~lactic acid~~.
+
+### Summary (In/Out)
+| In | Out |
+| :-: | :-: |
+| $\textrm{pyruvate}$ <br> $\textrm{NADH}+\textrm{H}^+$ | $\textrm{lactic acid}$ <br> $\textrm{NAD}^+$ |
+
+!> TODO
+
