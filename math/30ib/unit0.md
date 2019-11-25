@@ -1,8 +1,6 @@
 # Function Operations & Transformations
 
-!> These notes are unfinished and are subject to change.
-
-[Temp Link](https://drive.google.com/file/d/11MoCx_oiZZHKnFVTgb7ruvKOOWV25TwF/view)
+[Notes Package](https://drive.google.com/file/d/11MoCx_oiZZHKnFVTgb7ruvKOOWV25TwF/view)
 
 ---
 
@@ -229,25 +227,115 @@ $g(x) = 3x$
 The range of a combined function is determined using the ~~graph~~.  
 Finding the range algebraically is not at the Math 30 level.
 
+
+
 # Horizontal and Vertical Translations
 A translation is a transformation that ~~adds/subtracts $x$ and $y$ coordinates~~, if it is a ~~horizontal or vertical translation~~ respectively.
 
 ## Description
-.
+> $y = f(x \pm a)$: Horizontal translation $a$ units `left (+)` or `right (-)`.  
+  $y \pm a = f(x)$ or $y = f(x) \pm a$: Vertical translation a units `up` or `down`.
 
-## Mapping Notation
-.
+# Stretches
+A stretch is a transformation that ~~multiplies/divides $x$ and $y$ coordinates~~, if it is a ~~horizontal or vertical stretch~~ respectively.
 
-## Replacement Notation
-.
+## Description
+> $y = f(ax)$: Horizontal stretch by a factor of $a$  
+  $y = af(x)$: Vertical stretch by a factor of $a$
 
-# Reflections and Stretches
-.
+## Tip
+Remember to factor anything inside the $f(x)$ to make sure you have the actual transformations.
+
+#### Example
+> $y = 3\sqrt{2x - 6} + 5$  
+  = $y = 3\sqrt{2(x - 3)} + 5$
+
+# Reflections
+A reflection is a transformation that ~~flips the signs of $x$ and $y$ coordinates~~, if it is a ~~horizontal or vertical reflection~~ respectively.  
+
+## Description
+> $y = -f(x)$: Reflection about the x axis
+  $y = f(-x)$: Reflection about the y axis
+
+## Invariant Point
+A point on a graph that remains ~~unchanged after a transformation~~.
+
+In the context of reflections, the invariant points are whichever points are ~~intersecting the axis the reflection is about~~.
+* The invariant points of a reflection about the x axis are the x intercepts of the original.
+* The invariant points of a reflection about the y axis are the y intercepts of the original.
+
+# Mapping Notation
+Mapping notation describes ~~transformations to ordered pairs~~. It uses ~~normal signs~~, so it is ~~what actually happens~~, with no tricks.
+
+#### Example
+> What is the coordinates of $(5, 8)$ if the following transformation is applied? $(x, y) \longrightarrow (x - 5, y + 4)$  
+  **Answer:** $(5 - 5, 8 + 4) = (0, 12)$
+
+# Replacement Notation
+Replacement notation describes ~~transformations to equations~~. ~~**It uses opposite signs and reciprocals**~~.
+
+The following is the general formula for an equation.
+
+<h1>
+$ay + b = f(cx + d)$
+</h1>
+* $a$: Vertical Stretch
+* $b$: Vertical Translation
+* $c$: Horizontal Stretch
+* $d$: Horizontal Translation
+
+The opposite rule does not apply to a ~~vertical translation/stretch on the x side~~ of the equation, as moving it to the x side already makes it opposite/reciprocal.
+
+<h1>
+$y = \frac{1}{a} f(cx + d) - b$
+</h1>
+
+Description of transformations are ~~always what actually happens~~, while the equation of a transformation is the ~~opposite signs and reciprocal coefficients~~.
+
+#### Example
+> Describe the transformations applied to $y = f(x)$ in the equation $y = f(x - 3)$  
+  **Answer:** Horizontal translation 3 units ~~right~~.
+
+> Describe the transformations applied to $y = f(x)$ in the equation $3y = f(x)$  
+  **Answer:** Vertical stretch by a factor of 1/3.
+
+> Describe the transformations applied to $y = f(x)$ in the equation $y = \frac{1}{3} f(x)$  
+  **Answer:** Vertical stretch by a factor of 1/3.
+
+> Describe the transformations applied to $y = f(x)$ in the equation $y = f(x) + 3$  
+  **Answer:** Vertical translation 3 units up.
 
 
 # Combining Transformations
-.
-
+When there are multiple transformations, the order to apply them should be ~~**SMART**~~.
+* **S** tretches
+* M
+* A
+* **R** eflections
+* **T** ranslations
 
 # Inverse of a Relation
-.
+The inverse of an equation is when ~~$x$ and $y$ are swapped~~.  
+Graphically, this is a ~~reflection about the line $y = x$~~.
+
+## Notation
+If the inverse of function $f(x)$ is also a function, the notation is $x = f^{-1}(y)$  
+If the inverse of function $f(x)$ is not a function, the notation is $x = f(y)$
+
+### Line Test
+To determine if a graph is a function, you can do the vertical line test. This still applies to inverse functions.  
+However, if you want to save a step, you can do a ~~horizontal line test~~ on the ~~original graph~~ to get the same result as a vertical line test on the inverse graph.
+
+## Domain & Range
+The domain and range of the original function is the range and domain of the inverse function respectively.  
+In other words, ~~domain and range swap~~.
+
+## Domain Restrictions To Ensure The Inverse Is A Function
+![](images/unit2/inverse.png)
+
+As you can see here, the inverse of $y = x^2$ is no longer a function.  
+If we restrict the domain of this equation so that only one "arm" of the parabola is kept, then when we inverse it, it will pass the vertical line test.
+
+You can do this by getting the $x$ of the original parabola's vertex, and making a restriction greater than or equal to/less than or equal to that value.
+
+For this example, the restriction could be $x \leq -3$, which cuts off the right arm of the parabola, even after the inverse.
