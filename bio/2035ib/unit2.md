@@ -473,11 +473,13 @@ $\textrm{FADH}_2$ pumps 4 protons, so it ~~creates 2 ATP~~.
 !> TODO
 
 ## Totals
-1 glucose creates...
-* 2 net ATP via SLP in Glycolysis
-* 2 net ATP via SLP in TCA Cycle
-* 32 ATP from Chemiosmosis
-* ~~**= 36 net total ATP**~~ (actually 38 ATP, but glycolysis uses 2 ATP)
+![](images/unit2/q-glycolysis.png)
+
+![](images/unit2/q-linkage.png)
+
+![](images/unit2/q-krebs.png)
+
+![](images/unit2/q-atp.png)
 
 # Anaerobic Cellular Respiration
 ~~All organisms must **recycle $\textrm{NAD}^+$ back to glycolysis**~~, or else they'll die.
