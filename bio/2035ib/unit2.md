@@ -1,7 +1,5 @@
 # Photosynthesis & Respiration
 
-!> These notes are unfinished and are subject to change.
-
 ---
 
 # Photosynthesis
@@ -469,8 +467,15 @@ Each intermediate molecule donates electrons and protons to ETS, and they cause 
 By this logic, since $\textrm{NADH}+\textrm{H}^+$ pumps 6 protons, it ~~creates 3 ATP~~.  
 $\textrm{FADH}_2$ pumps 4 protons, so it ~~creates 2 ATP~~.
 
-## Other Uses of H<sup>+</sup> Gradient
-!> TODO
+In the end, the entire process of respiration is ~~**38.3% efficient**~~.
+
+## Other Uses of H<sup>+</sup> Gradient ($\Delta G$)
+* Move P<sub>i</sub> into the mitochondria
+* Move Ca<sup>2+</sup> into the mitochondria, to be used to cell activities
+* Move ADP into the mitochondria and ATP out
+* ~~Hairless animals have **brown fat** to generate body heat.~~
+  * Uses the F<sub>0</sub> complex--~~no bulb~~.
+  * Without the bulb, ATP isn't produced, but only heat is.
 
 ## Totals
 ![](images/unit2/q-glycolysis.png)
@@ -501,6 +506,7 @@ This fermentation is done to produce the world's different alcohols.
 * The products of glycolysis are pyruvate and $\textrm{NADH}+\textrm{H}^+$.
 * $\textrm{NADH}+\textrm{H}^+$ is reduced and its energy is used to decarboxylate pyruvate.
 * This releases a $\textrm{CO}_2$ and pyruvate becomes the ~~2 carbon compound ethyl alcohol~~. (IUPAC: ethanol)
+* This process is ~~irreversable~~.
 
 ### Summary (In/Out)
 | In | Out |
@@ -511,11 +517,81 @@ This fermentation is done to produce the world's different alcohols.
 This fermentation is done by animals.
 
 * $\textrm{NADH}+\textrm{H}^+$ is reduced and its energy is used to convert pyruvate into ~~lactic acid~~.
+* This process is ~~reversable~~.
 
 ### Summary (In/Out)
 | In | Out |
 | :-: | :-: |
 | $\textrm{pyruvate}$ <br> $\textrm{NADH}+\textrm{H}^+$ | $\textrm{lactic acid}$ <br> $\textrm{NAD}^+$ |
 
-!> TODO
+### Muscles
+When our muscles ~~cannot get O<sub>2</sub> fast enough~~, we resort to the following backup systems in order.
 
+1. ~~Creatine phosphate~~, aka. phosphocreatine, is a limited storage of ~~high energy P<sub>i</sub>~~, located in ~~lean muscle and liver~~.  
+   $\textrm{Creatine phosphate} + \textrm{ADP} \longrightarrow \textrm{Creatine} + \textrm{ATP}$
+
+2. ~~Lactic Acid Fermentation~~  
+   * Lactate ~~accumulates in muscle~~, as muscle cannot use it directly.
+   * This can cause ~~muscle stiffness, soreness, and cramping~~.
+
+The ~~**oxygen debt**~~ is the ~~amount of extra oxygen needed to restore the respiration system~~.  
+When the oxygen debt is fulfilled, the following occurs...
+* Lactate is carried out of the muscle ~~by the bloodstream~~, to the ~~liver and kidneys~~.
+* ~~**Gluconeogenesis**~~ occurs, converting the ~~lactate into pyruvate~~.
+* ~~**Reverse glycolysis**~~ occurs, converting the ~~pyruvate into glucose~~.
+  * These processes cost energy.
+
+# Exercise Physiology
+
+## Maximum Oxygen Consumption
+A measure of the body's ~~capacity to generate~~ the ~~energy~~ required for ~~physical activity~~.
+
+~~**$\textrm{VO}_2$ Max**~~ is the ~~max volume of O<sub>2</sub>~~ in mL that the body's cells can ~~remove from the bloodstream~~ in ~~one minute per kg of body mass~~, while the body experiences ~~maximum exertion~~.  
+Therefore, VO<sub>2</sub> max is measured in ~~$\textrm{mL/kg/min}$~~.
+
+The measurement ranges from ~~20 -- 90 mL/kg/min~~.  
+The average North American is 35 mL/kg/min, NA ![](https://cdn.frankerfacez.com/emoticon/128054/1)
+
+## Lactic Acid Threshold
+The value of exercise intesity (VO<sub>2</sub>) at which ~~blood lactic acid concentration~~ begins to ~~sharply increase~~.  
+This causes increased pain, muscle stiffness, and fatigue.
+
+The ~~more fit~~ you are, the ~~higher your VO<sub>2</sub> max~~ and the ~~higher your lactic acid threshold~~ is.
+
+# Supplements and Toxins
+* ~~Carbon monoxide binds to hemoglobin~~
+  * This blocks oxygen access.
+  * Not enough oxygen to be a final electron acceptor.
+  * Die.
+* ~~Cyanide and Hydrogen Sulphide~~ interfere wioth cytochrome carriers in the ETS
+  * ~~Block the movement of electrons~~. (and therefore chemiosmotic gradient and ATP production, which *might* be bad)
+
+## Rigor Mortis
+When you die, your ~~temperature drops $1^\circ\textrm{C}/\textrm{hr}$, and your ~~muscles stiffen~~ from lactic acid fermentation. This is ~~**Rigor Mortis**~~.  
+It occurs sooner if you die after exercise, as you already have lactic acid in your muscles.
+
+Not all cells die at the same time. ~~Hair and nails~~ can even ~~grow after death~~.
+
+# Metabolism of Alternative Fuels
+Your body will get energy, in order, from...
+* Glucose
+* Glycogen converted into glucose
+* Proteins
+* Fats
+
+If your body thinks it is starving, ~~metabolism slows down and gets more efficient~~, i.e. harder to lose fat.
+
+**Intermediary Metabolism** defines the processes that ~~amino acids, lipids, and carbohydrates~~ can be ~~modified to be used~~ in ~~glycolysis and TCA cycle~~.
+
+# Metabolism of Fats
+Glycerol is converted to pyruvate to be used.  
+Fatty acids are converted into Acetyl-CoA's.
+
+In order for fatty acids to enter the matrix, they must be ~~activated by CoA~~, and in ~~fragments of 2 carbons at a time~~.  
+Each fragment yields a NADH+H<sup>+</sup> and FADH<sub>2</sub>.
+
+# Metabolism of Proteins
+Proteins are converted into 20-22 amino acids by digestive enzymes.
+* ~~5~~ of them are converted into ~~pyruvate~~
+* ~~6~~ of them are converted into ~~Acetyl-CoA~~
+* The rest are ~~converted into specific acids~~ for use in the TCA cycle.
