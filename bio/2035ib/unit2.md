@@ -77,11 +77,11 @@ They look ~~very similar to absorption spectrums~~.
 A process that can be used to ~~seperate plant pigments~~ on ~~chromatography paper~~.
 
 ### Normalized Differential Vegetation Index (NDVI)
-Unhealthy plants ~~don't reflect as much green and infared light~~ as healthy plants.  
+Unhealthy plants ~~don't reflect as much green and infrared light~~ as healthy plants.  
 This can be identified with satellites using NDVI.
 
 ### Compact Airborne Spectrographic Imagers (CASI)
-Similar to NDVI, but instead ~~deeply pink/red regions are healthy~~ while ~~duller/darker areas have thin/missing vegetation~~>
+Similar to NDVI, but instead ~~deeply pink/red regions are healthy~~ while ~~duller/darker areas have thin/missing vegetation~~.
 
 ## History
 
@@ -134,7 +134,7 @@ This is the extent that you need to know.
 ## Energy Molecules
 Also known as ~~energy currency molecules~~.
 
-This molecule bonded to ~~three inorganic phosphates~~, and when it ~~breaks~~ one of the bonds, it ~~releases energy~~.
+This molecule is bonded to ~~three inorganic phosphates~~, and when it ~~breaks~~ one of the bonds, it ~~releases energy~~.
 
 In its oxidized form, it is **ADP**. (andenosine ~~di~~phosphate)  
 In its reduced form it is **ATP**. (andenosine ~~tri~~phosphate)
@@ -146,12 +146,12 @@ More common.
 Occurs within the ~~thylakoid membrane~~.  
 
 * ~~Starting with photosystem **II**~~, protons ($\textrm{H}^+$) from sunlight energy reach the photosystem.
-* ~~Two electrons~~ from photolysis (covered later) is excited by protons, and it ~~gains energy~~.
-  * This causes it to ~~raise up to a higher level electron acceptor~~.
+* ~~Two electrons~~ from photolysis (covered later) are excited by protons, and ~~gain energy~~.
+  * This causes them to ~~**raise up** to a higher level electron acceptor~~.
 * The electrons are then passed ~~down an electron transport system~~, through ~~redox reactions~~, releasing the excitement energy.
   * This energy is used to ~~pump in protons from the stroma into the thylakoid lumen~~.
 * The electrons reaches ~~photosystem I~~, which recieves more protons from sunlight energy.
-* The electrons are once again excited, and gains energy.
+* The electrons are once again excited, and gain energy.
   * This causes it to once again raise up to a another higher level electron acceptor.
 * The electrons are once again passed down another electron transport system, releasing the excitement energy.
   * This energy is now used to ~~combine $\textrm{NADP}^+$, two protons, and the two electrons~~ to form $\textrm{NADPH}+\textrm{H}^+$
@@ -163,7 +163,7 @@ Occurs within the ~~thylakoid membrane~~.
   * Water is split in a process called ~~**photolysis**~~.
   * ~~Two electrons from each hydrogen~~ is given to photosystem II, and the ~~cycle may begin again~~.
   * The oxygen from water combines with another oxygen later to form ~~$\textrm{O}_2$ gas~~, and escapes as waste.
-    * Photolysis gets one oxygen, so photolysis must run twice before an oxygen gas can be formed.
+    * Photolysis gets one oxygen, so photolysis must ~~run twice before an oxygen gas~~ can be formed.
   * The hydrogens, now protons, enter the ~~thylakoid lumen~~.
 
 ![](images/unit2/photolysis.jpg)
@@ -174,10 +174,10 @@ The electrons energy was used to pump in protons from the stroma into the thylak
 * The ~~concentration~~ of protons within the ~~thylakoid lumen~~ is now ~~significantly higher than the stroma~~.
   * This causes the protons in the lumen to passively ~~try to get into the stroma~~, leaving the thylakoid.
 * The protons flow out of ~~protein channel $\textrm{CF}_0\textrm{CF}_1$~~
-  * $\textrm{CF}_0$ complex is a channel that allows protons from the lumen to cross the membrane and into the $\textrm{CF}_1$\
+  * $\textrm{CF}_0$ complex is a channel that allows protons from the lumen to cross the membrane and into the $\textrm{CF}_1$
   * $\textrm{CF}_1$ complex is a bulbous head containing ~~ATP synthetase~~, which uses the ~~kinetic energy of protons~~ travelling to perform the ~~phosphorylation of ADP~~.
 * ~~**Phosphorylation**~~ is the process of adding a phosphate to something.
-* $\textrm{ADP}$ and $\textrm{P}_i$ in the stroma go to the $\textrm{CF}_1$ complex and get combined to form ~~ATP~~.
+* $\textrm{ADP}$ and $\textrm{P}_i$ in the stroma go to the $\textrm{CF}_1$ complex and get phosphorylated to form ~~ATP~~.
 
 ![](images/unit2/chemiosmosis.png)
 
@@ -203,31 +203,27 @@ Occurs in the ~~abscence of $\textrm{NADP}^+$ and $\textrm{CO}_2$~~, and is trig
 
 > $\textrm{CO}_2 + \textrm{RuBP} \longrightarrow 6\textrm{C}$
 
-* The unstable 6 carbon sugar divide into ~~two 3 carbon substances~~ called ~~**`3PG`**~~ (also called ~~**`PGA`**~~)
+* The unstable 6 carbon sugar divides into ~~two 3 carbon substances~~ called ~~**`3PG`**~~ (also called ~~**`PGA`**~~)
 
 > $6\textrm{C} \longrightarrow \textrm{3PG} + \textrm{3PG}$
 
 ### 2. Phopshorylation
 * Two $\textrm{ATP}$ donate ~~phosphates~~ to each `3PG` to make them into a ~~more reactive form~~ called ~~**`DPG`**~~
-  * Anything with ~~two inorganic phosphates~~ is ~~very unstable~~ and really want to get ~~rid of a phosphate~~.
+  * Anything with ~~two inorganic phosphates~~ is ~~very unstable~~, really wanting to get ~~rid of the extra phosphate~~.
 
 > $\textrm{G3P} + \textrm{G3P} -\!\!-(2\times\textrm{ATP})\!\!\longrightarrow \textrm{DPG} + \textrm{DPG}$
 
 * The $\textrm{ADP}$s returns to the light-dependent reactions to get a new phosphate.
 
-> $+ 2\times\textrm{ADP} + 2\times\textrm{P}_i$
-
 ### 3. Reduction
-* $\textrm{NADPH}+\textrm{H}^+$ give a hydrogen to the each `DPG`'s, ~~replacing the phosphate~~ and forming the ~~final product **`G3P`**~~ (also called ~~**`PGAL`**~~).
+* Two $\textrm{NADPH}+\textrm{H}^+$ give a hydrogen to each `DPG`, ~~replacing the phosphate~~ and forming the ~~final product **`G3P`**~~ (also called ~~**`PGAL`**~~).
 
 > $\textrm{DPG} + \textrm{DPG} -\!\!-(2\times\textrm{NADPH} + \textrm{H}^+)\!\!\longrightarrow \textrm{G3P} + \textrm{G3P}$
 
 * $\textrm{NADP}^+$ and $\textrm{P}_i$ return to the light-dependent reactions.
 
-> $+ 2\times\textrm{NADP} + 2\times\textrm{P}_i$
-
 ### G3P Uses
-~~2 `G3P`~~ is the final product of the Calvin cycle being run.  
+~~2 `G3P`~~ is the final product of the Calvin cycle being run ~~once~~.  
 There are three things that can be done with it.
 
 #### Fuel
@@ -260,17 +256,14 @@ There are ~~**six Calvin cycles run at once.**~~
 ![](images/unit2/calvin-cycle.png)
 
 ### Summary (In/Out)
-The total number of ATP used includes both the main cycle and the regeneration cycle.
-
-#### To Get One Glucose
-This is the Calvin cycle ran 6 times, which is what the above diagram shows.  
+This is the Calvin cycle ran 6 times, which is what the above diagram shows, and is what is needed to produce ~~one glucose~~.  
 While you only need 2 `G3P` to form glucose, remember that glucose is only formed after the `RuBP`'s are restocked.
 
 | In | Out |
 | -- | -- |
 | $6\times\textrm{CO}_2$ <br> $18\times\textrm{ATP}$ <br> $12\times\textrm{NADPH}+\textrm{H}^+$ | Two `G3P` <br> $18\times(\textrm{ADP} + \textrm{P}_i)$ <br> $12\times\textrm{NADP}^+$ |
 
-12 ATP in main cycle, 6 ATP in regeneration cycle.
+The total number of ATP used includes both the main cycle and the regeneration cycle--12 ATP in main cycle, 6 ATP in regeneration cycle.
 
 # Cellular Respiration
 
@@ -426,8 +419,6 @@ It is run ~~twice for each acetyl-CoA~~.
 
 The purpose of the Krebs cycle is to extract the energy from acetyl-CoA and give it to electron carrier molecules to give to the electron transport chain.
 
-* The $\textrm{NADH}+\textrm{H}^+$ from glycolysis ~~cannot enter the mitochondria~~ directly.
-  * However, the $2\textrm{e}^-$ and $2\textrm{H}^+$ can ~~enter as $\textrm{FADH}_2$~~.
 * ~~Acetyl-CoA is oxidized~~ and therefore reduces $\textrm{NAD}^+$ and $\textrm{FAD}^+$ into ~~$\textrm{NADH}+\textrm{H}^+$ and $\textrm{FADH}_2$~~
   * These two electron carrier molecules send their $\textrm{e}^-$ and $\textrm{H}^+$ to the ETS for the next step.
 
@@ -441,7 +432,10 @@ The purpose of the Krebs cycle is to extract the energy from acetyl-CoA and give
 ## Electron Transport System (ETS)
 Multiple ETS's are located within the ~~cristae~~ of the mitochondria (membrane of matrix).
 
-All of the $\textrm{NADH}+\textrm{H}^+$ and $\textrm{FADH}_2$ made in the previous steps donates their protons and electrons here.  
+All of the $\textrm{NADH}+\textrm{H}^+$ and $\textrm{FADH}_2$ made in the previous steps donates their protons and electrons here.
+
+To add to that, the $\textrm{NADH}+\textrm{H}^+$ from glycolysis ~~cannot enter the mitochondria~~ directly.  
+However, the $2\textrm{e}^-$ and $2\textrm{H}^+$ can ~~enter as $\textrm{FADH}_2$~~, pumping different amounts.
 
 * The electrons pass through a series of ~~redox reactions~~, which releases free energy.
 * After the ETS, the two electrons, two protons, and an oxygen (in aerobic) come along to form the ~~waste, $\textrm{H}_2\textrm{O}$~~.
