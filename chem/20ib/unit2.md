@@ -8,6 +8,7 @@
 1. Gases are ~~highly compressible~~.
 2. Gases have indefinite volumes, as they ~~fill their containers uniformly~~.
 3. Gas particles are ~~spread far apart~~, therefore gases have ~~low density~~, ~~expand when heated~~, and can be ~~mixed~~.
+   * This explains why they are highly compressible.
 4. Confined gases ~~exert constant pressure~~ on the ~~walls~~ of their container ~~uniformly in all directions~~.
 
 # Kinetic Molecular Theory
@@ -17,8 +18,6 @@
 4. Gases are composed of tiny particles or molecules with ~~large empty space~~ between them.
 5. There are ~~no intermolecular forces of attraction~~ between molecules or the walls of a container.
 6. ~~Kinetic energy~~ of ~~all gas molecules~~ are the ~~same at a constant Kelvin temperature~~, and are directly proportional to the Kelvin temperature.
-
-$p$ = Pressure (atm, kPa, mm Hg, torr, psi)
 
 # Volume
 Volume is represented by the variable $v$ and is measured in $\textrm{mL}$ (or $\textrm{L}$)  
@@ -56,6 +55,8 @@ However, there are also many other less common units you need to memorize. The f
 | :-----: | :-----------: | :---------: | :--------: | :---------: |
 | Atmospheres | Kilopascals | Millimeters of mercury | Torr | Pounds per Square Inch |
 
+$p$ = Pressure (atm, kPa, mm Hg, torr, psi)
+
 ### Unit Conversion
 To convert between units, use the following diagram.
 
@@ -92,6 +93,9 @@ At ~~higher temperatures~~, ~~more molecules~~ are moving at ~~faster speeds~~.
 ![](images/unit2/maxwell-boltzmann1.png)
 
 # Boyle's Law
+Pressure and volume of a gas are ~~inversely proportional~~.  
+In other words, the ~~greater the pressure~~, the ~~smaller the volume~~.  
+If the volume of a container is reduced, gas particles will have to move a ~~shorter distance to hit the walls~~ of their container, and therefore the ~~frequency of collisions increases~~, making the pressure increase.
 
 <h1>
 $p_1v_1 = p_2v_2$
@@ -103,9 +107,6 @@ $p_1v_1 = p_2v_2$
 * $v_2$: Final volume in y units.
 
 Units can be any of the aforementioned ones, but ensure ~~units are consistent on both sides~~.
-
-Pressure and volume of a gas are ~~inversely proportional~~.  
-In other words, the ~~greater the pressure~~, the ~~smaller the volume~~.
 
 #### Example
 > A gas occupies a volume of 10.0 L at a pressure of 80.0 kPa. At what pressure will the volume be 12.0 L?  
@@ -122,10 +123,98 @@ For the following question, the pressure isn't specified. You can put any pressu
   The pressure was multiplied by 4.
 
 # Charles' Law
+Volume and temperature are ~~directly proportional~~.  
+In other words, the ~~greater the temperature~~, the ~~greater the volume~~.  
+Increased temperature increases the speed of particles, and faster moving particles ~~collide more often and with greater force~~, ~~pushing the walls of container outward~~, increasing the volume.
+
 <h1>
 $\dfrac{v_1}{T_1} = \dfrac{v_2}{T_2}$
 </h1>
 
+* $v_1$: Initial volume in x units.
+* $T_1$: Initial temperature in Kelvin.
+* $v_2$: Final volume in x units.
+* $T_2$: Final temperature in Kelvin.
+
 Units for volume can be any of the aforementioned ones, but units for temperature ~~must be in Kelvin~~.
 
+#### Example
+> A gas occupies a volume of 473 mL at 36 degrees Celsius. What is the volume of the gas if the temperature is raised to 94 degrees Celsius?  
+  $v_1 = 473 \space\textrm{mL}$  
+  $v_2 = ?$  
+  $T_1 = 36^\circ\textrm{C} + 273.15 = 309.15\space\textrm{K}$  
+  $T_2 = 94^\circ\textrm{C} + 273.15 = 367.15\space\textrm{K}$  
+> 
+> $\dfrac{473 \space\textrm{mL}}{309.15 \space\textrm{K}} = \dfrac{v_2}{367.15 \space\textrm{K}}$
+> 
+> $v_2 = 562 \space\textrm{mL}$
 
+# Gay-Lussac's Law
+Pressure and temperature are ~~directly proportional~~.  
+In other words, the ~~greater the temperature~~, ~~the greater the pressure~~>
+
+<h1>
+$\dfrac{p_1}{T_1} = \dfrac{p_2}{T_2}$
+</h1>
+
+* $p_1$: Initial pressure in x units.
+* $T_1$: Initial temperature in Kelvin.
+* $p_2$: Final pressure in x units.
+* $T_2$: Final temperature in Kelvin.
+
+Units for pressure can be any of the aforementioned ones, but units for temperature ~~must be in Kelvin~~.
+
+#### Example
+> A gas exerts a pressure of 660 kPa at 25 degrees Celsius. What is the pressure of the gas if the temperature is cooled to 0 degrees Celsius?  
+  $p_1 = 660 \space\textrm{kPa}$  
+  $p_2 = ?$  
+  $T_1 = 25^\circ\textrm{C} + 273.15 = 298.15\space\textrm{K}$  
+  $T_2 = 0^\circ\textrm{C} + 273.15 = 273.15\space\textrm{K}$  
+> 
+> $\dfrac{660 \space\textrm{kPa}}{298.15 \space\textrm{K}} = \dfrac{v_2}{273.15 \space\textrm{K}}$
+> 
+> $p_2 = 605 \space\textrm{kPa}$
+
+# Combined Gas Law
+Like the name implies, the combined gas law is Charles', Boyle's and Gay-Lussac's law combined into one formula.  
+
+<h1>
+$\dfrac{p_1v_1}{T_1} = \dfrac{p_2v_2}{T_2}$
+</h1>
+
+#### Example
+> A gas occupies a volume of 2.00 L at 27 degrees Celsius and 1 atm of pressure.  
+  What will be the volume if the temperature is increased to 35 degrees Celsius and pressure is degrees to 0.8 atm?  
+>
+> $p_1 = 1.0 \space\textrm{atm}$  
+  $p_2 = 0.8 \space\textrm{atm}$  
+  $v_1 = 2.0 \space\textrm{L}$  
+  $v_2 = ?$  
+  $T_1 = 300.15 \space\textrm{K}$  
+  $T_2 = 308.15 \space\textrm{K}$  
+> 
+> $\dfrac{ (1.0 \space\textrm{atm}) (2.0 \space\textrm{L}) }{ 300.15 \space\textrm{K} } = \dfrac{ (0.8 \space\textrm{atm}) v_2 }{ 308.15 \space\textrm{K} }$  
+> 
+> $v_2 = 2.57 \space\textrm{L}$
+
+# Law of Combining Volumes
+If the volume and chemical equation are given to you, you can determine the volume of each element with this formula.
+
+$\textrm{volume of element you have in the units you want} \times \dfrac{\textrm{coefficient of element you need}}{\textrm{coefficient of element you have}}$
+
+You also need to determine the chemical equation if it is only given in words, and ~~balance the equation~~.
+
+In addition, if you have ~~two or more volumes given~~ to you, ~~use all of them each seperately~~ and ~~choose the lowest answer~~ of them.
+
+#### Example
+> If 5.0 L of carbon dioxide gas is produced during the combusion of methane gas, how much water is produced?  
+> 
+> $\textrm{CH}_4 + 2\textrm{O}_2 \longrightarrow \textrm{CO}_2 + 2\textrm{H}_2\textrm{O}$  
+> 
+> Coefficient of element you need (water) = 2  
+  Coefficient of element you have (carbon dioxide) = 1  
+> 
+> $5.0 \space\textrm{L} \times \dfrac{2}{1} = 10.0 \space\textrm{L}$
+
+# Ideal Gas Law
+!> TODO
