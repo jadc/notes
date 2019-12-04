@@ -120,7 +120,7 @@ Because the radius is always equal to 1, you can use ~~pythagoream theorem~~.
 $x^2 + y^2 = 1$  
 Remember that when you root a number, there are ~~two answers; positive and negative~~ that number.
 
-## Coordinates (Sine & Cosine)
+## Coordinates (Sine, Cosine, Tan)
 
 ### Quadrant I
 The unit circle focuses on the three special triangles--30, 45, and 60 degrees--for each quadrant.  
@@ -134,7 +134,7 @@ As you increase the angle in those increments, the...
 | $45^\circ$ | $\dfrac{\sqrt{2}}{2}$ | $\dfrac{\sqrt{2}}{2}$ |
 | $60^\circ$ | $\dfrac{1}{2}$ | $\dfrac{\sqrt{3}}{2}$ |
 
-![](images/unit1/unitcircle0.png)
+![](images/unit1/unitcirc0-crop.png)
 
 ### CAST Rule
 The CAST Rule tells you ~~which numbers are positive~~ in a specific quadrant.  
@@ -150,5 +150,68 @@ To get the coordinates for the other quadrant's points, ~~reflect quadrant I's c
 
 Then, use the ~~CAST rule~~ to determine the ~~signs of the ratios in their new quadrant~~.
 
+### Tan
+Tangent is just the sin ratio divided by the cosine ratio.
+
+| Angle | Sin Ratio | Cosine Ratio | ~~**Tangent Ratio**~~ |
+| :---: | :-------: | :----------: | :-----------: |
+| $30^\circ$ | $\dfrac{1}{2}$ | $\dfrac{\sqrt{3}}{2}$ | $\dfrac{\sqrt{3}}{3}$ |
+| $45^\circ$ | $\dfrac{\sqrt{2}}{2}$ | $\dfrac{\sqrt{2}}{2}$ | $1$ |
+| $60^\circ$ | $\dfrac{\sqrt{3}}{2}$ | $\dfrac{1}{2}$ | $\sqrt{3}$ |
+
+For other quadrants, reflect just like before, with respect to CAST rules.
+
 ### Final Outcome
-![](images/unit1/unitcircle1.png)
+![](images/unit1/unitcirc0.png)
+
+## Radians
+To determine the radians of the unit circle, ~~split each quadrant into six segments~~.  
+In other words, just like drawing radian angles like before, and $\pi$ radians is $\dfrac{12\pi}{12}$.  
+
+![](images/unit1/unitcirc1.png)
+
+Then simplify the radians to get the more common value.
+
+![](images/unit1/unitcirc1-simple.png)
+
+### Tools
+#### Trigonometric Functions
+Normal trigonometric functions ~~take an angle~~ and give you ~~the trigonometric ratio~~ of that angle on the unit circle.
+
+$\sin(a) = r$
+* $a$ = Angle (degrees or radians)
+* $r$ = [Trigonometric Ratio](#trigonometric-ratios)
+
+($\sin$ is used for example, but this applies to all trigonometric functions)
+
+Depending on degrees or radians, your ~~calculator must be set in the right mode~~.
+
+Examples...
+* $\sin(\dfrac{\pi}{6}) = \dfrac{1}{2}$
+
+* $\cot(30^\circ) = \dfrac{1}{\tan(30^\circ)} = \dfrac{3}{\sqrt{3}} = \sqrt{3}$
+
+#### Inverse Trigonometric Functions
+Inverse trigonometric functions ~~take a trigonometric ratio~~ and give you ~~the angle~~ of that ratio on the unit circle.
+
+$\sin^{-1}(r) = a$
+* $r$ = [Trigonometric Ratio](#trigonometric-ratios)
+* $a$ = Angle (degrees or radians)
+
+Examples...
+* $\sin^{-1}(\dfrac{1}{2}) = \dfrac{\pi}{6}$
+
+* $\cot^{-1}(\sqrt{3}) = \tan^{-1}(\dfrac{1}{\sqrt{3}}) = 30^\circ$
+
+Note, the negative one power is ~~calculator exclusive notation~~ and should not be written.  
+Because of this, the same questions are more commonly formatted like this.
+
+* $\sin\theta = \dfrac{1}{2}$  
+  $\theta = \dfrac{\pi}{6}$
+
+* $\cot\theta = \sqrt{3}$  
+  $\theta = \tan^{-1}(\dfrac{1}{\sqrt{3}}) = 30^\circ$
+
+#### Summary
+* Finding ratio? Use standard. ($\sin()$)
+* Finding angle $\theta$? Use inverse. ($\sin^{-1}()$)
