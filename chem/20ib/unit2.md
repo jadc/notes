@@ -62,12 +62,19 @@ To convert between units, use the following diagram.
 
 $\textrm{initial units} \times \dfrac{\textrm{desired units}}{\textrm{initial units}}$
 
-The numerator and denominator should be equal, but different units.
+The numerator and denominator should be equal, but different units.  
+The idea is to have the denominator and initial units cancel, only leaving the desired units.
 
 #### Example
 > What is 10 atm in kPa?  
   $10 \space\textrm{atm} \times \frac{101.325 \space\textrm{kPa}}{1 \space\textrm{atm}}$  
   $10 \space\textrm{atm} = 1013.250 \space\textrm{kPa}$
+
+This also works for getting grams or moles out of a molar mass.
+
+> How many grams is 3 moles of oxygen, if oxygen has a molar mass of $16.00 \space\textrm{g}\cdot\textrm{mol}^{-1}$?  
+  $3 \space\textrm{mol} \times \frac{ 16.00 \space\textrm{g} }{ 1 \space\textrm{mol} }$  
+  $= 48.00 \space\textrm{g}$
 
 ## Atmospheric Pressure
 Gases in the atmosphere constantly exert pressure on the Earth.  
@@ -216,5 +223,73 @@ In addition, if you have ~~two or more volumes given~~ to you, ~~use all of them
 > 
 > $5.0 \space\textrm{L} \times \dfrac{2}{1} = 10.0 \space\textrm{L}$
 
+# Avogadro's Law
+Avogadro's Law is seldom directly used, so this will be a quick summary.
+
+Volume and number of moles are ~~directly proportional~~.  
+In other words, if the ~~number of moles of a gas increases~~, the ~~volume increases~~.
+
+<h1>
+$\dfrac{v_1}{n_1} = \dfrac{v_2}{n_2}$
+</h1>
+
 # Ideal Gas Law
-!> TODO
+An ~~ideal gas~~ is a ~~hypothetical~~ gas that ~~obeys~~ all the aforementioned rules perfectly.  
+It is composed of ~~particles of zero size~~ that have ~~no attraction to each other~~, and that are ~~never not a gas~~.
+
+A real gas deviates the most from the ideal gas at...
+* Lower temperatures
+* Higher pressure and/or larger
+
+This is because in these conditions, particles are closer together.  
+This can cause a state change, and closer particles have stronger van der Waals attractions.
+
+## Universal Gas Constant
+The universal gas constant is used in the ideal gas law formula. There is a ~~unique one for each units of pressure~~, but I prefer memorizing one and converting pressures into the same unit. It is denoted with variable $R$.
+
+$R = 8.314 \space\textrm{kPa}\cdot\textrm{L}/\textrm{mol}\cdot\textrm{K}$
+
+### How It Is Calculated
+Combining Boyle's Law, Charles' Law, and Avogadro's Law creates this.
+
+$\dfrac{p_1v_1}{n_1T_1} = \dfrac{p_2v_2}{n_2T_2}$
+
+If we focus on only the initial values, we can create a constant that we can base every gas off of. This is denoted as $R$.
+
+$R = \dfrac{ 101.325 \space\textrm{kPa} \times 22.4 \space\textrm{L} }{ 1 \space\textrm{mol} \times 273.15 \space\textrm{K} }$
+
+* $p_1 = 101.325 \space\textrm{kPa}$, i.e., pressure of ~~STP~~. (Works for all pressure units, but lets stick to one)
+* $v_1 = 22.4 \space\textrm{L}$, i.e, volume of any gas at ~~STP~~.
+* $n_1 = 1 \space\textrm{mol}$, i.e, number of moles.
+* $T_1 = 273.15 \space\textrm{K}$, i.e. temperature of ~~STP~~.
+
+## Ideal Gas Law Formula
+<h1>
+$pv = nRT$
+</h1>
+
+* $p$: Pressure in same unit as $R$
+* $v$: Volume in litres ($\textrm{L}$)
+* $n$: Number of moles
+* $R$: Universal Gas Constant
+* $T$: Temperature in Kelvin ($\textrm{K}$)
+
+Unlike the previous formulas in this unit, the Ideal Gaw Law formula is used in questions where you have to ~~find a missing value~~, ~~not how other variables change in response~~ to one change.
+
+#### Example
+> A cylinder with a volume of 20.0 L is filled with N<sub>2</sub> until the pressure is 20,000 kPa at 300.15 K. How many moles of N<sub>2</sub> are in the cylinder?
+> 
+> $pv = nRT$  
+> $( 20000 \space\textrm{kPa} )( 20.0 \space\textrm{L} ) = n( 8.314 \space\textrm{kPa}\cdot\textrm{L}/\textrm{mol}\cdot\textrm{K} )( 300.15 \space\textrm{K} )$  
+> $160 \space\textrm{mol} = n$
+
+> A container can hold 2.2 L of oxygen gas. How many grams of oxygen can the container hold at a pressure of 100 kPa and a temperature of 310.15 K?  
+> 
+> Molar mass of $\textrm{O}_{2 (g)}$ using periodic table = $32 \textrm{g}\cdot\textrm{mol}^{-1}$
+> 
+> $( 100 \space\textrm{kPa} )( 2.2 \space\textrm{L} ) = n( 8.314 \space\textrm{kPa}\cdot\textrm{L}/\textrm{mol}\cdot\textrm{K} )( 310.15 \space\textrm{K} )$  
+> $0.085 \space\textrm{mol} = n$  
+> 
+> $0.085 \space\textrm{mol} \times \dfrac{32 \space\textrm{g}}{1 \space\textrm{mol}}$  
+> 
+> $= 2.5 \space\textrm{g}$
