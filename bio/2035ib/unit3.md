@@ -85,9 +85,147 @@ A compound with every carbon having an $\textrm{H}_2\textrm{O}$ molecule.
 Produced by photosynthesis, major source of energy, and precursor to other substances such as lipids and proteins.
 
 ## Monosaccharides
+Simplest, single sugar, ~~monomers/subunits for carbs~~.
 
+Usually ~~5-6 carbons~~, can be less.
+* ~~**pentoses** = 5 carbon monosaccharide~~
+* ~~**hexoses** = 6 carbon monosaccharide~~
+
+Most common hexoses are ~~fructose, glucose, and galactose~~.  
+They are all isomers, formula being $\textrm{C}_6\textrm{H}_{12}\textrm{O}_6$, with different structural arrangements.
+
+Most of the carbons in a monosaccharide have a ~~hydroxyl group and a hydrogen side group~~.
+
+Glucose and fructose occur in both ~~straight chain~~ and ~~ring form~~.
+
+Glucose contains an ~~aldehyde group~~ -- carbonyl on a ~~terminal~~ carbon.  
+Fructose contains a ~~ketone group~~ -- carbonyl ~~within~~ the chain.
+
+![](images/unit3/glucose.jpg)
 
 ## Disaccharides
+### Enzymatic Dehydration Synthesis
+Two monosaccharides combine via ~~<span id="ib">IB</span> **enzymatic dehydration synthesis**~~, also called ~~condensation reactions~~, to form ~~dehydration linkages~~.
 
+This is when a ~~hydroxyl from one molecule~~ and a ~~hydrogen from another~~ are ~~removed to form water~~, leaving only the ~~oxygen binding the two molecules~~ together.  
+This process ~~requires energy~~, i.e. ATP.
+
+* -OH   HO-
+* -O~~H  HO~~-
+* -O- & H<sub>2</sub>O
+
+The opposite of this, i.e. breaking bonds by inserting water, is called ~~**hydrolysis**~~ or ~~hydrolytic cleavage~~. It is used during digestion.
+
+In the context of carbohydrates, this is called a ~~**glycosidic linkage**~~. It is a ~~covalent bond~~.
+
+### Common Disaccharides
+| Product | Recipe | Enzyme |
+| :-----: | :----: | :----: |
+| **Sucrose** | glucose + fructose | sucrase |
+| **Lactose** | glucose + galactose | lactase |
+| **Maltose** | glucose + glucose | maltase |
+
+### Linkages
+#### Sucrose
+Sucrose has a ~~1-2 alpha glycosidic linkage~~ occur.  
+This means the #1 C of glucose and the #2 C of fructose are condensated and bind.
+
+#### Maltose
+Maltose has a ~~1-4 alpha glycosidic linkage~~ occur.  
+The #1 C of glucose and #4 C of another glucose are involved.
+
+#### Lactose
+Lactose has a ~~1-4 beta glycosidic linkage occur~~.  
+The beta means the one of the sugars must be ~~flipped upsidedown~~ in order to have the hydroxyl groups interact.
+
+![](images/unit3/linkages.jpg)
+
+### General Formula
+$\textrm{C}_6\textrm{H}_{12}\textrm{O}_6 + \textrm{C}_6\textrm{H}_{12}\textrm{O}_6 - \textrm{H}_2\textrm{O} \longrightarrow \textrm{C}_{12}\textrm{H}_{22}\textrm{O}_{11}$
 
 ## Polysaccharides
+Many units of monosaccharides. Not readily soluble in water. Only occur in ring form.
+
+There are two types.
+
+### Storage Carbohydrates (Starch)
+#### Amylose
+* Produced by plants
+* 1-4 alpha glycosidic linkages
+* No branches
+* Primary structure, but forms secondary structure in water via hydrogen bonding
+
+![](images/unit3/amylose.jpg)
+
+#### Amylopectin
+* Produced by plants
+* 1-4 alpha glycosidic linkages
+* Branches formed by 1-6 alpha glycosidic linkages every 30 glucoses.
+  * Said branch is also 30 glucoses long.
+* Primary structure, unknown secondary structure
+
+![](images/unit3/amylopectin.jpg)
+
+#### Glycogen
+* Produced by animals
+* 1-4 alpha glycosidic linkages
+* Branches formed by 1-6 alpha glycosidic linkages every 10 glucoses.
+* Storage form of sugar in liver and muscle. Can turn into fats.
+
+![](images/unit3/glycogen.jpg)
+
+### Structural Carbohydrates
+#### Cellulose
+* Produced by plants, used in plant cell walls, strong and flexible
+* 1-4 beta glycosidic linkages
+  * Unlike alpha glucose, which has hydroxyl groups on both sides on the same level, a beta glucose has the hydroxyl in different levels.  
+  ![](images/unit3/alphabeta.png)
+  * This means in order to perform enzymatic dehydration synthesis, every second glucose must be flipped upside down.  
+  ![](images/unit3/cellulose.jpg)
+
+* No branches
+* Primary structure only
+* Humans lack ~~cellulase~~, the enzyme that digests cellulose
+  * Cows have this enzyme, so they can eat grass
+* Each cellulose attracts 60-70 others
+  * They form hydrogen bonds with each other
+  * This causes the formation of ~~microfibrils~~, and in larger strands, ~~fibrils~~, which help form plant cell walls
+
+#### <span id="ib">IB</span> Chitin
+* Main part of ~~insect exoskeletons~~ and ~~fungus cell walls~~.
+* Flexible and leathery
+* When impregnated with calcium, becomes hard (its why bugs crunch)
+* Instead of glucose, monomer is ~~N-acetylglucosamine~~
+* Similar structure to cellulose, but contains an ~~amine group~~ on the 2nd carbon, with an ~~acetyl group~~ bonded to the nitrogen in the amine
+
+![](images/unit3/chitin.png)
+
+(This is the acetyl group, if you didn't know)  
+![](images/unit3/acetyl.png)
+
+#### Hemicellulose
+* Unrelated to cellulose
+* Contains polymers of less common 5 C sugars
+* ~~Cellulose fibrils~~ are embedded in ~~hemicellulose's gluey matrix~~
+* You don't need to know the structure
+
+#### Pectin
+* ~~Cellulose fibrils~~ are also embedded in ~~pectin's gluey matrix~~
+
+#### Proteoglycans
+* Contain acid mucopolysaccharides complexed with protein, whatever that means
+* Form eye jelly, and occur in cartilage, tendons, skin, and joint fluids
+* Heparin, which inhibits blood clotting, belongs to this group
+
+## Test
+The ~~**Benedict's Test**~~ is used to test for carbohydrates.
+
+| Reducing Sugar % | Colour of Solution |
+| :-: | :-: |
+| Negative (No carbs) | Blue-ish |
+| 0.5% - 1.0% | Green |
+| 1.0% - 1.5% | Yellow |
+| 1.5% - 2.0% | Orange |
+| 2.0%+ | Red |
+
+![](images/unit3/benedict.jpg)
