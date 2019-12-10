@@ -180,10 +180,10 @@ A molecule is non-polar if...
 ## Examples
 | Structural Diagram | Formula | Bonds? | Molecule? |
 | :----------------: | :-----: | :----: | :-------: |
-| ![](images/unit1/polar0.jpg) | $\textrm{CO}_{2}$ | Polar | Non-polar |
-| ![](images/unit1/polar1.jpg) | $\textrm{CCl}_{4}$ | Polar | Non-polar |
+| ![](images/unit1/polar0.png) | $\textrm{CO}_{2}$ | Polar | Non-polar |
+| ![](images/unit1/polar1.png) | $\textrm{CCl}_{4}$ | Polar | Non-polar |
 | ![](images/unit1/polar2.jpg) | $\textrm{NH}_{3}$ | Polar | Polar |
-| ![](images/unit1/polar3.jpg) | $\textrm{C}_{2}\textrm{H}_{6}$ | Polar | Non-polar |
+| ![](images/unit1/polar3.png) | $\textrm{C}_{2}\textrm{H}_{6}$ | Polar | Non-polar |
 
 ## Solubility
 When it comes to molecular solubility, ~~like-dissolves-like~~. (i.e. a polar molecule dissolves in a polar substance, a non-polar molecule dissolves in a non-polar substance)

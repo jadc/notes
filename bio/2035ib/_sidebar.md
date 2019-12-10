@@ -3,5 +3,5 @@
 * [<span id="ib">IB</span> The Nature of Science](unit0.md)
 * [Ecology](unit1.md)
 * [Photosynthesis & Respiration](unit2.md)
-* [Biochemistry](unit3.md)
+* [B<span id="ib">IB</span> Biochemistry](unit3.md)
 * [Digestion](unit4.md)

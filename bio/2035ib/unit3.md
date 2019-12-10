@@ -229,3 +229,42 @@ The ~~**Benedict's Test**~~ is used to test for carbohydrates.
 | 2.0%+ | Red |
 
 ![](images/unit3/benedict.jpg)
+
+# Lipids
+* Generally nonpolar -- insoluable in water, i.e. ~~**hydrophobic**~~.
+* Greasy, oily, soluble in fat.
+* Dissolve in organic solvents
+* Once glycogen stores in the body are filled, ~~excess carbs~~ are stored as ~~fat~~.
+* Important for cell membranes, insulation against physical damage and temperature, carriers for vitamin A, D, E, and K, raw materials for hormone synthesis, etc...
+
+* A ~~**glycerol**~~ is an alcohol with ~~3 hydroxyl side groups~~.
+* A ~~**fatty acids**~~ is a carbon chain, usually with an ~~even number of carbons~~, and a ~~carboxyl group at the end~~.
+
+## Triglycerides
+* All fats and oils are ~~**triglycerides**~~.
+* This means they are comprised of ~~1 glycerol~~ connected to ~~3 fatty acids~~ via enzymatic dehydration synthesis.
+  * Since enzymatic dehydration synthesis bonds each fatty acid to the glycerol, ~~three H<sub>2</sub>O~~ must be removed from the glycerol's hydroxyl group and the fatty acid's hydroxyl in its carboxyl group.
+* The bond formed is called an ~~**ester linkage**~~ (fundementally no different from a glycosidic linkage)
+
+![](images/unit3/trigly.jpg)
+
+* Most fatty acids are insoluable in water, but ~~alkaline (basic) solutions~~ cause the ~~carboxyl group~~ to become ~~ionized~~, polar, and thus ~~soluable~~.
+* ~~Sodium and potassium~~ salts of fatty acids are called ~~"soaps,"~~ and are water soluable.
+* ~~Calcium~~ salts of fatty acids are not water soluable, and also cause ~~bath tub rings~~.
+
+## Animal Fats
+* Triglycerides from ~~animals~~ are called ~~fats~~.
+  * Butter, lard, tallow.
+* ~~Solid~~ at room temperature.
+* ~~Saturated~~.
+  * ~~All possible hydrogen positions are filled~~.
+  * To do this, they only contain ~~single **C-C** bonds~~.
+
+![](images/unit3/sat.jpg)
+
+## Plant Fats
+* Triglycerides from ~~plants~~ are called ~~oils~~.
+* ~~Unsaturated~~.
+  * All possible hydrogen positions are ~~not filled~~.
+  * This is because they contain ~~one or more **C-C** double bonds~~.
+  * ~~**Monounsaturated**~~ has one C-C double bond, and ~~**polyunsaturated**~~ has many.
