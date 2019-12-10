@@ -31,6 +31,16 @@ If you are ~~multiplying or dividing~~, (even if you also are adding or substrac
 | ![](images/unit0/bohr.png) | Niel<br>Bohr<br>*Orbital* | Electrons are in specific ~~energy levels~~. |
 | ![](images/unit0/quantum.png) | Modern Science<br>*Quantum Mechanical* | Electrons occupy ~~orbitals~~—~~probability patterns of movement~~ of electrons around the nucleus. |
 
+# Term Review
+
+| Term | Description |
+| :--: | :---------: |
+| Matter | has mass, takes up space |
+| Element | can't be seperated into simpler substances chemically |
+| Atom | smallest indivisible unit of an element. seperating into subatomic parts = not element |
+| Molecule | 2 or more same or different atoms joined together.<br>Polyatomics: Br<sub>2</sub> I<sub>2</sub> N<sub>2</sub> Cl<sub>2</sub> H<sub>2</sub> O<sub>2</sub> F<sub>2</sub> S<sub>8</sub> P<sub>4</sub> |
+| Compound | molecule with 2 or more different atoms in specific proportions. A compound is a molecule. |
+
 # Subatomic Particles
 The nucleus is located at the centre of the atom.  
 It contains protons ~~(positively charged)~~ and neutrons. ~~(neutral charge)~~
