@@ -4,7 +4,7 @@
 
 ---
 
-# Review and more
+# Review and More
 
 ## CHNOPS
 99% of all living matter.  
@@ -119,11 +119,11 @@ The opposite of this, i.e. breaking bonds by inserting water, is called ~~**hydr
 In the context of carbohydrates, this is called a ~~**glycosidic linkage**~~. It is a ~~covalent bond~~.
 
 ### Common Disaccharides
-| Product | Recipe | Enzyme |
-| :-----: | :----: | :----: |
-| **Sucrose** | glucose + fructose | sucrase |
-| **Lactose** | glucose + galactose | lactase |
-| **Maltose** | glucose + glucose | maltase |
+| Product | Recipe | Enzyme | Linkage |
+| :-----: | :----: | :----: | :-----: |
+| **Sucrose** | glucose + fructose | sucrase | 1-2 alpha glycosidic linkage |
+| **Maltose** | glucose + glucose | maltase | 1-4 alpha glycosidic linkage |
+| **Lactose** | glucose + galactose | lactase | 1-4 beta glycosidic linkage |
 
 ### Linkages
 #### Sucrose
@@ -309,5 +309,127 @@ The ~~**Benedict's Test**~~ is used to test for carbohydrates.
     * ~~Converts into Vitamin D when exposed to UV Light~~.
     * Fats need to be ~~**emulsified** -- mechanically digested, broken up~~ before they will mix with water. Bile salts help to this.
 
-# Proteins
+## Test
+### Translucence Test
+Place the substance on brown tissue paper.
 
+| Test | Description |
+| :--: | :---------: |
+| Negative<br>(no lipids) | Paper remains opaque. |
+| Positive<br>(lipids) | Paper becomes translucent. |
+
+### Sudan IV Test
+Sudan IV's solution within a lipid turns red.
+
+# Proteins
+* Proteins are macromolecules comprised of one more more polypeptide bonds. They are ~~polymers of amino acids~~.
+* They are made up of $\textrm{C}$, $\textrm{H}$, $\textrm{O}$, $\textrm{N}$, and uniquely, ~~$\textrm{S}$~~.
+
+## Amino Acids
+* Amino acids ~~differ~~ from each other by their ~~radical group~~. (R Group)
+* There are ~~20 different primary amino acids~~. (and 2 secondary, i.e. derivatives)
+
+* Central/alpha carbon bonded to...
+  * A hydrogen
+  * An amino group ($\textrm{NH}_2$), on the left, aka. ~~**N Terminus**~~
+  * A carboxyl group ($\textrm{COOH}$), on the right, aka. ~~**C Terminus**~~
+  * A radical group (20-22 different kinds)
+
+![](images/unit3/aminoacid.jpg)
+
+### Polypeptides
+* They are formed when the ~~hydroxyl in the carboxyl group~~ of one amino acid is linked via enzymatic dehydration synthesis to the ~~hydrogen in the amino group~~ of another amino acid.
+* This is referred to as a ~~**peptide bond**~~.
+
+![](images/unit3/peptide.jpg)
+
+### Zwitterion
+* Amino acids readily ionize ~~within cells~~, ~~in water~~, and ~~extra cellular fluid~~ -- fluid not found in cells.
+  * The carboxyl group ~~gives off a proton~~ to have a ~~negative charge~~, and this gives it ~~acidic properties~~.
+  * The amino group ~~takes in a proton~~ to have a ~~positive charge~~, and this gives it ~~basic properties~~.
+* In this state, the amino acid has both a positive and negative charge, and this is called a ~~**Zwitterion**~~.
+  * In neutral pH solutions, amino acids yield zwitterions.
+  * In low pH, they behave like cations.
+  * In high pH, they behave like anions.
+
+### Radical Group
+* There are 20 different radical groups for the 20 different amino acids.
+  * **8** of them are ~~nonpolar, uncharged~~ amino acids.
+    * Mainly hydrocarbons.
+    * Don't tend to form ~~hydrogen bonds or ionize~~.
+    * ~~Hydrophobic~~, so they ~~cluster in water conditions~~.
+  * **7** of them are ~~polar, uncharged~~ amino acids.
+    * Form ~~hydrogen bonds with water~~, so they are ~~hydrophillic~~.
+    * ~~Do not ionize~~.
+    * ~~Cysteine~~ contains a ~~**sulfhydryl (-SH) group**~~, which can react with another cysteine's sulfhydryl group to form a ~~**disulfide linkage**~~.  
+      ![](images/unit3/disulfide.png)
+  * **5** of them ~~ionize in water~~, and therefore have a ~~positive or negative charge~~.
+
+## Protein Organization
+
+### Primary Structure
+Involves peptide bonds.
+
+Polypeptide has amino acids arranged in a ~~linear, straight chain~~.
+
+![](images/unit3/primary.jpg)
+
+### Secondary Structure
+Involves peptide bonds and hydrogen bonds.
+
+#### Right-handed Alpha Helix Structure
+Weak ~~hydrogen bonds~~ form ~~within itself~~.  
+The ~~double bonded oxygen~~ in the carboxyl group of one amino acid ~~bonds~~ to the ~~hydrogen~~ in the amino group of another amino acid.
+
+![](images/unit3/secondary0.jpg)
+
+#### Beta Pleated Sheet
+Weak ~~hydrogen bonds~~ form ~~within itself, but between adjacent strands~~.  
+The polypeptide forms a zigzag structure.
+
+![](images/unit3/secondary1.jpg)
+
+### Tertiary Structure
+Involves peptide bonds, hydrogen bonds, and interactions between radical groups.
+
+This structure creates a ~~globular shape~~ as the protein folds seemingly randomly.  
+There are 4 forces that cause folding.
+* ~~**Hydrogen Bonds**~~ between -OH and N- groups.
+* ~~**Ionic Attractions**~~ between radical groups of opposing net charges.
+* ~~**Hydrophobic Interactions**~~ between nonpolar amino acids ~~bundling up into close and tight clusters~~ when exposed to water conditions.
+* ~~**Covalent Bonds**~~ between two Cysteine amino acids to form ~~disulfide bridges~~.
+
+### Quaternary Structure
+Involves peptide bonds, hydrogen bonds, and interactions between radica groups... many times between different polypeptide chains.
+
+This structure involves ~~interactions between different polypeptide chains~~.
+
+> <span id="ib">IB</span> Example...  
+  Hemoglobin  
+  Contains 4 polypeptides: two alpha chains, and two beta chains.  
+  As well as 4 heme groups.
+
+Proteins form ~~very specific shapes~~, and this shape is key to their ~~function~~.
+
+~~**Denaturation**~~ is when bonds are ~~temporarily disrupted~~, ~~changing their shape~~ and therefore their ~~function~~.  
+~~**Coagulation**~~ is when bonds are ~~permanently disrupted~~.
+
+Heat, cold, strong acids, strong bases, urea, and other chemicals can cause denaturation or even coagulation.  
+Cold and urea only cause denaturation.
+
+## Protein Types
+
+### Simple Proteins
+.
+
+### Conjugated Proteins
+.
+
+### Binding Proteins
+.
+
+### Structural Proteins
+.
+
+# <span id="ib">IB</span> Nucleic Acids
+!> TODO Never
