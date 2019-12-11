@@ -1,4 +1,4 @@
-# Biochemistry
+# <span id="ib">IB</span> Biochemistry
 
 !> These notes are not finished and are subject to change.
 
@@ -74,7 +74,7 @@ Hydrogen bonds are not strong, just ~~very plentiful~~.
 
 ~~Protoplasm~~ describes anything ~~within a cell membrane~~.  
 Protoplasm are composed of ~~carbohydrates, proteins, and lipids...~~  
-<span id="IB">IB</span> as well as minerals, vitamins, water, and nucleic acids.
+<span id="ib">IB</span> as well as minerals, vitamins, water, and nucleic acids.
 
 # Carbohydrates
 <h1>
@@ -260,11 +260,54 @@ The ~~**Benedict's Test**~~ is used to test for carbohydrates.
   * ~~All possible hydrogen positions are filled~~.
   * To do this, they only contain ~~single **C-C** bonds~~.
 
-![](images/unit3/sat.jpg)
-
 ## Plant Fats
 * Triglycerides from ~~plants~~ are called ~~oils~~.
 * ~~Unsaturated~~.
   * All possible hydrogen positions are ~~not filled~~.
   * This is because they contain ~~one or more **C-C** double bonds~~.
+    * This double bonds creates a ~~kink~~ in the structure of the lipid, meaning they ~~can't pack as closely together~~, and therefore are often ~~liquid~~.
   * ~~**Monounsaturated**~~ has one C-C double bond, and ~~**polyunsaturated**~~ has many.
+
+![](images/unit3/sat.jpg)
+
+## Phospholipids
+* Similar to a triglyceride (1 glycerol, 3 fatty acids) except one of the fatty acids is replaced with a ~~phosphate group~~.  
+  ![](images/unit3/phosphate.jpg)
+
+* One of the two fatty acids is often ~~unsaturated~~, creating a bend in the chain.
+* Phospholipids are ~~**amphipathic**~~, meaning there is the presence of both ~~hydrophillic (phosphate)~~ and ~~hydrophobic (fatty acids)~~ groups.
+  * This gives it ~~**detergent** properties~~.
+* The shape is due to the hydrophillic group trying to get as ~~far away as possible~~ from the hydrophobic groups.
+
+![](images/unit3/phospholipid.jpg)
+
+![](images/unit3/phospholipid1.jpg)
+
+* On their own, they form ~~Micelles~~, due to the van der Waals forces between the hydrophobic groups, and the avoidance of hydrophillic and hydrophobic groups.  
+  ![](images/unit3/micelle.jpg)
+
+* They can act as wetting agents -- substances that reduce the surface tension of water.
+
+## Waxes
+* Similar to triglycerides, but instead of glycerol, it is a ~~long-chain alcohol~~ with a ~~single hydroxyl group~~.
+* Hydrophobic, water-repelling properties
+* Great for water conservation (e.g. cuticles of plants are waxy)
+* Harder and more hydrophobic than fats.
+
+## Steroids
+* Structure is ~~4 hexagons and 1 pentagon~~.  
+  ![](images/unit3/steroid.jpg)
+
+* Differences in steroids are based on their ~~side chains~~.
+* Steroids with a hydroxyl group are called ~~sterols~~.
+* ~~**Lanolin**/Lanosterol~~ is a greasy substance in our own ~~skin and hair~~, making them ~~flexible~~.
+* There are two kinds of ~~**cholesterol**~~
+  * ~~**Low Density Lipoprotein**~~, aka. LDL or bad cholesterol, is very ~~light and sticky~~, allowing it to often ~~clog arteries~~.
+  * ~~**High Density Lipoprotein**~~, aka. HDL or good cholesterol, used in many things.
+    * Major part of cell membranes
+    * Helps form bile acids for digestion
+    * ~~Converts into Vitamin D when exposed to UV Light~~.
+    * Fats need to be ~~**emulsified** -- mechanically digested, broken up~~ before they will mix with water. Bile salts help to this.
+
+# Proteins
+
