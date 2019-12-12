@@ -140,10 +140,10 @@ As you increase the angle in those increments, the...
 The CAST Rule tells you ~~which numbers are positive~~ in a specific quadrant.  
 They are written counter-clockwise, starting in quadrant IV.
 
-* **C** osine are positive, everything else negative. (Quadrant IV)
+* **C** osine (and secent) are positive, everything else negative. (Quadrant IV)
 * **A** everything is positive. (Quadrant I)
-* **S** ine are positive, everything else negative. (Quadrant II)
-* **T** angent are positive, everything else negative. (Quadrant III)
+* **S** ine (and cosecent) are positive, everything else negative. (Quadrant II)
+* **T** angent (and cotangent) are positive, everything else negative. (Quadrant III)
 
 ### Quadrants II-IV
 To get the coordinates for the other quadrant's points, ~~reflect quadrant I's coordinates~~ across the x/y axis.
@@ -192,7 +192,7 @@ Examples...
 * $\cot(30^\circ) = \dfrac{1}{\tan(30^\circ)} = \dfrac{3}{\sqrt{3}} = \sqrt{3}$
 
 #### Inverse Trigonometric Functions
-Inverse trigonometric functions ~~take a trigonometric ratio~~ and give you ~~the angle~~ of that ratio on the unit circle.
+Inverse trigonometric functions ~~take a trigonometric ratio~~ and give you ~~the **reference** angle~~ of that ratio on the unit circle.
 
 $\sin^{-1}(r) = a$
 * $r$ = [Trigonometric Ratio](#trigonometric-ratios)
@@ -213,5 +213,49 @@ Because of this, the same questions are more commonly formatted like this.
   $\theta = \tan^{-1}(\dfrac{1}{\sqrt{3}}) = 30^\circ$
 
 #### Summary
-* Finding ratio? Use standard. ($\sin()$)
-* Finding angle $\theta$? Use inverse. ($\sin^{-1}()$)
+* Finding ratio? Use standard. ($\sin(a) = r$)
+* Finding angle $\theta$? Use inverse. ($\sin^{-1}(r) = a$)
+
+# Approximate Values
+* Ensure the calculator is in the correct mode for the units specified.
+
+## Trigonometric Ratios from Angles
+* Use the normal trigonometric function on your calculator.
+* If you need to use a reciprocal trig ratio, (csc, sec, cot) then get the reciprocal of the entire trig function and ratio, not just the ratio.
+
+$\csc{\theta} = \dfrac{1}{\sin{\theta}}$
+
+$\csc{\theta} \neq \sin{\dfrac{1}{\theta}}$
+
+#### Examples
+> $\csc{\dfrac{5\pi}{6}} = (\sin{\dfrac{5\pi}{6}})^{-1} = 2$
+
+## Angles
+* Use the inverse trigonometric function on your calculator.
+* ~~Ignore any negatives~~ in the ratio.
+  * ~~Find the reference angle first~~
+  * Find which quadrant it is in (using ~~CAST rules~~) based on the negative you just ignored
+  * Place the reference angle in its appropriate quadrant(s) to get the actual angle.
+    * There may be multiple quadrants that are valid for the reference angle and its sign.
+* The angle you get from a ratio in radian mode will have ~~pi already multiplied into it~~.
+  * If you want the angle in fraction form you can try ~~dividing it by pi to get the fraction itself~~ and then multiplying pi back.
+  * e.g. $\cos{\theta} = \frac{\sqrt{3}}{2} = 0.52359...$
+  * $0.52359... \div \pi = 0.1666... = \frac{1}{6}$
+  * $\frac{1}{6} \cdot \pi = \frac{\pi}{6} (\textrm{aka.} 0.52359)$
+
+#### Examples
+> $\sin{\theta} = 0.879$, $0 \leq \theta \leq 2\pi$  
+> $\sin^{-1}{0.879} = 1.07$  
+> Sin is positive, so C ~~**A**~~ ~~**S**~~ T, quadrants 1 and 2.  
+> Quadrant 1 = $1.07$, Quadrant 2 = $\pi - 1.07 = 2.07$
+> $\theta = 1.07, 2.07$
+
+## Bonus: Decimal to Exact Value on Unit Circle
+If you have the radians of an angle in decimal form that you know is on the unit circle, you can do this.
+
+* Square it.
+* Square root the numerator and denominator.
+* Rationalize if applicable.
+
+#### Example
+
