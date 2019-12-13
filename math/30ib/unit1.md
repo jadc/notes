@@ -257,5 +257,76 @@ If you have the radians of an angle in decimal form that you know is on the unit
 * Square root the numerator and denominator.
 * Rationalize if applicable.
 
-#### Example
+# Trigonometric Equations
+There is nothing new with trigonometric equations: it is identical to polynomials except that every instance of x has a trig function attached to it.  
+This allows you to temporarily ignore the trig functions, perform factoring techniques such as ~~common factors~~, ~~difference of squares~~, and ~~trinomials of the form $ax^2 + bx + c, a \neq 0$.  
+Then, once you have factored it, put the trig functions back.
 
+* $\sin x \longrightarrow x$
+* $\sin^2 x \longrightarrow x^2$
+
+#### Example
+> $\sin^2 x - 3\sin x \longrightarrow x^2 - 3x$  
+> $x(x - 3)$  
+> $x = 0$, $x = 3$  
+> $\sin x = 0$, $sin x = 3$
+
+> $2\cos^2 x + 7\cos x - 4 \longrightarrow 2x^2 + 7x - 4$  
+> $(2x - 1)(x + 4)$  
+> $(2\cos{x} - 1)(\cos{x} + 4)$
+
+## General Formula
+You will often have multiple answers for the angle. You will be asked to put them as a general formula.
+
+$a + b\pi n, n\varepsilon I$
+* $a$: The ~~lowest positive~~ angle answer you have.
+* $b$: How much to ~~rotate~~ until the ~~next answer~~. (degrees or radians)
+
+You can have ~~multiple general formulas~~.
+
+Trick: If two different angles form a ~~straight line~~ on the unit circle, they are ~~180<sup>o</sup> degrees or pi away~~.
+
+#### Example
+> $x = 30^\circ, 60^\circ, 90^\circ$
+>
+> $x = 30^\circ + 30^\circ n, n\varepsilon I$
+
+> $x = 0, \pi, 2\pi$
+>
+> $x = \pi n, n\varepsilon I$
+
+> $x = 30^\circ, 60^\circ, 210^\circ, 240^\circ$
+>
+> $x = 30^\circ + 180^\circ n, n\varepsilon I$  
+> $x = 60^\circ + 180^\circ n, n\varepsilon I$
+
+# Graphing
+* **Periodic Function**: A function that ~~repeats~~ every period. $\sin$ and $\cos$ are periodic functions.
+
+* **Period**: The ~~shortest distance~~ ~~along the horizontal~~ axis until the graph begins to ~~repeat~~.
+
+* **Sinusoidal Graph**: A sinusoidal curve is one that ~~fluctuates back and forth~~. Both $\sin$ and $\cos$ graphs are sinusoidal, as the curve moves up and down from the midline.
+
+* **Midline**: The ~~halfway~~ between the minimum and maximum of a graph.  
+  $\textrm{midline} = \dfrac{\textrm{max} + \textrm{min}}{2}$
+
+* **Amplitude**: The distance from the ~~midline to the highest point~~ of the graph. This is a measurement, so it is ~~never negative~~.  
+  $\textrm{amplitude} = \dfrac{\textrm{max} - \textrm{min}}{2}$
+
+## Sine Graph
+
+![](images/unit1/sin.jpg)
+
+A sine graph with ~~no transformations~~ ($y = \sin{x}$) has the following properties.
+* Starts at ~~$x = 0$~~.
+* Oscillates $y = \pm 1$
+* Period = $2\pi$ or $360^\circ$
+
+## Cosine Graph
+
+![](images/unit1/cos.jpg)
+
+A cosine graph with ~~no transformations~~ ($y = \cos{x}$) has the following properties.
+* Starts at ~~$x = 1$~~.
+* Oscillates $y = \pm 1$
+* Period = $2\pi$ or $360^\circ$
