@@ -303,7 +303,7 @@ Trick: If two different angles form a ~~straight line~~ on the unit circle, they
 # Graphing
 * **Periodic Function**: A function that ~~repeats~~ every period. $\sin$ and $\cos$ are periodic functions.
 
-* **Period**: The ~~shortest distance~~ ~~along the horizontal~~ axis until the graph begins to ~~repeat~~.
+* **Period**: The ~~shortest distance~~ ~~along the horizontal~~ axis until the graph begins to ~~repeat~~.  
 
 * **Sinusoidal Graph**: A sinusoidal curve is one that ~~fluctuates back and forth~~. Both $\sin$ and $\cos$ graphs are sinusoidal, as the curve moves up and down from the midline.
 
@@ -330,3 +330,74 @@ A cosine graph with ~~no transformations~~ ($y = \cos{x}$) has the following pro
 * Starts at ~~$x = 1$~~.
 * Oscillates $y = \pm 1$
 * Period = $2\pi$ or $360^\circ$
+
+## Vertical Stretches
+$y = af(x)$ is related to $y = f(x)$ by a ~~vertical stretch by a factor of $\lvert a \rvert$ about the x-axis~~.  
+If $a < 0$, then the function is also ~~reflected by the x-axis~~.
+
+![](images/unit1/verticalstretch.jpg)
+
+($\dfrac{1}{2}y = \sin{x}$ is identical to y = 2\sin{x}$)
+
+## Horizontal Stretches
+$y = f(bx)$ is related to $y = f(x)$ by a ~~horizontal stretch by a factor of $\lvert b \rvert$ about the y-axis~~.  
+If $b < 0$, then the function is also ~~reflected by the y-axis~~.
+
+![](images/unit1/horizontalstretch.jpg)
+
+### Period
+You can get the period of a graph from the $b$ variable.
+
+$\dfrac{2\pi}{\lvert b \rvert}$ or $\dfrac{360^\circ}{\lvert b \rvert}$
+
+## Horizontal Phase Shift (Translation)
+$y = f(x - c)$ is related to $y = f(x)$ by a ~~horizontal phase shift~~ (translation) $c$ units ~~right~~. (opposite direction of sign)
+
+![](images/unit1/horizontaltrans.jpg)
+
+## Vertical Displacement (Translation)
+$y = f(x) + d$ is related to $y = f(x)$ by a ~~vertical displacement~~ (translation) $d$ units ~~down~~. (opposite direction of sign)  
+
+![](images/unit1/verticaltrans.jpg)
+
+This is also the [~~$y$ of the midline~~](#graphing).  
+
+## General Equation
+
+$y = a \sin b(x - c) + d$  
+$y = a \cos b(x - c) + d$
+
+* $a$ = Vertical Stretch (Amplitude, max)
+* $b$ = $\dfrac{2\pi}{\textrm{period}}$ = Horizontal Stretch (Period)
+* $c$ = Horizontal Phase Shift/Translation
+* $d$ = Vertical Displacement/Translation
+
+## Find An Equation With Only A Graph
+Use the following equations to get the variables you need.
+
+* $d = \dfrac{\textrm{max} + \textrm{min}}{2}$
+* $a = \dfrac{\textrm{max} - \textrm{min}}{2}$
+* $b = \dfrac{2\pi}{\textrm{period}}$
+
+To find $c$, there are a number of things you could do.
+
+### Find $c$
+#### Cosine
+The distance between $x = 0$ and the smallest $x$ (i.e. first instance) of the ~~maximum~~ $y$ is $c$.
+
+![](images/unit1/findc-posa-cos.jpg)
+
+To find $c$ in a graph with a negative $a$, do the same thing except ~~minimum~~ instead of maximum.
+
+![](images/unit1/findc-nega-cos.jpg)
+
+#### Sine
+The distance between $x = 0$ and the smallest $x$ (i.e. first instance) of $y$ intersecting $d$ ~~travelling up~~ is $c$.  
+
+![](images/unit1/findc-posa-sin.jpg)
+
+To find $c$ in a graph with a negative $a$, do the same thing except the intersect when the graph is ~~travelling down~~ instead of up.
+
+![](images/unit1/findc-nega-sin.jpg)
+
+## Tangent Graph
