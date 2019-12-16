@@ -337,7 +337,7 @@ If $a < 0$, then the function is also ~~reflected by the x-axis~~.
 
 ![](images/unit1/verticalstretch.jpg)
 
-($\dfrac{1}{2}y = \sin{x}$ is identical to y = 2\sin{x}$)
+($\dfrac{1}{2}y = \sin{x}$ is identical to $y = 2\sin{x}$)
 
 ## Horizontal Stretches
 $y = f(bx)$ is related to $y = f(x)$ by a ~~horizontal stretch by a factor of $\lvert b \rvert$ about the y-axis~~.  
@@ -401,3 +401,26 @@ To find $c$ in a graph with a negative $a$, do the same thing except the interse
 ![](images/unit1/findc-nega-sin.jpg)
 
 ## Tangent Graph
+
+### Drawing
+
+![](images/unit1/tan.jpg)
+
+The asymptotes of a tangent graph is whenever tan is undefined, which is whenever cosine is zero.
+
+The general formula for asymptotes is ~~$x \neq \dfrac{\pi}{2} + \pi n, n\varepsilon I$~~. (the purple lines)
+
+The x-intercepts of a tangent graph is ~~$x = \pi n, n\varepsilon I$~~.  
+From each intercept the line ~~reaches positive and negative 1~~.  
+After reaching $\pm 1$, the line ~~approaches the asymptopes~~. ($\pm \infty$)
+
+### Parameters
+All of the aforementioned parameters behave the same in a tangent graph, except...
+
+* The amplitude formula does not work, as there is no max or min. (it is infinite)
+* The ~~period~~ is calculated with a ~~different formula~~.  
+  $\dfrac{180^\circ}{\lvert b \rvert}$ or $\dfrac{\pi}{\lvert b \rvert}$
+
+# Identities
+!> TODO
+In the mean time, listen to Pi'erre Bourne
