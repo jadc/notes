@@ -400,6 +400,11 @@ To find $c$ in a graph with a negative $a$, do the same thing except the interse
 
 ![](images/unit1/findc-nega-sin.jpg)
 
+## Applications
+There are a few common questions. Here are great videos to watch about them.
+
+* [Ferris Wheel Question](https://youtu.be/Gfjnv9GXYn4)
+
 ## Tangent Graph
 
 ### Drawing
