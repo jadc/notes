@@ -1,7 +1,5 @@
 # Trigonometry
 
-!> These notes are unfinished and subject to change.
-
 ---
 
 # Trigonometric Ratios
@@ -285,6 +283,8 @@ $a + b\pi n, n\varepsilon I$
 You can have ~~multiple general formulas~~.
 
 Trick: If two different angles form a ~~straight line~~ on the unit circle, they are ~~180<sup>o</sup> degrees or pi away~~.
+
+Important: If you have negative angles in your solution, ~~convert them into their positive coterminal angle~~ before intergrating them into your general solution.
 
 #### Example
 > $x = 30^\circ, 60^\circ, 90^\circ$
@@ -582,18 +582,19 @@ In addition, for second degree equations, remember that ~~square rooting anythin
 
 #### Example
 > First Degree Equation  
-> $4\cos{\theta} - 3 = 0, -360^\circ \leq \theta \leq 360^\circ$
+> $\sqrt{3}\sec{\theta} = 2, -\pi \leq \theta \leq \pi$
 >
-> $\cos{\theta} = \dfrac{3}{4}$
+> $\sec{\theta} = \dfrac{2}{\sqrt{3}}$
 >
-> $\theta_R = 41.41^\circ$
+> $\cos{\theta} = \dfrac{\sqrt{3}}{2}$
 >
-> $\theta = 41.41^\circ, 318.6^\circ, -41.41^\circ, -318.6^\circ$
+> $\theta_R = \dfrac{\pi}{6}$
+>
+> $\theta = \dfrac{\pi}{6}, -\dfrac{\pi}{6}$
 >
 > **General Solutions**  
-> $\theta = 41.41^\circ + $
-
-!> TODO ^
+> $\theta = \dfrac{\pi}{6} + 2\pi n, n\varepsilon I$  
+> $\theta = \dfrac{11\pi}{6} + 2\pi n, n\varepsilon I$
 
 > Second Degree Equation  
 > $3\csc^2{\theta} = 4, 0 \leq \theta \leq 2\pi$
