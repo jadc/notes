@@ -404,6 +404,9 @@ To find $c$ in a graph with a negative $a$, do the same thing except the interse
 There are a few common questions. Here are great videos to watch about them.
 
 * [Ferris Wheel Question](https://youtu.be/Gfjnv9GXYn4)
+  * The radius is the amplitude
+  * The max is the diameter + the minimum
+  * It helps significantly to have a diagram drawn for this question, especially when finding $c$, make sure it makes the graph match the context of the question.
 
 ## Tangent Graph
 
@@ -427,5 +430,183 @@ All of the aforementioned parameters behave the same in a tangent graph, except.
   $\dfrac{180^\circ}{\lvert b \rvert}$ or $\dfrac{\pi}{\lvert b \rvert}$
 
 # Identities
-!> TODO
-In the mean time, listen to Pi'erre Bourne
+A trigonometric identity is an equation that is ~~true for all permissible values~~ of the variable on ~~both sides~~ of the equation.  
+In other words, when the expressions on each side are evaluated with permissible values, the expressions equal each other.
+
+## Reciprocal Tip
+Remember the following things.
+
+* The reciprocal of a fraction flips the fraction -- swapping the numerator and denominator.
+
+  * $\dfrac{1}{\frac{\sqrt{3}}{2}} = \dfrac{2}{\sqrt{3}}$
+
+* Dividing by a number is identical as dividing by said number's reciprocal.
+
+  * $\dfrac{\frac{1}{2}}{\frac{3}{2}} = \dfrac{1}{2} \times \dfrac{2}{3}$
+
+## Non-permissible Values
+Non-permissible values occur when an expression is evaluated as undefined -- i.e. the denominator is zero.
+
+### Case 1: $\sin{x}$ is in the denominator
+Any value that makes $\sin{x} = 0$ would be an NPV.
+
+#### General Formula
+* $\pi n, n\varepsilon I$
+
+* $180^\circ n, n\varepsilon I$
+
+### Case 2: $\cos{x}$ is in the denominator
+Any value that makes $\cos{x} = 0$ would be an NPV.
+
+#### General Formula
+* $\dfrac{\pi}{2} + \pi n, n\varepsilon I$
+
+* $90^\circ + 180^\circ n, n\varepsilon I$
+
+### Case 3: $\tan{x}$ or $\cot{x}$ is in the numerator
+* ~~$\tan{x} = \dfrac{\sin{x}}{\cos{x}}$~~
+
+* ~~$\cot{x} = \dfrac{\cos{x}}{\sin{x}}$~~
+
+If $\tan{x}$ is in the numerator, that means $\cos{x}$ is in the denominator, and the NPV's are the same as case 2.  
+If $\cot{x}$ is in the numerator, that means $\sin{x}$ is in the denominator, and the NPV's are the same as case 1.
+
+### Case 4: $\sec{x}$ or $\csc{x}$ is in the numerator
+* $\sec{x} = \dfrac{1}{\cos{x}}$
+
+* $\csc{x} = \dfrac{1}{\sin{x}}$
+
+If $\sec{x}$ is in the numerator, that means $\cos{x}$ is in the denominator, and the NPV's are the same as case 2.  
+If $\csc{x}$ is in the numerator, that means $\sin{x}$ is in the denominator, and the NPV's are the same as case 1.
+
+### Case 5: Anything else
+Any zero/x-intercept/value that causes the denominator to equal zero is an NPV.
+
+## Verification
+To verify an identity...
+* Treat the left side of the equal sign and the right seperately.
+* Evaluate each side using the given values.
+* Compare each side.
+  * If both sides are equal, you sucessfully verified the identity.
+  * If both sides aren't equal, this doesn't commonly happen at the Math 30 level.
+
+## Proven Identities
+The following identities have been proven for you and will 100% appear on exams.  
+They can be found on your formula sheet.
+
+### Pythagorean Identites
+* $\sin^2{\theta} + \cos^2{\theta} = 1$
+* $1 + \tan^2{\theta} = \sec^2{\theta}$
+* $1 + \cot^2{\theta} = \csc^2{\theta}$
+
+### Sum and Difference Identites
+* $\sin(x + y) = \sin{x}\cos{y} + \cos{x}\sin{y}$
+* $\sin(x - y) = \sin{x}\cos{y} - \cos{x}\sin{y}$
+* $\cos(x + y) = \cos{x}\cos{y} - \sin{x}\sin{y}$
+* $\cos(x - y) = \cos{x}\cos{y} + \sin{x}\sin{y}$
+
+* $\tan{x + y} = \dfrac{\tan{x} + \tan{y}}{1 - \tan{x}\tan{y}}$
+* $\tan{x - y} = \dfrac{\tan{x} - \tan{y}}{1 + \tan{x}\tan{y}}$
+
+### Double Angle Identities
+* $\sin(2x) = 2\sin{x}\cos{x}$
+* $\cos(2x) = \cos^2{x} - \sin^2{x}$
+* $\cos(2x) = 2\cos^2{x} - 1$
+* $\cos(2x) = 1 - 2\sin^2{x}$
+
+* $\tan(2x) = \dfrac{2\tan{x}}{1 - \tan^2{x}}$
+
+## Using Identities
+With the aforementioned identities, you can replace any instance of an identity with what it equals to.  
+You can rearrange, cancel, factor, all that good stuff.
+
+#### Example
+Simplify the following into a single trigonometric function.
+
+> $\dfrac{\tan{x}}{\sin{x}}$
+> 
+> $= \dfrac{\frac{\sin{x}}{\cos{x}}}{\sin{x}}$
+>
+> $= \dfrac{\sin{x}}{\cos{x}} \times \dfrac{1}{\sin{x}}$
+>
+> $= \dfrac{1}{\cos{x}}$
+>
+> $= \sec{x}$
+
+### Using Identities To Find Exact Trigonometric Values
+If a ratio isn't on the unit circle, use Pythagoream theorem to find the other trig ratios.
+
+If an angle isn't on the unit circle, ~~rewrite the angle~~ as a ~~sum or difference~~ of two angles that are ~~on the unit circle~~.  
+Then, use an applicable sum or difference identity.
+
+#### Example
+> Find the exact value of $\cos{15^\circ}$
+>
+> $45^\circ - 30^\circ = 15^\circ$  
+> $\cos(45^\circ - 30^\circ) = \cos{45^\circ}\cos{30^\circ} + \sin{45^\circ}\sin{30^\circ}$  
+> $(\frac{\sqrt{2}}{2})(\frac{\sqrt{3}}{2}) + (\frac{\sqrt{2}}{2})(\frac{1}{2})$  
+>
+> $\dfrac{\sqrt{6} + \sqrt{2}}{4}$
+
+# Proving Identities
+* Treat the left side and the right side ~~seperately~~. ~~Do not move things across the equal sign~~. 
+* Simplify each side until they equal each other.
+
+## Tricks
+This is in no order.
+
+* Begin with the more ~~complex side first~~.
+
+* If needed, multiply the numerator and denominator by its ~~conjugate~~ and simplify.
+
+* Subsitute with an ~~identity~~ when possible.
+
+* Try to change all trigonometric ratios into sines and/or cosines.
+  * $\csc{x} = \frac{1}{\sin{x}}$
+  * $\sec{x} = \frac{1}{\cos{x}}$
+  * $\tan{x} = \frac{\sin{x}}{\cos{x}}$
+  * $\cot{x} = \frac{\cos{x}}{\sin{x}}$
+
+* Try to ~~factor when possible~~.
+
+* If there is a ~~sum or difference~~ of fractions, ~~combine~~ them as a ~~single fraction~~.
+  * Multiply to create ~~common denominators~~ if you have to.
+
+# Solving Trigonometric Equations
+Solving trig equations is just like solving any equation, try to ~~isolate the trig function~~.  
+This means you will be doing things like factoring, GCF, differences of squares, decomposition, etc...
+
+The only difference is that you also need to ~~isolate the angle from the trig function~~, which means using CAST and reference angles covered earlier.
+
+In addition, for second degree equations, remember that ~~square rooting anything gives a positive and negative value~~.
+
+#### Example
+> First Degree Equation  
+> $4\cos{\theta} - 3 = 0, -360^\circ \leq \theta \leq 360^\circ$
+>
+> $\cos{\theta} = \dfrac{3}{4}$
+>
+> $\theta_R = 41.41^\circ$
+>
+> $\theta = 41.41^\circ, 318.6^\circ, -41.41^\circ, -318.6^\circ$
+>
+> **General Solutions**  
+> $\theta = 41.41^\circ + $
+
+!> TODO ^
+
+> Second Degree Equation  
+> $3\csc^2{\theta} = 4, 0 \leq \theta \leq 2\pi$
+>
+> $\csc^2{\theta} = \dfrac{4}{3}$
+>
+> $\csc{\theta} = \pm \dfrac{2}{\sqrt{3}}$
+>
+> $\sin{\theta} = \pm \dfrac{\sqrt{3}}{2}$
+>
+> $\theta = \dfrac{\pi}{3}, \dfrac{2\pi}{3}, \dfrac{4\pi}{3}, \dfrac{5\pi}{3}$
+>
+> **General Solutions**  
+> $\theta = \dfrac{\pi}{3} + \pi n, n\varepsilon I$
+>
+> $\theta = \dfrac{2\pi}{3} + \pi n, n\varepsilon I$
