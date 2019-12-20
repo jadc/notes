@@ -1,7 +1,5 @@
 # <span id="ib">IB</span> Biochemistry
 
-!> These notes are not finished and are subject to change.
-
 ---
 
 # Review and More
@@ -54,7 +52,7 @@ Hydrogen bonds are not strong, just ~~very plentiful~~.
 | Iron ($\textrm{Fe}$) | in hemoglobin, red blood cells, carries oxygen |
 | Calcium ($\textrm{Ca}^{2+}$) | used in bones, teeth, blood clots, neuron transmissions |
 | Magnesium ($\textrm{Mg}^{2+}$)<br>Zinc ($\textrm{Zn}^{2+}$) | aid enzyme function, catalyze self |
-| Sodium ($\textrm{Na}^+$)<br>Potassium ($\textrm{K}^+$ | Sodium and potassium pump, resets nerves |
+| Sodium ($\textrm{Na}^+$)<br>Potassium ($\textrm{K}^+$) | Sodium and potassium pump, resets nerves |
 
 ## Functional Groups
 | Group | Formula |
@@ -420,16 +418,168 @@ Cold and urea only cause denaturation.
 ## Protein Types
 
 ### Simple Proteins
-.
+~~Only amino acids~~ and 1+ polypeptide bonds.
 
 ### Conjugated Proteins
-.
+* Have a ~~prosthetic group~~ -- a ~~covalently bonded~~ additional part
+* Usually bonded to ~~amino acid side groups~~ or some other part of the polypeptide
+* e.g.
+  * glycoproteins (prosthesis = a carbohydrate)
+  * chromoproteins (prosthesis = a pigment)
+    * Hemoglobin is a chromoprotein, each subunit contains a heme group, which can hold an iron atom
+  * lipoproteins (proosthesis = something fat soluable)
 
 ### Binding Proteins
-.
+* Any kind of protein -- doesn't have to be an enzyme or structural -- that have special shapes to bind to other things.
+* e.g.
+  * hemoglobin binds to oxygen and carbon dioxide
+  * antibodies
+  * cell to cell recognition
 
 ### Structural Proteins
-.
+* Maintains physical form of organisms
+* Can be intracellular, e.g.
+  * Keratin: Forms hair, outer layer of skin, claws, nails, horns, antlers, scales
+* Can be extracellular
+  * Collagen: In tendons, ligaments, and muscle coverings
+  * Elastin: Gives elasticity to connective tissue
 
 # <span id="ib">IB</span> Nucleic Acids
-!> TODO Never
+!> TODO Never LOL I ain't paid enough for this!
+
+# Enzymes
+## Laws of Thermodynamics
+### 1st
+Energy can only be ~~transferred~~, not created or destroyed.
+
+### 2nd
+~~Entropy~~ is randomness, disorder, lack of organization.
+
+Energy transfer leads to entropy, as in conversion of some energy into ~~unusable forms~~ such as heat. Rule of ten.
+
+Life requires a constant input of energy to maintain ~~enthalpy~~ -- order.
+
+### Gibbs Free Energy ($\Delta G$)
+When bonds are broken in chemical reactions.
+
+<span id="ib">IB</span> Glucose releases ~~$-686 \textrm{Kcal/mol}$~~ of free energy.
+<span id="ib">IB</span> ATP releases ~~$-7.3 \textrm{Kcal/mol}$~~ of free energy.
+
+Free energy is negative as it represents the amout of free energy that the ~~reactants have lost~~.
+
+## Exergonic
+Energy out reactions, aka exothermic.  
+When the ~~products have less~~ free energy than the reactants, Gibbs free energy is ~~negative~~.  
+Exergonic reactions are often ~~coupled~~ with endergonic reactions to ~~drive them~~.
+
+## Endergonic
+Energy in reactions, aka endothermic.  
+When the ~~products have more~~ free energy than the reactants, Gibbs free energy is ~~positive~~.  
+This is only possible by getting ~~energy from sources beside the reactants~~. (e.g. sunlight energy in photosynthesis)
+
+## Chemical Reactions
+### Reverse Reactions
+* Some reactions can alternate back and forth between reactants and products.  
+* Molecules oscillate in place, they have ~~kinetic energy~~.
+  * Product molecules can end up colliding, transfering their ~~kinetic energy into forming new bonds~~, and reforming as the reactants.
+
+### Direction
+* Reactions usually occur in the normal direction, left to right.
+  * As long as the ~~reactants $\Delta G$ exceeds the products~~.
+* Near the end of reactions, $\Delta G$ of reactants = $\Delta G$ of products.
+  * Therefore there is no net direction.
+  * Therefore the ~~concentration of reactants and products~~ remains ~~constant~~.
+  * This is equilibrium.
+
+* In strong exergonic reactions: ~~Most~~ of the reactants ~~form products before equilibrium~~.
+* In weak exergonic reactions: More of the reactants are ~~left at equilibrium~~>
+* In strong endergonic reactions: There is a rich energy source, like sunlight, so ~~most~~ of the reactants ~~form products before equilibrium~~.
+* In weak endergonic reactions: There is little energy to drive the reaction. ~~Equilibrium is reached~~ with ~~little product formed~~.
+
+* [Good video](https://youtu.be/CGJjjm7-DJ4?t=124)
+
+## Energy of Activation
+* The ~~energy~~ input needed to ~~initiate~~ a chemical reaction.
+* You need enough ~~energy to break the bonds~~ of the reactants to form products.
+* The energy spark to disrupt the ~~first molecules, which release enough energy~~ to start the cascade of reactions.
+
+## Catalysts
+Substances that greater ~~reduce the energy of activation~~.
+
+## Enzymes
+~~**Enzymes**~~ are biological catalysts, and they are all proteins.  
+~~**Substrates**~~ are the substance that an enzyme acts on.
+
+### Characteristics
+* All are proteins (large, globular, tertiary or quaternary structures)
+* Reacts with a specific substrate
+* Do not require high heat (w/o an enzyme would)
+* Help reactants reach equillibrium faster (but can't change it)
+* Do not change free energy of reaction
+* Reusable -- they are unchanged by reactions.
+
+### Cofactors
+* e.g. vitamins, minerals
+* Some enzymes require cofactors to properly function.
+* May be bonded to enzyme permanently in the allosteric site, or loosely bound to substrate.
+* Help ~~ensure proper enzyme shape~~.
+* Organic cofactors, e.g. vitamins, are called ~~coenzymes~~.
+  * Excess coenzymes may be harmful. (e.g. vitamin D)
+
+### Enzyme Function
+* Shape is key to enzyme function
+* ~~**Active Site**~~: The area that is ~~specific for the substrate~~, and is where it goes to go through the reaction.
+* ~~**Enzyme-Substrate Complex**~~: The complex formed when the ~~enzyme and substrate join briefly~~.
+  * This is done via ~~**induced-fit**~~: the substrate enters the active site, and the enzyme ~~slightly changes~~ its shape to create a ~~closer bond~~.
+  * The reaction is performed, products are produced, and the enzyme releases them.
+
+### Factors Influencing Rate of Enzyme Action
+#### Substrate Concentration
+* As substrate concentration increases, chances of colliding with an enzyme increases, therefore ~~rate of reaction increases~~ until ~~enzyme saturation~~.
+* ~~**Enzyme Saturation**~~ is when ~~all active sites are being used~~.
+  * Reaction rate is then determined by the rate of each individual reaction.
+  * Additional substrate without accompanying enzymes does not affect the reaction rate at enzyme saturation.
+
+#### pH
+* Each enzyme has an ideal pH, ~~usually near neutral~~.
+* Deviations from this pH ~~gradually reduce reaction rate~~.
+* Specific pH may encourage ionization of amino acid groups to cause better enzyme-substrate complexing.
+* Extreme pH's may ~~denature the enzyme~~.
+
+#### Temperature
+* ~~Every $+10^\circ\textrm{C}$ doubles reaction rates~~ in anything. (not exclusive to enzymes)
+* Reaction rate ~~gradually increases~~ as the temperature ~~approaches the enzyme's ideal~~, but ~~quickly drops off~~ above the ideal.
+  * This is because extreme temperatures can ~~denature the enzyme~~.
+
+### Enzyme Inhibiting Mechanisms
+#### Competitive Inhibition
+* Substrate ~~look-a-likes block active sites~~.
+* Prevent substrate binding.
+
+#### Noncompetitive Inhibition
+* Substance binds to enzyme in ~~allosteric region~~.
+* This ~~changes the enzyme's shape~~.
+  * New shape doesn't fit substrate, can't function.
+
+### Metabolic Pathways
+* Sequences of chemical reactions.
+  * e.g. Product of 1st reaction is reactant of 2nd reaction, and so on.
+* Enzymes regulate each step.
+
+* ~~**Allosteric Enzymes**~~ are often first in metabolic pathways
+  * Have an allosteric space that can switch the enzyme between active and inactive.
+
+#### Activating Modulators
+* Bind to allosteric sites to make ~~active site more receptive~~.
+* Sometimes they are even a ~~substrate~~.
+* Also called inducers.
+
+* ~~**Precursor Activity**~~ is when the ~~last enzyme~~ in a metabolic pathway is ~~only activated~~ when there is an ~~accumulation of the initial substrate~~.
+
+#### Inhibitory Modulators
+* Bind to allosteric sites to make ~~active site less receptive~~.
+* Sometimes they are even a ~~product~~.
+* Also called inhibitors.
+
+* ~~**Negative Feedback Inhibition**~~ is when the end product of a metabolic pathway, when in ~~excess, fills the allosteric site of the first enzyme~~.
+  * This acts as an inhibitor to the entire pathway.
