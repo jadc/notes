@@ -6,6 +6,10 @@ I will be frequently iterating upon this repo throughout the years—unless I pr
 
 This site is stored on [GitHub](https://github.com/jadc/notes), hosted on [Netlify](https://netlify.com/), rendered with [docsify](https://docsify.js.org) with [$\KaTeX$ support by upupming](https://github.com/upupming/docsify-katex).
 
+# Bookmarks
+When you click a link and it goes to elsewhere in the document, sometimes it doesn't go to the right place.  
+To fix this, ~~refresh the page after clicking a link~~.
+
 # Discretions
 ## Inaccuracy
 Inaccuracies in these notes are entirely possible, and almost guaranteed for documents marked unfinished, like...

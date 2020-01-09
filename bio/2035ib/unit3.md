@@ -74,6 +74,33 @@ Hydrogen bonds are not strong, just ~~very plentiful~~.
 Protoplasm are composed of ~~carbohydrates, proteins, and lipids...~~  
 <span id="ib">IB</span> as well as minerals, vitamins, water, and nucleic acids.
 
+# Condensation
+Two monomers combine via the ~~<span id="ib">IB</span> **enzymatic dehydration synthesis**~~ to form ~~dehydration linkages~~.  
+
+This is when a ~~hydroxyl from one molecule~~ and a ~~hydrogen from another~~ are ~~removed to form water~~, leaving only the ~~oxygen binding the two molecules~~ together. This is a ~~covalent bond~~.  
+This process ~~requires energy~~, i.e. ATP, and is therefore an ~~**anabolic** reaction~~.
+
+* -OH   HO-
+* -O~~H  HO~~-
+* -O- + H<sub>2</sub>O
+
+## Synonyms for Dehydration Linkage
+* For amino acids: Dipeptide Bond/Linkage
+* For carbs: Glycosidic Bond/Linkage
+* For lipids: Ester Bond/Linkage
+
+## `CHEM` Naming
+This is called condensation in Chemistry.  
+DO NOT say enzymatic dehydration synthesis in Chemistry.
+
+# Hydrolysis
+The opposite of condensation, i.e. breaking bonds by inserting water, is called ~~**hydrolysis**~~ or ~~hydrolytic cleavage~~.
+This process ~~releases energy~~, and is therefore an ~~**catabolic** reaction~~. It is used during digestion.
+
+* -O- + H<sub>2</sub>O
+* -O~~H  HO~~-
+* -OH   HO-
+
 # Carbohydrates
 <h1>
 $\textrm{C}_n\textrm{H}_{2n}\textrm{O}_n$
@@ -102,20 +129,6 @@ Fructose contains a ~~ketone group~~ -- carbonyl ~~within~~ the chain.
 ![](images/unit3/glucose.jpg)
 
 ## Disaccharides
-### Enzymatic Dehydration Synthesis
-Two monosaccharides combine via ~~<span id="ib">IB</span> **enzymatic dehydration synthesis**~~, also called ~~condensation reactions~~, to form ~~dehydration linkages~~.
-
-This is when a ~~hydroxyl from one molecule~~ and a ~~hydrogen from another~~ are ~~removed to form water~~, leaving only the ~~oxygen binding the two molecules~~ together.  
-This process ~~requires energy~~, i.e. ATP.
-
-* -OH   HO-
-* -O~~H  HO~~-
-* -O- & H<sub>2</sub>O
-
-The opposite of this, i.e. breaking bonds by inserting water, is called ~~**hydrolysis**~~ or ~~hydrolytic cleavage~~. It is used during digestion.
-
-In the context of carbohydrates, this is called a ~~**glycosidic linkage**~~. It is a ~~covalent bond~~.
-
 ### Common Disaccharides
 | Product | Recipe | Enzyme | Linkage |
 | :-----: | :----: | :----: | :-----: |
@@ -324,6 +337,7 @@ Sudan IV's solution within a lipid turns red.
 * They are made up of $\textrm{C}$, $\textrm{H}$, $\textrm{O}$, $\textrm{N}$, and uniquely, ~~$\textrm{S}$~~.
 
 ## Amino Acids
+### Structure
 * Amino acids ~~differ~~ from each other by their ~~radical group~~. (R Group)
 * There are ~~20 different primary amino acids~~. (and 2 secondary, i.e. derivatives)
 
@@ -335,20 +349,57 @@ Sudan IV's solution within a lipid turns red.
 
 ![](images/unit3/aminoacid.jpg)
 
+#### `CHEM` Location Characterization
+The location of the animo group in an amino acid relative to the alpha carbon can be specified in the name.
+
+* $\alpha$: Amino group on alpha carbon.
+* $\beta$: Amino group 1 carbon after alpha carbon.
+* $\gamma$: Amino group 2 carbons after alpha carbon.
+
+![](images/unit3/chem/location.jpg)
+
+All amino acids ~~in proteins~~ are ~~alpha amino acids~~.
+
 ### Polypeptides
 * They are formed when the ~~hydroxyl in the carboxyl group~~ of one amino acid is linked via enzymatic dehydration synthesis to the ~~hydrogen in the amino group~~ of another amino acid.
 * This is referred to as a ~~**peptide bond**~~.
+* Two monomers together form a ~~**dipeptide**~~, and many form a ~~**polypeptide**~~.
 
 ![](images/unit3/peptide.jpg)
 
+### `CHEM` Optical Isomers
+All amino acids--except for glycine--have a ~~chiral carbon atom~~.  
+A ~~**chiral carbon atom**~~ is a carbon bonded to four other things.
+
+This property allows them to have ~~**optical isomers**~~, which are ~~**mirrored or rotated**~~ amino acids.
+
+![](images/unit3/chem/optical.jpg)
+
+### `CHEM` Amino Acid pH
+Amino acids can be characterized as either acidic, basic, or neutral.  
+This all depends on the ~~number of amino groups versus carboxyl groups~~.
+
+* ~~Carboxyl Group = Acidic~~
+* ~~Amino Group = Basic~~
+
+If there are equal amounts, the amino acid is neutral. Otherwise, whichever there is more of.  
+
+#### Example
+> Glutamic acid has two carboxyl groups but only one amino group. Therefore, it is an acidic amino acid.
+
 ### Zwitterion
-* Amino acids readily ionize ~~within cells~~, ~~in water~~, and ~~extra cellular fluid~~ -- fluid not found in cells.
+* Amino acids are ~~**amphoteric**~~, meaning they can behave as ~~both an acid or base~~.
+  * This is because they have both a ~~proton doner~~ and ~~proton acceptor~~ group.
   * The carboxyl group ~~gives off a proton~~ to have a ~~negative charge~~, and this gives it ~~acidic properties~~.
   * The amino group ~~takes in a proton~~ to have a ~~positive charge~~, and this gives it ~~basic properties~~.
-* In this state, the amino acid has both a positive and negative charge, and this is called a ~~**Zwitterion**~~.
-  * In neutral pH solutions, amino acids yield zwitterions.
-  * In low pH, they behave like cations.
-  * In high pH, they behave like anions.
+* In low pH, amino acids behave like cations.
+* In high pH, amino acids behave like anions.
+* In neutral pH solutions, amino acids yield ~~**zwitterions**~~.
+  * This is when the carboxyl group gives a proton to the amino group.
+
+![](images/unit3/zwitterion0.png)
+
+![](images/unit3/zwitterion1.png)
 
 ### Radical Group
 * There are 20 different radical groups for the 20 different amino acids.
