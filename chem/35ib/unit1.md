@@ -118,21 +118,52 @@ This can be predicted by a vitamin's structure.
 ## Xenobiotics
 * Chemicals ~~not naturally present~~ or produced by an organism.
 * Or, chemicals present in organisms in ~~unnaturally high amounts~~.
+* Generally...
+  * Toxic to various life forms
+  * More resistant to biodegradation
+* Persistent Organic Pollutants (POPs) can remain in soil and animal fat for decades.
 
 ### Metabolism
-.
+#### Digestion
+* Can be completely digested
+* Cannot be metabolized by existing enzymes, therefore...
+  * remain in an organism or
+  * excrete unchanged
+* May produce toxic metabolites/intermediates
+* Alter the metabolic pathways of other compounds
+* Affect the reproduction, development, and growth of living organisms
+
+#### Rate of Decomposition
+Affected by...
+* Functional groups
+* Polarity
+  * Polar are soluble in water, unlikely to accumulate for long
+  * Nonpolar are soluble in fat, likely to accumulate for long
+
+#### Biomagnification
+* Concentration of xenobiotics increase exponentially up the food chain.
 
 ## Heavy Metals
-.
+* Heavy metals are any metal/metalloid of environmental concern. (e.g. mercury, cadmium, lead)
+* Can cause...
+  * Denaturation of proteins
+  * Inhibit enzyme action
+  * Affect the redox balance in cells
 
 ## Pharmaceutically Active Compounds (PACs)
-.
+* Group of xenobiotics including antibiotics
+* Not produced by animals or are in diet
+* Antibiotics in animal feed eventually get to us. (biomagnification)
+* Antibiotic use may create bacteria strands immune to the antibiotic, which we have no current way of treating.
+* Certain PACs increase risk of disease and inhibit reproduction in aquatic animals.
 
 ## Detergents
-.
-
-### Effects
-.
+* Amphiphillic
+* Very low biodegradability
+* Accumulate in sewage treatment plants, producing persistant foam and altering bacterial composition of recycled water
+* Biological detergents are an alternative
+  * Contain thermophilic enzymes
+  * Effective even in cold water
 
 ## Pesticides
 * Many pesticides are xenobiotics, most popular example being ~~**DDT**~~.
