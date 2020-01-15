@@ -361,6 +361,7 @@ The ~~**Iodine Test**~~ is used to test for starch.
   * ~~**High Density Lipoprotein**~~, aka. HDL or good cholesterol, used in many things.
     * Major part of cell membranes
     * Helps form bile acids for digestion
+    * Collects/cleans LDLs from arteries.
     * ~~Converts into Vitamin D when exposed to UV Light~~.
     * Fats need to be ~~**emulsified** -- mechanically digested, broken up~~ before they will mix with water. Bile salts help to this.
 
@@ -474,13 +475,7 @@ If there are equal amounts, the amino acid is neutral. Otherwise, whichever ther
 * In neutral pH solutions, amino acids yield ~~**zwitterions**~~.
   * This is when the carboxyl group gives a proton to the amino group.
 
-#### `CHEM` Isoelectric Point
-* Radical groups can be neutral, acidic, or basic.
-* The isoelectric point (P<sub>i</sub>) is the pH at which the charges of an entire amino acid are ~~net zero. (balanced)~~
 
-![](images/unit3/zwitterion0.png)
-
-![](images/unit3/zwitterion1.png)
 
 ### Radical Group
 * There are 20 different radical groups for the 20 different amino acids.
@@ -700,6 +695,8 @@ Substances that greater ~~reduce the energy of activation~~.
       * Sometimes changes pH.
       * Can even temporarily covalently bond to substrate.
   * The reaction is performed, products are produced, and the enzyme releases them.
+
+Enzyme + Substrate --> Enzyme-Substrate Complex --> Enzyme-Product Complex --> Enzyme + Product
 
 ### Factors Influencing Rate of Enzyme Action
 #### Substrate Concentration

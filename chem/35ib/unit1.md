@@ -33,9 +33,13 @@ Larger concepts are highlighted here.
   * e.g. a mixture of amino acids at different isoelectric points can be seperated this way
   * The isoelectric points of a few amino acids can be found in your IB Data Booklet.
 
-## Isoelectric Point
+#### `CHEM` Isoelectric Point
 * Radical groups can be neutral, acidic, or basic.
-* The isoelectric point (pI) is the pH at which the charges of an entire amino acid are ~~net zero. (balanced)~~
+* The isoelectric point ($\textrm{pI}$) is the pH at which the charges of an entire amino acid are ~~net zero. (balanced)~~
+
+![](images/unit1/zwitterion0.png)
+
+![](images/unit1/zwitterion1.png)
 
 ## Experiment
 * A paper or gel is used for support for a solution of a known pH.
@@ -44,13 +48,14 @@ Larger concepts are highlighted here.
 
 ### Movement
 * Amino acids will move depending on their pI related to their pH.
-  * pI = pH: No movement
-  * pI > pH: Solution acts as an acid, and gives a proton to the amino acid. Net positive charge, ~~**moves toward negative electrode** (cathode).
-  * pI < pH: Solution acts as an base, and takes a proton from the amino acid. Net negative charge, ~~**moves toward positive electrode** (anode).
+  * `pI = pH`: No movement, H<sup>+</sup> from carboxyl migrates to amino
+  * `pI > pH`: Gains a H<sup>+</sup> from solution, net positive charge, ~~**moves toward negative electrode**~~ (cathode).
+  * `pI < pH`: Loses a H<sup>-</sup> to solution, net negative charge, ~~**moves toward positive electrode**~~ (anode).
 The greater the difference, the greater the movement.
 
-Cathode and anode are reversed in meaning in Electrophoresis.  
-A nice trick is to subtract pH from pI. (pI - pH) The sign of this new value is the net charge.
+* Cathode and anode are reversed in meaning in Electrophoresis.
+* A nice trick is to subtract pH from pI. (pI - pH)  
+  The sign of this new value is the net charge.
 
 * After enough movement, ninhydrin is sprayed to make the amino acids visible.
 
@@ -96,7 +101,7 @@ This can be predicted by a vitamin's structure.
 | :-----: | :--------------: | :-----: | :--------: | :-------: | :--------: |
 | Vitamin C | Ascorbic Acid | Fresh fruits and vegetables | Water | Believed to cure common cold<br>Aids immune system, healing wounds, preventing bacterial infections<br>Synthesizes collagen (protein) | Scurvy |
 | Vitamin A | Retinol | Cod liver oil, green vegetables, and fruit | Fat | Retinol -> retinal + opsin -> rhodopsin<br>Rhodopsin converts light into optic nerve signals | Xeropthalmin |
-| Vitamin D | N/A | Fish liver oil, egg yolk<br>Synthesized by body in skin when UV light interacts with cholesterol | Allows absorption of calcium and phosphate ions<br>Necessary for bone and teeth formation | Ricketts |
+| Vitamin D | N/A | Fish liver oil, egg yolk<br>Synthesized by body in skin when UV light interacts with cholesterol | Fat | Allows absorption of calcium and phosphate ions<br>Necessary for bone and teeth formation | Rickets |
 
 ## Deficiencies
 * Primary deficiencies in vitamins can be cured with ~~regular intake of vitamins~~.
