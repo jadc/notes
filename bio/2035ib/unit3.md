@@ -263,7 +263,7 @@ The ~~**Iodine Test**~~ is used to test for starch.
 * Dissolve in organic solvents
 * Once glycogen stores in the body are filled, ~~excess carbs~~ are stored as ~~fat~~.
 * Important for cell membranes, insulation against physical damage and temperature, carriers for vitamin A, D, E, and K, raw materials for hormone synthesis, etc...
-* `CHEM` Require a greater degree of oxidation compared to carbs, since cabs already have one oxygen for every carbon.
+* `CHEM` Require a greater degree of oxidation compared to carbs, since carbs already have one oxygen for every carbon.
 
 * A ~~**glycerol**~~ is an alcohol with ~~3 hydroxyl side groups~~.
 * A ~~**fatty acids**~~ is a carbon chain, usually with an ~~even number of carbons~~, and a ~~carboxyl group at the end~~.
@@ -277,8 +277,12 @@ The ~~**Iodine Test**~~ is used to test for starch.
 ![](images/unit3/trigly.jpg)
 
 * Most fatty acids are insoluable in water, but ~~alkaline (basic) solutions~~ cause the ~~carboxyl group~~ to become ~~ionized~~, polar, and thus ~~soluable~~.
-* ~~Sodium and potassium~~ salts of fatty acids are called ~~"soaps,"~~ and are water soluable.
 * ~~Calcium~~ salts of fatty acids are not water soluable, and also cause ~~bath tub rings~~.
+
+## `CHEM` Soaps
+* Triglycerides are broken down by ~~strong bases like NaOH and KOH~~.
+* This forms a ~~sodium/potassium salt of a fatty acid~~, aka. a soap.
+* This process is called ~~**saponification**~~.
 
 ## Animal Fats
 * Triglycerides from ~~animals~~ are called ~~fats~~.
@@ -318,11 +322,6 @@ The ~~**Iodine Test**~~ is used to test for starch.
 ![](images/uni3/chem/cistrans.jpg)
 
 * These increase LDL cholesterol and are carcinogens.
-
-## `CHEM` Soaps
-* Triglycerides are broken down by ~~strong bases like NaOH and KOH~~.
-* This forms a ~~sodium/potassium salt of a fatty acid~~, aka. a soap.
-* This process is called ~~**saponification**~~.
 
 ## Phospholipids
 * Similar to a triglyceride (1 glycerol, 3 fatty acids) except one of the fatty acids is replaced with a ~~phosphate group~~.  
