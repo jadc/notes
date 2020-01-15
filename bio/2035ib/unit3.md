@@ -319,7 +319,7 @@ The ~~**Iodine Test**~~ is used to test for starch.
 * Partially hydrogenated some polyunsaturated fatty acids may form trans isomers.
   * The C=C double bonds do not have the same molecule on each side.
 
-![](images/uni3/chem/cistrans.jpg)
+![](images/unit3/chem/cistrans.jpg)
 
 * These increase LDL cholesterol and are carcinogens.
 
