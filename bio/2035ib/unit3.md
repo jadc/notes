@@ -42,7 +42,8 @@
 The molar ~~concentration of protons in pure water~~ = $1 \times 10^{-7}$ = ~~pH 7~~  
 Acids have a ~~higher~~ proton concentration ~~than water~~, bases have ~~lower~~.
 
-Hydrogen bonds are not strong, just ~~very plentiful~~.
+Hydrogen bonds are not strong, just ~~very plentiful~~.  
+Remember that hydrogen bonds are N-H, O-H, and F-H.
 
 ### Miscellaneous
 
@@ -397,6 +398,10 @@ If there are equal amounts, the amino acid is neutral. Otherwise, whichever ther
 * In neutral pH solutions, amino acids yield ~~**zwitterions**~~.
   * This is when the carboxyl group gives a proton to the amino group.
 
+#### `CHEM` Isoelectric Point
+* Radical groups can be neutral, acidic, or basic.
+* The isoelectric point (P<sub>i</sub>) is the pH at which the charges of an entire amino acid are ~~net zero. (balanced)~~
+
 ![](images/unit3/zwitterion0.png)
 
 ![](images/unit3/zwitterion1.png)
@@ -414,6 +419,18 @@ If there are equal amounts, the amino acid is neutral. Otherwise, whichever ther
       ![](images/unit3/disulfide.png)
   * **5** of them ~~ionize in water~~, and therefore have a ~~positive or negative charge~~.
 
+### `CHEM` Essential Amino Acids
+20 amino acids make up a protein, and 10 of them can be synthesized by the human body.  
+The other 10 must be ~~acquired from food~~. These are essential amino acids.
+
+#### Complete Protein
+* Contain all 10 essential amino acids
+* From animal sources and beans
+
+#### Incomplete Protein
+* Lack 1+ essential amino acids
+* From most vegetables
+
 ## Protein Organization
 
 ### Primary Structure
@@ -427,13 +444,13 @@ Polypeptide has amino acids arranged in a ~~linear, straight chain~~.
 Involves peptide bonds and hydrogen bonds.
 
 #### Right-handed Alpha Helix Structure
-Weak ~~hydrogen bonds~~ form ~~within itself~~.  
+Weak ~~**hydrogen bonds**~~ form ~~within itself~~.  
 The ~~double bonded oxygen~~ in the carboxyl group of one amino acid ~~bonds~~ to the ~~hydrogen~~ in the amino group of another amino acid.
 
 ![](images/unit3/secondary0.jpg)
 
 #### Beta Pleated Sheet
-Weak ~~hydrogen bonds~~ form ~~within itself, but between adjacent strands~~.  
+Weak ~~**hydrogen bonds**~~ form ~~within itself, but between adjacent strands~~.  
 The polypeptide forms a zigzag structure.
 
 ![](images/unit3/secondary1.jpg)
@@ -444,7 +461,7 @@ Involves peptide bonds, hydrogen bonds, and interactions between radical groups.
 This structure creates a ~~globular shape~~ as the protein folds seemingly randomly.  
 There are 4 forces that cause folding.
 * ~~**Hydrogen Bonds**~~ between -OH and N- groups.
-* ~~**Ionic Attractions**~~ between radical groups of opposing net charges.
+* ~~**Ionic Bonds**~~ between radical groups of opposing net charges. (e.g. between -NH<sub>2</sub> and -COOH groups)
 * ~~**Hydrophobic Interactions**~~ between nonpolar amino acids ~~bundling up into close and tight clusters~~ when exposed to water conditions.
 * ~~**Covalent Bonds**~~ between two Cysteine amino acids to form ~~disulfide bridges~~.
 
@@ -456,15 +473,24 @@ This structure involves ~~interactions between different polypeptide chains~~.
 > <span id="ib">IB</span> Example...  
   Hemoglobin  
   Contains 4 polypeptides: two alpha chains, and two beta chains.  
-  As well as 4 heme groups.
 
 Proteins form ~~very specific shapes~~, and this shape is key to their ~~function~~.
 
 ~~**Denaturation**~~ is when bonds are ~~temporarily disrupted~~, ~~changing their shape~~ and therefore their ~~function~~.  
 ~~**Coagulation**~~ is when bonds are ~~permanently disrupted~~.
 
-Heat, cold, strong acids, strong bases, urea, and other chemicals can cause denaturation or even coagulation.  
-Cold and urea only cause denaturation.
+The following can denature and coagulate a protein.
+* Heat
+* UV Radiation
+* Strong pH (high and low)
+
+The following only denature a protein.
+* Cold
+* Urea
+
+### Sickle Cell Anemia
+A small change can make a massive change in a protein's structure and function.  
+In sickle cell anemia, a hemoglobin's glutamic acid is replaced by a valine.
 
 ## Protein Types
 
@@ -494,6 +520,17 @@ Cold and urea only cause denaturation.
 * Can be extracellular
   * Collagen: In tendons, ligaments, and muscle coverings
   * Elastin: Gives elasticity to connective tissue
+
+## `CHEM` Amino Acid Identification Experiments
+[Click here.](/chem/35ib/unit1)
+
+## Test
+The ~~**Biuret reagent**~~ is used to test for proteins.  
+
+| Test | Colour |
+| :--: | :----: |
+| Negative | Light Blue |
+| Positive | Purple |
 
 # <span id="ib">IB</span> Nucleic Acids
 !> TODO Never LOL I ain't paid enough for this!
