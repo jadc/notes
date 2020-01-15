@@ -117,15 +117,16 @@ Usually ~~5-6 carbons~~, can be less.
 * ~~**pentoses** = 5 carbon monosaccharide~~
 * ~~**hexoses** = 6 carbon monosaccharide~~
 
+* `CHEM` ~~ketose~~ = monosaccharide with carbonyl on second carbon. e.g. fructose
+* `CHEM` ~~aldose~~ = monosaccharide with carbonyl on terminal carbon. e.g. glucose, deoxyribose
+
 Most common hexoses are ~~fructose, glucose, and galactose~~.  
 They are all isomers, formula being $\textrm{C}_6\textrm{H}_{12}\textrm{O}_6$, with different structural arrangements.
 
 Most of the carbons in a monosaccharide have a ~~hydroxyl group and a hydrogen side group~~.
 
-Glucose and fructose occur in both ~~straight chain~~ and ~~ring form~~.
-
-Glucose contains an ~~aldehyde group~~ -- carbonyl on a ~~terminal~~ carbon.  
-Fructose contains a ~~ketone group~~ -- carbonyl ~~within~~ the chain.
+Glucose and fructose occur in both ~~straight chain~~ and ~~cyclic/ring form~~.  
+Straight chain form is unstable, due to carbonyls and hydroxyls in the same molecule, so they will often become cyclic forms.
 
 ![](images/unit3/glucose.jpg)
 
@@ -203,6 +204,11 @@ There are two types.
   * They form hydrogen bonds with each other
   * This causes the formation of ~~microfibrils~~, and in larger strands, ~~fibrils~~, which help form plant cell walls
 
+* Is a ~~**dietary fiber**~~
+  * Not digested
+  * Microflora in the gut may digest
+  * Clears out intestines
+
 #### <span id="ib">IB</span> Chitin
 * Main part of ~~insect exoskeletons~~ and ~~fungus cell walls~~.
 * Flexible and leathery
@@ -230,6 +236,7 @@ There are two types.
 * Heparin, which inhibits blood clotting, belongs to this group
 
 ## Test
+### Benedict's Reagent
 The ~~**Benedict's Test**~~ is used to test for carbohydrates.
 
 | Reducing Sugar % | Colour of Solution |
@@ -242,12 +249,21 @@ The ~~**Benedict's Test**~~ is used to test for carbohydrates.
 
 ![](images/unit3/benedict.jpg)
 
+### Iodine Test
+The ~~**Iodine Test**~~ is used to test for starch.
+
+| Test | Colour |
+| :--: | :----: |
+| Negative | Orange |
+| Positive | Blue-black |
+
 # Lipids
 * Generally nonpolar -- insoluable in water, i.e. ~~**hydrophobic**~~.
 * Greasy, oily, soluble in fat.
 * Dissolve in organic solvents
 * Once glycogen stores in the body are filled, ~~excess carbs~~ are stored as ~~fat~~.
 * Important for cell membranes, insulation against physical damage and temperature, carriers for vitamin A, D, E, and K, raw materials for hormone synthesis, etc...
+* `CHEM` Require a greater degree of oxidation compared to carbs, since cabs already have one oxygen for every carbon.
 
 * A ~~**glycerol**~~ is an alcohol with ~~3 hydroxyl side groups~~.
 * A ~~**fatty acids**~~ is a carbon chain, usually with an ~~even number of carbons~~, and a ~~carboxyl group at the end~~.
@@ -282,6 +298,32 @@ The ~~**Benedict's Test**~~ is used to test for carbohydrates.
 
 ![](images/unit3/sat.jpg)
 
+## `CHEM` Essential Fatty Acids
+* Body cannot synthesize these fatty acids themselves.
+* These are ~~linoleic (omega-6 fatty acid) and linolenic (omega-3 fatty acid)~~.
+  * The "omega-n" means that a C=C double bond is on the n<sup>th</sup> carbon.
+
+* These are ~~cis isomers~~.
+  * The C=C double bonds have the same molecule on each side.
+
+## Hydrogenated Fats and Oils
+* Unsaturated oils can be ~~hydrogenated~~ to form solid, saturated fats.
+* `CHEM` Done with a reaction with hydrogen gas in the presence of nickle/platinum as a catalyst.
+* e.g. Margarine
+
+### Trans Fatty Acids
+* Partially hydrogenated some polyunsaturated fatty acids may form trans isomers.
+  * The C=C double bonds do not have the same molecule on each side.
+
+![](images/uni3/chem/cistrans.jpg)
+
+* These increase LDL cholesterol and are carcinogens.
+
+## `CHEM` Soaps
+* Triglycerides are broken down by ~~strong bases like NaOH and KOH~~.
+* This forms a ~~sodium/potassium salt of a fatty acid~~, aka. a soap.
+* This process is called ~~**saponification**~~.
+
 ## Phospholipids
 * Similar to a triglyceride (1 glycerol, 3 fatty acids) except one of the fatty acids is replaced with a ~~phosphate group~~.  
   ![](images/unit3/phosphate.jpg)
@@ -313,6 +355,8 @@ The ~~**Benedict's Test**~~ is used to test for carbohydrates.
 * Differences in steroids are based on their ~~side chains~~.
 * Steroids with a hydroxyl group are called ~~sterols~~.
 * ~~**Lanolin**/Lanosterol~~ is a greasy substance in our own ~~skin and hair~~, making them ~~flexible~~.
+
+### Lipoproteins
 * There are two kinds of ~~**cholesterol**~~
   * ~~**Low Density Lipoprotein**~~, aka. LDL or bad cholesterol, is very ~~light and sticky~~, allowing it to often ~~clog arteries~~.
   * ~~**High Density Lipoprotein**~~, aka. HDL or good cholesterol, used in many things.
@@ -320,6 +364,19 @@ The ~~**Benedict's Test**~~ is used to test for carbohydrates.
     * Helps form bile acids for digestion
     * ~~Converts into Vitamin D when exposed to UV Light~~.
     * Fats need to be ~~**emulsified** -- mechanically digested, broken up~~ before they will mix with water. Bile salts help to this.
+
+### Anabolic Steroids
+* Similar to testosterone, they promote ~~increased muscle mass and growth~~.
+* Large doses can cause...
+  * Impotence
+  * Baldness
+  * Urination problems
+  * Smaller testicles
+  * Facial hair in women
+  * Violent temper
+  * Liver tumours
+  * High blood pressure
+  * Heart attacks
 
 ## Test
 ### Translucence Test
@@ -332,6 +389,26 @@ Place the substance on brown tissue paper.
 
 ### Sudan IV Test
 Sudan IV's solution within a lipid turns red.
+
+### `CHEM` Iodine Number
+![](images/unit3/chem/iodine.jpg)
+
+* Iodine can determine the number of C=C double bonds.
+* One mole of I<sub>2</sub> can break one mole of C=C double bond, making them single bonds.
+* Iodine is a purple-brown colour, but said colour disappears in unsaturated fat.
+
+#### Iodine Index
+* The number of grams of iodine that reacts with 100 g of unsaturated fat.
+
+#### Example
+0.010 mol of linoleic acid reacts with 5.1 g of iodine. Determine the number of double bonds present.
+
+* Molar mass of I<sub>2</sub> = $253.80894\textrm{ g}\cdot\textrm{mol}^-1$
+
+$5.1\textrm{ g} \times \dfrac{1\textrm{ mol}}{253.80894\textrm{ g}} = 0.020\textrm{ mol}$
+
+* Therefore, 0.010 mol of linoleic acid reacts with 0.020 mol of I<sub>2</sub>
+* The ratio is 1:2, so linoleic acid has 2 double bonds.
 
 # Proteins
 * Proteins are macromolecules comprised of one more more polypeptide bonds. They are ~~polymers of amino acids~~.
@@ -619,6 +696,10 @@ Substances that greater ~~reduce the energy of activation~~.
 * ~~**Active Site**~~: The area that is ~~specific for the substrate~~, and is where it goes to go through the reaction.
 * ~~**Enzyme-Substrate Complex**~~: The complex formed when the ~~enzyme and substrate join briefly~~.
   * This is done via ~~**induced-fit**~~: the substrate enters the active site, and the enzyme ~~slightly changes~~ its shape to create a ~~closer bond~~.
+    * `CHEM` Amino acid R-Groups in the enzyme are brought closer to the substrate, which lowers activation energy by...
+      * Physically stressing substrate to break bonds.
+      * Sometimes changes pH.
+      * Can even temporarily covalently bond to substrate.
   * The reaction is performed, products are produced, and the enzyme releases them.
 
 ### Factors Influencing Rate of Enzyme Action
@@ -639,15 +720,43 @@ Substances that greater ~~reduce the energy of activation~~.
 * Reaction rate ~~gradually increases~~ as the temperature ~~approaches the enzyme's ideal~~, but ~~quickly drops off~~ above the ideal.
   * This is because extreme temperatures can ~~denature the enzyme~~.
 
+### `CHEM` Graphing
+In enzyme graphs...
+* x: Concentration of substrate
+* y: Rate of enzymatic reaction
+
+![](images/unit3/chem/enzymegraph.png)
+
+#### Maximum Velocity
+Maximum velocity, denoted as ~~**V<sub>max</sub>**~~, is the ~~max rate of enzymatic reactions~~. This is also known as enzyme saturation.  
+It varies from one enzyme to another, such as based on temperature and pH.
+
+#### Michaelis Constant
+Michaelis' constant, denoted as ~~**K<sub>m</sub>**~~, is the ~~concentration when the rate is half of V<sub>max</sub>~~.  
+In other words, x when y is half of V<sub>max</sub>.
+
+#### Meaning
+* **Affinity**: the tendency of a substance to react with another to form a chemical compound.
+* Enzymes with a ~~low K<sub>m</sub>~~...
+  * Have ~~high affinity~~ to substance
+  * Less unused enzymes. Good!
+* Enzymes with a ~~high K<sub>m</sub>~~...
+  * Have ~~low affinity~~ to substance
+  * More unused enzymes. Bad!
+
 ### Enzyme Inhibiting Mechanisms
 #### Competitive Inhibition
 * Substrate ~~look-a-likes block active sites~~.
 * Prevent substrate binding.
+* `CHEM` ~~**Same V<sub>max</sub>, lower K<sub>m</sub>**~~
 
 #### Noncompetitive Inhibition
 * Substance binds to enzyme in ~~allosteric region~~.
 * This ~~changes the enzyme's shape~~.
   * New shape doesn't fit substrate, can't function.
+* `CHEM` ~~**Lower V<sub>max</sub>, same K<sub>m</sub>**~~
+
+![](images/unit3/chem/enzymegraph1.png)
 
 ### Metabolic Pathways
 * Sequences of chemical reactions.
@@ -671,3 +780,9 @@ Substances that greater ~~reduce the energy of activation~~.
 
 * ~~**Negative Feedback Inhibition**~~ is when the end product of a metabolic pathway, when in ~~excess, fills the allosteric site of the first enzyme~~.
   * This acts as an inhibitor to the entire pathway.
+
+# `CHEM` Vitamins
+[Click here.](/chem/35ib/unit1)
+
+# `CHEM` Environental Biochemistry
+[Click here.](/chem/35ib/unit1)
