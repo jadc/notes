@@ -1,7 +1,7 @@
 # Organic Chemistry
 The prerequisite to these notes is to read the beginning of the [20 IB Bonding Unit](../20ib/unit1.md)
 
-!> These notes are **unfinished**, anything you see may be inaccurate and subject to change.
+?> These notes are mostly finished. Only thing not done is table at the end. I'm lazy.
 
 ---
 
@@ -472,6 +472,81 @@ An ester is formed when ~~**an alcohol reacts with a carboxylic acid**~~.
 * ~~Lower boilng/melting~~ point than ~~alcohols or carboxylic acids~~.
 * Smaller soluable, larger insoluable
 * ~~Nice smelling, fruit-like aromas~~.
+
+## <span id="ib">IB</span> Ethers
+![](images/unit0/ether.png)
+
+The functional group of ethers is just an oxygen between two radical groups. $\textrm{R}-\textrm{O}-\textrm{R}$  
+
+### Nomenclature
+* Add `-oxy` to the end of the prefix name for the smaller hydrocarbon group.
+* Follow that with the alkane name of the larger hydrocarbon.
+
+### Example
+> $\textrm{CH}_3 - \textrm{O} - \textrm{C}_2\textrm{H}_5$  
+  methoxyethane
+
+### Properties
+* Non-polar
+* Low boiling point
+* Flammable, otherwise unreactive
+* Formed via ~~condensation reactions~~
+
+## <span id="ib">IB</span> Carbonyl Functional Groups
+These two functional groups involve the same general formula (a carbonyl, carbon double bonded to oxygen, $CO$) but in different locations.
+
+### Aldehyde
+![](images/unit0/aldehyde.png)
+
+The carbonyl is on the terminal carbon. ($\textrm{RCHO}$)
+
+#### Nomenclature
+* Replace the "e" in the alkane name with `-al`.
+* No number needed.
+
+### Ketone
+![](images/unit0/ketone.png)
+
+The carbonyl is within the main carbon chain. ($\textrm{R}-\textrm{CO}-\textrm{R}$)
+
+#### Nomenclature
+* Replace the "e" in the alkane name with `-one`.
+* Include the number of the carbonyl's location if necessary.
+
+### Properties
+* Both are polar
+* ~~Ketones are less reactive~~ than aldehydes
+  * It is easier to react with something on the terminal carbon than protected within the hydrocarbon.
+* Aldehydes and ketones with the ~~same number of carbons are isomers~~ of each other.
+
+## <span id="ib">IB</span> Amines
+![](images/unit0/amine.png)
+
+The functional group of amines, aka. organic bases, is anything containing $\textrm{NH}_2$. $\textrm{R}-\textrm{NH}_2$  
+
+### Properties
+* Polar, extremely soluble
+* Similar to ammonia: forms basics solutions, reacts with strong acids
+* ~~Very bad odors~~
+* Found in medicine.
+  * A group of plant amines called alkaloids are used in many drugs, like...
+    * caffeine
+    * nicotine
+    * opiates
+
+## <span id="ib">IB</span> Amides
+![](images/unit0/amide.png)
+
+The functional group of amides, aka. carboxamide or amido, is a carbonyl bonded to a nitrogen. ($\textrm{R}-\textrm{CONH}_2$)
+
+### Properties
+* Found in medicine.
+
+## <span id="ib">IB</span> Nitriles
+All you need to know about nitriles is their functional group.
+
+$R - C \equiv N$  
+Carbon triple bonded to nitrogen.
 
 ## Properties Tips
 ### Boiling/Melting Points
