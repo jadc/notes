@@ -16,7 +16,7 @@ $\tan \theta = \dfrac{y}{x} = \dfrac{\sin \theta}{\cos \theta}$
 
 # Radians
 Radians are another form of measurement besides degrees.  
-They are denoted as either $2\pi \textrm{radians}$ or, more commonly, ~~without any unit~~ specified. $2\pi$
+They are denoted as either $2\pi\textrm{ radians}$ or, more commonly, ~~without any unit~~ specified, $2\pi$.
 
 One radian is equal to approximately $57.3^\circ$.  
 In a radian, the radius and the arc the angle forms are equal length. ~~Arc length = radius~~.
@@ -37,7 +37,7 @@ $\textrm{degrees} \cdot \dfrac{\pi}{180^\circ} = \textrm{radians}$
 
 $\textrm{radians} \cdot \dfrac{180^\circ}{\pi} = \textrm{degrees}$
 
-Just remember this: The ~~units you want on top~~, and the units you have (and are cancelling) on the bottom.
+The ~~units you want on top~~, and the units you have (and are cancelling) on the bottom.
 
 # Standard Position
 An angle in standard position is when the ~~**initial arm**~~ is on the ~~positive x-axis~~.  
@@ -73,7 +73,7 @@ To get the principal angle, ~~add/subtract one full rotation~~ ($360^\circ$ or $
   $\theta_P = 269^\circ$
 
 ### General Formula
-Adding a full rotation to the principal angle n times will give you the nth coterminal angle, as long as n is an integer.
+Adding a full rotation to the principal angle $n$ times will give you the $n^\textrm{th}$ coterminal angle, as long as $n$ is an integer.
 
 $\theta_P + 360^\circ n, n\varepsilon I$  
 $\theta_P + 2\pi n, n\varepsilon I$
@@ -239,13 +239,14 @@ $\csc{\theta} \neq \sin{\dfrac{1}{\theta}}$
   * If you want the angle in fraction form you can try ~~dividing it by pi to get the fraction itself~~ and then multiplying pi back.
   * e.g. $\cos{\theta} = \frac{\sqrt{3}}{2} = 0.52359...$
   * $0.52359... \div \pi = 0.1666... = \frac{1}{6}$
-  * $\frac{1}{6} \cdot \pi = \frac{\pi}{6} (\textrm{aka.} 0.52359)$
+  * $\frac{1}{6} \cdot \pi = \frac{\pi}{6} (\textrm{aka.}\space0.52359)$
 
 #### Examples
 > $\sin{\theta} = 0.879$, $0 \leq \theta \leq 2\pi$  
 > $\sin^{-1}{0.879} = 1.07$  
 > Sin is positive, so C ~~**A**~~ ~~**S**~~ T, quadrants 1 and 2.  
-> Quadrant 1 = $1.07$, Quadrant 2 = $\pi - 1.07 = 2.07$
+> Quadrant 1 = $1.07$  
+> Quadrant 2 = $\pi - 1.07 = 2.07$  
 > $\theta = 1.07, 2.07$
 
 ## Bonus: Decimal to Exact Value on Unit Circle
@@ -257,7 +258,7 @@ If you have the radians of an angle in decimal form that you know is on the unit
 
 # Trigonometric Equations
 There is nothing new with trigonometric equations: it is identical to polynomials except that every instance of x has a trig function attached to it.  
-This allows you to temporarily ignore the trig functions, perform factoring techniques such as ~~common factors~~, ~~difference of squares~~, and ~~trinomials of the form $ax^2 + bx + c, a \neq 0$.  
+This allows you to temporarily ignore the trig functions, perform factoring techniques such as ~~common factors~~, ~~difference of squares~~, and ~~trinomials of the form $ax^2 + bx + c, a \neq 0$~~.  
 Then, once you have factored it, put the trig functions back.
 
 * $\sin x \longrightarrow x$
@@ -307,10 +308,12 @@ Important: If you have negative angles in your solution, ~~convert them into the
 
 * **Sinusoidal Graph**: A sinusoidal curve is one that ~~fluctuates back and forth~~. Both $\sin$ and $\cos$ graphs are sinusoidal, as the curve moves up and down from the midline.
 
-* **Midline**: The ~~halfway~~ between the minimum and maximum of a graph.  
+* **Midline**: The ~~halfway~~ between the minimum and maximum of a graph.
+
   $\textrm{midline} = \dfrac{\textrm{max} + \textrm{min}}{2}$
 
-* **Amplitude**: The distance from the ~~midline to the highest point~~ of the graph. This is a measurement, so it is ~~never negative~~.  
+* **Amplitude**: The distance from the ~~midline to the highest point~~ of the graph. This is a measurement, so it is ~~never negative~~.
+
   $\textrm{amplitude} = \dfrac{\textrm{max} - \textrm{min}}{2}$
 
 ## Sine Graph
@@ -581,7 +584,7 @@ The only difference is that you also need to ~~isolate the angle from the trig f
 In addition, for second degree equations, remember that ~~square rooting anything gives a positive and negative value~~.
 
 #### Example
-> First Degree Equation  
+**First Degree Equation**  
 > $\sqrt{3}\sec{\theta} = 2, -\pi \leq \theta \leq \pi$
 >
 > $\sec{\theta} = \dfrac{2}{\sqrt{3}}$
@@ -594,9 +597,10 @@ In addition, for second degree equations, remember that ~~square rooting anythin
 >
 > **General Solutions**  
 > $\theta = \dfrac{\pi}{6} + 2\pi n, n\varepsilon I$  
+> 
 > $\theta = \dfrac{11\pi}{6} + 2\pi n, n\varepsilon I$
 
-> Second Degree Equation  
+**Second Degree Equation**  
 > $3\csc^2{\theta} = 4, 0 \leq \theta \leq 2\pi$
 >
 > $\csc^2{\theta} = \dfrac{4}{3}$

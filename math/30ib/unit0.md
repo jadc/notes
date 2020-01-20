@@ -140,7 +140,7 @@ The domain of a combined function is the ~~common domain~~ of ~~both individual~
 
 You can get this by ~~getting the domain of both functions~~, then choosing the domain that overlaps/~~applies to both functions~~.
 
-~~Only~~ domain of a quotient function must also take into account the quotient of the functions, as ~~division by zero is undefined~~.  
+~~Only~~ domain of a quotient function must also take into account as ~~division by zero is undefined~~.  
 In addition, if there is a quadratic in the denominator, you must ~~factor it~~ and determine the NPVs. (then simplify, if you can)
 
 Also remember, if you are ~~dividing two fractions~~, you can rather ~~multiply~~ the first fraction by the ~~second fraction's reciprocal~~. This means you need to determine the ~~NPVs before and after the flip~~.
@@ -155,9 +155,9 @@ $g(x) = x-2$
 >
 > Therefore, the domain of $(\frac{f}{g})(x)$ is $\lbrace x| x \geq 1, x \neq 2, x \epsilon\Reals \rbrace$
 
-$f(x) = x + 2$
-$g(x) = x^2 + 9x + 14$
-$h(x) = \frac{x+2}{x^2+9x+14}$
+$f(x) = x + 2$  
+$g(x) = x^2 + 9x + 14$  
+$h(x) = \frac{f(x)}{g(x)}$
 
 > The domain of $f(x)$ is $x \epsilon\Reals$  
 > The domain of $g(x)$ is $x \epsilon\Reals$
@@ -185,7 +185,17 @@ An unfilled circle ($\circ$) is the notation for composite functions.
 * $f(g(h(x)))$ or $(f \circ g \circ h)(x)$ is function $h$ nested within function $g$ which is nested within function $f$
 
 #### Examples
-$f(x) = x^2 + x$
+$f(x) = 2x$  
+$g(x) = 3x$
+
+> Determine $(g \circ f)(2)$...
+>
+> $=(g \circ 2x)$  
+> $=3(2x)$  
+> $(g \circ f)(x) = 6x$  
+> $(g \circ f)(2) = 6(2) = 12$
+
+$f(x) = x^2 + x$  
 $g(x) = 3x + 5$
 
 > Determine $(f \circ g)(x)$...
@@ -197,16 +207,6 @@ $g(x) = 3x + 5$
 > $=9x^2 + 27x + 21$  
 > $(f \circ g)(x) = 3(3x^2 + 9x + 7)$  
 > *(I didn't bother checking if this simplfies further. You get the point.)*
-
-$f(x) = 2x$
-$g(x) = 3x$
-
-> Determine $(g \circ f)(2)$...
->
-> $=(g \circ 2x)$  
-> $=3(2x)$  
-> $(g \circ f)(x) = 6x$  
-> $(g \circ f)(2) = 6(2) = 12$
 
 ## Domain
 To determine the domain of a composite function, ~~combine the domains~~ of the ~~inner/nested functions~~ and the ~~final composite function~~.
@@ -228,19 +228,19 @@ The range of a combined function is determined using the ~~graph~~.
 Finding the range algebraically is not at the Math 30 level.
 
 
-
 # Horizontal and Vertical Translations
 A translation is a transformation that ~~adds/subtracts $x$ and $y$ coordinates~~, if it is a ~~horizontal or vertical translation~~ respectively.
 
 ## Description
 > $y = f(x \pm a)$: Horizontal translation $a$ units `left (+)` or `right (-)`.  
-  $y \pm a = f(x)$ or $y = f(x) \pm a$: Vertical translation a units `up` or `down`.
+  $y \pm a = f(x)$ or $y = f(x) \pm a$: Vertical translation a units `up (-)` or `down (+)`.
 
 # Stretches
 A stretch is a transformation that ~~multiplies/divides $x$ and $y$ coordinates~~, if it is a ~~horizontal or vertical stretch~~ respectively.
 
 ## Description
-> $y = f(ax)$: Horizontal stretch by a factor of $a$  
+> $y = f(\frac{1}{a}x)$: Horizontal stretch by a factor of $a$  
+  $\frac{1}{a}y = f(x)$: Vertical stretch by a factor of $a$  
   $y = af(x)$: Vertical stretch by a factor of $a$
 
 ## Tip
@@ -254,7 +254,7 @@ Remember to factor anything inside the $f(x)$ to make sure you have the actual t
 A reflection is a transformation that ~~flips the signs of $x$ and $y$ coordinates~~, if it is a ~~horizontal or vertical reflection~~ respectively.  
 
 ## Description
-> $y = -f(x)$: Reflection about the x axis
+> $y = -f(x)$: Reflection about the x axis  
   $y = f(-x)$: Reflection about the y axis
 
 ## Invariant Point
@@ -279,6 +279,7 @@ The following is the general formula for an equation.
 <h1>
 $ay + b = f(cx + d)$
 </h1>
+
 * $a$: Vertical Stretch
 * $b$: Vertical Translation
 * $c$: Horizontal Stretch
@@ -290,7 +291,7 @@ The opposite rule does not apply to a ~~vertical translation/stretch on the x si
 $y = \frac{1}{a} f(cx + d) - b$
 </h1>
 
-Description of transformations are ~~always what actually happens~~, while the equation of a transformation is the ~~opposite signs and reciprocal coefficients~~.
+**Description of transformations are ~~always what actually happens~~, while the equation of a transformation is the ~~opposite signs and reciprocal coefficients~~.**
 
 #### Example
 > Describe the transformations applied to $y = f(x)$ in the equation $y = f(x - 3)$  
@@ -319,8 +320,8 @@ The inverse of an equation is when ~~$x$ and $y$ are swapped~~.
 Graphically, this is a ~~reflection about the line $y = x$~~.
 
 ## Notation
-If the inverse of function $f(x)$ is also a function, the notation is $x = f^{-1}(y)$  
-If the inverse of function $f(x)$ is not a function, the notation is $x = f(y)$
+If the inverse of function $f(x)$ is ~~also a function~~, the notation is $x = f^{-1}(y)$  
+If the inverse of function $f(x)$ is ~~no longer a function~~, the notation is $x = f(y)$
 
 ### Line Test
 To determine if a graph is a function, you can do the vertical line test. This still applies to inverse functions.  
@@ -331,7 +332,7 @@ The domain and range of the original function is the range and domain of the inv
 In other words, ~~domain and range swap~~.
 
 ## Domain Restrictions To Ensure The Inverse Is A Function
-![](images/unit2/inverse.png)
+![](images/unit0/inverse.png)
 
 As you can see here, the inverse of $y = x^2$ is no longer a function.  
 If we restrict the domain of this equation so that only one "arm" of the parabola is kept, then when we inverse it, it will pass the vertical line test.
