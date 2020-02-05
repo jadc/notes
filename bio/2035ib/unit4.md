@@ -14,6 +14,8 @@
 | Gastrovascular Cavity | A sac-like gut lined with enzyme secreting, phagocytic, and ciliated cells. Digestion starts extracellulary, then phagocytosis completes digestion intracellularly. e.g. cnidarians |
 | Intracellular Digestion | Digestion inside the cell (endocytosis, phagocytosis) |
 | Extracellular Digestion | Digestion outside the cell (most organisms, us) |
+| Exocrine | Secretion outside the bloodstream |
+| Endocrine | Secretion inside the bloodstream |
 
 ## Random Information Because Fischer
 * Invertebrates are organisms with no backbone
@@ -124,9 +126,12 @@ Saliva...
 * Swallowing starts as a conscious act, but soon becomes automatic
 
 ### Lower Esophagus Tissue Organization
+
+![](images/unit4/layers.jpg)
+
 Similar to rest of the G.I. tract. From inside to outside.
 1. **Mucosa**  
-   Epithelial, secretes mnucus
+   Epithelial/exposed internally cells, secretes mnucus
 2. **Submucosa**  
    Connective tissue. Blood and lymphatic vessels, nerves, and glands.
 3. **Muscularis**  
@@ -170,20 +175,163 @@ Other glands also excrete enzymes.
 * ~~**Gastric Lipase**~~ splits ~~triglycerides into fatty acids and glycerol~~.
 
 ### Uclers
-* The stomach lining is coated to protect it. Things like...
+* The stomach lining is coated to protect itself with things like...
   * mucin, an insoluble mucoprotein
   * ~~mucus~~
   * the fact that enzymes are ~~secreted in inactive form~~
 * If the ~~stomach lining is broken~~ and the ~~stomach gets digested~~, an ~~**ucler**~~ is formed, and can bleed.
 
 ### Pyloric Sphincter
+* Ring of muscle that controls entry from the stomach into the small intestine.
+* After food has been in the stomach for a while, and now well mixed and broken down, bolus becomes ~~**chyme**~~, and passes through this sphincter.
 
+## Small Intestine
+* Comprised of three regions...
+  * ~~Duodenum~~
+  * ~~Jujunum~~
+  * ~~Ileum~~
+* ~~Most digestion and all absorption~~ happens here.
 
+### Villus
+![](images/unit4/villi.jpg)
 
+* Lined with ~~intestinal **villi**~~
+  * Greatly increase surface area.
+  * Comprised of mucosa, ~~capillary bed~~ and ~~lacteal~~.
+    * Both take in nutrients into the ~~circulatory and lymphatic system~~ respectively.
+    * (Lymphatic system carries a clear liquid called lymph around the body)
+  * Move vigorously to mix food and enzymes and aid absorption
+  * In a continuous state of replacement
 
+### Digestion
+#### Carbohydrates
+* Carbohydrates are broken down into ~~monosaccharides~~
+  * using enzymes from the mouth, pancreas, and intestinal lining
+* Absorbed via ~~active transport~~ into the capillaries of the villi
+* Bloodstream to ~~liver for storage~~
 
+#### Triglycerides (Lipids)
+* Triglycerides are broken down into ~~fatty acids~~, ~~glycerol~~, and some ~~monoglycerides~~.
+  * using gastric lipase, bile, and pancreatic lipase
+* Carried in droplets formed by bile called ~~micelles~~
+* Absorbed across lipid soluble core of plasma membrane of intestinal epithelial cells via ~~endocytosis~~
+* Once inside, ~~reassembled into triglycerides~~
+* Gather into ~~chylomicrons~~ (along with cholesterol)
+  * minute bodies enclosed in a thin protein envelope
+* This enters the ~~lacteals~~, and are transported via ~~lymph vessels~~ to the circulatory system.
 
+#### Proteins
+* Proteins are broken down into ~~single amino acids~~.
+  * using enzymes from stomach, pancreas, and intestinal lining
+* Absorbed via ~~active transport~~ into the capillaries of the villi
+* Excess to ~~liver~~
 
+#### Nucleic Acids
+* ~~Exonucleases~~ cleave off end nucleotides
+* ~~Endonucleases~~ cleave bonds within the molecule
+* ~~Nuclease~~ digests into sugar, phosphates, and bases
+* Absorbed via ~~active transport~~ into the capillaries of the villi
+
+## Hormones
+### Enterogastron
+* Triggered by ~~fats or acids in small intestine~~
+* ~~Inhibits gastric juice release~~ in stomach
+* ~~Slows~~ down stomach ~~contractions~~
+* ~~Turns off stomach if bolus in intestine already~~.
+
+### Secretin
+* Triggered by ~~peptides, fats, or $\textrm{HCl}$ in small intestine~~.
+* Stimulates release of ~~sodium bicarbonate~~
+  * Basic, neutralizes acid environment of pancreas and small intestine
+  * Very important to prevent ~~enzyme denaturing~~
+  * Pancreatic and small intestine enzymes need a ~~pH of 7-8~~
+
+### Cholecystrokinin-pancreozymin
+* Triggered by ~~food/chyme in small intestine~~.
+* Stimulates ~~release of pancreatic enzymes~~ and ~~contraction of the gall bladder~~.
+
+## Additional Info about Duodenum
+* ~~Chyme~~ arrives here from the stomach
+* ~~Enzymes~~ from the ~~pancreas~~ ~~empty here~~
+* ~~Bile~~ from the ~~gallbladder and liver~~ ~~empty here~~, to emulsify fats
+  * Bile and pancreatic ~~ducts fuse~~ to form a ~~common opening into the duodenum~~
+
+![](images/unit4/commonduct.png)
+
+## Intestinal Enzymes In Lining
+
+| Enzyme | Function |
+| :----- | :------- |
+| **Aminopeptidase** | Cleave at N-terminal bonds, breaks proteins into ~~polymers and dinomers~~ |
+| **Dipeptidase** | Breaks proteins into ~~monomers~~ |
+| **Nuclease** | Breaks nucleotides into sugar, base, and phosphate |
+| **Maltase** | Breaks maltose into two glucose |
+| **Sucrase** | Breaks sucrose into glucose and fructose |
+| **Lactase** | Breaks lactose into glucose and galactose |
+
+## Accessory Organs
+
+### Liver
+* Main function is to produce ~~**bile**~~
+  * Slightly alkaline
+  * ~~**Emulsifies**~~ fat
+    * ~~Mechanical digestion~~
+    * Physically breaks up into small droplets
+* Bile enters small intestine (duodenum) via ~~common bile duct~~ 
+* Bile consists of...
+  * Cholesterol
+  * Bile salts (a steroid, aids in lipid absorption)
+  * Bile pigments (products of hemoglobin destruction, ~~colours our feces~~)
+  * Water
+  * Modifies amino acids
+* Bile passes through cystic duct into the gallbladder
+
+#### Gallblader
+* ~~**Gallblader**~~ is a green sac that ~~stores and concentrates bile~~ for release into the duodenum
+* Bile release is triggered by ~~cholecystokinin-pancreozymin~~ hormone, which ~~contracts the gallbladder~~
+* Gallstones...
+  * hard masses of mainly cholesterol
+  * can form if gallbladder is inflamed or cholesterol levels are high
+  * can obstruct gall blader entrance (cystic duct) or bile duct
+
+#### Hepatic/Liver Portal System
+* ~~Hepatic vein~~ carries nutrients from ~~intestinal cappillaries into liver capillaries~~
+* The liver...
+  * removes toxic substances (convert into ~~less toxic~~ ones)
+  * ~~store~~ nutrients in ~~excess~~ (glucose -> glycogen)
+  * ~~release~~ nutrients from storage if in ~~short supply~~
+
+#### Conditions
+* Hepatitis: Inflammation of the liver
+* Cirrhosis: Chronic inflammation of the liver
+  * due to growth of non-functioning fibrous tissue
+  * caused by liver disease or alcoholism
+
+#### Miscellaneous Functionality
+* ~~Deamination~~ of amino acids
+  * N-terminus is removed and converted into ~~urea~~
+  * Remaining molecule is safe, just a carb
+  * Urea is urinated out, excess amino acids removed
+* ~~Destruction of dead red blood cells~~
+* Formation of plasma proteins
+* Storage and distribution of Vitamins A, B12, and D
+* Conversion of...
+  * Carbs -> Fats
+  * Fructose and Galactose -> Glucose
+  * Excess glucose -> Glycogen
+  * Glycogen -> Glucose when needed
+* Regulation of blood glucose levels
+* Formation of cholesterol
+* Detoxification of alcohol
+
+### Pancreas
+.
+
+#### Pancreatic Enzymes
+
+| Enzyme | Function | Inactive Form | Activator |
+| :----- | :------- | :------------ | :-------- |
+| **Trypsin** |
 
 
 
