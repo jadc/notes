@@ -157,6 +157,7 @@ The disappearance of frogs has been linked to...
 * ~~Poor Air & Water Quality~~
 * ~~Climate Change~~
 * ~~Ultraviolet Radiation~~ (from ozone layer thinning)
+
 Frogs ~~breathe through their thin skin~~, so that leaves them very vulnerable to poor air & water quality as well as UV radiation.
 
 ### Terms
@@ -173,7 +174,7 @@ Frogs ~~breathe through their thin skin~~, so that leaves them very vulnerable t
 **Biomass** is the ~~total dry weight~~ of ~~all organisms~~ being measured ~~per unit area~~ ~~per unit time~~.  
 It represents ~~energy stored in organic form~~, i.e. stored chemical energy. (e.g. glucose)
 
-$\frac{\frac{g}{m^2}}{year}$
+$\dfrac{\dfrac{g}{m^2}}{year}$
 
 It should be mentioned that to measure biomass, you must dehydrate biological material completely, killing it in the process. :(
 

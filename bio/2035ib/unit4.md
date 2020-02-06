@@ -325,20 +325,72 @@ Other glands also excrete enzymes.
 * Detoxification of alcohol
 
 ### Pancreas
-.
+* Produces ~~pancreatic juices/inactive enzymes~~
+  * Releases into duodenum via common bile duct
+  * *Exocrine*
+* Produces ~~bicarbonate ions~~ ($\textrm{HCO}_3^-$) to ~~neutralize stomach acid~~
+  * *Exocrine*
+* Produces ~~insulin~~
+  * ~~Islet of Langerhans cells~~ in the pancreas produce ~~hormone insulin~~
+  * Insulin ~~promotes absorption and use of glucose by cells~~
+  * Reduces blood glucose levels
+  * *Endocrine*
 
 #### Pancreatic Enzymes
 
 | Enzyme | Function | Inactive Form | Activator |
 | :----- | :------- | :------------ | :-------- |
-| **Trypsin** |
+| **Trypsin** | Breaks peptides into shorter peptides | **Typsinogen** | Enterokinase in small intestine |
+| **Chymotrypsin** | Breaks peptides into shorter peptides | **Chymotrypsinogen** | Trypsin |
+| **Carboxypeptides** | Cleave at C-terminal bonds, breaks proteins into ~~polymers and dinomers~~ | **Procarboxypeptidase** | Chymotrypsin |
+| **Ribonuclease** | Breaks RNA into nucleotides |
+| **Deoxyribonuclease** | Breaks DNA into deoxynucleotides |
+| **Alpha-glucosidase** | Breaks 1-6 linkages of amylopectin into starch fragments |
+| **Pancreatic amylase** | Breaks starch into maltose |
+| **Pancreatic lipase** | Breaks triglycerides into fatty acids, glycerol, and monoglycerides |
 
+## Large Intestine
+![](images/unit4/large.jpg)
 
+* aka. colon, bowel
 
+### Ileocecal Valve
+* Sphincter entrance into large intestine from small intestine's ileum
+* Below this valve, blind pouch called ~~cecum~~
+* Below cecum, ~~finger-like projection~~ calledd the ~~**appendix**~~
+  * Heribvores store bacteria that break down cellulose in the appendix
+  * ~~Vestigial~~ in humans, i.e. unused
 
+### Main Functions
+* Absorb water and minerals
+  * Not enough water absorbed = diarrhea
+  * Too much water absorbed = constipation
+* Contain Escherichia coli (E. coli) and other methane producing bacteria
+  * Helps prepare and feed on wastes
+  * Produces Vitamin K, folic acid, and biotin
+* Storage and elimination of feces (egestion)
+  * Some excretion of water and heat
 
+## Rectum
+* holds waste until full, then empties
+* rectal valves support weight of feces
 
+## Anal
+* Anal canal leads to anus
+* Solid wastes exit through ~~anal sphincter~~
+* Voluntary control
 
+## Nervous Control
+### Sympathetic Nerves
+* Fight or Flight response
+* Inhibits digestion
+* Slows down secretion
+* Slows down peristalsis
+
+### Parasympathetic Nerves
+* Relax response
+* aka. Vagus nerve
+* Stimulates secretion and peristalsis
 
 # Trace The Path
 This is almost guaranteed to be a question on any exam.
@@ -354,7 +406,7 @@ This is almost guaranteed to be a question on any exam.
   * Which
   * Where
   * Purpose
-* What happens if something stops functioning
+* What happens if something stops functioning (when did we learn this?)
 * pH
 
 ## The Path
