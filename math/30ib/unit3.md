@@ -34,8 +34,17 @@ $y = b^x$, where $0 < b < 1$ forms a decay function.
 ![](images/unit3/decay.png)
 
 ### Properties of Both
-* Domain: ${x | x \epsilon \R}$
-* Range: ${y | y > 0, y \epsilon \R}$
-* Horizontal Asymptote: $y = 0$
-* Y-Intercept: $a$ (in the above examples, $1$)
-* X-Intercept: None
+* **Domain**  
+  $\{x | x \epsilon \R\}$
+
+* **Range**  
+  $\{y | y > 0, y \epsilon \R\}$
+
+* **Horizontal Asymptote**  
+  $y = 0$
+
+* **Y-Intercept**  
+  $a$ (in the above examples, $1$)
+
+* **X-Intercept**  
+  None
