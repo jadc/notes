@@ -90,11 +90,26 @@ The primary focus of this unit is around the following four substance types.
 | molecular | X | X | X |
 | acid | X | X | ~~✓~~ |
 
-# Strong Acids
+# Strength
+## Strong Acids
 Strong acids differ from weak acids in many ways, covered in this unit.
 
 To determine if an acid is strong, go to ~~page 8-9~~ in your data booklet.  
 ~~The first 6 acids are the strong acids~~.
+
+## Strong Bases
+Weak bases are not covered at this level, so assume all bases are strong.
+
+# Solubility
+| Compound | Behavior in aqueous solution |
+| :------ | :-- |
+| High Soluble Ionic Compounds | Dissociate. <br>Each ion is (aq) |
+| Low Soluble Ionic Compounds | Form precipitates. <br>Entire compound is (s) |
+| Molecular Compounds | Never dissociate. <br>May be soluble (aq) or insoluble (s) |
+| Strong Acids | Ionize/dissociate. Always a proton and a negative ion. <br> Each ion is (aq) |
+| Weak Acids | Partially ionize/dissociate. <br> Compound remains together, state is now (aq) |
+| Strong Bases | Dissociate. <br> Each ion is (aq) |
+| Elements | Halogens, oxygen, and nitrogen are the only* elements that can dissolve in water. <br>Each element is now (aq) |
 
 # Dissociation & Ionization
 ## Dissociation
@@ -176,28 +191,118 @@ Specific ions can be identified by adding compounds that dissociate and form pre
 Once the desired ion is precipitated, it can be removed from solution via filtration. This is as simple as using a funnel.  
 The **filtrate** is what the solution is called after filtering the precipitate.
 
-# Expressing Concentration
+# When To Use Significant Digits
+## Multiplication/Division
+Answer with significant digits with the rules you know.  
+(i.e. answer cannot have more sig digs than lowest sig dig number in question)
 
-## Percentage of Solute
+## Addition/Subtraction
+Answer must have the ~~same number of decimal places~~ as the number with the ~~fewest decimal places~~.
+
+# Concentration
+Concentration is the quantitative description of the ~~amount of solute dissolved~~ in a given amount of ~~solvent~~. (water in aqueous solutions)
+
+Qualitative terms to describe concentration include...
+* **Dilute**: low molar concentration
+* **Concentrated**: high molar concentration
+
+## Expressing as Percentage of Solute
 ### Mass/Volume Percent
-<h1>
-$\textrm{m/v} = \dfrac{\textrm{mass of solute}}{\textrm{volume of solution}} \times 100$
-</h1>
+> $\textrm{m/v} = \dfrac{\textrm{mass of solute}}{\textrm{volume of solution}} \times 100$
+
 * Most common
 
 ### Percent By Mass
-<h1>
-$\textrm{m/m} = \dfrac{\textrm{mass of solute}}{\textrm{mass of solute} + \textrm{mass of solvent}} \times 100$
-</h1>
+> $\textrm{m/m} = \dfrac{\textrm{mass of solute}}{\textrm{mass of solute} + \textrm{mass of solvent}} \times 100$
+
 * Remember that the denominator contains the ~~mass of entire solution~~. (solute + solvent)
 
 ### Percent By Volume
-<h1>
-$\textrm{v/v} = \dfrac{\textrm{volume of solute}}{\textrm{volume of solution}} \times 100$
-</h1>
+> $\textrm{v/v} = \dfrac{\textrm{volume of solute}}{\textrm{volume of solution}} \times 100$
 
 ### Percent In Parts Per Million
 Parts per million expressions are simply the same as the previous, except ~~multiplied by a million~~ rather than 100.  
 This is used for very small amounts.
 
+#### Example
+> $\textrm{ppm(m/v)} = \dfrac{\textrm{mass of solute (g)}}{\textrm{volume of solution (mL)}} \times 10^6$
 
+## Molar Concentration
+This is the most used unit of concentration.
+
+> $c = \dfrac{\textrm{moles of solute}}{\textrm{volume of solution}}$
+
+> $c = \dfrac{n\space\textrm{mol}}{v\space\textrm{L}}$
+
+### Hydrates
+If you are calculating the molar mass of a compound and it is a hydrate, just ~~add the number of water molecules~~.
+
+### Mass and Volume
+If a question asks about mass (solids) and volume (any state), then you will have to find ~~moles~~.  
+This is because you can convert between using the following two units.
+
+* Molar Mass: $\dfrac{\textrm{mol}}{\textrm{g}}$
+* Molar Concentration: $\dfrac{\textrm{mol}}{\textrm{L}}$
+
+#### Example Questions
+> What is the concentration of a solution with 0.150 mol of sucrose is dissolved in 500 mL of water?
+>
+> $c = \dfrac{n\space\textrm{mol}}{v\space\textrm{L}}$
+>
+> $c = \dfrac{0.150 \space\textrm{mol}}{0.500 \space\textrm{L}}$
+>
+> $c = 0.300 \frac{\textrm{mol}}{\textrm{L}}$
+
+> 1.13 mol of KMnO<sub>4</sub>(s) in solution has a concentration of 1.50 mol/L. What is the volume of the solution?
+>
+> $v = 1.13\space\textrm{mol} \times \dfrac{1\space\textrm{L}}{1.50\space\textrm{mol}}$ (unit analysis)
+>
+> $v = 0.753 \space\textrm{L}$
+
+> What is the mass of potassium bromide needed for 250 mL of 0.600 mol/L solution?
+>
+> $n = 0.250 \space\textrm{L} \times \dfrac{0.600 \space\textrm{mol}}{1 \space\textrm{L}}$
+>
+> $n = 0.150 \space\textrm{mol}$
+>
+> Molar mass of $\textrm{KBr}$ is $119 \space\frac{\textrm{g}}{\textrm{mol}}$
+>
+> $0.15 \space\textrm{mol} \times 119 \space\frac{\textrm{g}}{\textrm{mol}}$  
+> $= 17.9 \space\textrm{g}$
+
+## Dilution
+![](images/unit3/dilute.jpg)
+
+Dilution, which is often done by ~~adding water to a solution~~, causes the following...
+* The number of moles ~~does not change~~.
+* The volume of the solution ~~increases~~.
+* The concentration of the solution ~~decreases~~.
+
+With these three properties, a formula can be made.
+
+> $c_iv_i = c_fv_f$
+>
+> $c$ = concentration  
+> $v$ = volume  
+> The product of the concentration and volume (i.e. moles) initially and at the end are ~~equal~~.
+
+### Keywords
+Questions regarding dilution often state that water is ~~"added to solution"~~.  
+In this case, add the amount the question is adding to the initial volume. That is your final concentration. (rather than just replacing it)
+
+For instance, if a question states the initial concentration is 1.0 mL, and 2.0 mL is added.  
+Then the final concentration is not 2.0 mL, but actually 3.0 mL.
+
+I'm making this very, very clear because it is easy to forget.
+
+#### Example Questions
+> What is the initial concentration of 50.0 mL of a solution that is then diluted to 700 mL and 0.130 mol/L?
+>
+> $c_iv_i = c_fv_f$
+>
+> $(c_i)(50.0 \space\textrm{mL}) = (0.130 \frac{\textrm{mol}}{\textrm{L}})(700 \space\textrm{mL})$
+>
+> $c_i = 1.82 \frac{\textrm{mol}}{\textrm{L}}$
+
+You might have noticed that we are multiplying L and mL together. In this situation, this is okay.  
+You only need the same unit on ~~both sides of an equal sign~~ for each variable.
