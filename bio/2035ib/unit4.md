@@ -419,7 +419,7 @@ This is almost guaranteed to be a question on any exam.
 | Cardiac Sphincter | <u>**Chemical**</u><br>Continues... | Continues... |
 | Stomach | <u>**Mechanical**</u><br>Grinding w/ Rugae<br><u>**Chemical**</u><br>Pepsin, Gastric Amylase, Rennin | Pepsin<br>Gastric Lipase<br>Rennin | Gastrin |
 | Pyloric Sphincter | <u>**Chemical**</u><br>Continues... | Continues... |
-| Small Intestine | <u>**Mechanical**</u><br>Bile from liver emulsifies fat<br><u>**Chemical**</u><br>All intestinal and pancreatic enzymes | <u>**In intestinal lining**</u><br>maltase, sucrase, lactase, aminopeptidase, dipeptidase, nuclease<br><u>**Released by pancreas**</u><br>Pancreatic amylase, pancreatic lipase, trypsin, chymotrypsin, carboxypeptides, ribonuclease, deoxyribonuclease, alpha-glucosidase | enterogastrone, secretin, cholecystokinin-pancreozymin |
+| Small Intestine | <u>**Mechanical**</u><br>Bile from the liver emulsifies fat<br><u>**Chemical**</u><br>All intestinal and pancreatic enzymes | <u>**In intestinal lining**</u><br>maltase, sucrase, lactase, aminopeptidase, dipeptidase, nuclease<br><u>**Released by pancreas**</u><br>Pancreatic amylase, pancreatic lipase, trypsin, chymotrypsin, carboxypeptides, ribonuclease, deoxyribonuclease, alpha-glucosidase | enterogastrone, secretin, cholecystokinin-pancreozymin |
 | Ileocecal Valve | Beyond this point, no digestion. Just absorption of water and minerals. |
 | Large Intestine |
 | Rectum | Storage of undigested material. |
