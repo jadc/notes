@@ -343,7 +343,7 @@ Other glands also excrete enzymes.
 | :----- | :------- | :------------ | :-------- |
 | **Trypsin** | Breaks peptides into shorter peptides | **Typsinogen** | Enterokinase in small intestine |
 | **Chymotrypsin** | Breaks peptides into shorter peptides | **Chymotrypsinogen** | Trypsin |
-| **Carboxypeptides** | Cleave at C-terminal bonds, breaks proteins into ~~polymers and dinomers~~ | **Procarboxypeptidase** | Chymotrypsin |
+| **Carboxypeptidase** | Cleave at C-terminal bonds, breaks proteins into ~~polymers and dinomers~~ | **Procarboxypeptidase** | Chymotrypsin |
 | **Ribonuclease** | Breaks RNA into nucleotides |
 | **Deoxyribonuclease** | Breaks DNA into deoxynucleotides |
 | **Alpha-glucosidase** | Breaks 1-6 linkages of amylopectin into starch fragments |
@@ -420,7 +420,7 @@ This is almost guaranteed to be a question on any exam.
 | Cardiac Sphincter | <u>**Chemical**</u><br>Continues... | Continues... |
 | Stomach | <u>**Mechanical**</u><br>Grinding w/ Rugae<br><u>**Chemical**</u><br>Pepsin, Gastric Amylase, Rennin | Pepsin<br>Gastric Lipase<br>Rennin | Gastrin |
 | Pyloric Sphincter | <u>**Chemical**</u><br>Continues... | Continues... |
-| Small Intestine | <u>**Mechanical**</u><br>Bile from the liver emulsifies fat<br><u>**Chemical**</u><br>All intestinal and pancreatic enzymes | <u>**In intestinal lining**</u><br>maltase, sucrase, lactase, aminopeptidase, dipeptidase, nuclease<br><u>**Released by pancreas**</u><br>Pancreatic amylase, pancreatic lipase, trypsin, chymotrypsin, carboxypeptides, ribonuclease, deoxyribonuclease, alpha-glucosidase | enterogastrone, secretin, cholecystokinin-pancreozymin (CCK) |
+| Small Intestine | <u>**Mechanical**</u><br>Bile from the liver emulsifies fat<br><u>**Chemical**</u><br>All intestinal and pancreatic enzymes | <u>**In intestinal lining**</u><br>maltase, sucrase, lactase, aminopeptidase, dipeptidase, nuclease<br><u>**Released by pancreas**</u><br>Pancreatic amylase, pancreatic lipase, trypsin, chymotrypsin, carboxypeptidase, ribonuclease, deoxyribonuclease, alpha-glucosidase | enterogastrone, secretin, cholecystokinin-pancreozymin (CCK) |
 | Ileocecal Valve | Beyond this point, no digestion. Just absorption of water and minerals. |
 | Large Intestine |
 | Rectum | Storage of undigested material. |
