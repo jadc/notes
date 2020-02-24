@@ -1,7 +1,5 @@
 # Digestion
 
-!> These notes are unfinished and subject to change.
-
 ---
 
 # Terms
