@@ -157,4 +157,121 @@ Vital capacity is influenced by...
 * Ability of diaphragm and intercostal muscles to contract/relax (pulmonary compliance)
 
 # Factors Affecting Gas Exchange
+Gas exchange is via ~~diffusion due to concentration gradients~~.  
+~~Gases diffuse from areas of high pressure to areas of low pressure.~~
 
+Factors that influence the rate of diffusion include...
+* Surface Area of Lung/Cell Membrane  
+  Larger area = Greater rate of diffusion
+* Concentration Difference  
+  Greater difference in concentration between two areas = Greater rate of diffusion
+* Distance  
+  The shorter the distance to diffuse = Greater rate of diffusion.
+
+# Hemoglobin and Plasma
+
+## Background
+**Plasma**  
+Clear fluid in blood that carries red blood cells.
+
+**Buffering**  
+~~Taking/giving~~ something to ~~maintain normal concentration~~.  
+For instance, taking/giving protons to maintain a pH of 7.4 is buffering.
+
+## Oxygen Transport
+
+* Very small amount of oxygen dissolves in plasma. (0.3%)
+* Most oxygen combines with hemoglobin to form ~~oxyhemoglobin~~.
+
+### Hemoglobin
+Hemoglobin has 4 polypeptide chains, 2 alpha and 2 beta.  
+Each have a ~~heme group~~ with an ~~Fe atom~~.
+
+Therefore, ~~each hemoglobin can hold 4 O<sub>2</sub>~~.
+
+#### Affinity
+* Affinity: The tendency for one molecule to bond to another.
+
+* Hemoglobin ~~balances the concentration of oxygen~~ in the blood.
+  * Dalton's Law of Partial Pressure: Each gas in a mixture exerts its own pressure, which is proportional to the total volume.
+  * The partial pressure/concentration of oxygen in the alveoli is 13.3 kPa, arteries are 12.6 kPa, and veins are 5.3 kPa.
+  * Hemoglobin only gives up its oxygen when the partial pressure is 5.3 kPa, balancing the partial pressure/concentration.
+
+* Hemoglobin's affinity to oxygen is also influenced by pH. This is called the ~~**Bohr Effect**~~.
+  * Hemoglobin ~~loses affinity~~ to O<sub>2</sub> when in ~~acidic conditions~~.
+  * This is useful because ~~tissues get more acidic during heavy metabolic activity~~ due to lactic acid fermentation, an anaerobic process.
+
+* At high altitudes, extra red blood cells are produced.
+  * Altitude is detected by O<sub>2</sub> sensing cells in the kidney.
+  * These cells release erythropoietin to act on red bone marrow and increase red blood cell production.
+
+## Carbon Dioxide Transport
+
+* Small amount (8%) dissolve in plasma.
+* Some (27%) combine with hemoglobin to form ~~carbaminohemoglobin~~.
+  * Reacts with amino side group in protein rather than heme groups.
+* Most (65%) combine with water in RBCs to form ~~carbonic acid~~. (H<sub>2</sub>CO<sub>3</sub>)
+  * Carbonic acid breaks down into ~~bicarbonate ions (HCO<sub>3</sub><sup>-</sup>)~~ and ~~protons (H<sup>+</sup>)~~.
+  * The protons can stay inside the RBC and be buffered.
+  * The bicarbonate ions can diffuse out of the plasma, join Na<sup>+</sup> ions, and form sodium bicarbonate (NaHCO<sub>3</sub>) to further keep ~~blood buffered at a normal pH of 7.4~~.
+  * The enzyme ~~**carbonic anhydrase**~~ accelerates this reaction.
+  * Net reaction  
+    $\textrm{CO}_2 + \textrm{H}_2\textrm{O} \longrightarrow \textrm{HCO}_3^-$
+* All of this is to ~~maintain low carbon dioxide partial pressure/concentration~~, so that carbon dioxide keeps diffusing into the blood.
+
+# What Happens
+## Legend
+* HHb = Reduced hemoglobin (buffers free protons)
+* HbO<sub>2</sub><sup>-</sup> = Oxyhemoglobin
+* HCO<sub>3</sub><sup>-</sup> = Bicarbonate ion
+
+## At Lungs
+* HHb + O<sub>2</sub> (diffuse in from alveoli) ---> HbO<sub>2</sub><sup>-</sup> + H<sup>+</sup>
+* H<sup>+</sup> + HCO<sub>3</sub><sup>-</sup> ---> H<sub>2</sub>O + CO<sub>2</sub> (diffuses out to alveoli)
+
+## At Capillary Beds
+* CO<sub>2</sub> (from cellular respiration) + H<sub>2</sub>O ---> HCO<sub>3</sub><sup>-</sup> + H<sup>+</sup>
+* H<sup>+</sup> + HbO<sub>2</sub><sup>-</sup> ---> O<sub>2</sub> (to cells) + HHb
+
+# Medulla Oblongata
+The medulla is the portion of the brain stem that controls autonomic processes, such as breathing and heart rate.
+
+~~Chemoreceptors~~ in the medulla monitor blood's CO<sub>2</sub>, O<sub>2</sub>, and pH levels.  
+
+## Inspiratory Centre
+Controls relaxed breathing by resting for 3 seconds and allowing passive expiration.
+
+## Expiratory Centre
+Controls active/strenuous breathing. (as well as inspiratory centre, but at a faster rate)
+
+## Nervous System Control
+Chemoreceptors in the medulla trigger nervous systems depending on certain factors.
+
+**Increased CO<sub>2</sub>**
+* Act on autonomic nervous system via ~~sympathetic nerve~~ (fight or flight)
+* Increases rate and depth of breathing
+
+**Decreased CO<sub>2</sub>**
+* Act on autonomic nervous system via ~~sympathetic nerve~~ (fight or flight)
+* Decreases rate and depth of breathing
+
+**Increased O<sub>2</sub>**
+* Act on autonomic nervous system via ~~parasympathetic nerve~~ (Vagus, relax)
+* Decreases rate and depth of breathing
+
+**Decreased O<sub>2</sub>**
+* Act on autonomic nervous system via ~~parasympathetic nerve~~ (Vagus, relax)
+* Increases rate and depth of breathing
+
+### Carbon Monoxide
+Hemoglobin has a ~~greater affinity to carbon monoxide~~ than oxygen.
+
+If this happens, breathing depth and rate increases.
+
+Additionally, hemoglobin with carbon monoxide are ~~cherry red~~ in colour.
+
+# Hyperventilation
+* Rapid, shallow breathing.
+* Breathing too shallow to allow O<sub>2</sub> to enter blood.
+* If CO<sub>2</sub> hits dangerous levels, medulla and ANS takes over.
+  * You faint, then continue breathing automatically.
