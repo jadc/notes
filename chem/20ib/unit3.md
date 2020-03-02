@@ -148,29 +148,29 @@ Compounds that don't do either...
 #### Example
 $\textrm{NaCl}_\textrm{(s)} \longrightarrow \textrm{Na}^+_\textrm{(aq)} + \textrm{Cl}^-_\textrm{(aq)}$
 
-## Identification of Ions in Solution
-### Litmus Paper
+# Identification of Ions in Solution
+## Litmus Paper
 You know the drill.
 * Acids make blue litmus paper red.
 * Bases make red litmus paper blue.
 
-### Colour
+## Colour
 Some ions have specific colours in solution.  
 These ions can be found in ~~page 11 of your data booklet~~.
 
-### Flame Test
+## Flame Test
 Some ions release specific colours when in fire.  
 These ions can be found in ~~page 6 of your data booklet~~.
 
-### Odor
+## Odor
 Some dissolved material in solutions have a characteristic odor. This test isn't used as frequently.
 * Ammonia has a very sharp odor.
 * Vinegar solutions have a disinct odor.
 
-### Selective Precipitation
+## Selective Precipitation
 Specific ions can be identified by adding compounds that dissociate and form precipitates with the specific ions.
 
-#### How (WIP)
+### How (WIP)
 * Go to your solubility table on page 6 of your data booklet.
 * Find the cation you want to seperate/precipitate in the **slightly soluble** row (bottom)
 * Look at the top row and find an anion you could use
@@ -270,7 +270,7 @@ This is because you can convert between using the following two units.
 > $0.15 \space\textrm{mol} \times 119 \space\frac{\textrm{g}}{\textrm{mol}}$  
 > $= 17.9 \space\textrm{g}$
 
-## Dilution
+# Dilution
 ![](images/unit3/dilute.jpg)
 
 Dilution, which is often done by ~~adding water to a solution~~, causes the following...
@@ -286,7 +286,7 @@ With these three properties, a formula can be made.
 > $v$ = volume  
 > The product of the concentration and volume (i.e. moles) initially and at the end are ~~equal~~.
 
-### Keywords
+## Keywords
 Questions regarding dilution often state that water is ~~"added to solution"~~.  
 In this case, add the amount the question is adding to the initial volume. That is your final concentration. (rather than just replacing it)
 
@@ -306,3 +306,36 @@ I'm making this very, very clear because it is easy to forget.
 
 You might have noticed that we are multiplying L and mL together. In this situation, this is okay.  
 You only need the same unit on ~~both sides of an equal sign~~ for each variable.
+
+# Molar Ratio
+
+If you have the molar concentration of a compound or ion, and you need to find the concentration of a specific ion or the compound, use a molar ratio.
+
+1. Write the dissociation equation of your compound.
+2. Multiply the concentration you have by a molar ratio.
+   * The molar ratio is...
+     $\dfrac{\textrm{moles you want}}{\textrm{moles you have}}$
+
+#### Example
+
+> What is the concentration of chloride ions in 3.0 mol/L of MgCl<sub>2</sub>?
+>
+> $\textrm{MgCl}_{2 (s)} \longrightarrow 1 Mg^{+2}_{(aq)} + 2 Cl^-_\textrm{(aq)}$  
+> We have 1 mol of MgCl<sub>2</sub> with a concentration of 3.0 mol/L, and 2 mol of chloride ions.
+>
+> $3.0 \frac{\textrm{mol}}{\textrm{L}} \times \dfrac{2}{1}$  
+> $= 6.0 \frac{\textrm{mol}}{\textrm{L}}$ of Cl<sup>-</sup><sub>(aq)</sub>
+
+# Preparation of a Standard Solution
+
+**Standard Solution**  
+A solution with a ~~**known concentration**~~.
+
+## Standard Solution from Solid
+
+**Question**  
+Prepare 100 mL of a 0.200 mol/L solution of CuSO<sub>4</sub>.
+
+1. Calculate the mass of CuSO<sub>4</sub> required to achieve that specific concentration in that specific volume.
+   * $0.1 \space\textrm{L} \times \dfrac{0.2 \textrm{mol}}{1 \textrm{L}} = 0.02 \textrm{mol of CuSO}_4$
+   * $$

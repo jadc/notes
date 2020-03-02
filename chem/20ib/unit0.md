@@ -76,6 +76,8 @@ The ionic compound starts with a metal/ammonium, and ends with a non-metal or an
 In ionic compounds, you must ~~balance ion charges~~.  
 All ionic compounds are ~~solid~~ in room temperature.
 
+(All ions by themselves are ~~aqueous~~)
+
 ### Examples
 > sodium phosphide  
 $Na^+$ and $P^{-3}$  
