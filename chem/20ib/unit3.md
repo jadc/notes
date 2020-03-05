@@ -336,6 +336,44 @@ A solution with a ~~**known concentration**~~.
 **Question**  
 Prepare 100 mL of a 0.200 mol/L solution of CuSO<sub>4</sub>.
 
-1. Calculate the mass of CuSO<sub>4</sub> required to achieve that specific concentration in that specific volume.
-   * $0.1 \space\textrm{L} \times \dfrac{0.2 \textrm{mol}}{1 \textrm{L}} = 0.02 \textrm{mol of CuSO}_4$
-   * $$
+1. Calculate the mass of CuSO<sub>4</sub> required to achieve that specific concentration in that specific volume, using the molar mass of CuSO<sub>4</sub> (159.62 g/mol).
+   * $0.100 \space\textrm{L} \times \dfrac{0.200 \textrm{ mol}}{1 \textrm{ L}} = 0.020 \textrm{ mol of CuSO}_4$
+
+   * $0.020 \textrm{ mol} \times \dfrac{159.62 \textrm{ g}}{1 \textrm{ mol}} = 3.19 \textrm{ g of CuSO}_4$
+2. Weigh enough mass in a clean beaker.
+   * Empty breaker, place on weigh, and press "reset to zero."
+   * Add the solute to the beaker.
+3. Add distilled water. 
+   * Approximately less than half volume of the final solution should be the volume of distilled water added. In this case, (40 mL)
+   * Stir until solute is dissolved in distill water solvent.
+4. Transfer solution via funnel into a 100 mL volumetric flask.  
+   ![](images/unit3/volumetric-flask.jpg)
+
+5. Rinse left over solution residue off of beaker and stirring rod 3-4 times with distilled water, then pour into flask.
+6. Remove funnel, and add distilled water until the bottom of the meniscus sits on top of the 100 mL line. Use an eyedropper for further precision.  
+   ![](images/unit3/meniscus.gif)
+7. Place cap on flask. Place thumb on flask cap. Invert flask vertically 3-4 times to mix.
+   * It might not line up to 100 mL at this point, but 100 mL of the solution is technically in the flask.
+
+## Standard Solution from Dilution of a Different Solution with Higher Concentration
+
+**Question**
+Prepare 100 mL of 0.0200 mol/L solution of CuSO<sub>4</sub> from a solution of 0.200 mol/L solution of CuSO<sub>4</sub>.
+
+1. Calculate the volume of concentrated solution needed to lower to the new concentration.
+   * $c_1v_1 = c_2v_2$
+   * $(0.200 \frac{\textrm{mol}}{\textrm{L}})(v_1) = (0.0200 \frac{\textrm{mol}}{\textrm{L}})(100 \textrm{ mL})$
+   * $v_1 = 10 \textrm{ mL}$
+2. Using a 10 mL pipet, measure 10 mL of solution.  
+     ![](images/unit3/pipet.jpg)
+   * Suck out solution with bulb.  
+     ![](images/unit3/bulb.jpg)
+   * Ensure pipet is not touching bottom of flask.
+   * Cover pipet top with thumb in between sucks to prevent the solution from falling back down.
+   * Suck until solution is slightly above 10 mL line. (not the red line, that's a label. the 10 mL is indented)
+   * Lower solution by covering and uncovering thumb on top, until bottom of meniscus sits on top of the line.
+3. Place 10 mL of solution into new 100 mL volumetric flask.
+4. Add distilled water into volumetric flask, using eye dropper for precision, until desired volume of 100 mL.
+5. Place cap on flask. Place thumb on flask cap. Invert flask vertically 3-4 times to mix.
+   * It might not line up to 100 mL at this point, but 100 mL of the solution is technically in the flask.
+
