@@ -68,7 +68,7 @@ The primary focus of this unit is around the following four substance types.
 
 | Substances | Dissociation/Ionization |
 | :--------- | :-- |
-| Acid | Strong acids ionize $>9.99%$<br>Weak acids ionize $<50%$ |
+| Acid | Strong acids ionize greater than 99.9%<br>Weak acids ionize less than 50% |
 | Base | Dissociate in solution |
 | Neutral Ionic | Dissociate in solution |
 | Neutral Molecular | Does not ionize or dissociate<br>(not conductive) |
