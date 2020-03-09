@@ -130,7 +130,7 @@ Solve $3^x = 27\sqrt{3}$
 ## Population Growth
 
 <h1>
-y = ab^x
+$y = ab^x$
 </h1>
 
 * $a$: Original amount
@@ -145,7 +145,7 @@ todo
 ## Growth/Decay
 
 <h1>
-y = ab^{\frac{t}{p}}
+$y = ab^{\frac{t}{p}}$
 </h1>
 
 * $a$: Original amount
@@ -161,7 +161,7 @@ todo
 ## Compounding Interest
 
 <h1>
-A = P(1 + i)^n
+$A = P(1 + i)^n$
 </h1>
 
 * $A$: Final amount
@@ -186,31 +186,255 @@ Because we've essentially just reduced the interest now, we have to increase the
 * $n = 6 \times 4$, $n = 24$
 
 Now we can plug it into the formula.
-* $A = 7000(1 + 0.125)^24$
+* $A = 7000(1 + 0.125)^{24}$
 * $A = 9431.46$
 
+## Rate Tip
+The following applies to all exponential function applications.
 
+$i$ is the growth/decay rate converted into a decimal. (i.e. 56% = 0.56)
 
+For ~~growth~~ functions, ~~$b = 1 + i$~~  
+For ~~decay~~ functions, ~~$b = 1 - i$~~
 
+#### Examples
+If a population increases 32% every year, then... $b = 1 + 0.32$  
+If my height decreases 66% every year, then... $b = 1 - 0.66$
 
+# Logarithmic Functions
+A log function is the ~~inverse of an exponential function~~.  
+Use them when you must ~~isolate the exponent~~ of an exponential function.
 
+## Relation to Exponential
 
+<h1>
+$y = b^x$
+</h1>
 
+To isolate the $x$ in the exponent, the logarithmic function is...
 
+<h1>
+$x = \log_b y$
+</h1>
 
+* $x$: The value of the log (exponent in exponential)
+* $b$: The base of the log (base in exponential)
+* $y$: The argument of the log. This can ~~never be negative~~. (answer in exponential)
 
+### Common Logs (No Base)
+If no base is specified, the ~~base is 10~~.
 
+$\log a = \log_{10} a$
 
+#### Examples
+> If $\log_2 32 = 5$, then $2^5 = 32$
 
+> If $\log_4 2 = \frac{1}{2}$, then $4^\frac{1}{2} = 2$
 
+> If $\log 1000 = 3$, then $10^3 = 1000$
 
+> If $\log_x a = b^d$, then $x^{b^d} = a$
 
+> If $a = (2x + 4)^{-1}$, then $\log_{(2x + 4)} a = -1$
 
+> If $4\log_b 6 = 5$, then $\log_b 6 = \frac{5}{4}$, and therefore $b^\frac{5}{4} = 6$
 
+### Change of Base Identity
 
+The following are equal and may be used over the other in specific circumstances.
 
+<h1>
+$\log_b c = \dfrac{\log_a c}{\log_a b}$
+</h1>
 
+# Transformations of Logarithmic Functions
 
+![](images/unit3/log.png)
 
+<h1>
+$y = a\log_c (b(x - h)) + k$
+</h1>
 
+* $a$: Vertical stretch/y intercept
+* $c$: Base of log
+* $b$: Horizontal stretch
+* $h$: Horizontal translation
+* $k$: Vertical translation
 
+### Vertical Asymptote
+
+The vertical asymptote is the solution of $x$ when the log argument ~~equals zero~~.
+
+#### Example
+> The vertical asymptote of $y = log_3 (x + 9)$ ($x + 9 = 0$) is $x = -9$  
+  ![](images/unit3/vas.png)
+
+> The vertical asymptote of $y = -log_2 (2x + 6)$ ($2x + 6 = 0$, $2x = -6$) is $x = -3$
+
+### Domain
+
+The domain is $a > 0$, where $a$ is the vertical asymptote.
+
+### Range
+
+The range of log functions is $y \epsilon\Reals$
+
+### Y Intercept
+
+Solve the log function when $x = 0$
+
+### X Intercept(s)
+
+Solve the log function when $y = 0$
+
+# Log Laws
+
+The following laws ~~do not work~~ if the log function has a ~~coefficient~~.  
+(You could use the power law to correct this)
+
+* **Product Law**  
+  The sum of log functions equals the log of the product of the arguments.  
+  $\log_a (M \times N) = \log_a M + \log_a N$
+
+* **Quotient Law**  
+  The difference of log functions equals the log of the quotient of the arguments.  
+  $\log_a (\frac{M}{N}) = \log_a M - \log_a N$
+
+* **Power Law**  
+  The exponent of a log's argument is also the log's coefficient.  
+  $\log_a M^n = n\log_a M$
+
+## Examples
+> $\log_2 12 - \log_2 3 = \log_2 4$
+
+> $\log_6 9 + \log_6 8 - \log_6 2 = \log_6 (\frac{9 \times 8}{2})$  
+  $\log_6 36 = 2$
+
+## Tip
+
+The following are equal.
+
+$\dfrac{5\log x}{2} = \dfrac{5}{2} \times \log x$
+
+## Expanding Products
+
+If you need a log with a specific argument from another log, you can expand the argument.
+
+#### Examples
+> For instance, $\log_2 12 = \log_2 (3 \times 4)$
+>
+> Then, you can use product laws.
+>
+> $\log_2 12 = \log_2 3 + \log_2 4$
+> 
+> This is useful for questions that replace a specific log with a variable, for instance...  
+> If $log_2 3 = x$, then the answer for this example is $\log_2 12 = x + 2$
+
+> If $\log_3 A = t$, then what is $\log_3 27A^3$
+>
+> $\log_3 27 + \log_3 A^3$  
+> $\log_3 27 + \log_3 (A \times A \times A)$  
+> $\log_3 27 + \log_3 A + \log_3 A + \log_3 A$  
+> $\log_3 27 + 3t$  
+> $3 + 3t$
+
+# Solving Exponential Equations Using Logs
+
+## Case 1: Common Bases (no logs)
+
+1. Express both sides with a ~~common base~~.
+2. Solve.
+
+#### Example
+> $3^{5x-1} = 81^{3x}$  
+> $3^{5x-1} = 3^{3(3x)}$  
+> $5x-1 = 3(3x)$  
+> $x = -\frac{1}{4}$
+
+## Case 2: Equation Has One Power
+
+1. ~~Isolate~~ the power.
+2. Rewrite in ~~logarithmic form~~.
+
+#### Example
+> $3(4^{x-1}) = 15$  
+> $4^{x-1} = 5$  
+> $\log_4 5 = x-1$  
+> $\log_4 5 + 1 = x$  
+> $2.16096... = x$
+
+## Case 3: Equation Has One or Two Powers
+
+1. Add a ~~log to both sides~~. This doesn't do anything to the equation.
+2. Use log laws to solve.  
+   a. Use power law to ~~move exponent to coefficient~~.  
+   b. ~~Distribute~~ coefficient and log.  
+   c. Get any log that includes ~~$x$ to one side~~.  
+   d. ~~Factor out~~ a variable.  
+3. Use any other log laws you can to ~~solve~~. (not simplify)
+
+#### Example
+> $17^{2x-3} = 3^{x+2}$  
+> 1. $\log 17^{2x-3} = \log 3^{x+2}$  
+> 2.  
+> a. $2x-3(\log 17) = x+2(\log 3)$  
+> b. $2x\log 17 - 3\log 17 = x\log 3 + 2\log 3$  
+> c. $2x\log 17 - x\log 3 = 3\log 17 + 2\log 3$  
+> d. $x(2\log 17 - \log 3) = 3\log 17 + 2\log 3$  
+> 
+> 
+> 3. $x = \dfrac{3\log 17 + 2\log 3}{2\log 17 - \log 3}$  
+>
+>    $x = \dfrac{\log 17^3 + \log 3^2}{\log 17^2 - \log 3}$  
+>
+>    $x = \dfrac{\log 44217}{\log 96.333...}$  
+>
+>    $x = 459$
+
+# Solving Logarithmic Equations
+
+When solving a log equation, all solutions must pass ~~two verifications~~.
+
+1. Any log ~~arguments~~ must be ~~positive~~.
+2. If the ~~base~~ is a variable, it must be ~~positive~~ and ~~not equal 1~~.
+
+Any solution that doesn't meet both of these criteria should be marked as ~~extraneous~~.
+
+## Case 1: Logs on Both Sides
+
+1. Use log laws to get each side of the equation to be ~~only a single log~~.
+2. ~~Drop the logs~~ and solve.
+
+#### Examples
+> $\log 3 + \log x = \log 2$  
+> $\log 3x = \log 2$  
+> $3x = 2$, $x = \frac{2}{3}$
+
+> $2\log x - \log (x + 2) = \log (2x - 3)$  
+> $\frac{2\log x}{\log (x + 2)} = \log (2x - 3)$  
+> $\frac{2x}{x + 2} = 2x - 3$
+> Solve for $x$ using distribution, decomp, etc...
+
+## Case 2: Log on One Side
+
+You have two options.
+
+1. Express one side as a single log, and the other side as a constant.  
+   Rewrite in exponential form and solve.
+
+2. Express both sides as a single log.  
+   Solve.
+
+### Nested Logs
+
+To solve a log within a log, convert each log ~~into exponential form~~, starting from the ~~outermost log inward~~.
+
+#### Example
+
+> $0 = \log_5 (\log_x (2x - 3))$
+>
+> $5^0 = \log_x (2x - 3)$
+>
+> $x^1 = 2x - 3$
+>
+> $3 = x$
