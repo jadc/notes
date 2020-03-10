@@ -78,7 +78,7 @@ The primary focus of this unit is around the following four substance types.
 | Acid | $\textrm{HCl}_{(aq)}$ <br> $\textrm{H}_2\textrm{SO}_{4 (aq)}$ <br> $\textrm{CH}_3\textrm{COOH}_{(aq)}$ |
 | Base | $\textrm{NaOH}_{(aq)}$ <br> $\textrm{NH}_4\textrm{OH}_{(aq)}$ <br> $\textrm{Al}(\textrm{OH})_{3 (aq)}$ |
 | Neutral Ionic | $\textrm{NaCl}_\textrm{(aq)}$ <br> $\textrm{NaNO}_{3 (aq)}$ |
-| Neutral Molecular | $\textrm{N}_2\textrm{O}_{4 (aq)}$ <br> $\textrm{C}_6\textrm{H}_12\textrm{O}_{6 (aq)}$ <br> $\textrm{C}_2\textrm{H}_5\textrm{OH}_{(aq)}$ |
+| Neutral Molecular | $\textrm{N}_2\textrm{O}_{4 (aq)}$ <br> $\textrm{C}_6\textrm{H}_{12}\textrm{O}_{6 (aq)}$ <br> $\textrm{C}_2\textrm{H}_5\textrm{OH}_{(aq)}$ |
 
 # Conductivity
 
@@ -110,6 +110,7 @@ Weak bases are not covered at this level, so assume all bases are strong.
 | Weak Acids | Partially ionize/dissociate. <br> Compound remains together, state is now (aq) |
 | Strong Bases | Dissociate. <br> Each ion is (aq) |
 | Elements | Halogens, oxygen, and nitrogen are the only* elements that can dissolve in water. <br>Each element is now (aq) |
+| Gasses | ~~Highest solubility~~ in<br>- ~~Low temperatures~~<br>- ~~High pressure~~ |
 
 # Dissociation & Ionization
 ## Dissociation
