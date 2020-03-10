@@ -23,6 +23,11 @@ $y = ab^x$
 * $y = -2^x$ is an exponential function. ($2 > 0$)
 
 # Graphing Exponential Functions
+
+![](images/unit3/expb.gif)
+
+The following gif is $b$ in $y = b^x$ increasing from 0 to 3.
+
 ## Growth Function
 
 $y = b^x$, where $b > 1$ forms a growth function.
@@ -247,6 +252,46 @@ The following are equal and may be used over the other in specific circumstances
 $\log_b c = \dfrac{\log_a c}{\log_a b}$
 </h1>
 
+# Graphing Logarithmic Functions
+
+This is just the inverse of exponential functions.
+
+![](images/unit3/logb.gif)
+
+The following gif is $b$ in $y = \log_b x$ increasing from 0 to 5.
+
+## Growth Function
+
+$y = \log_b x$, where $b > 1$ forms a growth function.
+
+As $b$ increases, the ~~curve flattens clockwise~~.
+
+![](images/unit3/lgrowth.png)
+
+## Decay Function
+
+$y = \log_b x$, where $0 < b < 1$ forms a decay function.
+
+As $b$ decreases, the ~~curve flattens counter-clockwise~~.
+
+![](images/unit3/ldecay.png)
+
+## Properties of Both
+* **Domain**  
+  $\{x | x > 0, x \epsilon \R\}$
+
+* **Range**  
+  $\{y | y \epsilon \R \}$
+
+* **Vertical Asymptote**  
+  $x = 0$
+
+* **Y-Intercept**  
+  None
+
+* **X-Intercept**  
+  $a$ (in the above examples, $1$)
+
 # Transformations of Logarithmic Functions
 
 ![](images/unit3/log.png)
@@ -438,3 +483,95 @@ To solve a log within a log, convert each log ~~into exponential form~~, startin
 > $x^1 = 2x - 3$
 >
 > $3 = x$
+
+# Log Scale Applications
+
+A logarithmic scale means that the difference in ~~one unit in magnitude~~ corresponds to ~~ten in intensity~~.  
+In other words, each unit is 10x more intense than the last.
+
+## Richter Scale
+
+A log scale for earthquakes.  
+
+Subtract exponents of base 10 to get how many times intense each magnitude is.
+
+#### Example
+> An earthquake of magnitude 8 is \_\_$x$\_\_ times as intense as an earthquake of magnitude 7.
+> $x = 10^{8-7}$, $10 \times$
+
+> An earthquake of magnitude 4 is \_\_$x$\_\_ times as intense as an earthquake of magnitude 9.
+> $x = 10^{4-9}$, $\frac{1}{100000} \times$
+
+### Comparing Intensities of Magnitude
+
+<h1>
+$\dfrac{I_1}{I_2} = 10^{M_1 - M_2}$
+</h1>
+
+* I<sub>1</sub>/I<sub>2</sub>: Difference in intensity
+* M<sub>1</sub>/M<sub>2</sub>: Difference in magnitude (units)
+
+If the difference in intensity ($\frac{I_1}{I_2}$) is ~~greater than 1~~, then $M_1$ should be the ~~larger, stronger, earthquake~~.  
+If the difference in intensity ($\frac{I_1}{I_2}$) is ~~less than 1~~, then $M_1$ should be the ~~smaller, weaker, earthquake~~.
+
+#### Examples
+> An earthquake had a magnitude of 7.7. The next earthquake was a third the intensity of the first. What was the second earthquake's magnitude?
+>
+> $\frac{1}{3} = 10^{M_1 - M_2}$  
+> $\frac{1}{3} = 10^{M_1 - 7.7}$  
+> $\log \frac{1}{3} = M_1 - 7.7$  
+> $\log \frac{1}{3} + 7.7 = M_1$  
+> $7.2 = M_1$
+
+> How many times more intense is an earthquake with magnitude 9.5 than an earthquake with magnitude 7.8?
+>
+> $\frac{I_1}{I_2} = 10^{9.5 - 7.8}$  
+> $\frac{I_1}{I_2} = 10^1.7$  
+> $\frac{I_1}{I_2} = 50.1$  
+> 50x stronger.
+
+## Decibel Scale
+
+Decibels are a log scale for sound volume.  
+For performing math with decibels, convert them into ~~Bels~~.
+
+~~1 Bel = 10 decibels~~
+
+### Formula
+
+<h1>
+$\dfrac{I_1}{I_2} = 10^{B_1 - B_2}$
+</h1>
+
+Example questions for Richter scale also apply here.
+
+## pH Scale
+
+The pH scale is a log scale for the acidity or alkalinity of a solution.
+
+### More or Less Acidic?
+For questions that compare how many times more alkaline or acidic something is, use the power of 10 like the previous applications, but also remember...
+* If the question asks if something is ~~more acidic~~ than the other, the first number should be the ~~lower pH~~. 
+* If the question asks if something is ~~more alkaline~~ than the other, the first number should be the ~~higher pH~~.
+
+These kind of questions are (thankfully) not that common.
+
+### Formula for H+ Concentration and pH
+
+<h1>
+$\textrm{pH} = -\log [\textrm{H}^+]$
+</h1>
+
+* $[\textrm{H}^+]$: Concentration of hydrogen ions/protons in mols per litre. (<sup>mol</sup>/<sub>L</sub>)
+
+* pH = 7: Neutral
+* pH < 7: Acidic
+* pH > 7: Alkaline
+
+#### Examples
+> What is the hydrogen ion concentraiton of a substance with a pH of 5.7?
+>
+> $5.7 = -\log [\textrm{H}^+]$  
+> $-5.7 = \log [\textrm{H}^+]$  
+> $[\textrm{H}^+] = 10^{-5.7}$  
+> $[\textrm{H}^+] = 2.0 \cdot 10^{-6} \frac{\textrm{mol}}{\textrm{L}}$
