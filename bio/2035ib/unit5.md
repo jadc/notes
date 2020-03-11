@@ -1,7 +1,5 @@
 # Pulmonary
 
-!> These notes are unfinished and are subject to change.
-
 ---
 
 # Background Knowledge
@@ -275,3 +273,16 @@ Additionally, hemoglobin with carbon monoxide are ~~cherry red~~ in colour.
 * Breathing too shallow to allow O<sub>2</sub> to enter blood.
 * If CO<sub>2</sub> hits dangerous levels, medulla and ANS takes over.
   * You faint, then continue breathing automatically.
+
+# Control of Breathing
+* Medulla has ~~inspiratory centre~~ and ~~expiratory centre~~
+* Inspiratory centre
+  * Controls breathing during ~~relaxed periods~~.
+  * Rests for 3 seconds and allows passive expiration
+* Chemoreceptors
+  * Monitor blood CO<sub>2</sub>, O<sub>2</sub>, and pH levels
+* Carotid bodies, in the carotid arties; and aortic bodies, in the aorta, are triggered when CO<sub>2</sub> levels rise and pH decreases, and therefore when O<sub>2</sub> decrease
+
+* Activation of any chemoreceptors causes respiratory centres in the pons and medulla to be activated.
+  * ~~Rate and depth of breathing increase~~
+  * This reduces CO<sub>2</sub> and acid, and increases O<sub>2</sub> levels, which makes the chemoreceptors trigger less, until normal levels reached.

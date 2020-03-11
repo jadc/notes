@@ -6,3 +6,5 @@
 * [Biochemistry](unit3.md)
 * [Digestion](unit4.md)
 * [Pulmonary](unit5.md)
+* [Skeleton](unit6.md)
+* [Muscles](unit7.md)
