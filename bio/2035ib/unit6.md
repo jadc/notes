@@ -120,32 +120,30 @@ Site where ~~bones meet~~.
 
 ![](images/unit6/joints.jpg)
 
+**Gliding Joint**  
+Moves back and forth.  
+*e.g. wrist*
+
+**Pivotal Joint**  
+Rotation in one plane.  
+*e.g. head and neck*
+
+**Ball-and-Socket Joint**  
+Free rotation.  
+*e.g. shoulder*
+
+**Hinge Joint**  
+Door hinge-like extension and flexion in one place.  
+*e.g. knee*
+
 **Synovial Joint**  
 ![](images/unit6/synovial.jpg)
 
 Ligaments form a ~~capsule~~ enclosing the joint.  
 Fluid and smooth cartilage decrease joint ~~friction~~.
 
-**Gliding Joint**  
-![](images/unit6/gliding.jpg)
+# Elbow Diagram
+Memorize and be prepared to redraw this diagram and state the functions.  
+(Thanks for this image, William Bandas)
 
-Moves back and forth.  
-*e.g. wrist*
-
-**Pivotal Joint**  
-![](images/unit6/pivotal.jpg)
-
-Rotation in one plane.  
-*e.g. head and neck*
-
-**Ball-and-Socket Joint**  
-![](images/unit6/ballsocket.jpg)
-
-Free rotation.  
-*e.g. shoulder*
-
-**Hinge Joint**  
-![](images/unit6/hinge.jpg)
-
-Door hinge-like extension and flexion in one place.  
-*e.g. knee*
+![](images/unit6/elbow.jpg)
