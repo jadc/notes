@@ -104,8 +104,11 @@ If the balancing species is not real, then it is not that.
 > Balencing species is real. It's an acid.
 
 ## Exceptions
-### Acid Anhydrides
-Acid anhydrides are the acids of ~~oxides of non-metals~~. (CO<sub>2</sub>, SO<sub>2</sub>, etc...)  
+### No Hydrogens To Give Up
+Compounds give a hydrogen ion to water to become acidic. What if a compound doesn't have any hydrogen ions though?  
+These compounds must ~~combine with water first~~, then they can do the acid equation with an ~~additional water~~.
+
+For instance, acid anhydrides are the acids of ~~oxides of non-metals~~. (CO<sub>2</sub>, SO<sub>2</sub>, etc...)  
 They need an ~~additional water molecule~~ to do the acid equation. In other words, ~~two water~~ molecules added.
 
 #### Example
@@ -159,6 +162,8 @@ Data Booklet Page 8-9...
 HCO<sub>3</sub><sup>-</sup> is closest to $\textrm{OH}^-$, so this compound behaves like a base on its own.
 
 # Polyprotic Substances
-[Video](https://drive.google.com/file/d/12o4RmVUyGbD7GpjIdJZsBDCJKVIC4V2V/view)
+* [Video](https://drive.google.com/file/d/12o4RmVUyGbD7GpjIdJZsBDCJKVIC4V2V/view)
+  * 0:00 - 4:40 is review of modified arrhenius
+* [Teacher's Notes](https://drive.google.com/file/d/1W-NMXW5ZKpWgbEtpNRsxL725ZtXF92HU)
 
 
