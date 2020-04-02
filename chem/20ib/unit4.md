@@ -166,4 +166,58 @@ HCO<sub>3</sub><sup>-</sup> is closest to $\textrm{OH}^-$, so this compound beha
   * 0:00 - 4:40 is review of modified arrhenius
 * [Teacher's Notes](https://drive.google.com/file/d/1W-NMXW5ZKpWgbEtpNRsxL725ZtXF92HU)
 
+## Acids
+### Monoprotic
+A monoprotic acid is a compound with only ~~one acidic hydrogen~~. i.e. what we have covered so far.  
+Use the modified arrhenius equations like earlier.
 
+#### Acidic Hydrogens
+$\textrm{H\_\_\_\_}_{(aq)}$ or $\textrm{\_\_\_\_COOH}_{(aq)}$
+
+The hydrogens in these two groups are acidic hydrogens.  
+Hydrogens anywhere else should be ignored when determining proticity
+*e.g. benzoic acid, C<sub>6</sub>H<sub>5</sub>COOH, is monoprotic*
+
+### Polyprotic
+A polyprotic acid is a compound with ~~more than one acidic hydrogens~~.
+
+$\textrm{H}_x\textrm{\_\_\_\_}_{(aq)}$ or $\textrm{\_\_\_\_}(\textrm{COOH})_{x (aq)}$
+
+### Equation
+To determine if this is an acid, use the ~~modified Arrhenius equation~~.   
+Then determine if the balancing species ~~can lose any more protons~~.  
+If it can, ~~repeat the equation~~ until no more protons can be lost.
+
+#### Example
+See `6:50` in the video for an example.
+
+![](images/unit4/polyprotic.png)
+
+### Weak
+Polyprotic acids tend to be ~~weak acids~~.  
+This is because they have ~~many successive reactions~~ to lose all their protons, with ~~each succession being less likely~~ to occur.
+
+For this level, only the ~~first reaction is significant~~, in which only ~~< 50%~~ of the molecule performs the reaction, making it weak.
+
+#### Exception
+The only polyprotic acid that is strong is ~~sulphuric acid~~, H<sub>2</sub>SO<sub>4 (aq)</sub>.  
+~~>99.9%~~ of the molecule performs the ~~1st reaction~~, while ~~<50%~~ of the molecule performs the ~~2nd~~.
+
+## Bases
+### Monoprotic/Monobasic
+Monoprotic bases ~~gain only one proton~~.  
+You can tell if a balencing species can't gain anymore protons if it ~~does not have a negative charge~~.
+
+### Polyprotic/Polybasic
+Polyprotic bases can ~~gain more than one proton~~.  
+Like acids, repeat the equation, adding protons, until there is no negative charge on the balencing species and you can't add anymore.
+
+#### Example
+See `12:20` in the video for an example.
+
+Since all bases are ionic compounds, ~~only the anion reacts~~. (unless the cation is ammonium)
+Remember that ~~coefficients are irrelevant~~ to the amount of protons that can be gained/lost.
+
+### Weak
+Polyprotic bases tend to be ~~weak bases~~.  
+~~Each successive reaction performs on less of the molecule each time~~. (starting at < 50%)
