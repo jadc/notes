@@ -221,3 +221,115 @@ Remember that ~~coefficients are irrelevant~~ to the amount of protons that can 
 ### Weak
 Polyprotic bases tend to be ~~weak bases~~.  
 ~~Each successive reaction performs on less of the molecule each time~~. (starting at < 50%)
+
+# pH
+[Video](https://drive.google.com/file/d/1AEtzlgWg_bK-geMuZuD5pXVg8BXls6r0/view)
+
+pH is a ~~measure of acidity~~ of an aqueous solution.
+
+It is the power of the ~~hydronium/hydrogen~~ ion concentration.  
+(Hydronium ions, $\lbrack\textrm{H}_3\textrm{O}^+_{(aq)}\rbrack$, and hydrogen ions, $\lbrack\textrm{H}^+_{(aq)}\rbrack$, are the ~~same thing~~ at this level)
+
+$\textrm{pH}\space x = \lbrack\textrm{H}_3\textrm{O}^+_{(aq)}\rbrack = 1\times10^{-x} \frac{\textrm{mol}}{\textrm{L}}$
+
+![](images/unit4/pH.png)
+
+The $1$ in $1\times10^{-x}$ (i.e. the number multiplied by the power) is not always 1, so a different formula must be used.
+
+## pH from Concentration Calculation
+
+<h1>
+$\textrm{pH} = -\log{\lbrack\textrm{H}_3\textrm{O}^+_{(aq)}\rbrack}$
+</h1>
+
+See 7:25 in the video for more information.
+
+You do not have to write down this formula when showing work.
+
+## Concentration from pH Calculation
+
+<h1>
+$\lbrack\textrm{H}_3\textrm{O}^+_{(aq)}\rbrack = 10^{-\textrm{pH}}$
+</h1>
+
+See 14:00 in the video for more information.
+
+# pOH
+pOH is a ~~measure of basicity~~ of an aqueous solution.
+
+It is the power of the ~~hydroxide~~ ion concentration.
+
+![](images/unit4/pOH.png)
+
+## pOH from Concentration Calculation
+
+<h1>
+$\textrm{pOH} = -\log{\lbrack\textrm{OH}^-_{(aq)}\rbrack}$
+</h1>
+
+## Concentration from pOH Calculation
+
+<h1>
+$\lbrack\textrm{OH}^-_{(aq)}\rbrack = 10^{-\textrm{pOH}}$
+</h1>
+
+## pH or pOH with pH or pOH
+
+<h1>
+$\textrm{pH} + \textrm{pOH} = 14$
+</h1>
+
+If you know one, you know the other.
+
+# Limits of pH and pOH
+There are no limits. pH and pOH are not constrained to values 0 - 14.  
+You can have negative pH/pOH.
+
+# Significant Digits Rule
+Both pH and pOH have a different rule for significant digits.
+
+The number of ~~significant digits of the hydronium ion concentration~~ is the ~~number of decimal places of the pH~~.
+
+| $\lbrack\textrm{H}_3\textrm{O}^+_{(aq)}\rbrack$ | pH | 
+| :--: | :--: |
+| $1.00 \times 10^{-4} \frac{\textrm{mol}}{\textrm{L}}$ | 4.000 |
+| $1.0 \times 10^{-4} \frac{\textrm{mol}}{\textrm{L}}$ | 4.00 |
+| $1 \times 10^{-4} \frac{\textrm{mol}}{\textrm{L}}$ | 4.0 |
+
+pH/pOH is ~~never written in scientific notation~~.
+
+# Dissociation Constant of Water
+[Video](https://drive.google.com/file/d/1MZkShlF4mUrQQw07xC5XGsCVQZwuon81/view)
+
+<h1>
+$K_w = 1.0 \times 10^{-14} \frac{\textrm{mol}^2}{\textrm{L}^2}$
+</h1>
+
+This value is in your data booklet.  
+Remember sigdig rules. K<sub>w</sub> always has 1 sigdig.
+
+<h1>
+$K_w = \lbrack\textrm{H}_3\textrm{O}^+_{(aq)}\rbrack \lbrack\textrm{OH}^-_{(aq)}\rbrack$
+</h1>
+
+The concentration of either hydronium or hydroxide ions in a neutral solution, which are equal as it is neutral, is the square root of K<sub>w</sub>. (See 3:15 in the video)
+
+# Measuring pH/pOH
+* **pH Paper**  
+  Colour-changing paper with a legend.
+
+* **Portable pH Meter**  
+  Pen-like tool you dip in solution. Accurate to 1-2 decimals.
+
+* **Stationary pH Meter**  
+  Accurate to 4 decimals.
+
+* **Indicators**  
+  Chemicals that change colour depending on pH.
+
+# pH of Common Substances
+* Food is generally acidic.
+  * Pop is very acidic (pH 2.5), but this taste is masked by sugar.
+* Human blood is a pH of 7.4, maintained by buffers like hemoglobin
+
+* Soaps and Cleansers are generally basic.
