@@ -42,6 +42,9 @@ Deal with the restriction first.
 ### Or
 Any question involing ~~"or"~~ must be solved by ~~adding~~.
 
+### And
+Any question involing ~~"and"~~ must be solved by ~~multiplying~~.
+
 ### Even Numbers
 ~~Even~~ numbers which have ~~no repeating digits~~ must be ~~solved using two separate cases~~.  
 This is because 0 is an even number, but it must also be used in the first digit to make the number four digits. This is not possible to represent with one case.
@@ -192,3 +195,30 @@ The denominator requires brackets in this case.
 
 ## Restrictions, Repetitions, and "Together"
 [Watch this video.](https://youtu.be/CeB74RIkC6o?list=PLt63s1Gs-0mZAbidPdQIlW4eZMNmNlEk-)
+
+# Combinations
+[Video](https://youtu.be/bqlaaCWNC9A?list=PLt63s1Gs-0mZQfYrqK9EM8zEHGpxmqA70)
+
+A combination is a permutation in which the ~~order does not matter~~.  
+The fundemental counting principal ~~does not work with combinations~~.
+
+## Formula
+
+If $n$ objects are selected $r$ at a time, and the order is not important, then...
+
+<h1>
+$_nC_r = \bigg( \dfrac{n}{r} \bigg) = \dfrac{n!}{r!(n-r)!}$
+</h1>
+
+#### Example
+> A class of 30 students is going to elect a President, Vice President, and Treasurer.  
+> In how many ways can this be done?
+>
+> Since the order is important, since the number of unelected students decreases each time, then this is a permutation.  
+> $_{30}P_3$
+
+> A class of 30 students is going to elect a committee of 3.  
+> In how many ways can this be done?
+>
+> Since the order is not important, this is a combination.  
+> $_{30}C_3$

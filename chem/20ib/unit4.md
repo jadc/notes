@@ -236,6 +236,13 @@ $\textrm{pH}\space x = \lbrack\textrm{H}_3\textrm{O}^+_{(aq)}\rbrack = 1\times10
 
 The $1$ in $1\times10^{-x}$ (i.e. the number multiplied by the power) is not always 1, so a different formula must be used.
 
+## pH of Common Substances
+* Food is generally acidic.
+  * Pop is very acidic (pH 2.5), but this taste is masked by sugar.
+* Human blood is a pH of 7.4, maintained by buffers like hemoglobin
+
+* Soaps and Cleansers are generally basic.
+
 ## pH from Concentration Calculation
 
 <h1>
@@ -325,11 +332,44 @@ The concentration of either hydronium or hydroxide ions in a neutral solution, w
   Accurate to 4 decimals.
 
 * **Indicators**  
-  Chemicals that change colour depending on pH.
 
-# pH of Common Substances
-* Food is generally acidic.
-  * Pop is very acidic (pH 2.5), but this taste is masked by sugar.
-* Human blood is a pH of 7.4, maintained by buffers like hemoglobin
+## Indicators
+[Video](https://drive.google.com/file/d/1gH25v4iC04es1rqbA-UBnFFrOq3Z01dN/view)
 
-* Soaps and Cleansers are generally basic.
+Weak acids/bases that ~~change colour~~ when the pH changes.
+
+Some are from plant compounds...
+* lichen (litmus paper)
+* red cabbage juice
+
+### Abbreviations
+Indicator chemical formulas are very complex, so they are seldom used.  
+Abbreviations and common names are always used for indicators.
+
+### General Formula
+General formula for indicators are... ($\textrm{In}$ is the abbreviation letter)
+* $\textrm{HIn}_{(aq)}$ for the acid form
+* $\textrm{In}^-_{(aq)}$ for the base form
+
+These two forms have ~~different colours~~, and when they either gain or lose a proton from an acidic or basic environment, that's how you can tell.
+* $\textrm{HIn}_{(aq)} + \textrm{OH}^-_{(aq)} \longleftrightarrow \textrm{In}^-_{(aq)} + \textrm{H}_2\textrm{O}_{(l)}$
+* $\textrm{In}^-_{(aq)} + \textrm{H}_3\textrm{O}^+_{(aq)} \longleftrightarrow \textrm{HIn}_{(aq)} + \textrm{H}_2\textrm{O}_{(l)}$
+
+![](images/unit4/indicator.png)
+
+### Indicators Page
+Page 10 of the data booklet contains acid-base indicators. See 8:30 of the video.
+
+It gives you information about indicators, their abbreviations, their pH range, their colour change in that range, and $K_a$  
+If the pH is below or equal to the minimum range, the indicator will be in acid form.
+If the pH is above or equal to the maximum range, the indicator will be in base form.
+
+There is a gap in these ranges--the indicator exists in an ~~intermediate form~~.  
+In between will be the combination of the colours specified. (e.g. red to yellow would be orange in between)
+
+### Estimating pH Range and pH
+See 14:20 in the video.
+
+To determine pH range, a number-line would help.
+
+To estimate pH, get the ~~average of the pH range~~, but any numbers ~~within~~ (so, non-inclusive) the range is also correct.
