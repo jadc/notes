@@ -222,3 +222,37 @@ $_nC_r = \bigg( \dfrac{n}{r} \bigg) = \dfrac{n!}{r!(n-r)!}$
 >
 > Since the order is not important, this is a combination.  
 > $_{30}C_3$
+
+## Combinations with "at least," "at most," etc...
+
+[Video at 1:20](https://youtu.be/Y2_90OPRLZk?list=PLt63s1Gs-0mZV-ZVE9uXkM0m52cgJK4Jy)
+
+Write out every possible combination that has at least/at most something.  
+Calculate with the combination formula.  
+Add each combination together.
+
+## Equivalent Combinations
+
+[Video at 3:33](https://youtu.be/505LxVUZim8?list=PLt63s1Gs-0mZV-ZVE9uXkM0m52cgJK4Jy)
+
+In a combination, if you choose $x$ number of objects, you would have $y$ number of unchosen objects left over.  
+If you only chose $y$ number of objects, then you would have $x$ number of unchosen objects.
+
+Mathematically, these two combinations are identical.
+
+#### Example
+> $_7C_2 = _7C_x, x \neq 2$
+>
+> If you chose 2 out of 7, you would have 5 left.  
+> If you chose 5 out of 7, you would have 2 left.  
+> In both scenarios, you are left with a group of 2 and 5.
+>
+> Therefore, $x = 5$
+
+This works when the total is a variable. Just add the number of objects chosen in each combination together.
+
+#### Example
+> $_xC_3 = _xC_7$
+>
+> $x = 3 + 7$  
+> $x = 10$
