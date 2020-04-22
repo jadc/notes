@@ -373,3 +373,36 @@ See 14:20 in the video.
 To determine pH range, a number-line would help.
 
 To estimate pH, get the ~~average of the pH range~~, but any numbers ~~within~~ (so, non-inclusive) the range is also correct.
+
+# Strong vs Weak
+[Video](https://drive.google.com/file/d/1WMncYwC9zX8POpbZ3vFVEslfgMWzi94G/view)  
+[Video 2](https://drive.google.com/file/d/1ygQ5L3k3W60T-30usX_kIlk9BketkW2d/view)
+
+These notes just summarize what is said in the video.
+
+## Acids
+
+| Strong Acids | Weak Acids |
+| :----------- | :--------- |
+| Only 6 (top of Acid-Base table) | All the others |
+| Ionize/react quantitatively (~~completely~~, >99.9%) in/with water | Partially ionized/react (usually <50%) in/with water (therefore, not quantitatively) |
+| Equations notated with...<br>$\longrightarrow$ | Normal Arrhenius<br>$\longrightarrow$ with "<50%" written on top.<br>Modified Arrhenius<br>$\longleftrightarrow$ |
+| High concentration of ions | Low concentration of ions |
+| High conductivity | Low conductivity |
+| Low pH | High pH (but still below 7) |
+| High reaction rate with active metals and carbonates | Low reaction rate with active metals and carbonates |
+
+You can only compared strong and weak acids when they are at the ~~same concentration~~.
+
+## Bases
+
+| Strong Bases | Weak Bases |
+| :----------- | :--------- |
+| Ionic hydroxide (have a $\textrm{OH}^-_{(aq)}$ | All other bases |
+| ~~Dissociates~~ quantitatively (>99.9%) in water | ~~Reacts with water~~ partially (<50%) to produce hydroxide ions |
+| Equations notated with...<br>$\longrightarrow$<br>(Cannot use modified Arrhenius) | Equations notated with...<br>$\longleftrightarrow$<br>(Cannot use dissociation equation, aka. normal Arrhenius) |
+| High concentration of ions | Low concentration of ions |
+| High conductivity | Low conductivity |
+| High pH | Low pH (but still above 7) |
+
+You can only compared strong and weak bases when they are at the ~~same concentration~~.
