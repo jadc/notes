@@ -256,3 +256,98 @@ This works when the total is a variable. Just add the number of objects chosen i
 >
 > $x = 3 + 7$  
 > $x = 10$
+
+## Pascal's Triangle
+[Video](https://youtu.be/Zuv4yPdZmm4?list=PLt63s1Gs-0ma9yHdcDVl2XWIu-V4vPl38)
+
+The number of terms in the expansion of a binomial with an exponent is the exponent plus one.  
+> *e.g. $(x+y)^1$ is two terms, $(x+y)^2$ is three terms, etc...*
+
+The sum of the exponents of each term is the largest exponent of the terms, usually the exponent on the unexpanded form.
+
+### Term by term
+In an expanded binomial, term by term, the...
+* $x$ exponent decrease by one
+* $y$ exponent increases by one
+
+> *e.g.*  
+> $(x+y)^3 = x^3 + 3x^2y + 3xy^2 + y^3$
+>
+> *$x$ goes from power of 3, to 2, to 1 and then 0.*  
+> *$y$ goes from power of 0, to 1, to 2, and then 3.*
+
+## Pascal's Triangle
+[Video](https://youtu.be/W2WaUCbw1MY?list=PLt63s1Gs-0ma9yHdcDVl2XWIu-V4vPl38)
+
+Pacal's triangle is formed by the coefficients of the expansion of $(x+y)^n$.
+
+These are the expansions.
+
+| Expansions |
+| :--------: |
+| $(x+y)^0 = 1$ |
+| $(x+y)^1 = x+y$ |
+| $(x+y)^2 = x^2+y^2$ |
+| $(x+y)^3 = x^2 + 2xy + y^2$ |
+| $(x+y)^4 = x^3 + 3x^2y + 3xy^2 + y^3$ |
+| $(x+y)^5 = x^5 + 5x^4y + 10x^3y^2 + 10x^2y^3 + 5xy^4 + y^5$ |
+
+If you draw a triangle with just the coefficients of these, you get pascal's triangle.
+
+![](images/unit4/pascal.png)
+
+### Continuing the triangle
+
+Add together the two numbers to the top left and top right of the current number position.
+
+![](images/unit4/pascal2.png)
+
+### Using the triangle in expansions
+
+1. Look at the power plus one row of the triangle.  
+   *(Not the power number, the triangle counts from zero)*
+
+2. Write out each term as each coefficient times $xy$.
+
+3. For the powers, remember that  
+   $x$ starts at the max and decreases to 0 (= 1), and $y$ starts at 0 (= 1) and increases to the max.  
+   *(The max is the exponent in the unexpanded form)*
+
+> *e.g.*
+>
+> $(x+y)^5$  
+> Pascal's triangle, row 6, says `1 5 10 10 5 1`
+>
+> $(x+y)^5 = 1 + 5 + 10 + 10 + 5 + 1$
+>
+> $(x+y)^5 = 1xy + 5xy + 10xy + 10xy + 5xy + 1xy$
+>
+> $(x+y)^5 = 1x^5y^0 + 5x^4y^1 + 10x^3y^2 + 10x^2y^3 + 5x^1y^4 + 5x^0y^5$
+>
+> $(x+y)^5 = x^5 + 5x^4y + 10x^3y^2 + 10x^2y^3 + 5xy^4 + y^5$
+
+## Pascal's Triangle and Combinations
+[Video](https://youtu.be/FrX_NuvzlhE?list=PLt63s1Gs-0ma9yHdcDVl2XWIu-V4vPl38)
+
+Pascal's triangle is actually an array of combinations.
+In $_xC_y$, $x$ is the ~~row number~~ starting from zero, and $y$ is the ~~column number~~ starting from zero.
+
+![](images/unit4/pascal3.png)
+
+## Patterns
+[Video](https://youtu.be/XT0e2Ws5vBQ?list=PLt63s1Gs-0ma9yHdcDVl2XWIu-V4vPl38)
+
+The sum of the coefficients in the expansion of $(x+y)^n$ is ~~$2^n$~~.
+
+The sum of the coefficients, if ~~$k$ is the row number ($k = n + 1$)~~, then $2^{k-1}$.
+
+## Pathways
+[Video](https://youtu.be/1ZKmOBDBkBs?list=PLt63s1Gs-0ma9yHdcDVl2XWIu-V4vPl38)
+[Video](https://youtu.be/KfnTxt-9V-E?list=PLt63s1Gs-0ma9yHdcDVl2XWIu-V4vPl38)
+
+You can draw a pascal's triangle when determining pathways/route questions.
+
+### Multiple Pathways
+Instead of writing 1's on the grid for a pathway, if there are multiple grids draw the final number of the first grid.
+
+See the second video at 3:10.
