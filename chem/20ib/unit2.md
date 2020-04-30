@@ -1,7 +1,5 @@
 # Gases
 
-!> These notes are unfinished and are subject to change.
-
 ---
 
 # Properties of Gases
