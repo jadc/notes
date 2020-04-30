@@ -100,3 +100,5 @@ A process used to predict the amount of reactant required or product formed in a
 See 29:00 in the video.
 
 ![](images/unit5/stex.png)
+
+![](images/unit5/stex2.png)
