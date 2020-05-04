@@ -81,6 +81,12 @@ State the quantity of each term with a ~~coefficient~~, which multiplies with ea
 
 **Tip:** Always balance oxygens last.
 
+### Solubility
+Remember to verify if new elements together are soluble using the solubility table.
+
+If they are, write the compound as aqueous. (aq)  
+If they aren't, write the compound as solid. (s)
+
 # Stoichiometry
 A process used to predict the amount of reactant required or product formed in a quantitative (complete, 100%) chemical reaction.
 
@@ -102,3 +108,90 @@ See 29:00 in the video.
 ![](images/unit5/stex.png)
 
 ![](images/unit5/stex2.png)
+
+# Lab Questions
+[Video](https://drive.google.com/file/d/1Yx1rqfcazNW6AS_FrrhsopPIiFc3-AUI)
+
+## Prediction
+To get the ~~theoretical/predicted yield~~, what you predict that the yield of the experiment will be.
+
+Simply perform a standard stoichiometry question.  
+Ignore the "Evaluation" section for this question.
+
+Tip: The term "excess" is simply stating that the reaction was completed 100%.
+
+## Analysis
+To get the ~~actual yield~~, what the yield of the experiment that was actually done is. 
+
+This is often given to you in "Evaluation."  
+This depends on every question.
+
+One type of question has the mass of both the precipitate and filter paper and just filter paper. Just subtract to get the mass of precipitate.
+
+## Evaluation
+### Quantitative
+Calculate *either*...
+* % Yield
+* % Error
+
+Both of these calculations should add together to equal 100%.
+
+**Legend**
+* $Y_a$ Actual yield
+* $Y_p$ Predicted/theoretical yield
+
+### % Yield
+
+<h1>
+$\textrm{\% yield} = \dfrac{ Y_a }{ Y_p } \times 100$
+</h1>
+
+### % Error
+
+<h1>
+$\textrm{\% error} = \dfrac{\lvert Y_a - Y_p \rvert}{Y_p} \times 100$
+</h1>
+
+### Qualitative
+**Experimental Error**  
+Describe any aspects ~~not controlled~~ in the procedure.  
+Not your errors: flaws with the experiment's wording.
+
+#### Examples
+* Some precipitate remained in the beaker, and not on the filter paper.
+* Some precipitate may have been blown off the filter paper while drying.
+
+## Example Lab Question
+![](images/unit5/lab.png)
+
+### Prediction
+$2 \space\textrm{Na}_3\textrm{PO}_{4 (aq)} + 3 \space\textrm{Ca}(\textrm{NO}_3)_{2 (aq)} \longrightarrow 1 \space\textrm{Ca}_3(\textrm{PO}_4)_{2 (s)} + 6 \space\textrm{NaNO}_{3 (aq)}$
+
+* $m_{\textrm{Na}_3\textrm{PO}_{4 (aq)}} = 2.98\textrm{ g}$
+* $m_{\textrm{Ca}_3(\textrm{PO}_4)_{2 (s)}} = ?$
+
+$n_{\textrm{Na}_3\textrm{PO}_{4 (aq)}} \longrightarrow 2.98\textrm{ g} \times \dfrac{163.94\textrm{ g}}{1\textrm{ mol}} = 0.018177382\textrm{ mol}$  
+$n_{\textrm{Ca}_3(\textrm{PO}_4)_{2 (s)}} \longrightarrow 0.018177382 \times \dfrac{1}{2} = 0.009088691\textrm{ mol}$  
+$m_{\textrm{Ca}_3(\textrm{PO}_4)_{2 (s)}} \longrightarrow 0.009088691\textrm{ mol} \times \dfrac{310.18\textrm{ g}}{1\textrm{ mol}}$  
+$m_{\textrm{Ca}_3(\textrm{PO}_4)_{2 (s)}} = 2.819130174\textrm{ g}$
+
+$m_{\textrm{Ca}_3(\textrm{PO}_4)_{2 (s)}} = 2.82\textrm{ g}$
+
+### Analysis
+* $m_{\textrm{paper \& precip}} = m_{\textrm{precip}} + m_{\textrm{paper}}$
+* $m_{\textrm{paper \& precip}} - m_{\textrm{paper}} = m_{\textrm{precip}}$
+
+$3.82\textrm{ g} - 0.93\textrm{ g} = 2.89\textrm{ g}$  
+$m_{\textrm{precip}} = 2.89\textrm{ g}$
+
+### Evaluation
+#### Quantitative
+$\textrm{\% error} = \dfrac{\lvert \textrm{actual yield} - \textrm{predicted yield} \rvert}{\textrm{predicted yield}} \times 100$
+
+$\textrm{\% error} = \dfrac{\lvert 2.89\textrm{ g} - 2.82\textrm{ g} \rvert}{2.82\textrm{ g}} \times 100$
+
+$\textrm{\% error} = 2.42\%$
+
+#### Quantitative
+* Some calcium nitrate precipitate may have remained in the beaker, and not on the filter paper.
+* Some calcium nitrate precipitate may have been blown off the filter paper while drying.
