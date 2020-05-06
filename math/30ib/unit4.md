@@ -241,7 +241,7 @@ If you only chose $y$ number of objects, then you would have $x$ number of uncho
 Mathematically, these two combinations are identical.
 
 #### Example
-> $_7C_2 = _7C_x, x \neq 2$
+> ${}_7C_2 = {}_7C_x, x \neq 2$
 >
 > If you chose 2 out of 7, you would have 5 left.  
 > If you chose 5 out of 7, you would have 2 left.  
@@ -252,7 +252,7 @@ Mathematically, these two combinations are identical.
 This works when the total is a variable. Just add the number of objects chosen in each combination together.
 
 #### Example
-> $_xC_3 = _xC_7$
+> ${}_xC_3 = {}_xC_7$
 >
 > $x = 3 + 7$  
 > $x = 10$
@@ -342,7 +342,7 @@ The sum of the coefficients in the expansion of $(x+y)^n$ is ~~$2^n$~~.
 The sum of the coefficients, if ~~$k$ is the row number ($k = n + 1$)~~, then $2^{k-1}$.
 
 ## Pathways
-[Video](https://youtu.be/1ZKmOBDBkBs?list=PLt63s1Gs-0ma9yHdcDVl2XWIu-V4vPl38)
+[Video](https://youtu.be/1ZKmOBDBkBs?list=PLt63s1Gs-0ma9yHdcDVl2XWIu-V4vPl38)  
 [Video](https://youtu.be/KfnTxt-9V-E?list=PLt63s1Gs-0ma9yHdcDVl2XWIu-V4vPl38)
 
 You can draw a pascal's triangle when determining pathways/route questions.
@@ -351,3 +351,26 @@ You can draw a pascal's triangle when determining pathways/route questions.
 Instead of writing 1's on the grid for a pathway, if there are multiple grids draw the final number of the first grid.
 
 See the second video at 3:10.
+
+# The Binomial Theorem
+[Video](https://youtu.be/YaXh6jLZu44?list=PLt63s1Gs-0mZSZmStkJapkwB6HaRRBhv-)
+
+This theorem allows you to get the value of any term ~~without expanding~~.
+
+## General Term
+
+To find a term of the expanded form of $(x+y)^n$
+<h1>
+$t_{k+1} = {}_nC_kx^{n-k}y^k$
+</h1>
+
+$k$ is always one less than the term number.  
+*e.g. If you are asked for the 10th term, then $k = 9$*
+
+This is because of the fact that the number of terms is always one more than the power ($n$).
+
+### Tips for Finding $k$
+These questions ask you to find the term containing a variable with a specific power, like $x^6$, in the expansion of a binomial.
+* Separate constants and variables so that you have, in this case, $x$ and a power by itself. This power will contain $k$.  
+  You can solve for $k$ now by ignoring the bases.
+* "Find the term independent of..." means to find the term when the power is 0. ($x^0$)
