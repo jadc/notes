@@ -406,3 +406,26 @@ You can only compared strong and weak acids when they are at the ~~same concentr
 | High pH | Low pH (but still above 7) |
 
 You can only compared strong and weak bases when they are at the ~~same concentration~~.
+
+# Limiting and Excess Reagants
+[Video](https://drive.google.com/file/d/1xBtZMa0vefus0uuYDi0LW3YXRSEtoFti/view)
+
+Imagine a 5 hats and 3 people. The product is a person wearing the hat.
+
+**Limiting Reagent (LR)**  
+Substance that is completely consumed/used up during a reaction.  
+It dictates how much product you create. (*e.g. this would be the 3 people.*)
+
+**Excess Reagants (ER)**  
+Substances that are present when the reaction is complete. (i.e. excess/left over)  
+It does not dictate how much product you create. (*e.g. this would be the 5 hats*)
+
+## Determining LR & ER
+The moles of each substance (aka. coefficients) in a balanced chemical equation is the quantities needed of each substance to complete the reaction and form the product.
+
+Therefore...
+1. Multiply each molecule by it's molar ratio in the original chemical equation to the product.
+2. Whichever molecule gives the ~~smallest~~ number of moles of the product is the only possible option, as it is the limiting reagant.  
+   Therefore, the other molecule would be the excess reagant.
+
+See 15:10 in the video for a demonstration.
