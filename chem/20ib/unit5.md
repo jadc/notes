@@ -218,3 +218,8 @@ Therefore...
     Therefore, the other molecule would be the excess reagant.
 
 See 15:10 in the video for a demonstration.
+
+## Example
+What would be the mass of precipitate produced by the reaction of 2.00 g of strontium nitrate in solution with 2.56 g of copper (II) sulfate in solution?
+
+![](images/unit5/reagant.jpg)
