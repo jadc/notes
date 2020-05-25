@@ -94,13 +94,17 @@ A process used to predict the amount of reactant required or product formed in a
 1. Write a balanced chemical equation.  
    Include any information given in the question.
 
-2. Calculate the number of moles of the given substance, in order to compare fairly.
+2. Calculate the number of moles of the given substance, in order to compare fairly.  
+   To calculate number of moles of a solid...  
+   $n = m \times \dfrac{1 \textrm{ mol}}{\textrm{molar mass (g)}}$
 
 3. Use a molar ratio to calculate the moles of the required substance. ~~ALWAYS SHOW IT.~~ (even if it's 1/1)  
    
    $\dfrac{\textrm{want}}{\textrm{have}}$
 
-4. Convert the moles into the requested units.
+4. Convert the moles into the requested units.  
+   To calculate the mass of a solid from the number of moles...  
+   $m = n \times \dfrac{\textrm{molar mass (g)}}{1 \textrm{ mol}}$
 
 #### Example
 See 29:00 in the video.
@@ -223,3 +227,27 @@ See 15:10 in the video for a demonstration.
 What would be the mass of precipitate produced by the reaction of 2.00 g of strontium nitrate in solution with 2.56 g of copper (II) sulfate in solution?
 
 ![](images/unit5/reagant.jpg)
+
+# Gas Stoichiometry
+[Video](https://drive.google.com/file/d/1rNnHGHbaoiJRdWhD8lIH017EyZMKju5x/view)
+
+## Steps
+1. Write a balanced chemical equation.  
+   Include any information given in the question.
+
+2. Calculate the number of moles of the given substance, in order to compare fairly.  
+   To get the molar mass of a gas, solve for $n$ in the following formula.  
+   $pv = nRT$
+   
+   $R = \textrm{universal gas constant} = 8.314 \dfrac{\textrm{kPa}\cdot\textrm{L}}{\textrm{mol}\cdot\textrm{K}}$)
+
+3. Use a molar ratio to calculate the moles of the required substance. ~~ALWAYS SHOW IT.~~ (even if it's 1/1)  
+   
+   $\dfrac{\textrm{want}}{\textrm{have}}$
+
+4. Convert the moles into the requested units.  
+   For gases, use the following formula, solving for whichever value is requested.  
+   $pv = nRT$
+
+## Reminder
+![](images/unit5/gas.png)
