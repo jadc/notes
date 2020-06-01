@@ -43,6 +43,11 @@ $\textrm{AB} + \textrm{C} \longrightarrow \textrm{AC} + \textrm{B}$
 ### Double Replacement
 $\textrm{AX} + \textrm{BY} \longrightarrow \textrm{AY} + \textrm{BX}$
 
+#### Replacement with Hydrocarbons
+Swap the metal with the final hydrogen in the hydrocarbon.  
+
+![](images/unit5/hydroreplace.png)
+
 ### Combustion
 $\textrm{compound} + \textrm{O}_2 \longrightarrow \textrm{oxide}$
 
@@ -112,6 +117,21 @@ See 29:00 in the video.
 ![](images/unit5/stex.png)
 
 ![](images/unit5/stex2.png)
+
+### Concentration
+[Video (before 19:30)](https://drive.google.com/file/d/1555sNDgcoaihalCE_VEIhbpKoMLTFscc/view)
+
+You may also use concentration and volume.  
+~~Volume times concentration equals moles.~~
+
+$\textrm{volume (L)} \times \dfrac{1 \textrm{ mol}}{\textrm{? L}} = \textrm{moles (mol)}$
+
+$\textrm{moles (mol)} \times \dfrac{\textrm{? L}}{1 \textrm{ mol}} = \textrm{volume (L)}$
+
+$\textrm{concentration} = \dfrac{a \textrm{ mol}}{b \textrm{ L}}$
+
+Some questions will give you the volume and concentration of a substance.  
+Perform step 2 of stoich by getting the moles using volume and concentration.
 
 # Lab Questions
 [Video](https://drive.google.com/file/d/1Yx1rqfcazNW6AS_FrrhsopPIiFc3-AUI)
@@ -251,3 +271,40 @@ What would be the mass of precipitate produced by the reaction of 2.00 g of stro
 
 ## Reminder
 ![](images/unit5/gas.png)
+
+# Titrations
+[Video (after 19:30)](https://drive.google.com/file/d/1555sNDgcoaihalCE_VEIhbpKoMLTFscc/view)
+
+Titration is the progressive addition of one reactant to another until equivalent quantites have reacted.  
+Think of it as slowing dripping a solution into another, until the exact moment that it reacts.
+
+It must be done into an ~~Erlenmeyer flask~~.
+
+![](images/unit5/titration.png)
+
+| Term | Definition |
+| ---- | ---------- |
+| **titrant** | The solution in the buret used to analyze the sample. <br>The titrant must be a standard solution. (known concentration) |
+| **equivalence point** | The volume of titrant added for a complete reaction, <br>OR, when chemically equivalent (moles) amounts of the reactants have reacted. |
+| **equivalent/end point** | When there is a change in a physical property of the solution to indicate a complete reaction has occured.<br>Often a colour change from the indicator. |
+
+## Volume in Buret
+The volume measurements of a buret are read from ~~top down~~.
+
+The initial volume is how much solution in the buret before you've done any titration.  
+The final volume is how much solution is in the buret after you've performed titration and the solution in the flask has reacted.
+
+To calculate the volume of titrate added, subtract the initial volume from the final volume. ($V_f - V_i = V_{\textrm{added}}$)
+
+## Trial Values
+
+### Extremes
+When looking at data, it's a good idea to only use the pieces of data that are close to each other.  
+A common way is to only include data that is within 0.2 mL of each other.  
+Anything else is considered an "extreme value."
+
+### Average
+Once you have decided the values you want to use, calculate the average of them.  
+You can round this average or keep it complete, both are acceptable answers.
+
+
