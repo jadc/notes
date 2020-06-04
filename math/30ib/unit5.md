@@ -135,3 +135,52 @@ If the factor theorem is true, i.e. $x - a$ is a factor of the polynomial $P(x)$
 A value can be verified to be a factor of a polynomial if, when subsituting $x$ in the polynomial with *the zero* of the alledged factor, the polynomial equals 0. (aka. no remainder)
 
 [Example Questions](https://youtu.be/TkTbjgzx9sU?list=PLjvodYitAKMgEG9fgoWpFDTRI4cYlpmw_)
+
+# Graphing Polynomials
+[Video](https://youtu.be/RpnIu51L3bE?list=PLjvodYitAKMiJKHLMsbPLe0mGP4cIQuil)
+
+The factors of a polynomial are the zeros.
+
+If a factor is repeated, i.e. has an exponent, then it has a different ~~multiplicity~~.  
+If a factor has an exponent of 1, it has a multiplicity of 1. If it has an exponent of 2, multiplicity of 2. And so on...
+
+"Integral linear factors" means no fractions.
+
+## Multiplicity
+![](images/unit5/multiplicity.png)
+
+| Multiplicity | Appearance |
+| ------------ | ---------- |
+| 1 | When it touches the $x$ axis, it ~~goes through~~, then ~~flips direction vertically~~. |
+| 2 | When it touches the $x$ axis, it ~~bounces off~~. (~~tangent~~) |
+| 3 | When it touches the $x$ axis, it ~~goes through~~. (~~point of inflection~~) |
+
+### Tangent
+
+The graph touches the $x$ axis without passing through it.
+
+![](images/unit5/tangent.png)
+
+### Point of Inflection
+
+The point of inflection is the point of the graph that ~~changes concavity on the $x$ axis~~.
+
+![](images/unit5/concavity.png)
+
+## Even and Odd Multiplicities
+* An even multiplicitity occurs when the graph is ~~tangent to the $x$ axis~~.
+* An odd multiplicity occurs when the graph has a ~~point of inflection on the $x$ axis~~.
+* The degree of a polynomial and the ~~sum of the multiplicities of the zeros~~ are the same.
+
+# Unique Factorization Theorem
+[Video](https://youtu.be/c7f6sJ7r9n8?list=PLjvodYitAKMhLojjh3vNW--hb_FoU_Ki7)
+
+Every polynomial function of a degree greater than or equal to 1 can be written as a product of a leading coefficient, $c$, and $n$ linear factors.
+
+<h1>
+$P(x) = c(x-a_1)(x-a_2)(x-a_3)...(x-a^n)$
+</h1>
+
+Never assumed the leading coefficient, $c$, is 1 or -1, unless stated.
+
+Watch the videos in the playlist for example questions.
