@@ -307,4 +307,68 @@ Anything else is considered an "extreme value."
 Once you have decided the values you want to use, calculate the average of them.  
 You can round this average or keep it complete, both are acceptable answers.
 
+# Titration Curves
+[Video](https://drive.google.com/file/d/1IjXPn7HPinDLdq4Ff_K7r8H_BOezhp4l/view)
 
+Majority of titration analysises involve acid-base reactions.  
+Acid-base reactions...
+* are very common
+* involve a pH change
+* have easy to find indicators of reactions
+
+**Equivalence Point** (in the context of acid-base reactions)  
+The point at which equal amount of moles of the acid reactant and base reactant have combined.
+
+When strong monoprotic acids--acids with only one hydrogen--are neutralized by strong bases, the equivalence point has a pH of 7.  
+All hydronium ions have been neutralized/cancelled by an equal amount of hydroxide ions.
+
+**End Point**  
+A physical property change marking the completion of a reaction.  
+This is usually a colour change using an indicator.  
+You can also use a pH meter to watch the progress to this point.
+
+The indicator should be where the reaction takes place. In the context of titration, in the Erlenmeyer flask.
+
+## pH/Titration Curve
+An S-shaped curve graph of the pH of a reaction in relation to the volume of titrant added.
+
+### Steep Changes
+* Steep rise = complete neutralization of strong acid sample
+* Steep drop = complete neutralization of strong base sample
+
+### pH of Equivalence Point
+* The middle of the steep rise/drop of the curve is the pH at the equivalence point.
+* All monoprotic strong acids titrated with a monoprotic strong base have an equivalence point with a pH of 7.
+
+### Examples
+A strong base titrant added to a strong acid sample will...
+* start as a low pH
+* pH gradually increases as reaction progresses (buffering action)
+* suddenly jumps to the pH of the base titrant (because all acids have been neutralized, so the base is by itself)
+* will eventually reach a pH close to the pH of the base titrant
+* the pH of the middle of the jump is the equivalence point
+
+![](images/unit5/phcurve.png)
+
+A strong acid titrant added to a strong base sample will...
+* start as a high pH
+* pH gradually decreases as reaction progresses (buffering action)
+* suddenly jumps to the pH of the base sample (because all bases have been neutralized, so the acid is by itself)
+* will eventually reach a pH close to the pH of the base sample
+* the pH of the middle of the jump is the equivalence point
+
+![](images/unit5/phcurve2.png)
+
+## Indicators
+Indicators are listed in your data booklet.
+
+A good indicator is one that's entire pH range is during the steep rise/drop of the curve.  
+The ideal indicator additionally includes the equivalence/end point pH in the range.
+
+![](images/unit5/indicators.png)
+
+In this case, bromothymol blue is the ideal indicator, since it's pH range is $6.0$ to $7.6$.  
+Since this is a strong acid and a strong base, the equivalence point has a pH of 7, which is within the range of bromothymol blue.
+
+## Questions
+See 37:00 in the video for a titration curve question.
