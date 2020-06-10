@@ -184,3 +184,92 @@ $P(x) = c(x-a_1)(x-a_2)(x-a_3)...(x-a^n)$
 Never assumed the leading coefficient, $c$, is 1 or -1, unless stated.
 
 Watch the videos in the playlist for example questions.
+
+# Graphing Rational Functions
+
+[Playlist](https://www.youtube.com/playlist?list=PLjvodYitAKMiPOOznnDX8NRs1H407MhYL)
+
+## Rational Functions
+Any function that is the division of two polynomials. ($f(x) = \dfrac{n(x)}{d(x)}$, and $d(x) \neq 0$)
+
+Since the denominator cannot equal zero, the zeros--also called discontinuity--of the denominator are the NPVs.  
+There are two types...
+* Vertical asymptote
+* Point of discontinuity (hole in the graph)
+
+Not all rational functions have NPVs. For instance, $f(x) = \dfrac{2}{x^2+1}$
+
+The base rational function that all transformations modify is $y = \dfrac{1}{x}$
+
+## Asymptotes
+The graph will approach this line but never touch or cross it.
+
+### Vertical Asymptotes
+Occur at $x$ values that would cause the denominator of a rational function to equal zero.  
+
+### Horizontal Asymptotes
+#### Case 1
+If the degree of the numerator is less than the degree of the denominator, then the horizontal asymptote will be $y = 0$.  
+*e.g. $f(x) = \dfrac{3}{x}$*
+
+#### Case 2
+If the degree of the numerator is equal to the degree of the denominator, then the horizontal asymptote will be $y = \dfrac{a}{b}$,  
+where $a$ is the leading coefficient of the numerator,  
+and $b$ is the leading coefficient of the denominator.  
+*e.g. $f(x) = \dfrac{2x}{x+1}$, $y = \dfrac{2}{1}$*
+
+#### Case 3
+If the degree of the numerator is greater than the degree of the denominator, then there are no horizontal asymptotes.  
+*e.g. $f(x) = \dfrac{x^2}{x-2}$*
+
+## Point of Discontinuity
+[Video](https://www.youtube.com/watch?v=OYzVGQ4xCR0&list=PLjvodYitAKMhe5RvpZVvuVfZ3yxxj1MYz&index=2)
+
+Points of Discontinuity occur when a rational expression is simplified by cancelling two factors in the numerator and denominator.  
+This leaves the simplified funtion with no NPVs, but the original had, so they still need to be represented.
+
+### Steps
+1. Find the NPVs of the rational function. (the zeros of the denominator)
+2. Simplify the rational function.
+3. The point on the graph that has $x$ equal the asymptote will have it's plot point replaced with an open circle.
+
+### Example
+$f(x) = \dfrac{ x^2 - x - 2 }{ x - 2 }$
+
+The NPV is $x \neq 2$.  
+Now, simplify....
+
+$f(x) = \dfrac{ (x - 2)(x + 1) }{ (x - 2) }$
+
+$f(x) = x + 1$
+
+Then, replace the plot point of the asymptote with an open circle.  
+The coordinates of said point in this case are $(2, 3)$
+
+![](images/unit5/discont.png)
+
+### Feature at Non-permissible Value
+[Video](https://www.youtube.com/watch?v=F46SaU4hkkc&list=PLjvodYitAKMhe5RvpZVvuVfZ3yxxj1MYz&index=2)
+
+If a question asks you for the feature at a non-permissible value, you need to factor it.
+
+| Situation | Feature |
+| --------- | ------- |
+| Factors cancel out, left with no denominator | Point of Discontinuity |
+| Factors don't cancel out                     | Vertical Asymptote     |
+| Factors cancel out, left with no numerator   | Both                   |
+
+#### Both
+When there are both features, the asymptote behaves as normal.
+
+However, to find the coordinates of the point of discontinuity...
+1. Find the zero of the cancelled factor (this will be the $x$ coordinate)
+2. Subsitute $x$ with the zero in the ~~simplified~~ graph (not the original) (this will be the $y$ coordinate)
+
+### Writing Possible Rational Functions
+[Video (highly recommend)](https://youtu.be/xaB5lGJB5p0?list=PLjvodYitAKMhe5RvpZVvuVfZ3yxxj1MYz)
+
+When given $x$ values, find the zeros of them, and place them in specific places of the ratinonal function depending on what they are.
+* Zeros of vertical asymptotes are in the denominator
+* Zeros of x-intercepts are in the numerator
+* Zeros of points of discontinuity (so, only $x$) are in both the numerator and denominator (so they cancel)
