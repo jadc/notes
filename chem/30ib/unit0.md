@@ -181,3 +181,25 @@ The oxidation number of an element is typically written above it. I cannot do th
 * $(\textrm{Cr}_2\textrm{O}_7)^{2-}$: 6+, 2-
 
 * Probably won't appear on exams: $\textrm{I}_3^-$: -1/3
+
+
+
+# Spontaneity
+You can determine if a redox reaction will be spontaneous or not using the reduction half reactions on ~~page 7~~.
+
+![Page 7](images/p7.jpg)
+
+## Interpretation
+The left hand side contains oxidizing agents. (meaning they reduce) 
+The right hand side contains reduction agents. (meaning they oxidize)
+
+The strength of the oxidizing agents increases as you go up in the page.  
+The strength of the decreases agents increases as you go down in the page.  
+
+To put it short, ~~top left is strongest oxidizing agent~~, ~~bottom right is strongest reducing agent~~.
+
+## Application
+A spontaneous redox reaction only occurs if the ~~oxidizing agent is stronger/above the reducing agent~~ in the table.  
+
+<span id="ib">IB</span> *Since the only point of IB is mindless memorization, their data booklet's table is upside-down.*  
+For ~~only the IB table~~, a spontaneous redox reaction only occurs if the ~~reducing agent is above the oxidizing agent~~ in the table.  
