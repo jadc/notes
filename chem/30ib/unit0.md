@@ -25,12 +25,12 @@ Separation of net redox reactions into two separate oxidation and reduction reac
 Always write the $e^-$ on the side with the ~~most positive charge~~.
 
 ##### Oxidation Half Reaction Example
-$\textrm{Mg} \longrightarrow \textrm{Mg}^{2+} + 2e^-$
+$\textrm{Mg} \longleftrightarrow \textrm{Mg}^{2+} + 2e^-$
 
 ~~$e^-$ always on the **right** of the arrow.~~
 
 ##### Reduction Half Reaction Example
-$\textrm{S} + 2e^- \longrightarrow \textrm{S}^{2-}$
+$\textrm{S} + 2e^- \longleftrightarrow \textrm{S}^{2-}$
 
 ~~$e^-$ always on the **left** of the arrow.~~
 
@@ -55,7 +55,7 @@ An ion that undergoes no electron transfer.
 1. Identify and ignore any spectator ions.
 2. Determine what has gained electrons, and what has lost electrons.
    1. Pay attention to quantities (coefficients and subscripts) as the amount of electrons gained/lost will be multiplied by them.
-      *e.g. $\textrm{Br}_2 + 2e^- \longrightarrow 2\textrm{Br}^-$, $2\textrm{Br}^-$ needs 2 electrons to be neutral.*
+      *e.g. $\textrm{Br}_2 + 2e^- \longleftrightarrow 2\textrm{Br}^-$, $2\textrm{Br}^-$ needs 2 electrons to be neutral.*
 3. Write out the equation showing ions.  
    This can be done by ~~cancelling the equal electrons~~ between both half reactions.
 4. Verify that the sum of charges of all ions on both sides remains constant. (if not, it isn't truly redox)
@@ -63,22 +63,22 @@ An ion that undergoes no electron transfer.
 #### Example Problem
 *What is oxidized and what is reduced in the following reaction?*
 
-$2\textrm{AgNO}_3 + \textrm{Cu} \longrightarrow \textrm{Cu} ( \textrm{NO}_3 )_2 + 2\textrm{Ag}$
+$2\textrm{AgNO}_3 + \textrm{Cu} \longleftrightarrow \textrm{Cu} ( \textrm{NO}_3 )_2 + 2\textrm{Ag}$
 
 1. $\textrm{NO}_3^-$ is a spectator ion. Ignore it.  
 
-2. $2\textrm{Ag}^+ + 2e^- \longrightarrow 2\textrm{Ag}$ (or $2(\textrm{Ag}^+ + e^- \longrightarrow \textrm{Ag})$)  
+2. $2\textrm{Ag}^+ + 2e^- \longleftrightarrow 2\textrm{Ag}$ (or $2(\textrm{Ag}^+ + e^- \longleftrightarrow \textrm{Ag})$)  
    *($\textrm{Ag}$ went from missing 1 electron to being balanced, but since there are 2 of them on both sides, 2 electrons were actually missing)*
 
-   $\textrm{Cu} \longrightarrow \textrm{Cu}^{2+} + 2e^-$
+   $\textrm{Cu} \longleftrightarrow \textrm{Cu}^{2+} + 2e^-$
 
-3. $2\textrm{Ag}^+ + \textrm{Cu} \longrightarrow 2\textrm{Ag} + \textrm{Cu}^{2+}$
+3. $2\textrm{Ag}^+ + \textrm{Cu} \longleftrightarrow 2\textrm{Ag} + \textrm{Cu}^{2+}$
 
 4.
 
 The following tables are simply the charges of each ion in the equation.
 
-| $2\textrm{Ag}^+$ | $+$ | $\textrm{Cu}$ | $\longrightarrow$ | $2\textrm{Ag}$ | $+$ | $\textrm{Cu}^{2+}$ |
+| $2\textrm{Ag}^+$ | $+$ | $\textrm{Cu}$ | $\longleftrightarrow$ | $2\textrm{Ag}$ | $+$ | $\textrm{Cu}^{2+}$ |
 | --- | --- | --- | --- | --- | --- | --- |
 | $2+$ | $+$ | $0$ | $=$ | $0$ | $+$ | $2+$ |
 
@@ -90,36 +90,36 @@ Sometimes the net charges of both sides of the equation will not be equal, despi
 In these cases, multiply both half reactions by whatever you need to so that the net electrons of both half reactions are equal.
 
 #### Example Problem
-$\textrm{Al} + \textrm{Cd}(\textrm{NO}_3)_2 \longrightarrow \textrm{Al}(\textrm{NO}_3)_3 + \textrm{Cd}$
+$\textrm{Al} + \textrm{Cd}(\textrm{NO}_3)_2 \longleftrightarrow \textrm{Al}(\textrm{NO}_3)_3 + \textrm{Cd}$
 
 1. $\textrm{NO}_3^-$ is a spectator ion. Ignore it.  
 
-2. $\textrm{Al} \longrightarrow \textrm{Al}^{3+} + 3e^-$  
-   $\textrm{Cd}^{2+} + 2e^- \longrightarrow \textrm{Cd}$
+2. $\textrm{Al} \longleftrightarrow \textrm{Al}^{3+} + 3e^-$  
+   $\textrm{Cd}^{2+} + 2e^- \longleftrightarrow \textrm{Cd}$
 
    Issue: The electrons of both equations do not cancel with each other.  
    Solution: Multiply each entire half reaction by something so that the electrons are equal and can cancel.
 
-   $2(\textrm{Al} \longrightarrow \textrm{Al}^{3+} + 3e^-)$  
-   $3(\textrm{Cd}^{2+} + 2e^- \longrightarrow \textrm{Cd})$
+   $2(\textrm{Al} \longleftrightarrow \textrm{Al}^{3+} + 3e^-)$  
+   $3(\textrm{Cd}^{2+} + 2e^- \longleftrightarrow \textrm{Cd})$
 
-   $2\textrm{Al} \longrightarrow 2\textrm{Al}^{3+} + 6e^-$  
-   $3\textrm{Cd}^{2+} + 6e^- \longrightarrow 3\textrm{Cd}$
+   $2\textrm{Al} \longleftrightarrow 2\textrm{Al}^{3+} + 6e^-$  
+   $3\textrm{Cd}^{2+} + 6e^- \longleftrightarrow 3\textrm{Cd}$
 
    Now both half reactions have $6e^-$.
 
-3. $2\textrm{Al} + 3\textrm{Cd}^{2+} \longrightarrow 2\textrm{Al}^{3+} + 3\textrm{Cd}$  
+3. $2\textrm{Al} + 3\textrm{Cd}^{2+} \longleftrightarrow 2\textrm{Al}^{3+} + 3\textrm{Cd}$  
    Net charge is constant: $0 + +6 = +6 + 0$
 
 ## Don't Be Fooled By Compounds
 Always separate compounds before determining if there was an electron transfer.
 
 #### Example Problem
-$\textrm{Pb}^{2+} + 2\textrm{I}^- \longrightarrow \textrm{PbI}_2$
+$\textrm{Pb}^{2+} + 2\textrm{I}^- \longleftrightarrow \textrm{PbI}_2$
 
 Seems like electrons were transferred, but separate the elements in the compound...
 
-$\textrm{Pb}^{2+} + 2\textrm{I}^- \longrightarrow \textrm{Pb}^{2+} + 2\textrm{I}^-$
+$\textrm{Pb}^{2+} + 2\textrm{I}^- \longleftrightarrow \textrm{Pb}^{2+} + 2\textrm{I}^-$
 
 There was no transfer! Not redox.
 
@@ -203,3 +203,87 @@ A spontaneous redox reaction only occurs if the ~~oxidizing agent is stronger/ab
 
 <span id="ib">IB</span> *Since the only point of IB is mindless memorization, their data booklet's table is upside-down.*  
 For ~~only the IB table~~, a spontaneous redox reaction only occurs if the ~~reducing agent is above the oxidizing agent~~ in the table.  
+
+
+
+# Making Reduction Half Reaction Tables
+
+## From Lab Data
+There are often problems that feature a table, with oxidizing agents at the top, and reducing agents on the sides.
+
+![lab data](images/fromlabdata.jpg)
+
+The blue dots denote that the reaction was spontaneous.
+
+The element that is spontaneous with more other elements is the stronger oxidizing agent and weaker reducing agent.  
+The element that is spontaneous with fewer other elements is the weaker oxidizing agent and stronger reducing agent.
+
+You can then write a reduction half reaction table, strongest oxidizing agent in the top left, strongest reducing agent in the bottom left.
+
+## From Reactions
+The following steps are to be used when asked for a reduction half reaction table.  
+You will usually be given a series of redox reactions...
+* some with a solution
+* some with "no evidence of reaction," meaning there was no reaction.
+
+## Steps
+1. Identify the oxidation agent and the reduction agent.  
+   *(remember, OA reduces/gains $e^-$, RA oxidizes/loses $e^-$)*
+
+2. If there is evidence of a reaction, the reaction is spontaneous, so the OA must be above the RA in the table.  
+   You can denote this with $\dfrac{\textrm{OA}}{\textrm{RA}}$ (charges not needed)
+
+   If there is no evidence of a reaction, the reaction is non-spontaneous, so the RA must be above the OA in the table.  
+   You can denote this with $\dfrac{\textrm{RA}}{\textrm{OA}}$ (charges not needed)
+
+   Do this for every unique element in the reaction.
+
+3. Combine the denotations to get the order of the table.  
+   *e.g. If I had $\dfrac{\textrm{X}}{\textrm{Y}}$ and $\dfrac{\textrm{Y}}{\textrm{Z}}$, then the combined true order is X/Y/Z.*
+
+3. Once you have the order, write a redox reaction for each unique element in said order.  
+   $\textrm{OA}^x + xe^- \longleftrightarrow \textrm{OA}$  
+   $x$: the charge of the OA from anywhere, even across equations in the same problem.  
+
+4. With a complete "table"/list, you can now determine...  
+   * The highest element on the left-hand side (top-left) is the ~~strongest oxidation agent~~. (SOA)
+   * The lowest element on the right-hand side (bottom-right) is the ~~strongest reduction agent~~. (SRA)
+
+#### Example
+![from reactions](images/fromreactions.jpg)
+
+In this example...
+* $\textrm{Co}^{2+}$ is the strongest oxidizing agent
+* $\textrm{Mg}$ is the strongest reducing agent
+* $\textrm{Mg}^{2+}$ is the weakest oxidizing agent
+* $\textrm{Co}$ is the weakest reducing agent
+
+
+
+# Predicting Redox Reactions
+When given a mixture of aqueous substances (ions and molecules), you may be asked to predict which substances will react.  
+This heavily relies on page 7 of your data booklet.
+
+## Steps
+1. * For every substance given to you, identify whether they are an oxidizing agent or a reducing agent, using page 7 and seeing if they are on the left or right side respectively.
+   * Some substances can appear on both sides on the table, meaning they are both an oxidizing and reducing agent. Make sure not to mix up their reactions.
+   * Some substances are not agents on their own, rather only when other specific substances are present. Make sure to include these, making it clear that they are only an agent when together.
+
+
+
+2. The predicted redox reactions will only occur with the strongest oxidizing agent and the strongest reduction agent.  
+   Identify both of those as usual. (strongest oxidizing top left of table, strongest reducing bottom right of table)
+
+3. Once each strongest agent is identified, write down the entire equation/line of both.
+
+Beyond this point is things you've done before.
+
+4. Get the electrons on both sides to equal the same to cancel them. You can do this by multiplying by the lowest common denominator.
+
+5. Combine the reactions after cancelling the electrons.
+
+6. As long as the oxidizing agent is still above the reducing agent in the table, you can also state that the equation is spontaneous.  
+   (no specific way to do this, I personally just write an 'S' above the arrow)
+
+#### Example
+![predicting](images/predict.jpg)
