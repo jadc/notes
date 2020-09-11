@@ -218,7 +218,7 @@ The blue dots denote that the reaction was spontaneous.
 The element that is spontaneous with more other elements is the stronger oxidizing agent and weaker reducing agent.  
 The element that is spontaneous with fewer other elements is the weaker oxidizing agent and stronger reducing agent.
 
-You can then write a reduction half reaction table, strongest oxidizing agent in the top left, strongest reducing agent in the bottom left.
+You can then write a reduction half reaction table, strongest oxidizing agent in the top left, strongest reducing agent in the bottom right.
 
 ## From Reactions
 The following steps are to be used when asked for a reduction half reaction table.  
@@ -298,8 +298,16 @@ If the species is a weak acid...
 
 #### Strong Acids
 If the species is a strong acid...
-1. ~~Ionize~~/separate the acid into its ions.
-2. ~~Add $\textrm{H}^+_{\textrm{(aq)}}$ and $\textrm{H}_2\textrm{O}_{\textrm{(l)}}$~~ to the equation.
+1. ~~Ionize~~/separate the acid into its ions, which are...  
+   * The acid's anion.
+   * ~~$\textrm{H}^+_{\textrm{(aq)}}$~~.
+   * ~~$\textrm{H}_2\textrm{O}_{\textrm{(l)}}$~~.
+
+**Example**  
+$\textrm{HCl}_{\textrm{(aq)}}$'s components are...
+* $\textrm{Cl}^-_{\textrm{(aq)}}$.
+* $\textrm{H}^+_{\textrm{(aq)}}$.
+* $\textrm{H}_2\textrm{O}_{\textrm{(l)}}$. (technically not a component, acids just ionize in aqueous solutions)
 
 ### Extra Tips
 * If the question mentions...
@@ -307,7 +315,7 @@ If the species is a strong acid...
     It is most likely a solid copper atom with no charge.
   * "exposed to moist air."  
     It most likely just means water is present.
-* *Most* (not all!) oxides have low solubility. (e.g. $\textrm{PbO}_2$)
+* Most *(not all!)* oxides have low solubility. (e.g. $\textrm{PbO}_2$)
 
 ## Steps
 1. * For every substance identified (see previous section), find out whether they are an oxidizing agent or a reducing agent, using page 7 and seeing if they are on the left or right side respectively.
