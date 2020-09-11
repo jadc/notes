@@ -264,17 +264,63 @@ In this example...
 When given a mixture of aqueous substances (ions and molecules), you may be asked to predict which substances will react.  
 This heavily relies on page 7 of your data booklet.
 
+## Identifying Substances
+For reaction prediction questions, most of the time you will be given a *word problem*, and you have to find out the equation notation for each one.  
+Here are some tips.
+
+### Atoms
+If the species is an atom, include it with ~~no modifications~~.  
+Make sure to properly denote diatomic and polyatomic atoms from Science 10. (e.g. $S_8$)
+
+### Molecular
+If the species is molecular compound, include it with ~~no modifications~~.
+
+### Ionic
+For ionic species, you need to check the solubility of the compound using page 6 in your data booklet.
+
+#### Low Solubility
+If the species is a lowly soluble ionic compound, include it with ~~no modifications~~.
+
+#### High Solubility
+If the species is a highly soluble ionic compound...
+1. ~~Dissociate~~/separate the compound into its ions.
+2. ~~Add $\textrm{H}_2\textrm{O}_{\textrm{(l)}}$~~ to the equation.
+
+### Acids
+For acid species, you need to check if the acid is strong or weak.  
+An acid is strong if it is one of the first six in the table on page 8 in your data booklet.  
+Otherwise, its weak.
+
+#### Weak Acids
+If the species is a weak acid...
+1. Include it with ~~no modifications~~.
+2. ~~Add $\textrm{H}_2\textrm{O}_{\textrm{(l)}}$~~ to the equation.
+
+#### Strong Acids
+If the species is a strong acid...
+1. ~~Ionize~~/separate the acid into its ions.
+2. ~~Add $\textrm{H}^+_{\textrm{(aq)}}$ and $\textrm{H}_2\textrm{O}_{\textrm{(l)}}$~~ to the equation.
+
+### Extra Tips
+* If the question mentions...
+  * just an elements name and nothing else, such as "Copper is added..."  
+    It is most likely a solid copper atom with no charge.
+  * "exposed to moist air."  
+    It most likely just means water is present.
+* *Most* (not all!) oxides have low solubility. (e.g. $\textrm{PbO}_2$)
+
 ## Steps
-1. * For every substance given to you, identify whether they are an oxidizing agent or a reducing agent, using page 7 and seeing if they are on the left or right side respectively.
+1. * For every substance identified (see previous section), find out whether they are an oxidizing agent or a reducing agent, using page 7 and seeing if they are on the left or right side respectively.
    * Some substances can appear on both sides on the table, meaning they are both an oxidizing and reducing agent. Make sure not to mix up their reactions.
    * Some substances are not agents on their own, rather only when other specific substances are present. Make sure to include these, making it clear that they are only an agent when together.
-
-
 
 2. The predicted redox reactions will only occur with the strongest oxidizing agent and the strongest reduction agent.  
    Identify both of those as usual. (strongest oxidizing top left of table, strongest reducing bottom right of table)
 
 3. Once each strongest agent is identified, write down the entire equation/line of both.
+   * Make sure one reaction is reduction and one reaction is oxidation.  
+     (one with electrons before arrow, one with electrons after)  
+     You can switch between the two if needed by swapping the substances on each side. (i.e. write it backwards)
 
 Beyond this point is things you've done before.
 
@@ -287,3 +333,78 @@ Beyond this point is things you've done before.
 
 #### Example
 ![predicting](images/predict.jpg)
+
+
+
+# Balancing Redox Equations
+Ultimately you still end up with a net redox reaction, but these questions give you an unbalanced redox equation.  
+You need to balance said equations without using page 7.
+
+## Steps (Half Reaction Method)
+1. Break down the redox reaction into half reactions. You should have two (unfinished) half reactions.
+   * Pair up each compound on one side with the other.  
+     Make sure to pair up compounds that share an element.
+
+For each of the two half reactions, perform the following steps.
+
+2. Use coefficients to balance the quantity of atoms on both sides, **except oxygen and hydrogen**.
+
+3. Add any number of $\textrm{H}_2\textrm{O}_{\textrm{(l)}}$ molecules to balance the quantity of oxygen on both sides.
+
+4. Add any number of $\textrm{H}^+_{\textrm{(aq)}}$ molecules on the other side of the water molcules to balance the quantity of hydrogen on both sides.  
+   *(you are essentially undoing the hydrogens you added with water)*
+
+*(For 3. and 4., make sure to account for pre-existing quantities of H & O)*
+
+5. Balance the charges by adding electrons like before.
+
+Everything beyond this point is not new.
+
+6. If the electrons in both half equations are equal, cancel them out.  
+   If not, multiply both half equations by a lowest common denominator to make them equal.
+
+7. Combine the half reactions. Reduce coefficients of substances on both sides if possible.
+
+8. Verify that it's still a redox reaction by making sure net charges on both sides are equal, like before.
+
+### Summary
+1. Split into 1/2 Reactions
+Then, balance...
+2. Atoms (no O or H)
+3. Oxygens
+4. Hydrogens
+5. Charges (aka. Cancel Electrons)
+
+## Example
+### Step-by-Step
+$\textrm{NO}_3^- + \textrm{P}_4 \longleftrightarrow \textrm{H}_3\textrm{PO}_4 + \textrm{NO}_2$
+
+1. Reduction  
+   OA ---> $\textrm{NO}_3^- \longleftrightarrow \textrm{NO}_2$  
+   Oxidation  
+   RA ---> $\textrm{P}_4 \longleftrightarrow \textrm{H}_3\textrm{PO}_4$
+
+2. $\textrm{NO}_3^- \longleftrightarrow \textrm{NO}_2$  
+   $\textrm{P}_4 \longleftrightarrow 4\textrm{H}_3\textrm{PO}_4$
+
+3. $\textrm{NO}_3^- \longleftrightarrow \textrm{NO}_2 + \textrm{H}_2\textrm{O}$  
+   $16\textrm{H}_2\textrm{O} + \textrm{P}_4 \longleftrightarrow 4\textrm{H}_3\textrm{PO}_4$
+
+4. $2\textrm{H}^+ + \textrm{NO}_3^- \longleftrightarrow \textrm{NO}_2 + \textrm{H}_2\textrm{O}$  
+   $16\textrm{H}_2\textrm{O} + \textrm{P}_4 \longleftrightarrow 4\textrm{H}_3\textrm{PO}_4 + 20\textrm{H}^+$
+
+5. $1e^- + 2\textrm{H}^+ + \textrm{NO}_3^- \longleftrightarrow \textrm{NO}_2 + \textrm{H}_2\textrm{O}$  
+   $16\textrm{H}_2\textrm{O} + \textrm{P}_4 \longleftrightarrow 4\textrm{H}_3\textrm{PO}_4 + 20\textrm{H}^+ + 20e^-$
+
+6. $20(1e^- + 2\textrm{H}^+ + \textrm{NO}_3^- \longleftrightarrow \textrm{NO}_2 + \textrm{H}_2\textrm{O})$  
+   $16\textrm{H}_2\textrm{O} + \textrm{P}_4 \longleftrightarrow 4\textrm{H}_3\textrm{PO}_4 + 20\textrm{H}^+ + 20e^-$
+
+7. $40\textrm{H}^+ + 20\textrm{NO}_3^- + 16\textrm{H}_2\textrm{O} + \textrm{P}_4 \longleftrightarrow 20\textrm{NO}_2 + 20\textrm{H}_2\textrm{O} + 4\textrm{H}_3\textrm{PO}_4 + 20\textrm{H}^+$
+
+  Simplified:  
+  $20\textrm{H}^+ + 20\textrm{NO}_3^- + \textrm{P}_4 \longleftrightarrow 20\textrm{NO}_2 + 4\textrm{H}_2\textrm{O} + 4\textrm{H}_3\textrm{PO}_4$
+
+8. $+20$ + $-20$ + $0$ = $0$ + $0$ + $0$
+
+### Concise
+![balancing](images/balance.jpg)
