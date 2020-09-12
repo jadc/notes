@@ -179,6 +179,9 @@ The oxidation number of an element is typically written above it. I cannot do th
 * $\textrm{CuF}_2$: 2+, 1-
 * $\textrm{PbCrO}_4$: 2+, 6+, 2-
 * $(\textrm{Cr}_2\textrm{O}_7)^{2-}$: 6+, 2-
+* $\textrm{NH}_4\textrm{NO}_3$: -3, +1, +5, -2
+  * This is unique, because its actually two polyatomic ions combined together.  
+    $\textrm{NH}_4$ has a 1+ charge, and $\textrm{NO}_3$ has a 1- charge.
 
 * Probably won't appear on exams: $\textrm{I}_3^-$: -1/3
 
@@ -294,27 +297,24 @@ Otherwise, its weak.
 #### Weak Acids
 If the species is a weak acid...
 1. Include it with ~~no modifications~~.
-2. ~~Add $\textrm{H}_2\textrm{O}_{\textrm{(l)}}$~~ to the equation.
+2. ~~Add $\textrm{H}_2\textrm{O}_{\textrm{(l)}}$~~.
 
 #### Strong Acids
 If the species is a strong acid...
-1. ~~Ionize~~/separate the acid into its ions, which are...  
-   * The acid's anion.
-   * ~~$\textrm{H}^+_{\textrm{(aq)}}$~~.
-   * ~~$\textrm{H}_2\textrm{O}_{\textrm{(l)}}$~~.
+1. ~~Ionize~~/separate the acid into its ions. (the acid's anion & ~~$\textrm{H}^+_{\textrm{(aq)}}$~~)
+2. ~~Add $\textrm{H}_2\textrm{O}_{\textrm{(l)}}$~~.
 
 **Example**  
 $\textrm{HCl}_{\textrm{(aq)}}$'s components are...
 * $\textrm{Cl}^-_{\textrm{(aq)}}$.
 * $\textrm{H}^+_{\textrm{(aq)}}$.
-* $\textrm{H}_2\textrm{O}_{\textrm{(l)}}$. (technically not a component, acids just ionize in aqueous solutions)
 
 ### Extra Tips
 * If the question mentions...
   * just an elements name and nothing else, such as "Copper is added..."  
     It is most likely a solid copper atom with no charge.
   * "exposed to moist air."  
-    It most likely just means water is present.
+    It most likely just means water and air is present.
 * Most *(not all!)* oxides have low solubility. (e.g. $\textrm{PbO}_2$)
 
 ## Steps
@@ -364,7 +364,7 @@ For each of the two half reactions, perform the following steps.
 
 *(For 3. and 4., make sure to account for pre-existing quantities of H & O)*
 
-5. Balance the charges by adding electrons like before.
+5. Balance the ~~net charges of the entire sides~~ by adding electrons like before.
 
 Everything beyond this point is not new.
 
@@ -416,3 +416,39 @@ $\textrm{NO}_3^- + \textrm{P}_4 \longleftrightarrow \textrm{H}_3\textrm{PO}_4 + 
 
 ### Concise
 ![balancing](images/balance.jpg)
+
+## More Examples
+![](images/balance2.jpg)
+![](images/balance3.jpg)
+
+
+
+# Disproportionation
+*also known as Autoxidation.*  
+For the 30 level, all you need to do is be ~~**be able to identify them**~~ in an equation. No balancing needed.
+
+When a single species is *both* oxidized and reduced.  
+Atoms within a molecule or polyatomic ion increase in oxidation number. (reduce)
+Atoms outside a molecule or polyatomic ion, but ~~of the same element~~, decrease in oxidation number. (oxidize)
+
+## Steps
+1. Identify the oxidation numbers of all atoms in the equation.
+2. Determine if any element on one side has two of the same element on the other with different oxidation numbers.  
+   If so, disproportionation has occured.
+
+#### Examples
+$\textrm{H}_2\textrm{O}_2 \longleftrightarrow \textrm{H}_2\textrm{O} + \textrm{O}_2$
+
+**Oxidation #s**
+* $\textrm{H}_2$: +1
+* $\textrm{O}_2$: -1
+
+$\longleftrightarrow$
+
+* $\textrm{H}_2$: +1
+* $\textrm{O}$: -2
+* $\textrm{O}_2$: 0
+
+As you can see, the -1 charged oxygen ends up as both -2 (reduction) and 0 (oxidation).  
+Therefore, since it did both, this is disproportionation.
+
