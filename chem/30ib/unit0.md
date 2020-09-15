@@ -51,6 +51,11 @@ In other words, a substance is the ~~opposite agent to what it did~~.
 An ion that undergoes no electron transfer.  
 *e.g. $\textrm{NO}_3^-$ in the upcoming section*
 
+You can determine these by...
+* Checking if charges change from the resultant to product side.
+* Checking if oxidation numbers (covered later) change from the resultant to product side.
+* Checking if the ion is anywhere on the half reduction reaction table. (covered later)
+
 # Determing the Redox of an Equation
 1. Identify and ignore any spectator ions.
 2. Determine what has gained electrons, and what has lost electrons.
@@ -200,6 +205,8 @@ The strength of the oxidizing agents increases as you go up in the page.
 The strength of the decreases agents increases as you go down in the page.  
 
 To put it short, ~~top left is strongest oxidizing agent~~, ~~bottom right is strongest reducing agent~~.
+
+In addition, the ~~greater the distance~~ between the two agents, the ~~faster the reaction~~ will occur.
 
 ## Application
 A spontaneous redox reaction only occurs if the ~~oxidizing agent is stronger/above the reducing agent~~ in the table.  
@@ -452,3 +459,85 @@ $\longleftrightarrow$
 As you can see, the -1 charged oxygen ends up as both -2 (reduction) and 0 (oxidation).  
 Therefore, since it did both, this is disproportionation.
 
+
+
+# Electrochemical Cells
+
+**Electrochemical Processes**  
+The conversion of chemical energy into electrical energy (voltaic),  
+and the conversion of electrical energy into chemical energy (electrolytic).  
+These are redox reactions.
+
+## Voltaic Cells
+Voltaic cells are electrochemical cells that convert chemical energy into electrical energy.
+
+It is usually a ~~metal rod~~ submerged in a ~~solution of one of its ions~~.
+
+#### Half Cells
+One part of a voltaic cell.  
+Either oxidation or reduction occurs.
+
+#### Porous Partition
+The two half cells are separated by a porous partition.  
+
+This can either be a...
+* salt bridge (solution containing a conducting solution)
+* porous cup
+
+The purpose of the partition is to allow the passage of ions/electrons without the solutions mixing completely.
+
+![](images/cells.png)
+
+#### Electrolyte
+The conducting solution.  
+Usually is comprised of the ~~same ions as the electrode~~ in said solution.
+
+#### Redox Couple
+The reduced and oxidized forms of a chemical entity.  
+In other words, the pair of chemical entities in a half reaction.  
+*e.g. $\textrm{Cu}_{\textrm{(s)}}$ and $\textrm{Cu}^{2+}_{\textrm{(aq)}}$ are a redox couple.*
+
+## Electrodes
+A conductor in a circuit.  
+Carries electrons to or from a substances.
+
+#### Anode
+The electrode where ~~oxidation~~ occurs. (therefore, its the reducing agent)  
+Electrons are given off here.  
+It is the ~~negative electrode~~.
+
+#### Cathode
+The electrode where ~~reduction~~ occurs. (therefore, its the oxidizing agent)  
+Electrons are recieved here.  
+It is the ~~positive electrode~~.
+
+#### Direction
+The direction that electrons flow is ~~**always from anode to cathode**~~.  
+You can remember this by the saying, *"the cat goes home."* Cat-hode, cat-home. Get it? ![4HEad](https://cdn.frankerfacez.com/emoticon/128247/1)
+
+## Standard Voltaic Cells
+* $25^\circ\textrm{C}$.
+* Electrolyte at $1.0 \textrm{ mol}\cdot\textrm{dm}^{-3} (aka. \frac{\textrm{mol}}{\textrm{L}})$ concentratiion.
+* Comprises of two standard half cells/electrodes.
+  * Must contain a solid electrode. Usually one of the entities in the redox couple.
+* Contains a redox couple.
+
+![half cells](images/halfcells.png)
+
+## No Solid Electrode
+If a half cell has a solution of an ion, the electrode has to be the solid variant of that entity.  
+Sometimes this isn't possible---as in, the ion has no solid (usually metallic) variant---such as with $\textrm{MnO}^-_{\textrm{4 (aq)}}$ or $\textrm{Cr}_2\textrm{O}^{2-}_{\textrm{7 (aq)}}$.
+
+You still need a solid electrode, so an ~~inert electrode~~ must be selected, so that it does not partake in the electrochemistry.  
+There are two options.
+
+### Carbon
+Cheap, but not completely inert.
+(~~No good when oxygen is a product~~)
+
+![](images/carbon.png)
+
+### Platinum
+Expensive, but completely inert.
+
+![](images/platinum.png)
