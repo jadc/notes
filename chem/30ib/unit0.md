@@ -492,6 +492,9 @@ The purpose of the partition is to allow the passage of ions/electrons without t
 The conducting solution.  
 Usually is comprised of the ~~same ions as the electrode~~ in said solution.
 
+The positive electrolyte---the one that the cathode is submerged in---is called the anolyte.  
+The negative electrolyte---the one that the anode is submerged in---is called the catholyte.
+
 #### Redox Couple
 The reduced and oxidized forms of a chemical entity.  
 In other words, the pair of chemical entities in a half reaction.  
@@ -541,3 +544,70 @@ Cheap, but not completely inert.
 Expensive, but completely inert.
 
 ![](images/platinum.png)
+
+## Cell Notation
+```
+anode / anolyte // catholyte / canode
+```
+
+*e.g. for a copper and zinc couple*  
+$\textrm{Cu}_{\textrm{(s)}} / \textrm{Cu}^{2+}_{\textrm{(aq)}} // \textrm{Zn}^+{2+}_{\textrm{(aq)}} / \textrm{Zn}_{\textrm{(s)}}$
+
+# Electric Potential
+Measured in volts, $\textrm{V}$, the ability of the cell to produce an electric current.  
+It is the competition between the two half cells for electrons.
+
+## Potential
+The potential of an isolated half cell cannot be measured. Two half cells together produce an electric current.
+
+#### Reduction
+The higher the electric potential, the more likely the cell will reduce, gaining electrons.  
+This is the reduction potential, $\textrm{E}^0_{\textrm{red}}$.
+
+#### Oxidation
+The lower the electric potential, the more likely the cell will oxidize, losing electrons.  
+This is the oxidation potential, $\textrm{E}^0_{\textrm{oxid}}$.
+
+## The 0
+The "<sup>0</sup>" on the E means the cell potential was measured when...
+* ion concentration of the half cells are $1.00 \frac{\textrm{mol}}{\textrm{L}}$
+* conditions are STP
+
+## Predicting
+The *reduction* potential of all cells is listed on the right-most column on page 7.  
+
+### Method 1
+Subtract the reduction potential of the anode from the reduction potential of the cathode.
+
+$\textrm{E}^0_{\textrm{net}} = \textrm{E}^0_{\textrm{red cathode}} - \textrm{E}^0_{\textrm{red anode}}$
+
+### Method 2
+This is the harder for no reason method. Only here to give more information.  
+The sum of the reduction and oxidation potential. The oxidation potential is the opposite sign as the reduction potential.
+
+$\textrm{E}^0_{\textrm{oxid}} = -\textrm{E}^0_{\textrm{red}}$
+
+$\textrm{E}^0_{\textrm{net}} = \textrm{E}^0_{\textrm{red}} + \textrm{E}^0_{\textrm{oxid}}$
+
+## Application
+A voltmeter or multimeter will measure the ~~electric potential difference~~ of two half cells.
+
+## Reference Electrode
+Absolute numbers cannot be measured---only their differences---therefore a reference electrode is used.
+
+In standard scenarios, this electrode is **hydrogen**.  
+Hydrogen is given a value of $0.00 \textrm{V}$. This does not mean it has no electric potential, its just relative to hydrogen.
+
+A standard hydrogen electrode is a platinum electrode immersed in a solution of hydrogen ions at a concentration of $1.00 \frac{\textrm{mol}}{\textrm{L}}$. H<sub>2</sub> gas is bubbled around the inert electrode. The half reaction that occurs is...
+
+$2\textrm{H}^+_{\textrm{(aq)}} + 2e^- \longleftrightarrow \textrm{H}_{2 \textrm{(g)}}$  
+$\textrm{E}^0_{\textrm{H}^+} = 0.00 \textrm{V}$
+
+### Different Reference Electrode
+You can choose any reduction half reaction's electric potential from page 7 as the reference electrode.  
+Electric potential difference is unaffected by doing this.
+
+#### Steps
+1. Add/subtract to make your desired reference electrode's electric potential equal 0.
+2. Perform this same arithmetic to every electric potential on the table.
+Now all the electric potentials are relative to your new reference electrode.
