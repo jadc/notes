@@ -506,17 +506,26 @@ Carries electrons to or from a substances.
 
 #### Anode
 The electrode where ~~oxidation~~ occurs. (therefore, its the reducing agent)  
-Electrons are given off here.  
+Electrons are given off/lost here. # of electrons decreases.  
 It is the ~~negative electrode~~.
+
+~~Corrosion occurs at the anode.~~
 
 #### Cathode
 The electrode where ~~reduction~~ occurs. (therefore, its the oxidizing agent)  
-Electrons are recieved here.  
+Electrons are recieved/gained here. # of electrons increases.  
 It is the ~~positive electrode~~.
+
+~~Solid formation occurs at the cathode.~~
 
 #### Direction
 The direction that electrons flow is ~~**always from anode to cathode**~~.  
 You can remember this by the saying, *"the cat goes home."* Cat-hode, cat-home. Get it? ![4HEad](https://cdn.frankerfacez.com/emoticon/128247/1)
+
+## Anions and Cations
+Anions and cations are also being transferred from anode to cathode. However...
+* ~~Excess cations at the anode~~ migrate through the salt bridge ~~to the cathode~~.
+* ~~Excess anions at the cathode~~ migrate through the salt bridge ~~to the anion~~.
 
 ## Standard Voltaic Cells
 * $25^\circ\textrm{C}$.
@@ -545,13 +554,33 @@ Expensive, but completely inert.
 
 ![](images/platinum.png)
 
+## Gas Electrode Required
+If one of the components of a redox couple is a gas, such as in a hydrogen electrode.
+
+A platinum electrode is dipped into the electrolyte.  
+The gas flows over it at standard pressure.
+
+![](images/hydrogen-electrode.png)
+
+In this example, platinum is the *inert* electrode, H<sup>+</sup> is the electrolyte, and hydrogen gas is the electrode that actually reacts.
+
 ## Cell Notation
 ```
 anode / anolyte // catholyte / canode
 ```
 
+The double slash (//) is a symbol for the bridge between the half cells. (salt bridge or porous cup)
+
 *e.g. for a copper and zinc couple*  
 $\textrm{Cu}_{\textrm{(s)}} / \textrm{Cu}^{2+}_{\textrm{(aq)}} // \textrm{Zn}^+{2+}_{\textrm{(aq)}} / \textrm{Zn}_{\textrm{(s)}}$
+
+### "Multiple" Anolytes
+If there is more than just an anode and anolyte, write every compound except the anode as the anolyte.
+
+#### Example
+The cell notation for each half cell is written below it.
+
+![](images/multiple.png)
 
 # Electric Potential
 Measured in volts, $\textrm{V}$, the ability of the cell to produce an electric current.  
@@ -611,3 +640,163 @@ Electric potential difference is unaffected by doing this.
 1. Add/subtract to make your desired reference electrode's electric potential equal 0.
 2. Perform this same arithmetic to every electric potential on the table.
 Now all the electric potentials are relative to your new reference electrode.
+
+## Spontenity
+A ~~positive~~ electric potential difference means the reaction is ~~spontaneous~~.
+
+# Completing A Cell
+Some questions will ask you to complete a cell. This includes...
+* [label all components](#label-all-components)
+* [cell notation](#cell-notation)
+* [half reactions](#half-reactions)
+* net redox reaction (just add the half reactions together)
+* E<sup>0</sup> of each half cell (read right-most column of page 7)
+* [E<sup>0</sup> of net reaction](#electric-potential)
+* [evidence](#evidence)
+
+Click these links to see what you have to do.
+
+The finished question should look like this.
+![](images/complete.png)
+
+## Label All Components
+* Identify and label the SOA and the SRA between the half cells.  
+  The half cell with the SOA should be labeled as the ~~cathode~~.  
+  The half cell with the SRA should be labeled as the ~~anode~~.
+
+* Identify and label any inert electrodes. (platinum and carbon)
+
+* Draw the voltmeter.
+  * Draw a line connecting the electrodes of each half cell.
+  * Make sure both lines connect to a voltmeter, denoted by a V in a circle.
+  * Draw arrows indicating the flow of electrons. (anode to cathode)
+
+* Draw the salt bridge. (you could draw porous cups---a salt bridge is easier to draw)
+  * State what the salt bridge is made of.  
+    It must not partake in the electrochemistry, so $\textrm{KNO}_{3 \textrm{ (s)}}$ is often used, since its composed of spectator ions.
+
+* Draw the pathway of anions and cations.
+  * An arrow from the salt bridge and from the solution pointing towards the relevant electrode.  
+    *for instance, anions come from the salt bridge and anolyte and go into the anode*
+
+## Evidence
+You must write a brief sentence describing the qualitative evidence of electrons being transferred.
+
+### Electric Potential
+If the E<sup>0</sup><sub>net</sub> that you calculated earlier is positive, this is evidence of electrons being transferred.
+
+### pH
+If there are ~~more H<sup>+</sup>~~ ions on the product side of the net reaction compared to the reactant side, then the reaction became ~~more acidic~~.  
+If there are ~~less H<sup>+</sup>~~ ions on the product side of the net reaction compared to the reactant side, then the reaction became ~~more basic~~.
+
+You can state this by saying red/blue litmus paper turns blue/red, depending on basic/acidic respectively.
+
+### Solid Products
+In a redox couple, if the ~~ion reactant becomes a solid product~~, that means the ~~solid is forming on the cathode~~. (since its always anode to cathode)  
+In a redox couple, if the ~~product reactant becomes an ion product~~, that means the ~~anode is being corroded~~. (since its always anode to cathode)
+
+#### Example
+$\textrm{Cu}^{2+}_{\textrm{(aq)}} + \textrm{Zn}_{\textrm{(s)}} \longleftrightarrow \textrm{Cu}_{\textrm{(s)}} + \textrm{Zn}^{2+}_{\textrm{(aq)}}$
+
+* Solid zinc anode corrodes.
+* Solid copper forms at cathode.
+
+If you are wondering *why* copper forms at the cathode, its because both electrons and cations (Cu<sup>2+</sup><sub>(aq)</sub>) are being transferred to the cathode. This is the recipe to forming copper atoms.
+
+
+
+# Batteries
+A battery contains two or more cells linked together for a ~~combined higher voltage~~.
+
+You don't have to memorize the real life examples, and more detail is in the actual booklet.
+
+
+## Primary Cells
+* ~~Not rechargeable~~.
+  * Products/by-products are either too delicate or unsuitable for recharging.
+* Deliever a ~~constant voltage~~ over their entire lifetime.
+
+#### Examples
+* LeClanche Cell
+  * old acid battery
+  * 1.5 V
+* Alkaline Dry Cell
+  * modern battery
+  * 1.5 V
+* Mercury Cell
+  * disc shaped small battery
+  * 1.35 V
+
+## Secondary Cells
+* ~~Rechargeable~~.
+  * Uses electricity to ~~reverse the redox reaction~~ that usually produces electricity.
+
+#### Examples
+* Lithium-Ion Battery
+  * modern phone battery
+  * anode is lithium, cathode is TiS<sub>2</sub>
+  * 3 V
+* Nickel-Cadmium Cell
+  * cheapest rechargeable
+  * looks like LeClanche Cell
+  * has a memory effect
+    * over time, the cell will "think" its minimum is the lowest charge its had.
+    * if this isn't 0%, then you'll have less capacity.
+  * 1.25 V
+* Lead Storage Battery (Car Battery)
+  * two lead electrodes submerged in sulphuric acid
+  * acid thickens in cold, battery stops working; not dead, just need to warm up
+  * 12 V
+
+## Fuel Cells
+* ~~Do not need to be recharged~~.
+* Requires a ~~constant supply of fuel~~.
+  * emphasis on constant: it cannot store energy, electricity will cease if fuel supply does
+* ~~Electrical energy~~ obtained from ~~fuel oxidizing~~.
+
+#### Examples
+* Hydrogen Fuel Cell
+  * input is hydrogen and oxygen gas.
+  * output is water.
+  * more efficient than combustion engines, less lost to heat. (40% vs 80%)
+
+* Aluminum-Air Cell
+  * fuel is solid aluminum and oxygen gas.
+
+# Corrosion
+The deterioration of metals by electrochemical means.  
+*e.g. iron rusting, silver tarnishing, copper patina*
+
+#### Rust
+In rusting, ~~oxygen and water~~ act as ~~oxidizing agents~~, and oxidize metals.
+
+$\textrm{O}_{2 \textrm{(s)}} + 2\textrm{H}_2\textrm{O}_{\textrm{(l)}} + 4e^- \longleftrightarrow 4\textrm{OH}^-_{\textrm{(aq)}}$  
+$E^0_{\textrm{red}} = +0.40 \textrm{ V}$
+
+In acidic conditions...  
+$\textrm{O}_{2 \textrm{(g)}} + 4\textrm{H}^+_{\textrm{(aq)}} + 4e^- \longleftrightarrow 2\textrm{H}_2\textrm{O}_{\textrm{(l)}}$  
+$E^0_{\textrm{red}} = +1.23 \textrm{ V}$
+
+## Prevention
+* **Painting**
+* **Oiling/greasing**
+* **Plasticizing**
+  * plastic used for the inner surface of food cans
+* **Dipping**
+  * dip iron into another metal that forms a non-porous oxide
+  * magnesium and zinc are used sincen they are oxidized over iron
+* **Galvanizing/electroplating**
+  * electrolytic process
+  * adds thin layer of metals (above iron in page 7)
+* **Alloying**
+  * some alloys form a thin layer that prevents oxidation/corrosion
+  * e.g. stainless steel. iron + chromium + nickel. forms a thin layer of chromium oxide
+* **Sacrificial Anode**
+  * main metal corrodes and loses electrons
+  * however, the lost electrons are immediately replenished by a sacrificial anode connected to it
+  * in the end, the anode corrodes instead
+  * anode typically composed of zinc or magnesium
+* **Cathodic Protection**
+  * connect the corrosive metal to the negative of a DC electrical circuit
+  * metal flooded with electrons, discouraging oxidation
+  * e.g. bodywork of cars connected to negative of car battery
