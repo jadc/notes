@@ -1,7 +1,5 @@
 # Electrochemistry
 
-!> These notes are unfinished and subject to change.
-
 ?> In most examples, states of substances will not be written; remember that they are still required in all equations in an actual examination.
 
 ---
@@ -518,6 +516,21 @@ It is the ~~positive electrode~~.
 
 ~~Solid formation occurs at the cathode.~~
 
+#### Tip
+The following ancronym can be used to remember this.
+
+~~**LEOA GERC**~~
+
+**L**ose  
+**E**lectrons  
+**O**xidation  
+**A**node
+
+**G**ain  
+**E**lectrons  
+**R**eduction  
+**C**athode
+
 #### Direction
 The direction that electrons flow is ~~**always from anode to cathode**~~.  
 You can remember this by the saying, *"the cat goes home."* Cat-hode, cat-home. Get it? ![4HEad](https://cdn.frankerfacez.com/emoticon/128247/1)
@@ -605,6 +618,8 @@ The "<sup>0</sup>" on the E means the cell potential was measured when...
 ## Predicting
 The *reduction* potential of all cells is listed on the right-most column on page 7.  
 
+If there are ~~no aqueous compounds~~ in the cell, the values on page 7 do not work, and you ~~cannot get the potential~~.
+
 ### Method 1
 Subtract the reduction potential of the anode from the reduction potential of the cathode.
 
@@ -687,7 +702,7 @@ If the E<sup>0</sup><sub>net</sub> that you calculated earlier is positive, this
 
 ### pH
 If there are ~~more H<sup>+</sup>~~ ions on the product side of the net reaction compared to the reactant side, then the reaction became ~~more acidic~~.  
-If there are ~~less H<sup>+</sup>~~ ions on the product side of the net reaction compared to the reactant side, then the reaction became ~~more basic~~.
+If there are ~~more OH<sup>-</sup>~~ ions on the product side of the net reaction compared to the reactant side, then the reaction became ~~more basic~~.
 
 You can state this by saying red/blue litmus paper turns blue/red, depending on basic/acidic respectively.
 
@@ -800,3 +815,202 @@ $E^0_{\textrm{red}} = +1.23 \textrm{ V}$
   * connect the corrosive metal to the negative of a DC electrical circuit
   * metal flooded with electrons, discouraging oxidation
   * e.g. bodywork of cars connected to negative of car battery
+
+
+
+# Electrolytic Cells
+Electrolytic cells use electrical energy to cause a chemical change.  
+In other words, cause **electrolysis**---using ~~electrical energy~~ to cause a ~~non-spontaneous~~ chemical reaction.
+
+## Comparison to Voltaic
+
+* Does not need separation  
+  *(as opposed to separation with porous cup or salt bridge)*
+* Require current from outside source, like a battery  
+  *(as opposed to produces current internally and independently)*
+* Negative electric potential  
+  *(as opposed to positive)*
+
+Highlighted = different
+
+| Aspect | Electrolytic | Voltaic |
+| :----: | :-----: | :----------: |
+| Reaction @ Cathode | Reduction | Reduction |
+| Reaction @ Anode | Oxidation | Oxidation |
+| Anion Movement | To anode | To anode |
+| Cation Movement | To cathode | To cathode |
+| ~~Energy Conversion~~ | Electrical to Chemical | Chemical to Electrical |
+| ~~Salt Bridge/Porous Cup~~ | No | Yes |
+| ~~Power Supply~~ | Yes | No |
+| ~~Voltage~~ | Negative | Positive |
+| ~~Sponteneity~~ | Non-spontaneous | Spontaneous |
+| ~~Position of RA~~ | Electrolyte | Anode |
+| ~~Position of OA~~ | Electrolyte | Cathode |
+| ~~Anode Qualitative~~ | Nothing | Corrodes |
+| ~~Cathode Qualitative~~ | Gets plated | Forms element |
+
+### Anode and Cathode Changes
+Due to the power source, electrons travel from the positive terminal to the negative terminal.  
+However, electrons still also travel from anode (-) to cathode (+).
+
+The only way for this to be possible is to swap anode and cathode, and ~~nothing else~~.
+
+* ~~Cathode is the negative electrode (-)~~  
+  *(as opposed to positive)*  
+  It is connected to the negative/anode of the battery, so it has to be negative.
+
+* ~~Anode is the positive electrode (+)~~  
+  *(as opposed to negative)*  
+  It is connected to the positive/cathode of the battery, so it has to be positive.
+
+### Voltage Minimum
+The ~~sum of electrical potentials~~ of the oxidation and reduction reactions of an electrolytic cell also serves as the ~~minimum voltage~~ required for the ~~non-spontaneous reaction to occur~~.
+
+Keyword minimum---you can go ~~above this voltage~~ for the reaction to ~~occur quicker~~.
+
+### Battery Symbol
+A short and long line denote a 1.5 V cell. You can have multiple beside each other to denote more cells and therefore higher net charges.  
+The short line is the negative.  
+The long line is the positive.
+
+![](images/bcell.png)
+
+
+
+# Electrolysis Examples
+
+General ground rule for electrolysis...
+* The reduction reaction occurs ~~around the cathode~~
+* The oxidation reaction occurs ~~around the anode~~
+* Electrons still travel from anode to cathode, but  
+  anode is connected to the power source positive, and  
+  cathode is at the power source negative
+
+?> You don't need to memorize any of these, just have a rough idea on how these things look and behave, since they may show up on exams.  
+   EXCEPT ~~DEFINITELY KNOW BRINE ELECTROLYSIS~~!
+
+## Electrolysis of Water
+~~In pure water, no current can flow~~.  
+An electrolyte of spectators---such as KNO<sub>3</sub>--is used to allow the flow of electrons when used in *low concentrations*.
+
+Water is reduced to hydrogen at the cathode.  
+$2\textrm{H}_2\textrm{O}_{\textrm{(l)}} + 2e^- \longleftrightarrow \textrm{H}_{2 \textrm{ (g)}} + 2\textrm{OH}^-_{\textrm{(aq)}}$  
+(region around cathode more basic)
+
+Water is oxidized to oxygen at the anode.  
+$2\textrm{H}_2\textrm{O}_{\textrm{(l)}} \longleftrightarrow \textrm{O}_{2 \textrm{ (g)}} + 4\textrm{H}^+_{\textrm{(aq)}} + 4e^-$  
+(region around anode more acidic)
+
+Tip: Remember that hydrogen ions and hydroxide ions can combine into water.
+
+Net reaction  
+$2\textrm{H}_2\textrm{O}_{\textrm{(l)}} \longleftrightarrow 2\textrm{H}_{2\textrm{ (g)}} + \textrm{O}_{2 \textrm{(g)}}$
+
+## Electrolysis of Brine
+This is very commonly on exams, and thats because it is an exception to a rule. It is an ~~anomaly~~.
+
+![](images/brine.png)
+
+Anode: $2\textrm{Cl}^-_{\textrm{(aq)}} \longleftrightarrow \textrm{Cl}_{2 \textrm{ (g)}} + 2e^-$  
+Cathode: $2\textrm{H}_2\textrm{O}_{\textrm{(l)}} + 2e^- \longleftrightarrow \textrm{H}_{2 \textrm{ (g)}} + 2\textrm{OH}^-_{\textrm{(aq)}}$
+
+* Electrolyte is $\textrm{NaCl}_{\textrm{(aq)}}$.  
+* Strongest reduction agent\* is chloride, so its oxidized and chlorine gas is produced at the anode.  
+* Strongest oxidizing agent is water, so its reduced and hydrogen gas is produced at the cathode.  
+* Sodium metal is not reduced, since water is more easily reduced. (water above sodium, page 7)  
+* Hydroxide ions also produced at anode, which combine with left over sodium ions to form sodium hydroxide.
+
+### The Anomaly
+On the page 7 table, water is actually a stronger reduction agent than chloride, yet chloride ends up being the SRA.
+
+The reason is that to oxidize water, you actually need a ~~greater voltage than page 7~~ indicates.  
+This additional voltage is called an ~~**overvoltage**~~.  
+Chlorine gas ends up ~~forming before~~ the voltage can reach the minimum for water to form oxygen.
+
+Imagine it as activation energy. Chloride to chlorine gas has a lower activation energy than water to oxygen.
+
+### Applications
+* Chlorine gas: Making bleach, plastics, agriculture
+* Hydrogen gas: Industrial production of ammonia, fuel
+* Combine into hydrogen chloride gas: becomes hydrochloric acid
+* Sodium hydroxide: Industrial cleaner
+* NaOH: drain cleaner, dishwashing detergent
+
+## Hoffman Apparatus
+![](images/hoffman.png)
+
+You don't need to know these in detail, just recognize the shape of this and the following...
+* Solution must be spectator, conductive, but also aqueous.  
+  (the water that is decomposed comes from the fact that the solution is aqueous)
+* The products of oxidation and reaction will be in their own tubes.  
+  They are also ~~in their molar ratio~~---for instance, hydrogen is taking up two times more space than oxygen. 2:1 ratio like in the equation.
+
+## Electrolysis of Copper to Purify
+
+![](images/cupure.png)
+
+* Pure copper connected to negative, cathode
+* Impure/blister copper connected to positive, anode
+* In solution of copper (II) sulfide (Cu<sup>2+</sup> & SO<sub>4</sub>)
+
+
+1. Blister copper loses e<sup>-</sup> at anode
+2. e<sup>-</sup> return to pure copper at cathode
+3. Cu<sup>2+</sup> cations in solution go to cathode, pure copper, and pick up electrons
+4. This forms pure solid copper, which plates/forms on the pure copper cathode
+
+## Electrolysis of Aluminum: Hall-Heroult Process
+Honestly, the actual booklet says this well.
+![](images/alumina.png)
+Solvent is cryolite, solute is alumina dissolved in said cryolite, which is why its denoted with (cry).
+
+## Complete Electrolysis Examples
+Just like voltaic cells, you need to be able to show a labelled diagram, redox reactions, net redox reaction, electric and net electric potentials, and evidence.
+
+![](images/electrolysis1.png)
+
+
+
+# Faraday's Law for Electrolytic Stoichiometry
+Used for determining ~~mass (g)~~ in electrolysis of...
+* electrons transferred
+* metal plated onto the cathode
+* metal lost at the anode
+
+You need to know...
+* flow of electrons, called current, measured in amperes (A)
+* time (in seconds) that the current was applied
+
+With that information, you can calculate the ~~charge, $q$~~, measured in ~~Coulombs (C)~~.
+
+$q = I \times t$
+
+or 
+
+$I = \dfrac{q}{t}$  
+$\textrm{amperes} = \dfrac{\textrm{Coulombs}}{\textrm{seconds}}$
+
+You can't do stoichiometry with Coulombs, you need moles. This is where Faraday's Constant comes in...
+
+## Faraday's Constant
+
+$F = 9.65 \times 10^4 \frac{\textrm{C}}{\textrm{mol e}^-}$  
+*(on your data sheet, page 3)*
+
+## Applications
+### Number of Electrons
+Calculate the number of Coulombs using the formula, than cancel the Coulumbs and convert it to moles with Faraday's Constant.
+
+$n_{e^-} = (I \cdot t) \times \dfrac{1 \textrm{ mol e}^-}{9.65 \times 10^4 \textrm{ C}}$
+
+aka. $n_{e^-} = \dfrac{I \cdot t}{F}$
+
+#### Example
+![](images/e-moles.png)
+
+### Mass
+One unique thing is that you need to multiply the molar mass by a molar ratio of the element, in this case copper, with electrons.  
+This is so you can get moles of electrons, allowing you to use Faraday's Constant to cancel all units except grams.
+
+![](images/mass.png)
+
