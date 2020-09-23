@@ -697,7 +697,11 @@ $\textrm{E}^0_{\textrm{H}^+} = 0.00 \textrm{V}$
 
 ### Different Reference Electrode
 You can choose any reduction half reaction's electric potential from page 7 as the reference electrode.  
-~~Electric potential difference is **unaffected** by doing this.~~
+
+Calculating the electric potential difference ~~itself~~ ~~does not include this new reference~~---calculate it normally.  
+Once you got your difference, do the step below on that value to get its value with the new reference electrode.
+
+~~DO NOT do the below step on *each* electric potential and then get the difference.~~ Do the below step on the difference itself.
 
 #### Steps
 1. Add/subtract to make your desired reference electrode's electric potential equal 0.
