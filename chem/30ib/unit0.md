@@ -210,7 +210,7 @@ I cannot do that, so it'll be beside, the elements the same order as in the comp
 # Spontaneity
 You can determine if a redox reaction will be spontaneous or not using the reduction half reactions on ~~page 7~~.
 
-![Page 7](images/p7.jpg)
+![Page 7](images/unit0/p7.jpg)
 
 ## Interpretation
 The ~~left~~ hand side contains ~~oxidizing agents~~. (meaning they reduce)  
@@ -241,7 +241,7 @@ If they start high to low from bottom to top, its like the IB databook.
 # Making Reduction Half Reaction Tables
 
 ## From Lab Data
-![lab data](images/fromlabdata.jpg)
+![lab data](images/unit0/fromlabdata.jpg)
 
 The dots denote that the reaction was spontaneous.
 
@@ -285,7 +285,7 @@ You will usually be given a ~~series of redox reactions~~...
    * The lowest element on the right-hand side (bottom-right) is the ~~strongest reduction agent~~. (SRA)
 
 #### Example
-![from reactions](images/fromreactions.jpg)
+![from reactions](images/unit0/fromreactions.jpg)
 
 In this example...
 * $\textrm{Co}^{2+}$ is the strongest oxidizing agent
@@ -377,7 +377,7 @@ Beyond this point is things you've done before.
    (no specific way to do this, I personally just write an 'S' above the arrow)
 
 #### Example
-![predicting](images/predict.jpg)
+![predicting](images/unit0/predict.jpg)
 
 
 
@@ -454,11 +454,11 @@ $\textrm{NO}_3^- + \textrm{P}_4 \longrightarrow \textrm{H}_3\textrm{PO}_4 + \tex
 8. $+20$ + $-20$ + $0$ = $0$ + $0$ + $0$
 
 ### Concise
-![balancing](images/balance.jpg)
+![balancing](images/unit0/balance.jpg)
 
 ## More Examples
-![](images/balance2.jpg)
-![](images/balance3.jpg)
+![](images/unit0/balance2.jpg)
+![](images/unit0/balance3.jpg)
 
 
 
@@ -520,7 +520,7 @@ This can either be a...
 
 The purpose of the partition is to allow the ~~passage of electrons externally~~ without the solutions mixing completely.
 
-![](images/cells.png)
+![](images/unit0/cells.png)
 
 #### Redox Couple
 The reduced and oxidized forms of a chemical entity.  
@@ -587,7 +587,7 @@ For most of your cases, just know that...
   * Must contain a solid electrode. Usually one of the entities in the redox couple.
 * Contains a redox couple.
 
-![half cells](images/halfcells.png)
+![half cells](images/unit0/halfcells.png)
 
 ## No Solid Electrode
 If a half cell has a solution of an ion, the ~~electrode~~ has to be the ~~solid variant~~ of that electrolyte.  
@@ -600,12 +600,12 @@ There are two options.
 Cheap, but not completely inert.
 (~~No good when oxygen is a product~~)
 
-![](images/carbon.png)
+![](images/unit0/carbon.png)
 
 ### Platinum
 Expensive, but completely inert.
 
-![](images/platinum.png)
+![](images/unit0/platinum.png)
 
 ## Gas Electrode Required
 If one of the components of a redox couple is a gas, such as in a hydrogen electrode.
@@ -613,7 +613,7 @@ If one of the components of a redox couple is a gas, such as in a hydrogen elect
 A platinum electrode is dipped into the electrolyte.  
 The ~~gas flows over the inert electrode~~ at standard pressure.
 
-![](images/hydrogen-electrode.png)
+![](images/unit0/hydrogen-electrode.png)
 
 In this example...
 * platinum is the *inert* electrode (still an electrode)
@@ -636,7 +636,7 @@ If there is more than just an anode and anolyte, ~~write every compound~~ except
 #### Example
 The cell notation for each half cell is written below it.
 
-![](images/multiple.png)
+![](images/unit0/multiple.png)
 
 # Electric Potential
 Measured in volts, $\textrm{V}$, the ~~ability~~ of the cell to ~~produce an electric current~~.  
@@ -727,7 +727,7 @@ This includes...
 Click these links to see what you have to do.
 
 The finished question should look like this.
-![](images/complete.png)
+![](images/unit0/complete.png)
 
 ## Label All Components
 * Identify and label the SOA and the SRA between the half cells.  
@@ -938,7 +938,7 @@ A short and long line denote a 1.5 V cell. You can have multiple beside each oth
 The short line is the negative.  
 The long line is the positive.
 
-![](images/bcell.png)
+![](images/unit0/bcell.png)
 
 
 
@@ -974,7 +974,7 @@ $2\textrm{H}_2\textrm{O}_{\textrm{(l)}} \longrightarrow 2\textrm{H}_{2\textrm{ (
 ### Electrolysis of Brine
 This is very commonly on exams, and thats because it is an exception to a rule. It is an ~~anomaly~~.
 
-![](images/brine.png)
+![](images/unit0/brine.png)
 
 Anode: $2\textrm{Cl}^-_{\textrm{(aq)}} \longrightarrow \textrm{Cl}_{2 \textrm{ (g)}} + 2e^-$  
 Cathode: $2\textrm{H}_2\textrm{O}_{\textrm{(l)}} + 2e^- \longrightarrow \textrm{H}_{2 \textrm{ (g)}} + 2\textrm{OH}^-_{\textrm{(aq)}}$
@@ -1004,7 +1004,7 @@ Imagine it as activation energy. Chloride to chlorine gas has a lower activation
 * NaOH: drain cleaner, dishwashing detergent
 
 ### Hoffman Apparatus
-![](images/hoffman.png)
+![](images/unit0/hoffman.png)
 
 You don't need to know these in detail, just recognize the shape of this and the following...
 * Solution must be spectator, conductive, but also aqueous.  
@@ -1014,7 +1014,7 @@ You don't need to know these in detail, just recognize the shape of this and the
 
 ### Electrolysis of Copper to Purify
 
-![](images/cupure.png)
+![](images/unit0/cupure.png)
 
 * Pure copper connected to negative, cathode
 * Impure/blister copper connected to positive, anode
@@ -1028,13 +1028,13 @@ You don't need to know these in detail, just recognize the shape of this and the
 
 ### Electrolysis of Aluminum: Hall-Heroult Process
 Honestly, the actual booklet says this well.
-![](images/alumina.png)
+![](images/unit0/alumina.png)
 Solvent is cryolite, solute is alumina dissolved in said cryolite, which is why its denoted with (cry).
 
 ## Complete Electrolysis Examples
 Just like voltaic cells, you need to be able to show a labelled diagram, redox reactions, net redox reaction, electric and net electric potentials, and evidence.
 
-![](images/electrolysis1.png)
+![](images/unit0/electrolysis1.png)
 
 
 
@@ -1077,13 +1077,13 @@ $n_{e^-} = (I \cdot t) \times \dfrac{1 \textrm{ mol e}^-}{9.65 \times 10^4 \text
 aka. $n_{e^-} = \dfrac{I \cdot t}{F}$
 
 #### Example
-![](images/e-moles.png)
+![](images/unit0/e-moles.png)
 
 ### Mass
 One unique thing is that you need to ~~multiply the molar mass~~ by a ~~molar ratio of the element~~, in this case copper, ~~*with electrons*~~.  
 This is so you can get moles of electrons, allowing you to use Faraday's Constant to cancel all units except grams.
 
-![](images/mass.png)
+![](images/unit0/mass.png)
 
 # Tips for any Stoicheometry
 This also applies to redox titrations, which were not explicitly covered as they are basically just stoicheometry questions.
