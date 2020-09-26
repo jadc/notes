@@ -131,21 +131,33 @@ $\Delta_\textrm{rxn}\textrm{H} = \textrm{H}_\textrm{products} - \textrm{H}_\text
 
 ### Other Types
 * $\Delta_\textrm{rxn}\textrm{H}$ = Enthalpy of Reaction
-* $\Delta_\textrm{f}\textrm{H}$ = Enthalpy of Formation
+* $\Delta_\textrm{f}\textrm{H}$ = Enthalpy of Formation (~~listed in your data booklet, page 4 & 5~~)
 * $\Delta_\textrm{c}\textrm{H}$ = Enthalpy of Combustion
 * $\Delta_\textrm{sol}\textrm{H}$ = Enthalpy of Solution
 * $\Delta_\textrm{sd}\textrm{H}$ = Enthalpy of Decomposition
 
-## Formula (Molar Enthalpy)
+## Formula
 <h3>
 $\Delta{\textrm{E}_\textrm{p}} = \textrm{n}\Delta{\textrm{H}}$
 </h3>
 
-* &Delta;E<sub>p</sub> = total potential energy
-* n = number of moles of a substance
-* &Delta;H = molar enthalpy of a substance (enthalpy per mole)
+* &Delta;E<sub>p</sub> = total potential energy (kJ)
+* n = number of moles of a substance (mol)
+* &Delta;H = molar enthalpy of a substance (enthalpy per mole, kJ/mol)
 
 Sometimes you may even see $\Delta{\textrm{H}} = n\Delta{\textrm{H}}$, because Alberta does not differentiate total enthalpy and molar enthalpy.
+
+### Difference
+
+#### Molar Enthalpy
+* The enthalpy/potential energy of ~~1.00 mole~~
+* ~~Always &Delta;H~~
+* Units are ~~kJ/mol~~
+
+#### Enthalpy
+* The enthalpy/potential energy of ~~$n$ moles~~ (see formula)
+* Always &Delta;E<sub>p</sub>, sometimes &Delta;H
+* Units are ~~kJ~~ ~~(not per 1 mol!)~~
 
 ## Enthalpy of Specific Compounds
 The enthalpy of reaction will change directly with the ~~coefficients/moles~~ of the ~~entire reaction~~---to ~~**maintain the ratio**~~ that enthalpy and all the compounds have to one another.
@@ -159,29 +171,28 @@ The enthalpy of reaction will change directly with the ~~coefficients/moles~~ of
    This was over explained because it confused me initially. You want concise? Read the real notes!!!
 
 #### Example
+<h3>
 $2\textrm{H}_2 + \textrm{O}_2 \longrightarrow 2\textrm{H}_2\textrm{O} + 571.6\textrm{ kJ}$
+</h3>
 
-1. The enthalpy given off in the above equation is  
-   **-571.6 kJ**
+>  **The enthalpy given off in the above equation**  
+>  $\Delta_{\textrm{rxn}}\textrm{H} = -571.6\textrm{ kJ}$
 
-2. The molar enthalpy of the reaction for 1.00 mol of H<sub>2</sub>O is  
-   **-285.8 kJ**
+>  **The molar enthalpy of the reaction for 1.00 mol of H<sub>2</sub>O**  
+>  $\Delta_\textrm{f}\textrm{H} = \frac{-571.6 \textrm{ kJ}}{2 \textrm{ mol}} = -285.8 \frac{\textrm{kJ}}{\textrm{mol}}$
 
-3. The enthalpy of reaction for the production of 0.500 moles of H<sub>2</sub>O is  
-   **-142.9 kJ**
+>  **The enthalpy of reaction for the production of 0.500 moles of H<sub>2</sub>O**  
+>  $\Delta{\textrm{H}} \times n = \textrm{E}_\textrm{p}$  
+>  $\frac{-571.6\textrm{ kJ}}{2\textrm{ mol}} \times 0.5\textrm{ mol} = -142.9\textrm{ kJ}$
 
-4. The &Delta;H/E<sub>p</sub> for the production of 10.0 g of H<sub>2</sub>O is  
-   **-159 kJ** (0.5549 moles, using water molar mass)
+>  **The &Delta;H/E<sub>p</sub> for the production of 10.0 g of H<sub>2</sub>O**  
+>  $\frac{-571.6\textrm{ kJ}}{2\textrm{ mol}} \times \frac{1\textrm{ mol}}{18.02\textrm{ g}} \times 10.0\textrm{ g} = -159\textrm{ kJ}$
 
-5. The &Delta;H/E<sub>p</sub> for the production of 20.0 g of H<sub>2</sub>O is  
-   **-317 kJ**
+>  **If hydrogen is formed from the decomposition of water, what is the enthalpy of reaction per mole of H<sub>2</sub> produced?**  
+>  (Decomposition of water is just formation of water backwards, so flip signs, since the enthalpy would now be on the reactant side instead of product side)  
+>  $\Delta_\textrm{sd}\textrm{H} = \frac{+571.6 \textrm{ kJ}}{2 \textrm{ mol}} = +285.8 \frac{\textrm{kJ}}{\textrm{mol}}$
 
-6. If hydrogen is formed from the decomposition of water, what is the enthalpy of reaction per mole of H<sub>2</sub> produced?  
-   **+285.8 kJ** (reaction is now backwards, so positive)
-
-7. The enthalpy of reaction for the production of 5.00 g of H<sub>2</sub> is  
-   **+707 kJ** (2.475 moles, using dihydrogen molar mass)
-
+*more examples on page 15 of workbook*
 
 ## Communicating Enthalpy
 ### In Equation
@@ -205,6 +216,48 @@ $\textrm{H}_2 + \frac{1}{2}\textrm{O}_2 \longrightarrow \textrm{H}_2\textrm{O}$ 
 $\textrm{H}_2\textrm{O} \longrightarrow \textrm{H}_2 + \frac{1}{2}\textrm{O}_2$ &nbsp;&nbsp;&nbsp; $\Delta{\textrm{H}} = +285.8\textrm{ kJ}$
 
 ## Potential Energy Diagram
-!> TODO. For the time being, page 10 bottom
-
 ![](images/unit1/pediagram.png)
+
+
+
+# Calorimetry
+A calorimeter is a heat measuring device.
+
+## Information
+#### Heat Flows
+In a calorimeter when an...
+* exothermic reaction occurs,  
+  energy is released, and flows from the ~~reaction to the water/solution~~ in the calorimeter
+
+* endothermic reaction occurs,  
+  energy is absorbed, and flows from the ~~water/solution~~ in the calorimeter  ~~to the reaction~~
+
+#### Isolated System
+A calorimeter is assumed to be an isolated system---100% of the energy is conserved.
+* Heat ~~absorbed by liquid~~ = Heat ~~released by reaction~~
+* Heat ~~released by liquid~~ = Heat ~~absorbed by reaction~~
+
+## Principle of Heat Transfer
+<h3>
+$\Delta\textrm{E}_\textrm{p reaction} + \Delta\textrm{E}_\textrm{k calorimeter} = 0$
+</h3>
+<h3>
+$\Delta\textrm{E}_\textrm{p reaction} = -\Delta\textrm{E}_\textrm{k calorimeter}$  
+</h3>
+<h3>
+$n\Delta\textrm{H} = -\textrm{mc}\Delta\textrm{t}$
+</h3>
+
+## Calculations
+1. Find energy absorbed by calorimeter water/solution  
+   $\textrm{E}_\textrm{k} = \textrm{mc}\Delta\textrm{t}$
+
+2. Principle of Heat Transfer  
+
+3. Find energy released by reaction  
+   $\textrm{E}_\textrm{p} = \textrm{n}\Delta\textrm{H}$
+   
+
+## Types
+### Styrofoam Calorimeter
+![](images/unit1/styro.png)
