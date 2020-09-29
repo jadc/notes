@@ -221,7 +221,7 @@ $\textrm{H}_2\textrm{O} \longrightarrow \textrm{H}_2 + \frac{1}{2}\textrm{O}_2$ 
 
 
 # Calorimetry
-A calorimeter is a heat measuring device.
+A calorimeter measures calories, therefore it is a ~~heat measuring device~~.
 
 ## Information
 #### Heat Flows
@@ -238,6 +238,10 @@ A calorimeter is assumed to be an isolated system---100% of the energy is conser
 * Heat ~~released by liquid~~ = Heat ~~absorbed by reaction~~
 
 ## Principle of Heat Transfer
+* The $\Delta\textrm{E}_\textrm{p}$, and all its variables, always refers to the ~~substance that reacts~~
+* The $\Delta\textrm{E}_\textrm{k}$, and all its variables, always refers to the ~~solution in the calorimeter~~  
+  At this level, its ~~always water~~. (or, an ~~aqueous solution so dilute~~ that it behaves as water)
+
 <h3>
 $\Delta\textrm{E}_\textrm{p reaction} + \Delta\textrm{E}_\textrm{k calorimeter} = 0$
 </h3>
@@ -257,7 +261,65 @@ $n\Delta\textrm{H} = -\textrm{mc}\Delta\textrm{t}$
 3. Find energy released by reaction  
    $\textrm{E}_\textrm{p} = \textrm{n}\Delta\textrm{H}$
    
-
 ## Types
-### Styrofoam Calorimeter
+### Polystyrene (Styrofoam) Calorimeter
 ![](images/unit1/styro.png)
+
+#### Formula
+Normal principle of heat transfer. ($\Delta\textrm{E}_\textrm{p reaction} = -\Delta\textrm{E}_\textrm{k calorimeter}$)
+
+### Metal Can Calorimeter
+![](images/unit1/metalcan.png)
+
+Metals, typically aluminum or copper, are good conductors, and have ~~low heat capacities~~.  
+This means they heat up and cool down quickly, ~~quickly transferring all thermal energy to the water~~.  
+Due to this, the change in temperature of the water and metal are the ~~same~~. ($\Delta\textrm{t}_\textrm{water} = \Delta\textrm{t}_\textrm{metal}$)
+
+#### Formula
+Since the metals are heating up too, they must be ~~included in the kinetic energy calculation~~.
+
+~~$\Delta\textrm{E}_\textrm{p reaction} = -(\Delta\textrm{E}_\textrm{k water} + \Delta\textrm{E}_\textrm{k metal})$~~
+
+~~$n\Delta\textrm{H} = -(\textrm{mc}\Delta\textrm{t} + \textrm{mc}\Delta\textrm{t})$~~
+
+### Bomb Calorimeter
+![](images/unit1/bomb.png)
+
+Used for combustion reactions. (reaction ~~occurs in oxygen gas~~, ~~surrounded by liquid water~~)  
+Used for reactions that ~~cannot occur underwater~~. (like combustion, but they still need some water)  
+
+If a ~~combustion~~ reaction occurs in a(n)...
+* ~~bomb calorimeter~~ = product will be ~~liquid water~~
+* ~~open environment~~ = product will be ~~water vapour~~
+
+#### Formula
+The following kinetic energy formula is used instead, everything else is the same.
+
+$\textrm{E}_\textrm{k} = \textrm{C}\Delta{\textrm{t}}$
+
+* $\textrm{C}$ = Calorimeter Constant. ~~Mass x Heat Capacity of ALL objects~~. ~~Always given to you~~  
+  Units: $\dfrac{\textrm{kJ}}{^\circ\textrm{C}}$ (because $m \cdot c = \textrm{g} \cdot \dfrac{\textrm{J}}{\textrm{g} \,^\circ\textrm{C}}$)
+
+## General Tips
+* If a question is only asking the energy released/absorbed by the reaction or calorimeter, calculate E<sub>p</sub> or E<sub>k</sub> respectively only
+* If a question is asking for the molar enthalpy, the formula is $\Delta\textrm{H} = \dfrac{-\textrm{mc}\Delta\textrm{t}}{\textrm{n}}$, which is both E<sub>p</sub> and E<sub>k</sub>
+  * $n$ is always the number of moles of the ~~limiting reagent~~ the a reaction. Review Chemistry 20.  
+    (to summarize: get moles of all reactants, divide each one by their coefficient, lowest value is limiting reagent, highest is excess reagent)
+
+## Finding Water Volume in Dilute Aqueous Solutions
+At this level, ~~all aqueous solutions~~---even acids and bases---are ~~very dilute~~.  
+Therefore, the ~~sum of masses~~ of ~~every aqueous reactant~~ is equal to the ~~mass (and therefore volume) of water~~.  
+
+## Molar Enthalpy Examples
+
+> ![](images/unit1/meex1a.png)
+> ![](images/unit1/meex1b.jpg)
+
+> ![](images/unit1/meex2a.png)
+> ![](images/unit1/meex2b.jpg)
+
+> ![](images/unit1/meex3.png)
+
+> ![](images/unit1/meex4.png)
+
+> ![](images/unit1/meex5.png)
