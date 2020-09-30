@@ -135,6 +135,7 @@ $\Delta_\textrm{rxn}\textrm{H} = \textrm{H}_\textrm{products} - \textrm{H}_\text
 * $\Delta_\textrm{c}\textrm{H}$ = Enthalpy of Combustion
 * $\Delta_\textrm{sol}\textrm{H}$ = Enthalpy of Solution
 * $\Delta_\textrm{sd}\textrm{H}$ = Enthalpy of Decomposition
+* $\Delta_\textrm{neut}\textrm{H}$ = Enthalpy of Neutralization
 
 ## Formula
 <h3>
@@ -289,7 +290,7 @@ Used for combustion reactions. (reaction ~~occurs in oxygen gas~~, ~~surrounded 
 Used for reactions that ~~cannot occur underwater~~. (like combustion, but they still need some water)  
 
 If a ~~combustion~~ reaction occurs in a(n)...
-* ~~bomb calorimeter~~ = product will be ~~liquid water~~
+* ~~closed environment (bomb calorimeter)~~ = product will be ~~liquid water~~
 * ~~open environment~~ = product will be ~~water vapour~~
 
 #### Formula
@@ -323,3 +324,55 @@ Therefore, the ~~sum of masses~~ of ~~every aqueous reactant~~ is equal to the ~
 > ![](images/unit1/meex4.png)
 
 > ![](images/unit1/meex5.png)
+
+# Enthalpy of Formation in Data Booklet
+The enthalpy of formation of numerous ~~balanced reactions~~ is in your data booklet---~~page 4 and 5~~.
+
+The enthalpies of formation stated on that page are based on ~~one mole of the compound~~. In other words, its molar enthalpy.
+
+## Open and Closed
+The enthalpy of formation of a compound, such as water, may be different depending on whether the system is open or closed.  
+* ~~closed environment (e.g. bomb calorimeter)~~ = product will be ~~liquid water~~
+* ~~open environment~~ = product will be ~~water vapour~~
+
+![](images/unit1/openclosed.png)
+
+## Elements
+Molar enthalpies of formation are for compounds only.  
+The ~~molar enthalpy of formation for elements~~ are assumed to be ~~zero~~. (at this level)
+
+## Examples
+
+> ![](images/unit1/formationeq.png)  
+> ![](images/unit1/formationgraph.png)
+
+# Catalysts
+Catalysts are chemical entities that speed up reactions.
+
+They only...
+* ~~lower activation energy~~
+* ~~increase reaction rate~~/speed
+
+They ~~DO NOT~~...
+* effect energy of reaction (&Delta;H)
+* release or absorb any energy
+
+They reduce time and energy required for a reaction by providing shortcuts/optimizations.  
+Such as instructions on how to produce a product without breaking all the bonds, for instance.
+
+![](images/unit1/catalyst.png)
+
+## Activation Energy
+The minimum energy required for a reaction to progress.
+
+<h3>
+$\textrm{E}_\textrm{a} = |\textrm{E}_\textrm{out}| + |\Delta\textrm{H}|$
+</h3>
+
+?> This is probably an equation you'll never use, and I honestly am not sure how correct it is... I'm really tired.
+
+## Stability
+The ~~larger the molar enthalpy of formation~~ of a substance, the ~~more stable~~ it is.
+
+It requires more energy to disrupt and make unstable, which means its harder to destabilize, making it more stable.
+
