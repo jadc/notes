@@ -1,7 +1,5 @@
 # Thermochemistry
 
-!> These notes are unfinished and subject to change.
-
 ---
 
 # Introduction
@@ -376,3 +374,72 @@ The ~~larger the molar enthalpy of formation~~ of a substance, the ~~more stable
 
 It requires more energy to disrupt and make unstable, which means its harder to destabilize, making it more stable.
 
+# <span id="ib">IB</span> Maxwell-Boltzmann Diagram
+A diagram displaying the ~~distribution of molecules~~ at ~~differing kinetic energy~~ levels in a gas sample.
+
+![](images/unit1/maxwell.gif)
+
+~~Higher temperature~~ = ~~Larger~~ fraction of molecules have ~~more kinetic~~ energy ~~than activation~~ energy.
+
+The point is ~~higher temperature~~ means ~~more particles doing reaction~~ due to more being above activation energy.
+
+## Collision Reaction Theory
+For a reaction to occur...
+1. Particles must collide
+2. Particles must collide with sufficient energy
+3. Particles must collide with correct orientation
+
+# Hess' Law
+In order to find either...
+* Enthalpy of reaction
+* Enthalpy of formation of a specific reactant or product
+
+You need to know both methods.
+
+## Equation Method
+1. Write the balanced equation for the reaction you need to find the enthalpy for  
+   * If enthalpy of reaction, write entire reaction
+   * If enthalpy of formation, write a reaction that has the target compound ~~by itself on a side~~
+
+> IF EQUATIONS AREN'T GIVEN TO YOU... (rare)
+>
+> * Using page 4 & 5, write the balanced formation equations to ~~form one mole of every product~~
+>
+> * Using page 4 & 5, write the balanced decomposition equations to ~~decompose one mole of every reactant~~ (remember to flip sign of &Delta;H)
+
+2. ~~Multiply and flip the entire reactions~~ given to you until ~~adding all of them together~~ creates the desired equation from step 1  
+   * Remember that any manipulation also effects &Delta;H. (multiplying = multiply enthalpy by same, flip = flip signs of enthalpy)
+   * You'll need to set up the equations to ~~cancel compounds you don't want~~ (i.e. equal coefficients, opposite sides, can cancel)
+   * This is all honestly judgement---trial and error until it works :)
+
+### Examples
+#### Enthalpy of Reaction
+
+Equations were not given.
+
+Oxygen not included in adding as its an element and therefore has no enthalpy.
+
+![](images/unit1/hesseq1.png)
+
+#### Enthalpy of Formation
+
+Equations were given. (far more common, diploma type question)
+
+![](images/unit1/hesseq2.png)
+
+## Formula Method
+
+$$\Delta{H}_\textrm{rxn} = \sum{n\cdot\Delta_f H_\textrm{products} - n\cdot\Delta_f H_\textrm{reactants} }$$
+
+**Simplified: Sum of moles times formation enthalpy of every product subtracting sum of moles times formation enthalpy of every reactant**
+
+1. For every product, multiply its coefficient (moles) by its formation enthalpy (from page 4 & 5)  
+   Add all of the products together. (this is &Delta;<sub>f</sub>H)
+
+2. For every reactant, multiply its coefficient (moles) by its formation enthalpy (from page 4 & 5)  
+   Add all of the reactants together. (this is &Delta;<sub>sd</sub>H)
+
+3. Subtract the sum calculated in steps 2 from the sum calculated in steps 1. (products - reactants)
+
+#### Example
+![](images/unit1/hessform.png)
