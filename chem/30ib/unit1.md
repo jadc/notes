@@ -370,9 +370,16 @@ $\textrm{E}_\textrm{a} = |\textrm{E}_\textrm{out}| + |\Delta\textrm{H}|$
 ?> This is probably an equation you'll never use, and I honestly am not sure how correct it is... I'm really tired.
 
 ## Stability
-The ~~larger the molar enthalpy of formation~~ of a substance, the ~~more stable~~ it is.
+More energy is needed to disrupt and make things unstable, which means its harder to destabilize, meaning said thing is more stable.
 
-It requires more energy to disrupt and make unstable, which means its harder to destabilize, making it more stable.
+* If &Delta;H > 0 (~~positive~~), the ~~reactants are more stable~~ than the products.
+* If &Delta;H < 0 (~~negative~~), the ~~products are more stable~~ than the reactants.
+
+![](images/unit1/stable.png)
+
+![](images/unit1/stable2.png)
+
+A simple way to remember: when writing energy integrated in a reaction, the side the energy is on is more stable.
 
 # <span id="ib">IB</span> Maxwell-Boltzmann Diagram
 A diagram displaying the ~~distribution of molecules~~ at ~~differing kinetic energy~~ levels in a gas sample.
