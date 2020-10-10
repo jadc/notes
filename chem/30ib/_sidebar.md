@@ -2,3 +2,5 @@
 
 * [Electrochemistry](unit0.md)
 * [Thermochemistry](unit1.md)
+* [Equillibrium](unit2a.md)
+* [Acids & Bases](unit2b.md)
