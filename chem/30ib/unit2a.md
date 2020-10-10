@@ -97,6 +97,7 @@ In this case, only some compounds are included in the equilibrium expression.
 * ~~ALWAYS include aqueous ions~~
 * ~~NEVER include solids~~
 * ~~ONLY~~ include liquids if ~~ALL COMPOUNDS are liquids~~
+* ~~ONLY~~ include liquid water if there are ~~no aqueous ions present~~
 
 If all products or all reactants ~~cannot be included, put 1~~ in their place.
 
