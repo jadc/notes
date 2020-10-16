@@ -1,0 +1,119 @@
+\documentclass[a4paper,12pt]{article}
+
+\title{Chemistry 30 IB \\ Acids \& Bases}
+\author{Jad Chehimi}
+
+% document setup
+\renewcommand{\familydefault}{\sfdefault}
+\linespread{1.25}
+\usepackage{extsizes}
+\usepackage{setspace}
+\usepackage{enumitem}
+\setlist{nosep}
+
+% tools
+\usepackage{siunitx}
+\usepackage[version=4]{mhchem}
+\usepackage[hidelinks]{hyperref}
+%% images
+\usepackage{graphicx}
+\graphicspath{ {./images/} }
+
+\usepackage[margin=1in]{geometry}
+\begin{document}
+\maketitle
+
+% temp
+\begin{center}
+\Huge
+Unfinished!
+\normalsize
+\end{center}
+% temp
+
+\tableofcontents
+
+\pagebreak
+
+\section{Theories}
+The following two equations mean the same thing.
+
+\ce{H+(aq)} and \ce{H3O+(aq)} are interchangable.
+
+\subsection{Arrhenius}
+\Large
+$$\ce{HX(aq) -> H+(aq) + X-(aq)}$$
+\normalsize
+\begin{itemize}
+    \item{doesn't specifically state water is present (aq)}
+    \item{uses hydrogen ions, \ce{H+(aq)}}
+    \item{cannot determine strong or weak}
+\end{itemize}
+
+\subsection{Br{\o}nsted-Lowry (aka. Modified Arrhenius)}
+\Large
+$$\ce{HX(aq) + H2O(l) -> H3O+(aq) + X-(aq)}$$
+\normalsize
+\begin{itemize}
+    \item{specifically states water is present}
+    \item{uses hydronium ions, \ce{H3O+(aq)}}
+    \item{can determine strong or weak}
+\end{itemize}
+
+\section{General Equations}
+
+\subsection{Ionization of Acids}
+Forming ions from molecular compounds.
+
+\subsubsection{Strong}
+\Large
+$$\ce{HX(aq) + H2O(l) ->[$>99.9\%$] H3O+(aq) + X-(aq)}$$
+\normalsize
+\begin{itemize}
+    \item{ionize completely ($>99.9\%$ of the reaction completes)}
+    \item{irreversible (\ce{->})}
+    \item{high $K$ value ($K > 1$)}
+\end{itemize}
+
+\subsubsection{Weak}
+\Large
+$$\ce{HX(aq) + H2O(l) <=>[$<50\%$] H3O+(aq) + X-(aq)}$$
+\normalsize
+\begin{itemize}
+    \item{do not ionize completely ($<50\%$ of the reaction completes)}
+    \item{reversible (\ce{<=>})}
+    \item{ionize at equilibrium}
+    \item{low $K$ value ($K < 1$)}
+\end{itemize}
+
+\subsection{Dissociation of Bases}
+Separation of existing ions in solution.
+
+\subsubsection{Strong}
+\Large
+$$\ce{M(OH)_n + H2O(l) ->[$>99.9\%$] M^{n+}(aq) + nOH-(aq)}$$
+\normalsize
+\begin{itemize}
+    \item{\ce{M} is a metal, \ce{M(OH)_n} is highly soluble}
+    \item{dissociate quantitatively}
+\end{itemize}
+
+\subsubsection{Weak}
+\Large
+$$\ce{X(aq) + H2O(l) <=>[$<50\%$] HX+(aq) + OH-(aq)}$$
+\normalsize
+\begin{itemize}
+    \item{dissociate at equilibrium}
+\end{itemize}
+
+\section{pH \& pOH}
+\subsection{$K_w$}
+The equilibrium constant of water can be used to solve for hydrogen ion concentration or hydronium ion concentration when you have the other.
+
+$$K_w = [\ce{H3O+}][\ce{OH-}]$$
+
+$$K_w = \SI{1.00e-14}{\mol\per\L}$$
+
+$$\SI{1.00e-14}{\mol\per\L} = [\ce{H3O+}][\ce{OH-}]$$
+
+\end{document}
