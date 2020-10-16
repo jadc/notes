@@ -3,4 +3,4 @@
 * [Electrochemistry](unit0.md)
 * [Thermochemistry](unit1.md)
 * [Equillibrium](unit2a.md)
-* [Acids & Bases](unit2b/unit2b.pdf)
+* [Acids & Bases](https://notes.jad.red/chem/30ib/unit2b/unit2b.pdf)
