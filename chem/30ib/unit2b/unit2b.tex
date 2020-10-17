@@ -293,4 +293,49 @@ $$K_b = \frac{\SI{1.0e-14}{\mol\per\L}}{\SI{5.6e-10}{\mol\per\L}}$$
 $$K_b = \SI{1.7e-5}{\mol\per\L}$$
 Ammonia \ce{NH3} is a stronger base than ammonium \ce{NH4+} is an acid.
 
+\section{pH/pOH and Ion Concentration of Weak Acids/Bases}
+\subsection{Strong}
+Strong acids and bases ionize/dissociate completely, respectively. The concentrations of the acid/base is equal to the concentration of hydronium/hydroxide ions. They ionize/dissociate quantitatively.
+
+\begin{center}
+    $[\textrm{acid}] = [\ce{H3O+}]$ \hspace{1in} $[\textrm{base}] = [\ce{OH-}]$
+\end{center}
+
+\subsection{Weak}
+If you want the full explanation of where these formulas are derived from, read the actual notes---page 38. The following are the shortcuts you truly only need.
+
+\subsubsection{Known Ion Concentration}
+The following should be used if you know the ion concentration or pH/pOH, since pH/pOH can be converted into ion concentration.
+
+\begin{center}
+\Large
+$K_a = \frac{[\ce{H3O+}]^2}{[\textrm{acid}] - [\ce{H3O+]}}$
+\hspace{0.5in}
+$K_b = \frac{[\ce{OH-}]^2}{[\textrm{base}] - [\ce{OH-]}}$
+\normalsize
+\end{center}
+
+\subsubsection{Unknown Ion Concentration}
+If you are solving for ion concentration with the aforementioned formula, you will require the quadratic formula. To avoid this, the ion concentration in the denominator can be omitted, since it affects the calculation negligably.
+
+\begin{center}
+\Large
+$K_a = \frac{[\ce{H3O+}]^2}{[\textrm{acid}]}$
+\hspace{0.5in}
+$K_b = \frac{[\ce{OH-}]^2}{[\textrm{base}]}$
+\normalsize
+\end{center}
+
+Therefore, you can now find ion concentration of weak acids/bases.
+
+\begin{center}
+\Large
+$[\ce{H3O+}] = \sqrt{K_a \cdot [\textrm{acid}]}$
+\hspace{0.5in}
+$[\ce{OH-}] = \sqrt{K_b \cdot [\textrm{base}]}$
+\normalsize
+\end{center}
+
+
+
 \end{document}
