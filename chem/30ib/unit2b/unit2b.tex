@@ -63,6 +63,11 @@ $$\ce{HX(aq) + H2O(l) -> H3O+(aq) + X-(aq)}$$
 
 \section{General Equations}
 
+\begin{itemize}
+    \item{Chemical entities not present in the data booklet pages 8-9---such as \ce{K+}, \ce{Mg{2+}}, \ce{Na+}, \ce{Cl-}---are spectators and do not need to be included in the equations.}
+    \item{Chemical entities from the first six rows in the data booklet pages 8-9---such as \ce{ClO4-}---do not need to be included in equations, as equations containing said entities ionize/dissociate completely, leaving the hydronium/hydroxide ions by themselves.}
+\end{itemize}
+
 \subsection{Ionization of Acids}
 Forming ions from molecular compounds.
 
@@ -190,7 +195,10 @@ For your information, this is what leads to the net reaction.
     \includegraphics[width=\textwidth]{net}
 \end{figure}
 
-\pagebreak
+\subsection{Example Net Reactions}
+\begin{figure}[H]
+    \includegraphics[width=\textwidth]{equationex}
+\end{figure}
 
 \subsection{Conjugate}
 \begin{itemize}
@@ -336,6 +344,123 @@ $[\ce{OH-}] = \sqrt{K_b \cdot [\textrm{base}]}$
 \normalsize
 \end{center}
 
+\pagebreak
+
+\section{Acid Base Titrations}
+
+Titration is a method for measuring the concentration of a solution.
+
+The \textbf{titrant} is the solution in the burette, typically just an acid or base.
+
+The \textbf{sample} is the solution in the Erlenmeyer flask, typically composed of a solution and an indicator. The indicator can be used to determine the pH of the solution after titrating the titrant.
+
+\textbf{Indicators} are given to you on page 10 of the data booklet. Each column has the acid variant on the left and base variant on the right. For instance, bromothymol blue is yellow below 6.0 pH, blue above 7.6 pH, and green in between (indicating the equivalence point).
+
+\begin{figure}[H]
+    \includegraphics[width=\textwidth]{titration}
+\end{figure}
+
+\section{Equivalence Point}
+\begin{itemize}
+    \item{Adding base to an acid neutralizes it, \ce{[ H+ ]} decreases while \ce{[ OH- ]} increases.}
+    \item{Adding acid to an base neutralizes it, \ce{[ H+ ]} increases while \ce{[ OH- ]} decreases.}
+\end{itemize}
+
+Eventually, \ce{[ H+ ] = [ OH- ]}.
+
+This is the equivalence point---when a proton is quantitatively exchanged completely. It shows up as the half way point in a steep jump/drop on neutralization graphs.
+
+\begin{itemize}
+    \item{The pH at the equivalence point is the pH of neutralization.}
+    \item{The volume at the equivalence point is the volume of titrant needed to be titrated/added to neutralize sample.}
+\end{itemize}
+
+\subsection{Example Problem}
+It is just stoicheometry.
+
+\SI{10.0}{\mL} of an unknown concentration of \ce{NaOH} is placed in a flask. A drop of indicator is added. A \SI{2.00}{\mol\per\L} solution of \ce{HCl} is added until a colour change occurs. If it takes \SI{25.0}{\mL} of \ce{HCl} to reach the equivalence point, what is the concentration of the \ce{NaOH}?
+
+(\ce{Cl} and \ce{Na} are spectators.)
+
+$$\ce{H+(aq) + OH-(aq) <=> H2O(l)}$$
+
+$$\SI{0.25}{\L}\;\ce{HCl} \times \frac{\SI{2.00}{\mol}\;\ce{HCl}}{\SI{1}{\L}\;\ce{HCl}} \times \frac{\SI{1}{\mol}\;\ce{NaOH}}{\SI{1}{\mol}\;\ce{HCl}} \times \frac{1}{\SI{0.0100}{\L}\;\ce{NaOH}}$$
+
+$$=\SI{5.00}{\mol\per\L}\;\ce{NaOH(aq)}$$
+
+\subsection{Example Problem 2}
+\begin{figure}[H]
+    \includegraphics[width=\textwidth]{equivex}
+\end{figure}
+
+
+\section{Neutralization Reactions Graphs}
+\begin{itemize}
+    \item{A large jump/drop in the graph signifies an equivalence point}
+    \item{The number of equivalence points = the number of protons transferred}
+    \item{Proton exchange reactions that are at equilibrium do not result in large changes in pH}
+\end{itemize}
+
+\subsection{Strong Acid \& Strong Base}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{strongacid-strongbase}
+    \caption{The line is both the acid and base pH, which are equal}
+\end{figure}
+Acidic sample---as pH starts low. Basic titrant---as pH ends high. A basic sample and acidic sample would be this graph reversed.
+
+Equivalence point is always $= 7$.
+
+\textbf{Explanation}
+\begin{itemize}
+    \item{pH increases slowly at first, as it initially takes a lot of acidic hydroxide ions to remove basic hydronium ions}
+    \item{Once there are very little acidic ions, not a lot of basic ions are needed to increase the pH}
+    \item{Therefore, the pH jumps very rapidly}
+    \item{Since the acidic hydronium ion concentration is low, it will again take a lot of base to increase the hydroxide ion concentration}
+\end{itemize}
+
+\subsection{Strong Base \& Weak Acid}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{strongbase-weakacid}
+    \caption{Line 1 (black) is strong base / Line 2 (blue) is weak acid}
+\end{figure}
+
+Equivalence point is always $> 7$.
+
+\textbf{Weak Acid (Line 2) Differences}
+\begin{itemize}
+    \item{Starts with a higher pH than the strong acid (line 1)}
+    \item{Brief curve up at beginning (from 0-10 mL) before linear slope}
+    \item{Region between brief curve and equivalence point (from 10-45 mL) is \textbf{buffer}}
+\end{itemize}
+
+\subsection{Strong Acid \& Weak Base}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{strongacid-weakbase}
+    \caption{Line 3 (black) is strong acid / Line 4 (blue) is weak base}
+\end{figure}
+
+Equivalence point is always $< 7$.
+
+\begin{itemize}
+    \item{Starts with a lower pH than the strong base (line 3)}
+    \item{Brief curve down at beginning (from 0-10 mL) before linear slope}
+    \item{Region between brief curve and equivalence point (from 10-45 mL) is \textbf{buffer}}
+\end{itemize}
+
+\subsection{Polyprotic Acid Titrations}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{polyprotic}
+\end{figure}
+\begin{itemize}
+    \item{Multiple jumps in line (multiple equivalence points)}
+    \item{Flat regions between equivalence points (highlighted green) are buffers}
+    \item{Last flat region is not a buffer}
+    \item{Jumps after the first one are not as large}
+\end{itemize}
 
 
 \end{document}
