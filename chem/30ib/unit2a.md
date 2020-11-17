@@ -57,6 +57,10 @@ Its just a fancy way of adding the initial and delta concentrations together.
 >
 > ![](images/unit2a/ice.png)
 
+#### Example from Quiz
+
+![](images/unit2a/iceex.jpg)
+
 # Equilibrium Constant
 The equilibrium constant of an equation, $\textrm{K}_\textrm{eq}$, is the product of the concentration of products to the power of their coefficients divided by the product of the concentrations of reactants to the power of their coefficients.
 
