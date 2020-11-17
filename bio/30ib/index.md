@@ -2,7 +2,7 @@
 
 #### Resources
 * [Hewko-ology](https://sites.google.com/epsb.ca/hewko-ology/home)
-* [Cell Review](cellreview.pdf)
+* [Cell Review](https://notes.jad.red/bio/30ib/cellreview.pdf)
 
 #### Units
 1. [Cells, Chromosomes, & DNA](https://notes.jad.red/bio/30ib/unit1/unit1.pdf)
