@@ -66,8 +66,8 @@ Unfinished!
     \item{\textbf{Alleles} = two forms of a gene --- \hl{dominant \& recessive}}
     \item{\textbf{Dominant} = \hl{stronger} of two genes, represented with \hl{capital letter} (R)}
     \item{\textbf{Recessive} = \hl{weaker} of two genes, represented with \hl{lowercase letter} (r)}
-    \item{\textbf{Genotype} = gene combination for a trait (\hl{RR, Rr, rr})}
-    \item{\textbf{Phenotype} = \hl{physical feature} resulting from genotype (red, white)}
+    \item{\textbf{Genotype} = gene combination for a trait (\hl{RR, Rr, rr}) separated with colons}
+    \item{\textbf{Phenotype} = \hl{physical feature} resulting from genotype (red, white) separated with colons}
     \item{\textbf{Homozygous genotype} = genotype involving \hl{2 dominant} OR \hl{2 recessive} genes --- \hl{pure}, RR or rr}
     \item{\textbf{Heterozygous genotype} = genotype involving \hl{1 dominant} OR \hl{1 recessive} gene --- \hl{hybrid}, Rr}
 \end{itemize}
@@ -131,6 +131,13 @@ Unfinished!
     \item{Arabic numerals denote different individuals in a generation (columns)}
 \end{itemize}
 
+\subsection{Terms}
+\begin{itemize}
+    \item{\textbf{Autosomal condition} = \hl{almost equal} number of males and females are affected by a condition}
+    \item{\textbf{Dominance condition} = condition \hl{appears in every} generation}
+    \item{\textbf{Recessive condition} = condition \hl{does not} appear in every generation; skips generations}
+\end{itemize}
+
 \section{(18.4) Other Patterns of Inheritance}
 
 \subsection{Pleiotropy}
@@ -141,16 +148,7 @@ Unfinished!
             \begin{itemize}
                 \item{dwarfism (achondroplasia)}
                 \item{gigantism (acromegaly)}
-                \item{\hl{Cystic fibrosis} = mucus build up in many organs}
-                \item{
-                        \hl{Sickle cell anemia} = sickling of blood cells, cannot carry oxygen
-                        \begin{itemize}
-                            \item{normal alleles = Hb\textsuperscript{A}Hb\textsuperscript{A}}
-                            \item{mutated alleles = Hb\textsuperscript{S}Hb\textsuperscript{S}}
-                            \item{\hl{carrier alleles} = Hb\textsuperscript{A}Hb\textsuperscript{S} (less extreme effects)}
-                        \end{itemize}
-                    }
-            \end{itemize}
+\end{itemize}
         }
 \end{itemize}
 
@@ -234,35 +232,39 @@ $I^A$ \& $I^B$ $>$ $i$
     \item{These traits are on different locations --- called \textbf{loci}, \textbf{locus} --- of a chromosome}
 \end{itemize}
 
-\subsection{\# of Gametes}\noindent
+\subsection{\# of Unique Gametes}\noindent
 
 \begin{center}
 \Huge $2^n$ \normalsize
 
-$n$ = \# of heterozygotes
+$n$ = \# of heterozygotes of \hl{each parent}
 \end{center}
 
 Examples...
 \begin{itemize}
     \item{\underline{RrBb} = 2 heterozygotes = $2^2 = 4$ gametes}
+    \item{yypp = 0 heterozygotes = $2^0 = 1$ gamete}
     \item{\underline{AaBb}CC\underline{Dd} = 3 heterozygotes = $2^3 = 8$ gametes}
     \item{\underline{MmNnOo}PPQQ\underline{Rr}ss\underline{TtXx} = 6 heterozygotes = $2^6 = 64$ gametes}
 \end{itemize}
-
-\pagebreak
 
 \subsection{Drawing a Dihybrid Cross}
 Determine how many different possible gametes/phenotypes with the formula.
 \begin{itemize}
     \item{$2^2$ = 4}
     \item{There will be 4 different types of offspring from this cross}
+    \item{If a question specifically asks for the \hl{adults}, there may be a gene that prevents adulthood --- i.e. a fatal gene --- so do not include that combination in any percent calculations and ratios}
+    \item{If you are doing a test cross --- there is an unknown gene --- make a dihybrid cross for each possible combination; this applies to monohybrid aswell}
         \\
 \end{itemize}
+
+\pagebreak
 
 Prepare a cross for every possible combination of all heterozygotes.
 \begin{enumerate}
     \item{Top header = \hl{FOIL} between genes of the gene pair of the first parent}
     \item{Left header = \hl{FOIL} between genes of the gene pair of other parent}
+    \item{You can skip redundent combinations}
     \item{Fill in the table like usual, including the top and left header, to list every possible combination}
     \item{Make sure to order the alleles dominant to recessive, and same letters together}
 \end{enumerate}
@@ -298,6 +300,127 @@ Question: Determine the genotype and phenotype of a RyYy x RyYy cross.
                 \item{1 wrinkled, green}
             \end{itemize}
         }
+\end{itemize}
+
+\pagebreak
+
+\section{Probability}
+$$\textrm{probability} = \frac{\textrm{\# of chances of an event}}{\textrm{\# of possible combinations}}$$
+\begin{itemize}
+    \item{\textbf{Independent event} = individual event, random chance, previous events do not influence}
+\end{itemize}
+
+\subsection{Monohybrid Method}
+Alternative to creating a dihybrid cross.
+\begin{enumerate}
+    \item{Create a monohybrid cross for each of only the \hl{matching letter genes between both parents} \\ e.g. MmNnOo x MmNnOo = Mn x Mn, Nn x Nn, Oo x Oo}
+\end{enumerate}
+
+\subsubsection{Combination (Monohybrid to Dihybrid)}
+\begin{itemize}
+    \item{Similar to distributive property}
+    \item{Multiply \hl{each gene in the first} monohybrid by \hl{every gene in the other} monohybrid}
+    \item{This should result in the same answers as FOILing in a dihybrid cross}
+\end{itemize}
+
+\subsection{Calculating Probability}
+\begin{itemize}
+    \item{Divide the \hl{number of a desired gene} out of the \hl{number of possible combinations}}
+    \item{This applies to \hl{both methods} --- the entire dihybrid FOIL, and the monohybrids of the monohybrid method}
+    \item{\hl{Multiply all probabilities} together if looking for the probability of multiple specific independent genes together \\ e.g. the probability of blue eyes and brown hair}
+\end{itemize}
+
+\section{Gene Interaction}
+\begin{itemize}
+    \item{\textbf{Polygenic} = more than one genes influence a trait \\ e.g. skin colour, eye colour, height}
+    \item{\textbf{Epistasis} = one gene masks/epistatic to another, influences ratio}
+\end{itemize}
+
+\section{(19.1) Chromosomal Theory}
+\begin{itemize}
+    \item{\textbf{Chromosomal Theory} = anything to do with chromosomes (diploma question)}
+    \item{Sex-linked genes discovered by \textbf{Morgan}}
+\end{itemize}
+
+\section{Autosomal Traits}
+\begin{itemize}
+\item{
+        \hl{Cystic fibrosis} = mucus build up in many organs
+        \begin{itemize}
+            \item{normal alleles = Cc, CC}
+            \item{mutated alleles = cc}
+        \end{itemize}
+    }
+                \item{
+                        \hl{Sickle cell anemia} = sickling of blood cells, cannot carry oxygen
+                        \begin{itemize}
+                            \item{normal alleles = Hb\textsuperscript{A}Hb\textsuperscript{A}}
+                            \item{mutated alleles = Hb\textsuperscript{S}Hb\textsuperscript{S}}
+                            \item{\hl{carrier alleles} = Hb\textsuperscript{A}Hb\textsuperscript{S} (less extreme effects)}
+                        \end{itemize}
+                    }
+\end{itemize}
+
+\section{Sex-linked Genes}
+\begin{itemize}
+    \item{\textbf{Autosomes} = chromosomes that do not code for proteins related to the sex of the individual}
+    \item{\textbf{Autosomal trait} = traits not located on sex chromosomes}
+    \item{\textbf{Sex-linked trait} = traits located on sex chromosomes}
+\end{itemize}
+
+\subsection{Carriers in X-linked}
+\begin{itemize}
+    \item{
+            Females cannot be affected by an irregular allele, since they have two X chromosomes in which one of them may dominate the other; they \hl{can be carriers} --- they carry a dormant recessive irregular allele, which can be given to their offspring \\ (homozygous recessive females are rare)
+            \begin{itemize}
+                \item{\textbf{Barr body} = dormant, \hl{unexpressed X} chromosome; chromosome shrinks into barr body; \hl{not in males}, somatic cells only}
+                \item{\textbf{Barr bodies} = whichever allele is dormant is not consistent in all body cells; causes spots of dark skin and no sweat glands}
+            \end{itemize}
+        }
+    \item{Males can be affected by an irregular allele, but \hl{cannot be carriers}; they only have one X chromosome, which could be the irregular one from their mom}
+    \item{A mother's recessive alleles are \hl{most likely} to be given to their \hl{sons}}
+\end{itemize}
+
+\pagebreak
+
+\subsection{X-Linked Conditions}
+\begin{itemize}
+    \item{At this level, \hl{X chromsomes carry traits}, while \hl{Y chromosomes do not}}
+    \item{
+            \textbf{Hemophilia} = blood clotting disorder
+            \begin{itemize}
+                \item{normal allele = $X^H$}
+                \item{mutated allele = $X^h$}
+                \item{$X^hY$, $X^hX^h$}
+            \end{itemize}
+        }
+    \item{
+            \textbf{Colour-blindness} = typically red-green colourblind
+            \begin{itemize}
+                \item{normal allele = $X^R$}
+                \item{mutated allele = $X^r$}
+                \item{$X^rY$, $X^rX^r$}
+            \end{itemize}
+        }
+\end{itemize}
+
+\section{Testes Determing Factor (TDF)}
+\begin{itemize}
+    \item{Gene located on the Y chromosome}
+    \item{Develops \hl{male gonads} while in embryo}
+    \item{\hl{Produces testosterone} when activated}
+\end{itemize}
+
+\section{Testicular Feminizing Syndrome (TFS)}
+\begin{itemize}
+    \item{Gonad forming tissues \hl{ignore testosterone}}
+    \item{Produces female vaginal folds AND penis}
+\end{itemize}
+
+\section{Mitochondrial DNA}
+\begin{itemize}
+    \item{From mother}
+    \item{Can be defective, causing \hl{deafness}}
 \end{itemize}
 
 \end{document}
