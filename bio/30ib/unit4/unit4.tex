@@ -22,7 +22,7 @@
 %% science
 \usepackage{siunitx}
 %% chemistry
-%\usepackage[version=4]{mhchem}
+\usepackage[version=4]{mhchem}
 
 \begin{document}
 \maketitle
@@ -104,7 +104,7 @@ Unfinished!
 \textbf{Parasympathetic Nervous System}
 \begin{itemize}
     \item{"Rest and digest" responses}
-    \item{\hl{Restores normal priorities} restored, slows down rates of breathing, heart rate, etc.}
+    \item{\hl{Restores normal priorities}, slows down rates of breathing, heart rate, etc.}
     \item{\hl{Re-enables non-urgent} functions, such as digesting}
 \end{itemize}
 
@@ -135,17 +135,26 @@ Supporting cells of nerve cells.
     \item{Provide a supporting framework for all nervous-system tissue}
 \end{itemize}
 
+\pagebreak
+
 \section{Neuron Anatomy}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{neuron}
+\end{figure}
+
 \subsection{Dendrites}
 \begin{itemize}
     \item{Short, branching terminals of neuron}
     \item{
-            Recieve information from...
+            Recieves info from...
             \begin{itemize}
                 \item{other neurons}
                 \item{senses (making it a \textbf{sensory receptor})}
             \end{itemize}
         }
+    \item{Sends info to cell body}
 \end{itemize}
 
 \subsection{Cell Body}
@@ -159,7 +168,7 @@ Supporting cells of nerve cells.
 \begin{itemize}
     \item{Thread-like component of neuron after cell body}
     \item{Conducts impulses away from the cell body}
-    \item{Axon terminals = axon ends branch into many fibres}
+    \item{\hl{Axon terminals} = axon ends branch into many fibres}
 \end{itemize}
 
 \subsection{Myelin Sheath}
@@ -178,20 +187,21 @@ Supporting cells of nerve cells.
     \item{Glial cells \hl{wrapping around axon}; wrapped form = myelin sheath}
     \item{\textbf{White matter} = \hl{myelinated/insulated} neurons; slower than grey}
     \item{\textbf{Grey matter} = \hl{unmyelinated/exposed} neurons; common on brain surface}
+    \item{
+            \textbf{Neurilemma}
+            \begin{itemize}
+                \item{promotes the \hl{regeneration of damaged axons}}
+                \item{some, \hl{not all}, schwann cells form this additional layer \hl{over the myelin sheath}}
+                \item{not present in unmyelianted, grey matter (common in CNS)}
+            \end{itemize}
+        }
+
 \end{itemize}
 
 \subsubsection{Node of Ranvier}
 \begin{itemize}
     \item{\hl{Gap} between myelin sheaths}
     \item{Nerve impulses \hl{"jump" from node to node}, speeding up movement}
-    \item{
-            \textbf{Neurilemma}
-            \begin{itemize}
-                \item{promotes the \hl{regeneration of damaged axons}}
-                \item{some, \hl{not all}, schwann cells form this additional layer over the myelin sheath}
-                \item{not present in unmyelianted, grey matter of CNS}
-            \end{itemize}
-        }
 \end{itemize}
 
 \section{Repairing Damage Nerves}
@@ -216,5 +226,570 @@ Supporting cells of nerve cells.
             \end{itemize}
         }
 \end{itemize}
+
+\section{(13.2) Electrochemical Impulses}
+\begin{itemize}
+    \item{\textbf{Intracellular fluid (ICF)} = fluid within axon}
+    \item{\textbf{Extracellular fluid (ECF)} = fluid around axon}
+\end{itemize}
+
+\subsection{Resting Potential}
+\begin{itemize}
+    \item{Resting nerve}
+    \item{Charge inside = \SI{-70}{\mV}}
+    \item{Polarized (negative voltage)}
+\end{itemize}
+
+\subsection{Action Potential}
+\begin{itemize}
+    \item{Excited nerve}
+    \item{Charge inside = +\SI{40}{\mV}}
+    \item{Lasts milliseconds}
+    \item{Depolarized (positive voltage)}
+\end{itemize}
+
+\subsection{Process}
+\subsubsection{Summary}
+\begin{itemize}
+    \item{\ce{K+} leave axon = negative, polarized}
+    \item{\ce{Na+} enter axon = positive, depolarized}
+\end{itemize}
+
+\pagebreak
+
+\subsubsection{Detailed}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.7\textwidth]{ngraph}
+\end{figure}
+\begin{enumerate}
+    \item{
+            \textbf{Polarization (resting)}
+            \begin{figure}[H]
+                \centering
+                \includegraphics[width=0.7\textwidth]{n1}
+            \end{figure}
+            \begin{itemize}
+                \item{Na/K pump pushes \ce{Na+} out of axon, and brings \ce{K+} into axon}
+                \item{Some \ce{K+} passively diffuses out, charge is still negative due to \ce{Cl-} in axon}
+                \item{Charge is back to \SI{-70}{\mV}}
+            \end{itemize}
+        }
+    \item{
+            \textbf{Depolarization (action potential)}
+            \begin{figure}[H]
+                \centering
+                \includegraphics[width=0.7\textwidth]{n2}
+            \end{figure}
+            \begin{itemize}
+                \item{\ce{K+} gates close}
+                \item{\ce{Na+} gates open, \ce{Na+} flood in}
+                \item{Charge jumps to +\SI{40}{\mV}}
+            \end{itemize}
+        }
+    \item{
+            \textbf{Repolarization}
+            \begin{figure}[H]
+                \centering
+                \includegraphics[width=0.60\textwidth]{n3}
+            \end{figure}
+            \begin{itemize}
+                \item{\ce{Na+} gates close}
+                \item{\ce{K+} gates open}
+                \item{Some \ce{K+} slowly diffuse out}
+                \item{Charge lowers}
+            \end{itemize}
+        }
+    \item{
+            \textbf{Hyperpolarization}
+            \begin{figure}[H]
+                \centering
+                \includegraphics[width=0.40\textwidth]{n4}
+            \end{figure}
+            \begin{itemize}
+                \item{More \ce{K+} quickly diffuse out}
+                \item{Charge is now \SI{-90}{\mV}}
+                \item{
+                        \textbf{Recovery Period}
+                        \begin{itemize}
+                            \item{Negative allows neuron to rest for a few milliseconds}
+                            \item{Prevents action potential from going backwards}
+                        \end{itemize}
+                    }
+            \end{itemize}
+        }
+\end{enumerate}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.40\textwidth]{ngraph2}
+\end{figure}
+
+\section{Wave of Depolarization}
+\begin{itemize}
+    \item{The \hl{action potential does not move}}
+    \item{Rather, many action potentials are generated \hl{one after another} along the cell membrane}
+    \item{Often described as like dominos}
+\end{itemize}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.60\textwidth]{wave}
+\end{figure}
+
+\section{Saltatory Conduction}
+\begin{itemize}
+    \item{In myelinated axons}
+    \item{Action potentials "jump" from node to node between myelin sheath gaps}
+    \item{Nodes of Ranvier have \hl{concentrated ion channels}}
+    \item{Sodium ions (\ce{Na+}) flood the channels in the gaps, "pushing" the action potential far enough to reach the next gap}
+\end{itemize}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{salt}
+\end{figure}
+
+\subsection{This is Faster}
+\begin{itemize}
+    \item{Myelinated neurons utilize saltatory conduction to increase the speed of nerve impulses}
+    \item{Non-myelinated neurons cannot do this, and invertebrates --- such as \hl{earthworms and squid} --- only have non-myelinated}
+    \item{They evolved to have \hl{thicker axon diameters} to speed up conduction}
+\end{itemize}
+
+\section{Threshold Levels}
+\begin{itemize}
+    \item{Stimuli must be \hl{above a critical value} in order to produce a response}
+    \item{Threshold levels are different for each neuron}
+\end{itemize}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.3\textwidth]{threshold}
+    \caption{In this example, the neuron's critical value is \SI{2}{\mV}}
+\end{figure}
+
+\subsection{All-or-none Response}
+\begin{itemize}
+    \item{Neurons either \hl{fire maximally or not at all}}
+    \item{Stimuli intensity \hl{below} said theshold \hl{do not initiate} a response}
+    \item{Stimuli intensity \hl{above} critical threshold \hl{does not produce an increased response}}
+\end{itemize}
+
+\subsection{Message Priority}
+\begin{itemize}
+    \item{
+            An increase response is due to either...
+            \begin{itemize}
+                \item{\hl{more neurons} being stimulated}
+                \item{some specific neurons only fire at \hl{high threshold levels}}
+            \end{itemize}
+        }
+\end{itemize}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.6\textwidth]{threshold2}
+    \caption{\ce{K+} are gradually pumped in until the threshold, then \ce{Na+} are flooded in to depolarize}
+\end{figure}
+
+\section{Neuron-to-neuron Communication}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\textwidth]{synapse}
+\end{figure}
+\subsection{Synapse}
+\begin{itemize}
+    \item{\hl{Space in between two (or usually more) neurons}}
+    \item{Typically around \SI{20}{\nm}}
+    \item{\textbf{Presynpatic Neurons} = carry impulses to the synapse}
+    \item{\textbf{Postsynaptic Neurons} = carry impulses away from synapse}
+    \item{\hl{More synapses = slower transmission} (reflex arc has little synapses)}
+\end{itemize}
+
+\subsection{Neurotransmitters}
+\begin{itemize}
+    \item{Action potential will not move across the synapse}
+    \item{\textbf{Neurotransmitters} = \hl{chemicals transported (via diffusion) between neurons across synapse}}
+    \item{Always released by presynaptic neurons}
+    \item{Always recieved by postsynaptic neurons}
+\end{itemize}
+
+\subsubsection{Types}
+\begin{itemize}
+    \item{\textbf{Excitatory} = binds to and triggers \ce{Na+} channels to open \ce{Na+} flood \hl{into postsynaptic neuron}, causing \hl{depolarization} (\ce{Na+} in)}
+    \item{\textbf{Inhibitory} = binds to and triggers \ce{K+} channels to open; \hl{hyperpolarization} (\ce{K+} out)}
+\end{itemize}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.7\textwidth]{neurotransmission}
+    \caption{Action potential in presynaptic neuron releases neurotransmitters that pump \ce{Na+} into postsynaptic neuron, effectively transmitting the action potential across the gap (at this level, ignore the rest, such as calcium)}
+\end{figure}
+
+\subsubsection{Examples}
+\begin{itemize}
+    \item{\textbf{Acetylcholine} = usually excitatory: opens \ce{Na+} channels, causing depolarization}
+    \item{\textbf{Cholinesterase} = enzyme in synapse; destroys acetylcholine, ending depolarization to avoid getting stuck; \\ acetylcholine return to presynaptic neuron to be stored}
+    \item{Acetylcholine may act as inhibitory: opening \ce{K+} gates and diffusing \ce{K+} out of neuron, causing hyperpolarization}
+        \\
+\end{itemize}
+
+You do not need to memorize these.
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{transex}
+\end{figure}
+
+\section{Summation}
+\begin{itemize}
+    \item{Multiple neurons required to stimulate another neuron}
+    \item{\hl{Sum} of multiple action potentials to \hl{reach the threshold} of another}
+\end{itemize}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.6\textwidth]{summation}
+\end{figure}
+
+\section{(13.3) Central Nervous System}
+
+\subsection{Spinal Cord}
+\begin{itemize}
+    \item{Tube-like organ of neurons, glial cells, and blood vessals}
+    \item{Located inside of backbone or spine}
+    \item{Carries sensory nerve messages from receptors to brain (interneurons)}
+    \item{Relays motor nerve messages from brain to muscles and glands}
+    \item{\textbf{Central canal} = contains CSF}
+\end{itemize}
+
+\subsection{The Brain}
+\begin{itemize}
+    \item{Coordinating center of nervous system}
+    \item{Enclosed within skull}
+    \item{\textbf{Meninges} = \hl{3 protective membranes} surrounding the brain, fluid within}
+    \item{\textbf{Meningitis} = bacterial or viral \hl{infection} of any of the outer membranes of the brain}
+    \item{
+            \textbf{Cerebrospinal fluid (CSF)} = nourishing fluid, shock absorber; \\ found within...
+            \begin{itemize}
+                \item{inner and middle layer of meninges}
+                \item{through central canal of spinal cord}
+            \end{itemize}
+        }
+    \item{More nerve tracts in mouth, face and hands, compared to legs and arms}
+\end{itemize}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{brains}
+\end{figure}
+
+
+\section{Forebrain}
+\begin{itemize}
+    \item{\textbf{Forebrain} = reason, intellect, memory, language, personality}
+    \item{\textbf{Cerebrum} = largest portion of brain}
+    \item{\textbf{Cerebral cortex} = surface of cerebrum, gray matter (unmyelinated)}
+    \item{Coordinating center for motor actions, speech, reasoning, memory, personality}
+\end{itemize}
+
+\subsection{Hemispheres}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.50\textwidth]{corpus}
+\end{figure}
+\begin{itemize}
+    \item{\textbf{Corpus callosum} = communication bridge between left and right brain}
+    \item{
+            2 distinct hemispheres
+            \begin{itemize}
+                \item{\hl{Left = verbal skills}}
+                \item{\hl{Right = visual patterns and spatial awareness}}
+            \end{itemize}
+            \begin{figure}[H]
+                \centering
+                \includegraphics[width=0.2\textwidth]{hemi}
+            \end{figure}
+        }
+    \item{\textbf{Severed corpus callosum} = impairment of memory, walking, balance}
+\end{itemize}
+\subsubsection{Left Hemisphere}
+\begin{itemize}
+    \item{\textbf{Stroke} = if left side, speech may be lost}
+    \item{\textbf{Broca's area} = production of language; tongue, lips, and jaw motion}
+    \item{\textbf{Wernicke's area} = processing of spoken words, interpreting emotions}
+\end{itemize}
+
+\subsection{Cerebrum Lobes}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{lobes}
+\end{figure}
+\begin{itemize}
+    \item{Each hemisphere has 4 lobes}
+    \item{
+            \textbf{Frontal}
+            \begin{itemize}
+                \item{\hl{voluntary muscles} (walking, speech)}
+                \item{\hl{personality}, knowing right from wrong}
+                \item{\hl{memory (IQ)}}
+            \end{itemize}
+        }
+    \item{
+            \textbf{Temporal}
+            \begin{itemize}
+                \item{interpret sensory info (hearing, smell, \emph{some} vision)}
+                \item{\hl{sound and smell memory}}
+                \item{\textbf{Amygdala} = found near hearing centre of brain, associated with memory}
+            \end{itemize}
+        }
+    \item{
+            \textbf{Parietal}
+            \begin{itemize}
+                \item{\hl{touch (temperature awareness), taste, pain}}
+                \item{emotions}
+                \item{interpreting speech}
+                \item{Wernicke's area}
+            \end{itemize}
+        }
+    \item{
+            \textbf{Occipital}
+            \begin{itemize}
+                \item{\hl{vision}}
+            \end{itemize}
+        }
+\end{itemize}
+
+\subsection{Thalamus}
+\begin{itemize}
+    \item{Interprets and distributes sensory information}
+    \item{Sensory info. such as smell, taste, touch, vision, sound}
+    \item{\hl{Redirects} messages from spinal cord to \hl{appropriate lobes} of the brain}
+    \item{Relay station, like a post office}
+\end{itemize}
+
+\subsection{Hypothalamus \& Pituitary Gland}
+\begin{itemize}
+    \item{Unites nervous and endocrine systems (autonomic functions)}
+    \item{\hl{Regulates internal environment} (maintains body temp)}
+    \item{Notifies thirst and hunger}
+    \item{\textbf{Pituitary Gland} = master gland, related to hormones and stress}
+\end{itemize}
+
+\subsection{Olfactory Bulbs}
+\begin{itemize}
+    \item{Detects smell}
+\end{itemize}
+
+\subsection{Limbic System}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.50\textwidth]{limbic}
+    \caption{Limic system is in blue}
+\end{figure}
+\begin{itemize}
+    \item{Influences ANS and endocrine system}
+    \item{
+            Interconnected with...
+            \begin{itemize}
+                \item{\hl{healthy concious state of mind} (confidence)}
+                \item{pleasure centre}
+                \item{emotions}
+                \item{memory}
+            \end{itemize}
+        }
+\end{itemize}
+
+\section{Midbrain}
+\begin{itemize}
+    \item{Acts as a relay center for some, not all, \hl{eye and ear} reflexes}
+    \item{Less developed than forebrain}
+    \item{Consisting of 4 spheres of gray matter}
+\end{itemize}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.7\textwidth]{brains}
+\end{figure}
+
+\section{Hindbrain}
+\begin{itemize}
+    \item{\textbf{Hindbrain} = balance, muscle control, autonomic control}
+    \item{Found behind midbrain, joins with spinal cord}
+\end{itemize}
+
+\subsection{Cerebellum}
+\begin{itemize}
+    \item{Located immediately beneath the 2 cerebral hemispheres}
+    \item{Largest section of hindbrain}
+    \item{\hl{Fine and major} limb movements, \hl{balance}, muscle tone}
+\end{itemize}
+
+\subsection{Pons}
+\begin{itemize}
+    \item{
+            A bridge/relay station that passes info between
+            \begin{itemize}
+                \item{the 2 regions of the cerebellum}
+                \item{between the cerebellum and the medulla}
+            \end{itemize}
+        }
+\end{itemize}
+
+\subsection{Medulla Oblongata}
+\begin{itemize}
+    \item{Posterior region of hindbrain, aka. brain stem}
+    \item{Acts as a connection between PNS and CNS}
+    \item{Coordinating center for ANS (\hl{breathing, heart rate}, peristalsis, blood pressure)}
+\end{itemize}
+
+\section{Brain Mapping}
+\begin{itemize}
+    \item{\textbf{Phrenology} = false science, feel bumps on head to figure out things}
+\end{itemize}
+
+\section{Drugs}
+\begin{itemize}
+    \item{\textbf{Endorphins} = attach to neurons in CNS, preventing production of pain transmitters}
+    \item{\textbf{Euphoria} = tranquility feeling produced by endorphins; pain killers, opiates, heroin, codeine, morphine act the same way as endorphins}
+    \item{When drug usage stop, pain transmitter is produced in abundance; "fake" pain}
+    \item{\textbf{Barbiturates} = sleeping pills}
+\end{itemize}
+
+\section{Alzheimer's Disease}
+\begin{itemize}
+    \item{Progressive, degenerative neurological disease}
+    \item{Linked with aging}
+    \item{Deterioration of thinking and of memory}
+    \item{Production of plaques and tangles}
+    \item{
+            \textbf{Plaques}
+            \begin{itemize}
+                \item{In healthy brains, beta amyloid protein deposits exist}
+                \item{In Alzheimer's patients, secretases work too well, produce too much beta amyloid}
+                \item{Affect neurons}
+            \end{itemize}
+        }
+    \item{
+            \textbf{Tangles}
+            \begin{itemize}
+                \item{Healthy neurons grow and behave abnormally}
+                \item{Choke and kill neuron}
+            \end{itemize}
+        }
+\end{itemize}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.50\textwidth]{alz}
+\end{figure}
+
+\section{(13.4) Peripheral Nervous System}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.75\textwidth]{peripheral}
+\end{figure}
+\begin{itemize}
+    \item{\textbf{Autonomic system} = nerves designed to \hl{maintain internal homeostasis} (involuntary)}
+    \item{\textbf{Somatic system} = nerves designed to \hl{adjust to external stimuli} by controlling skeletal muscle (voluntary, exception: reflexes)}
+\end{itemize}
+
+\subsection{Somatic Sensory System}
+\begin{itemize}
+    \item{Brings info from external environment, CNS, skeletal muscles}
+    \item{Voluntary control}
+    \item{Reflex arcs are involuntary, but still categorized as somatic}
+\end{itemize}
+
+\subsection{Autonomic Nervous System}
+\begin{itemize}
+    \item{\hl{Involuntary internal homeostatic control}}
+    \item{\textbf{Autonomic nerves} = motor nerves, regular organs of body involuntarily}
+\end{itemize}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.40\textwidth]{symandpara}
+\end{figure}
+
+\subsubsection{Sympathetic}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.50\textwidth]{sympathetic}
+\end{figure}
+\begin{itemize}
+    \item{Prepares body for stress \\ \textbf{'Fight, flight, or freeze'} response}
+    \item{Releases adrenaline and noradrenaline --- both hormones do the same thing}
+    \item{
+            Excitatory in...
+            \begin{itemize}
+                \item{increases heart rate and blood pressure}
+                \item{increases blood flow to skeletal muscles}
+                \item{etc... (diagram)}
+            \end{itemize}
+        }
+    \item{
+            Inhibitory in...
+            \begin{itemize}
+                \item{inhibits digestive functions}
+                \item{etc... (diagram)}
+            \end{itemize}
+        }
+\end{itemize}
+
+\subsubsection{Parasympathetic}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.50\textwidth]{parasympathetic}
+\end{figure}
+\begin{itemize}
+    \item{Restores balance in body \\ \textbf{'Rest and digest'} response}
+    \item{Calms body to conserve and maintain energy}
+    \item{Lowers heartbeat, breathing rate, blood pressure}
+\end{itemize}
+
+\subsection{Vagus Nerve}
+
+\section{(14.1) Senses}
+\begin{itemize}
+    \item{\textbf{Stimulus} = source of energy converted from one form to another}
+    \item{\textbf{Sensory receptors} (dendrites of sensory neurons) = \\ convert one energy form (info) about the external environment \\ into electrochemical energy (nerve impulses, aka. action potentials) \\ that are then relayed to the CNS}
+    \item{Each individual receptor is capable of responding to \hl{only one kind of stimulus}}
+    \item{Stimulation of grouped receptors results in \hl{only one type of sensation} \\ ex. eye (light receptor) = sight}
+    \item{Grouped receptors help reach threshold levels}
+    \item{\textbf{Sensory adaptation} = constant exposure to a certain stimulus leads to an \hl{insensitivity} of the sensory receptor to said stimulus \\ ex. don't notice smell of your home}
+\end{itemize}
+
+\subsection{Receptors}
+\begin{itemize}
+    \item{
+            \textbf{Photoreceptors}
+            \begin{itemize}
+                \item{eyes (rods, cones)}
+            \end{itemize}
+        }
+    \item{
+            \textbf{Chemoreceptors}
+            \begin{itemize}
+                \item{tongue (taste buds, 50-100 neurons) \\ salty, sweet, sour, bitter, umami (savoury)}
+                \item{nose (olfactory cells) \\ airbourne chemicals detected by olfactory cells of olfactory bulb, connected to temporal lobe}
+                \item{carotid arteries \& brain (blood pH)}
+            \end{itemize}
+        }
+    \item{
+            \textbf{Mechanoreceptors}
+            \begin{itemize}
+                \item{ear (inner-ear hair cells, balance, sound)}
+                \item{touch and pressure (skin)}
+                \item{\textbf{Proprioceptors} (skin, muscles) = interpret movement of limbs in space and time (without just looking)}
+            \end{itemize}
+        }
+    \item{
+            \textbf{Thermoreceptors}
+            \begin{itemize}
+                \item{heat \& cold (skin)}
+            \end{itemize}
+        }
+\end{itemize}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.75\textwidth]{sense-summary}
+\end{figure}
 
 \end{document}
