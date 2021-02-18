@@ -1,0 +1,140 @@
+\documentclass[a4paper,12pt]{article}
+
+\title{Math 31 \\ Limits and the Derivative}
+\author{Jad Chehimi}
+
+% document setup
+\renewcommand{\familydefault}{\sfdefault}
+\linespread{1.25}
+\usepackage[margin=1in]{geometry}
+\usepackage{setspace}
+\usepackage{enumitem}
+\setlist{nosep}
+\usepackage{color,soul}
+\setcounter{secnumdepth}{0}
+
+% tools
+\usepackage[hidelinks]{hyperref}
+\usepackage{float}
+%% images
+\usepackage{graphicx}
+\graphicspath{ {./images/} }
+%% science
+\usepackage{siunitx}
+
+\begin{document}
+\maketitle
+
+% temp
+\begin{center}
+\Huge
+Unfinished!
+\normalsize
+\end{center}
+% temp
+
+\tableofcontents
+
+\pagebreak
+
+\section{Factoring Brief Review}
+\subsection{Differences of Square}
+\Large
+$x^2 - 4 = (x + 2)(x - 2)$
+\normalsize
+
+\subsection{Polynomial}
+\Large
+$2x^2 + 3x - 2$ \\
+$\longrightarrow (2x^2 + 4x)(-x - 2)$ \\
+$\longrightarrow \,\,2x(x+2) - 1(x+2)$ \\
+$\longrightarrow (2x - 1)(x + 2)$
+\normalsize
+
+\subsection{Radical Fractions}
+\begin{itemize}
+    \item{
+            Multiply everything by monomial denominator\\
+            \Large
+            $\frac{2}{\sqrt{2x}} \longrightarrow \frac{2\sqrt{2x}}{2x} \longrightarrow \frac{\sqrt{2x}}{x}$
+            \normalsize
+        }
+    \item{
+            Multiply everything by conjugate for polynomial denominators\\
+            \Large
+            $\frac{3}{2+\sqrt{x}} \times \frac{2-\sqrt{x}}{2-\sqrt{x}} = \frac{6-3\sqrt{x}}{4-2\sqrt{2} + 2\sqrt{x} - x} = \frac{6-3\sqrt{x}}{4-x}$
+            \normalsize
+        }
+\end{itemize}
+
+\subsection{Mixed Radicals}
+\Large
+$\sqrt{162} \longrightarrow \sqrt{9^2 \times 2} \longrightarrow \sqrt{9^2} \times \sqrt{2} \longrightarrow 9\sqrt{2}$
+\normalsize
+
+\subsection{Absolute Polynomial}
+\Large
+$|x-1| = 3$
+
+$x-1 = 3$,
+$x = 4$
+
+$x-1 = -3$,
+$x = -2$
+\normalsize
+
+\subsection{Adding/Subtracting Fractions}
+Multiply both terms so that the denominators are the same, then add/subtract.\\
+\Large
+$\frac{2}{x-1} - \frac{3}{x+3}$\\
+$\longrightarrow\frac{2(x+3)}{(x-1)(x+3)} - \frac{3(x-1)}{(x-1)(x+3)}$\\
+$\longrightarrow\frac{(2x+6) - (3x-3)}{(x-1)(x+3)}$\\
+$=\frac{-x+3}{(x-1)(x+3)}$
+\normalsize
+
+\subsection{Piecewise Functions}
+Piecewise functions are functions with multiple inequalities/restrictions that dictate which function to use at specific $x$ values.
+
+When graphing... 
+\begin{itemize}
+    \item{if an inequality is less/greater than a value, the plot point is \hl{not filled in}}
+    \item{if an inequality is less/greater than \hl{OR equal to} a value, the plot point is \hl{filled in}}
+    \item{if $x$ of different functions equal the same value, the graphs are continuous, and are filled in if one of the functions is inclusive}
+\end{itemize}
+
+If the inequalities do not state a function for a specific $x$ value (e.g. $x = 2$ for $2 < x < 2$) then that value \textbf{DNE}. (\hl{does not exist})
+
+\subsection{Rational Function}
+A function with a polynomial in the numerator and denominator.
+
+\subsubsection{Vertical Asymptotes}
+Zeros of the denominator of a rational function.
+
+$x$ may approach these values, but never touch them.
+
+\subsubsection{Point of Discontinuity}
+Any vertical asymptote (zeros of denominator) \hl{before simplifying} a rational function.
+
+These vertical asymptotes only applies to the unsimplified form; this makes it a point of discontinuity.
+
+\subsubsection{Horizontal Asymptotes}
+Horizontal asymptotes describe the \hl{trend} of a function.
+
+The graph line can cross over it fine, as opposed to vertical asymptotes.
+
+\textbf{Determining Horizontal Asymptotes}
+\begin{itemize}
+    \item{degree of numerator $<$ degree of denominator\\$\longrightarrow y = 0$}
+    \item{degree of numerator $=$ degree of denominator\\$\longrightarrow y = \frac{\textrm{leading coefficient of numerator}}{\textrm{leading coefficient of denominator}}$}
+    \item{degree of numerator $>$ degree of denominator\\$\longrightarrow$ Divergent (no horizontal asymptote)}
+\end{itemize}
+
+\section{Limits}
+\Large
+$$\lim_{x \to a} f(x) = b$$
+\normalsize
+\begin{center}
+The limit of $f(x)$ as $x$ approaches $a$ is $b$.
+\end{center}
+
+\end{document}
