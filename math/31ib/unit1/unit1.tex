@@ -6,10 +6,9 @@
 % document setup
 \renewcommand{\familydefault}{\sfdefault}
 \linespread{1.25}
-\usepackage[margin=1in]{geometry}
+\usepackage[margin=1.5in]{geometry}
 \usepackage{setspace}
 \usepackage{enumitem}
-\setlist{nosep}
 \usepackage{color,soul}
 \setcounter{secnumdepth}{0}
 
@@ -117,6 +116,8 @@ Any vertical asymptote (zeros of denominator) \hl{before simplifying} a rational
 
 These vertical asymptotes only applies to the unsimplified form; this makes it a point of discontinuity.
 
+These points are gaps in a graph line, have no $y$ value, and therefore make a graph discontinuous.
+
 \subsubsection{Horizontal Asymptotes}
 Horizontal asymptotes describe the \hl{trend} of a function.
 
@@ -129,12 +130,76 @@ The graph line can cross over it fine, as opposed to vertical asymptotes.
     \item{degree of numerator $>$ degree of denominator\\$\longrightarrow$ Divergent (no horizontal asymptote)}
 \end{itemize}
 
+\pagebreak
+
 \section{Limits}
 \Large
-$$\lim_{x \to a} f(x) = b$$
+$$\lim\limits_{x \to a} f(x) = b$$
 \normalsize
 \begin{center}
 The limit of $f(x)$ as $x$ approaches $a$ is $b$.
 \end{center}
+
+A limit is the value of $y$ as the $x$ approaches a specific value, as opposed to equaling a specific value. This is useful for points of discontinuity, where the exact value doesn't exist, but the value approaching does.
+
+For instance, if the point of discontinuity of $f(x)$ is $x = -1$, then...
+$$f(-1) = \textrm{DNE}$$
+$$\lim\limits_{x \to -1} f(x) = -1$$
+
+\subsection{Properties}
+\begin{itemize}
+    \item{$c = $ constant value \\ $\lim\limits_{x \to a} c = c$ \\ $\lim\limits_{x \to a} c f(x) = c \lim\limits_{x \to a} f(x)$}
+    \item{$\lim\limits_{x \to a} [f(x)]^n = [\lim\limits_{x \to a} f(x)]^n$}
+    \item{$\lim\limits_{x \to a} \sqrt[n]{f(x)} = \sqrt[n]{\lim\limits_{x \to a} f(x)}$}
+    \item{The rest of the rules can be summarized as limits have distributive property. \\ e.g. $\lim\limits_{x \to a}[f(x) + g(x)] = \lim\limits_{x \to a} f(x) + \lim\limits_{x \to a} g(x)$}
+\end{itemize}
+
+\pagebreak
+
+\subsection{Limits of Continuous Functions}
+\subsubsection{Any Polynomial}
+$y = f(x)$ is continuous at every value of $a$. 
+$$\lim\limits_{x \to a} f(x) = f(a)$$
+Just substitute $x$ in the function with $a$.
+
+\subsubsection{Any Rational Function}
+$y = \frac{f(x)}{g(x)}$ is continuous at every value of $a$ as long as $g(x) \neq 0$. (cannot divide by zero)
+$$\lim\limits_{x \to a} \frac{f(x)}{g(x)} = \frac{f(a)}{g(a)},\; g(a) \neq 0$$
+Just substitute $x$ in the function with $a$, unless $a$ makes the denominator equal to zero. If so, refer to the next section.
+
+\subsubsection{Any Radical Function}
+$y = \sqrt{f(x)}$ is continuous at every value of $a$ as long as $f(x) \geq 0$. (cannot root negatives)
+$$\lim\limits_{x \to a} \sqrt{f(x)} = \sqrt{f(a)},\; f(a) \geq 0$$
+Just substitute $x$ in the function with $a$, unless $a$ makes the function equal to a negative. If so, refer to the next section.
+
+\subsection{Limits of Discontinuous Functions}
+Identically to finding points of discontinuity, simplify/rationalize the function in a limit if it does illegal math (divide by zero, root negatives) until it doesn't.
+
+$$\lim\limits_{x \to 4}(\frac{x^2 - 16}{x - 4})$$
+$$\lim\limits_{x \to 4}(\frac{(x - 4)(x + 4)}{x - 4})$$
+$$\lim\limits_{x \to 4}(x + 4) = 8$$
+
+\section{One-sided Limits}
+Limits of a function can be seperated into the value of approaching \hl{from the left} and \hl{from the right}. This is denoted with a superscript on $a$.
+\begin{itemize}
+    \item{From the left ($x < a$): \;\,\,$\lim\limits_{x \to a^-} f(x)$}
+    \item{From the right ($x > a$): $\lim\limits_{x \to a^+} f(x)$}
+\end{itemize}
+
+This is only really relevant for graphs that end (such as $y = \sqrt{x}$, approaching from the side without a line is DNE) or piecewise functions.
+
+\subsection{Continuous or Discontinous?}
+\subsubsection{Continuous}
+Continuous functions have a left approaching limit and a right approaching limit \hl{equal to one another}.
+
+$$\textrm{if}\;\; \lim\limits_{x \to a^-} f(x) = \lim\limits_{x \to a^+} f(x)$$
+$$\textrm{then}\;\; \lim\limits_{x \to a} f(x) = \lim\limits_{x \to a} f(a)$$
+
+\subsubsection{Discontinuous}
+Discontinuous functions have a left approaching limit and a right approaching limit \hl{not equal to one another}.
+
+$$\textrm{if}\;\; \lim\limits_{x \to a^-} f(x) \neq \lim\limits_{x \to a^+} f(x)$$
+$$\textrm{then}\;\; \lim\limits_{x \to a} f(x) = \textrm{DNE}$$
+
 
 \end{document}
