@@ -201,5 +201,43 @@ Discontinuous functions have a left approaching limit and a right approaching li
 $$\textrm{if}\;\; \lim\limits_{x \to a^-} f(x) \neq \lim\limits_{x \to a^+} f(x)$$
 $$\textrm{then}\;\; \lim\limits_{x \to a} f(x) = \textrm{DNE}$$
 
+\pagebreak
+
+\section{Limits to Infinity}
+Limits of infinity either approach a value or DNE.
+
+\subsection{Rules}
+\begin{itemize}
+    \item{
+        Limits to infinity of normal numbers is often DNE.
+        e.g.
+        \begin{itemize}
+            \item{$\lim\limits_{n\to\infty}{r^n} = \textrm{DNE}$ ($i\!f\!\!f \;|r| > 1$)}
+            \item{$\lim\limits_{x\to\infty}{2^x} = \textrm{DNE}$}
+            \item{$\lim\limits_{x\to\infty}{\frac{1}{x^{-3}}} = \textrm{DNE}$}
+        \end{itemize}
+    }
+    \item{
+        Limits to infinity of fractions with variable denominators is often infinity small, so 0.
+        e.g.
+        \begin{itemize}
+            \item{$\lim\limits_{n\to\infty}{r^n} = 0$ ($i\!f\!\!f \;|r| < 1$)}
+            \item{$\lim\limits_{n\to\infty}{\frac{1}{n}} = 0$}
+        \end{itemize}
+    }
+    \item{The limit of infinity does not exist. \\$\lim\limits_{n\to\infty}{3^n} = DNE$}
+    \item{$\lim\limits_{n\to\infty}{(-1)^n} = DNE$}
+\end{itemize}
+
+\subsection{Finding Limits to Infinity}
+\begin{itemize}
+    \item{Any fraction with a variable in the denominator will be zero. $$\lim\limits_{x\to\infty}{\frac{a}{x^b}} = 0$$}
+    \item{Because of this, multiply a limit by something in order to put a variable under the terms, making them equal zero. e.g.}
+\end{itemize}
+
+$$\lim\limits_{x\to\infty}{\frac{6n+9}{3n-2}}$$
+$$\frac{6n+9}{3n-2} \times \frac{\frac{1}{n}}{\frac{1}{n}}$$
+$$\frac{6+\frac{9}{n}}{3-\frac{2}{n}} \longrightarrow \frac{6+0}{3-0}$$
+$$\lim\limits_{x\to\infty}{\frac{6n+9}{3n-2}} = 2$$
 
 \end{document}
