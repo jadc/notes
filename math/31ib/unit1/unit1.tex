@@ -240,4 +240,43 @@ $$\frac{6n+9}{3n-2} \times \frac{\frac{1}{n}}{\frac{1}{n}}$$
 $$\frac{6+\frac{9}{n}}{3-\frac{2}{n}} \longrightarrow \frac{6+0}{3-0}$$
 $$\lim\limits_{x\to\infty}{\frac{6n+9}{3n-2}} = 2$$
 
+\section{Derivatives}
+The derivative of a function gives the slope of a tangent line that just touches the point $(x, f(x))$.
+
+\subsection{Formulas}
+\Large
+$$f'(x) = y' = \frac{dy}{dx} = \lim\limits_{h\to0}{\frac{f(x+h)-f(x)}{h}}$$
+\normalsize
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{hgraph}
+    \caption{The limits formula calculates the slope of a secant line (between two points on curve) and shrinks said line (by $h$ approaching zero) until it becomes a tangent line (the instantaneous slope of a point)}
+\end{figure}
+
+\subsection{Limits Method}
+\subsubsection{Slope at Specific Point}
+e.g. $f(x) = 3x^2 - 5x + 4$, find $f'(2)$
+$$f(2) = 3(2)^2 - 5(2) + 4 = 6$$
+$$\lim\limits_{h\to0}\frac{f(2+h)-f(2)}{h} \longrightarrow \lim\limits_{h\to0}\frac{[3(2+h)^2 - 5(2+h) + 4] - [6]}{h}$$
+\begin{center}Expand and simplify until you are no longer dividing by zero.\end{center}
+$$\lim\limits_{h\to0}{3h+7}$$
+\begin{center}Calculate the limit: subsitute $h$ with $0$\end{center}
+$$m = 7$$
+
+\subsubsection{General Expression}
+This is the actual derivative of a function. Inputting any value of $x$ into this expression is equivalent to the previous step.
+
+e.g. $f(x) = 3x^2 - 5x + 4$, find $f'(x)$
+$$\lim\limits_{h\to0}\frac{f(x+h)-f(x)}{h} \longrightarrow \lim\limits_{h\to0}\frac{[3(x+h)^2 - 5(x+h) + 4] - [3x^2 - 5x + 4]}{h}$$
+\begin{center}Some tears and bloodshed later...\end{center}
+$$f'(x) = 6x-5$$
+
+For instance, the previous section can be solved using this function.
+$$f'(2) = 6(2) - 5 = 7$$
+
+\subsection{Slope to Equation}
+To get an equation such as $y=mx+b$ from just a slope ($m$) and a given point $(x_1, y_1)$.
+
+$$y - y_1 = m(x - x_1)$$
+
 \end{document}
