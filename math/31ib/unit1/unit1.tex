@@ -279,4 +279,76 @@ To get an equation such as $y=mx+b$ from just a slope ($m$) and a given point $(
 
 $$y - y_1 = m(x - x_1)$$
 
+\section{Differentiability}
+\begin{itemize}
+    \item{If $f'(x)$ exists, then $f(x)$ is \textbf{differentiable}}
+    \item{If $f(x)$ is differentiable, then $f(x)$ is continuous at point $x$}
+    \item{\hl{Continuity does not imply differentiability}}
+\end{itemize}
+
+\subsection{Non-differentiability Graphically}
+A point on a graph that is often non-differentiable due to the limit of said point not existing. This usually occurs from the left and right limit not being equal.
+
+These, graphically, could be...
+\begin{itemize}
+    \item{\textbf{Cusp}: sharp peak on a graph, like the tip of a triangle}
+    \item{\textbf{Crossing Point}: gap between two graph lines}
+    \item{\textbf{Vertical Asymptote}}
+    \item{\textbf{Point of Discontinuity/Hollow Point}}
+    \item{\textbf{Vertical Separation}: point that graphs switch in piecewise functions}
+    \item{\textbf{End Point}: graph line ends at a point}
+\end{itemize}
+
+Other points that are non-differentiable could be...
+\begin{itemize}
+    \item{\textbf{Vertical Line}: slope/derivative is undefined}
+\end{itemize}
+
+\pagebreak
+
+\section{Determine the Point Problem}
+Recall this formula for calculating slope,
+$$m = \frac{y_2 - y_1}{x_2 - x_1}$$
+
+The derivative of a function calculates the slope of the tangent line touching point $x$ on said function. You can replace $m$ with the derivative then.
+
+Replace the $x$'s and $y$'s with any given plot points. You can also give a point the coordinates of $(x, f(x))$ and solve.
+
+These are example problems. You will likely be tested on questions similar to this.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{point}
+\end{figure}
+
+\section{Derivative Rules}
+
+\subsection{The Power Rule}
+\begin{center}
+If $f(x) = x^n$, then $f'(x) = nx^{n-1}$
+\end{center}
+\begin{itemize}
+    \item{Multiply pre-existing coefficients with $n$ \\ e.g. $8x^2 \longrightarrow 16x$}
+    \item{Convert fractions and radicals into exponent form to apply the power rule \\ e.g. $\frac{4}{x^3} = 4x^{-3}$, $\sqrt{x^3} = x^{\frac{3}{2}}$}
+    \item{The derivative of a variable with a \hl{degree of 1 equals 1} (since the power becomes zero) \\ e.g. $4x^1 \longrightarrow 4(1x^{1-1}) \longrightarrow 4$}
+    \item{\hl{The derivative of a constant is zero}}
+\end{itemize}
+
+\subsection{The Sum and Difference Rule}
+If both $f$ and $g$ are differentiable,
+$$(f+g)' = f' + g'$$
+$$(f-g)' = f' - g'$$
+In other words, \hl{replace every term with its derivative}.
+
+\subsection{The Product Rule}
+If both $f$ and $g$ are differentiable,
+$$(f \times g)' = f \times g' + f' \times g$$
+In other words, (first)(derivative of second) $+$ (second)(derivative of first)
+
+\subsection{The Quotient Rule}
+If both $f$ and $g$ are differentiable,
+$$\left( \frac{f}{g} \right)' = \frac{f' \times g - f \times g'}{g^2}$$
+
+\subsection{The Chain Rule}
+
 \end{document}
