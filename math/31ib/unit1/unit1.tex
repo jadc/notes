@@ -20,6 +20,7 @@
 \graphicspath{ {./images/} }
 %% science
 \usepackage{siunitx}
+\usepackage{physics}
 
 \begin{document}
 \maketitle
@@ -349,6 +350,43 @@ In other words, (first)(derivative of second) $+$ (second)(derivative of first)
 If both $f$ and $g$ are differentiable,
 $$\left( \frac{f}{g} \right)' = \frac{f' \times g - f \times g'}{g^2}$$
 
-\subsection{The Chain Rule}
+\subsection{With Respect To}
+$$\dv{y}{x}$$
+The derivative $\dv{y}{x}$ is said to be "the derivative of $y$ with respect to $x$."
+
+Imagine it as actually being "the derivative of $x$ \hl{when inside of} $y$."
+
+Or ask yourself, "\hl{inside of the function $y$}, what is the derivative of $x$?"
+
+This only becomes relevant when there are more variables than $x$ and $y$, such as the chain rule below.
+
+\subsection{Chain Rules}
+\subsubsection{The Chain Rule}
+If $y = f(u)$ and $u = g(x)$, then...
+$$\dv{y}{x} = \left(\dv{y}{u}\right)\!\!\left(\dv{u}{x}\right)$$
+
+e.g. Determine $\dv{y}{x}$ if $y = u^2 + u$ and $u = x^3$.
+\begin{itemize}
+    \item{$\dv{y}{x} = (\dv{y}{u})(\dv{u}{x})$}
+    \item{$\dv{y}{x} = (2u + 1)(3x^2)$}
+\end{itemize}
+
+\subsubsection{The Power/Chain Rule}
+The Power/Chain rule is the same as the Chain rule, but may be easier to understand.
+
+If $y = u^n$ and $u = g(x)$, then...
+$$\dv{y}{x} = nu^{n-1}\times\dv{u}{x}$$
+
+In the simplest terms, treat the entire function as a variable and get the derivative of that. (imagine it as getting the derivative outside the brackets). 
+
+Then, multiply that by the derivative of the function inside the brackets.
+
+e.g. Determine $\dv{y}{x}$ of $y=(2x-7x^2+9)^{-2}$.
+\begin{itemize}
+    \item{Let $u = 2x-7x^2+9$}
+    \item{$y = u^{-2}$}
+    \item{$y = (nu^{n-1})(\dv{u}{x})$}
+    \item{$\dv{y}{x} = (-2u^{-3})(2-14x)$}
+\end{itemize}
 
 \end{document}
