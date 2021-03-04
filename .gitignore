@@ -2,3 +2,6 @@
 *.log
 *.out
 *.toc
+*.gz
+*.fdb_latexmk
+*.fls
