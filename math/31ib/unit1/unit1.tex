@@ -486,6 +486,8 @@ e.g. If $x^4 + y^4 = 16$, what is $y''$?
         }
 \end{itemize}
 
+\pagebreak
+
 \section{Applications}
 \subsection{Terms}
 \begin{itemize}
@@ -506,7 +508,147 @@ The 2nd derivative of an equation for displacement will make it for acceleration
 If $s = f(t)$ was a displacement equation, then...
 $$f''(t) = \dv{v}{t} = \frac{\Delta{v}}{\Delta{t}} = a$$
 
+\pagebreak
+
 \section{Related Rates}
-TODO
+In related rates problems, you are given the rate of change of one thing, and you need to find the rate of change of another thing.
+
+\begin{itemize}
+    \item{Find a formula that includes both your known variable and unknown variable}
+    \item{Get the derivative of said formula, appending "prime" variables just like implicit differentiation}
+    \item{Subsitute any variables and rates of variables you have, calculate by any means necessary if you can find them}
+\end{itemize}
+
+\subsection{Tips}
+\begin{itemize}
+    \item{It helps a lot to draw diagrams of the scenario}
+    \item{When given values, avoid subsituting them into the formula until you have got the derivative of it; otherwise you remove the ability to subsitute the 'prime' variables}
+    \item{If any rate is decreasing, make sure the rate is negative}
+\end{itemize}
+
+\subsection{Simple Example}
+\emph{The radius, $r$, of a circular disc is increasing at a rate of \SI{3}{\cm/\s}.\\Determine the rate that the area is increasing, $A$, when $r = \SI{4}{\cm}$.}
+
+$A' = \dv{A}{t} = \textrm{?}$
+
+$r' = \dv{r}{t} = \SI{3}{\cm/\s}$
+
+Find a formula...
+
+$A = \pi r^2$
+
+Get the derivative...
+
+$A' = 2\pi r r'$
+
+We know $r = 4$, and $r' = 3$...
+
+$A' = 2\pi (4) (3)$
+
+$A' = \SI{24\pi}{\cm\squared/\s}$
+
+\subsection{Cylinder Question}
+\emph{A cylindrical vase has a height of \SI{35}{\cm} and a radius of \SI{12}{\cm}.\\It is being filled with water so that the depth is increasing at a rate of \SI{2}{\cm/\s}.\\Determine the rate at which the water is being poured in to the vase.}
+
+$V' = \textrm{?}$
+
+$h' = \SI{2}{\cm/\s}$
+
+$r = \SI{12}{\cm}$
+
+Volume formula...
+
+$V = \pi r^2 \cdot h$
+
+$V' = (\pi r^2)(1h^0h') + (2\pi r r')(h)$ (product law)
+
+We don't have $r'$, but because $r$ doesn't seem to change, $r' = 0$...
+
+$V' = \pi r^2h'$
+
+We know $h' = 2$ and $r = 12$...
+
+$V' = \pi(12)^2(2)$
+
+$V' = 288\pi$
+
+\subsection{Cone Question}
+Due to the nature of a cone having both changing radius and depth, you would have to solve for more than one variable in the derivative. This is not possible.
+
+Therefore, you must convert any equations such that there is only one variable to solve for. For cone questions, you can use \textbf{similar triangles}: the ratio of sides of two different but similar triangles are equal to one another.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{cone}
+\end{figure}
+
+\emph{A conical vase is being filled at a rate of \SI{10}{\cm\cubed/\s}.\\The vase is \SI{20}{\cm} high, and has a radius of \SI{3}{\cm} at the top.\\Determine the rate at which the water level is rising when the depth is \SI{10}{\cm}.}
+
+The volume of a cone is...
+
+$V = \frac{\pi}{3}r^2h$
+
+The question only asks for $h'$, but we don't have $r$ \emph{or} $h$. Therefore, we got to convert $r$ into something that uses $h$.
+
+Similar triangles allows us to do this. There are two triangles in this cone --- one for the whole space of the cone, and one for the space occupied by the water.
+
+$\frac{r}{3} = \frac{h}{20}$, $r = \frac{3h}{20}$
+
+Now we can rewrite the volume formula and continue as normal --- get the derivative and solve for $h'$.
+
+$V = \frac{\pi}{3}(\frac{3h}{20})^2h$
+
+$h' = \frac{40}{9\pi}$
+
+\subsubsection{Missing Information}
+If you are still missing information to fill in the formula, you can possibly get it with the similar triangles. For example, to get the radius of the water when the depth/height is 10.
+
+$\frac{r}{3} = \frac{h}{20}$
+
+$\frac{r}{3} = \frac{10}{20}$
+
+$r = \frac{3}{2}$
+
+The radius of the triangle of water in the cone is $\frac{3}{2}$ \hl{only when $h = 10$}. (instant value)
+
+(While this gets us radius, it doesn't replace the process in the previous question, since you still don't know $r'$)
+
+\pagebreak
+
+\subsection{Object Filling Another Object}
+\begin{itemize}
+    \item{Find the rate of volume decreasing out of the first object (cone with a hole, or snowball melting)}
+    \item{Flip the sign of this rate, and assign it to the object being filled up (like a box)}
+    \item{Negative rate of volume leaving first object = Positive rate of volume entering second object}
+\end{itemize}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.95\textwidth]{fill}
+\end{figure}
+
+\pagebreak
+
+\subsection{More Common Questions}
+You should probably look at the booklet for good examples.
+\begin{itemize}
+    \item{\textbf{Sliding Ladder}: Nothing special, formula is pythagorem theorem, solve for the rate of change of a side}
+    \item{\textbf{Distance Between Two Travelling Objects}: Pythagorem theorem, solve for the rate of change in the hypotenuse}
+\end{itemize}
+
+\subsection{Shadow Question}
+Use similar triangles like before. Remember that the \hl{closer an object is to the light source}, the \hl{smaller the length of the shadow}.
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{shadow}
+\end{figure}
+
+\subsubsection{Tips}
+\begin{itemize}
+    \item{When choosing which variable to increase with the rate, make sure that variable is fixed and not affected by anything else, such as the person moving.\\This is why, in the 2nd question for example, $x' = 2$ as opposed to $s' = -2$. $s$ has two points moving --- from the person to the end of the triangle --- as opposed to $x$ which only has one point moving --- from the stationary lamppost to the person.}
+\end{itemize}
+
+
+
     
 \end{document}
