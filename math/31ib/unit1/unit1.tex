@@ -498,6 +498,12 @@ e.g. If $x^4 + y^4 = 16$, what is $y''$?
     \item{\textbf{Instantaneous Velocity}\\Velocity at a specific time. $v_\textrm{inst} = \lim\limits_{\Delta{t}\to0}{\frac{\Delta{s}}{\Delta{t}}}$}
 \end{itemize}
 
+\subsection{Tips}
+\begin{itemize}
+    \item{"\hl{In} the $n$th second" means \hl{between $n-1$ and $n$ seconds}\\e.g. in the 4th second means $t_i = 3$ and $t_f = 4$}
+    \item{"\hl{Maximum height} of object" is when \hl{height velocity = 0} \\(this works for "ball tossed up in the air" questions, \\this varies from question to question)}
+\end{itemize}
+
 \subsection{Velocity}
 The derivative of an equation for displacement will make it for velocity.
 
@@ -510,7 +516,23 @@ The 2nd derivative of an equation for displacement will make it for acceleration
 If $s = f(t)$ was a displacement equation, then...
 $$f''(t) = \dv{v}{t} = \frac{\Delta{v}}{\Delta{t}} = a$$
 
-\pagebreak
+\subsection{Total Distance Traveled}
+Add all displacements together.
+
+If a displacement is in an opposing direction to the others, make sure to subtract it from all subsequent displacements to account for it.
+
+e.g.
+\begin{itemize}
+    \item{$s(0) = 0$ (forward)}
+    \item{$s(2) = 52$ (forward)}
+    \item{$s(5) = 25$ (backwards)}
+    \item{$s(7) = 77$ (forward)}
+\end{itemize}
+
+Therefore, the total distance traveled would be...
+$$s(0) + s(2) + [s(2) - s(5)] + [s(7) - s(5)]$$
+$$0 + 52 + [52 - 25] + [77 - 25]$$
+$$= \SI{131}{\m}$$
 
 \section{Related Rates}
 In related rates problems, you are given the rate of change of one thing, and you need to find the rate of change of another thing.
