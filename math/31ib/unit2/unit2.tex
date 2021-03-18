@@ -119,6 +119,14 @@ The domain is all possible $x$ values of a function.
     \item{\textbf{Y-intercept}: $x = 0$, solve for $y$}
 \end{itemize}
 
+\subsubsection{Tips for X-intercepts}
+\begin{itemize}
+    \item{Don't divide by $x$ and remove it; rather, factor it out. Removing $x$ may remove the solution $x=0$}
+    \item{Setting a \hl{fraction equal to zero} means you can \hl{ignore the denominator}\\(if you multiplied both sides to move the denominator, you'd multiply by zero, removing the denominator)}
+\end{itemize}
+
+\pagebreak
+
 \section{Symmetry}
 \begin{figure}[H]
     \centering
@@ -142,6 +150,8 @@ If the only difference is \hl{all signs flipped} (you could factor out $-1$) tha
 
 \subsection{No Symmetry}
 If the above two are both not true, then no symmetry is possible.
+
+\pagebreak
 
 \section{Limits to Infinity of Asymptotes}
 \subsection{Vertical}
@@ -214,10 +224,87 @@ If \hl{$f''(x) < 0$} for all $x$ in an interval, $y = f(x)$ is \hl{concave downw
 \subsection{Point of Inflection}
 If $f''(x)$ \hl{changes sign} (+ to -, - to +) at $x = c$, then a \textbf{point of inflection} occurs at $x = c$.
 
+\subsection{Finding Without Calculator}
+Just like the First Derivative Test, draw a number line, plot every point of inflection, and then test values in each region/interval of said number line to find the sign.
+
+\pagebreak
+
 \section{Second Derivative Test}
+This can be used as an alternative to the First Derivative Test number line. Both will help you figure out if a critical number is a max or min.
+
+\begin{center}
+If $f'(c) = 0$ AND $f''(c) < 0$, then the local max is at $x = c$
+
+If $f'(c) = 0$ AND $f''(c) > 0$, then the local min is at $x = c$
+\end{center}
+
+In simpler terms,
 \begin{itemize}
-    \item{If $f'(c) = 0$ AND $f''(c) < 0$, then the local max is at $x = c$}
-    \item{If $f'(c) = 0$ AND $f''(c) > 0$, then the local min is at $x = c$}
+    \item{Solve for $x$ of $f'(x)$}
+    \item{Plug the value(s) into $f''(c)$ for each value}
+    \item{If $f''(c)$ is positive, $x = c$ is a minimum}
+    \item{If $f''(c)$ is negative, $x = c$ is a maximum}
 \end{itemize}
+
+\pagebreak
+
+\section{Curve Sketching}
+Using all the skills learnt so far, you should be able to sketch any curve fairly accurately without a calculator. This is the point of this unit.
+
+\subsection{Unit Summary}
+Each of these will give you information you may need to sketch an accurate curve. Not every single one will be necessary for every question.
+
+\subsubsection{Domain}
+\begin{itemize}
+    \item{Polynomial: all values of $x$}
+    \item{Fraction: all values except any that causes 0 in denominator (NPV)}
+    \item{Root: all values except any that causes rooting a negative}
+\end{itemize}
+
+\subsubsection{Intercepts}
+\begin{itemize}
+    \item{y-intercept: $x=0$, solve for $y$}
+    \item{x-intercept: $y=0$, solve for $x$}
+\end{itemize}
+
+\subsubsection{Symmetry}
+\begin{itemize}
+    \item{Even symmetry: $f(-x) = f(x)$}
+    \item{Odd symmetry: $f(-x) = -f(x)$}
+    \item{No symmetry is possible}
+\end{itemize}
+
+\subsubsection{Asymptotes}
+\begin{itemize}
+    \item{Horizontal asymptote: limit of $x$ approaching $\infty$. \\Multiply every term by $\frac{1}{x^a}$, $a$ the highest degree of $x$ in equation. }
+    \item{Vertical asymptote: set denominator = 0, solve for $x$. \\Create limit of $x$ approaching this value from left and right. \\It'll either be + or - infinity, so solve for signs only\\ Test values slightly smaller the VA for left limit, and slightly bigger for right limit}
+\end{itemize}
+
+\subsubsection{Intervals of Increase and Decrease}
+\begin{itemize}
+    \item{$f'(x) = 0$, solve for $x$}
+    \item{Plot solution(s) on number line, determine sign of each region/interval on number line}
+    \item{+ to - is max, - to + is min}
+\end{itemize}
+
+\subsubsection{Local Extrema}
+\begin{itemize}
+    \item{$f''(c)$, where $c$ is each critical number (solution of $f'(x) = 0$}
+    \item{If positive, $x=c$ is concave up, so a min}
+    \item{If negative, $x=c$ is concave down, so a max}
+\end{itemize}
+
+\subsubsection{Concavity}
+\begin{itemize}
+    \item{Point of Inflection: $f''(x) = 0$, solve for $x$}
+    \item{Plot solution(s) on number line, determine sign of each region/interval on number line}
+    \item{+ is concave up, - is concave down}
+\end{itemize}
+
+\subsection{Example}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{eg}
+\end{figure}
 
 \end{document}
