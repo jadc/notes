@@ -1,0 +1,103 @@
+\documentclass[a4paper,12pt]{article}
+
+\title{Math 31 \\ Derivatives of Trig and Exponential Functions}
+\author{Jad Chehimi}
+
+% document setup
+\renewcommand{\familydefault}{\sfdefault}
+\linespread{1.25}
+\usepackage[margin=1in]{geometry}
+\usepackage{setspace}
+\usepackage{enumitem}
+\setlist{nosep}
+\usepackage{color,soul}
+\setcounter{secnumdepth}{0}
+
+% tools
+\usepackage[hidelinks]{hyperref}
+\usepackage{float}
+%% images
+\usepackage{graphicx}
+\graphicspath{ {./images/} }
+%% science
+\usepackage{siunitx}
+\sisetup{per-mode=fraction}
+\usepackage{physics}
+
+\begin{document}
+\maketitle
+
+% temp
+\begin{center}
+\Huge
+Unfinished!
+\normalsize
+\end{center}
+% temp
+
+\tableofcontents
+
+\pagebreak
+
+\section{Review}
+You need to review the following for this unit. There are good review resources in the notes booklet.
+
+\begin{itemize}
+    \item{Trigonometry}
+    \item{Exponents and Logs}
+    \item{The graphs of the above two}
+\end{itemize}
+
+\section{Exponent Appearance}
+$$\sin{(x + 2)^3} = \sin{(x^3 + 2^3)}$$
+$$\sin^3{(x + 2)} = (\sin{(x + 2)})^3$$
+
+\section{Derivatives of Trigonometric Functions}
+These are on your formula sheet.
+
+\subsection{Primary}
+$$\dv{}{x} \sin{u} = \cos{u} \cdot \dv{u}{x}$$
+$$\dv{}{x} \cos{u} = -\sin{u} \cdot \dv{u}{x}$$
+
+In simpler terms...
+\begin{itemize}
+    \item{Swap between sin and cos}
+    \item{cos to sin prepends negative}
+    \item{Multiply by derivative of trig function argument}
+\end{itemize}
+
+\subsection{Reciprocal}
+$$\dv{}{x} \csc{u} = -\csc{u}\cot{u} \cdot \dv{u}{x}$$
+$$\dv{}{x} \sec{u} = \sec{u}\tan{u} \cdot \dv{u}{x}$$
+$$\dv{}{x} \tan{u} = \sec^2{u} \cdot \dv{u}{x}$$
+$$\dv{}{x} \cot{u} = -\csc^2{u} \cdot \dv{u}{x}$$
+
+\section{Related Rates}
+Related rates is done the same way as before. Here are some formulas you could derive and plug in.
+
+\begin{itemize}
+    \item{
+        \textbf{Cosine Law}: For non-right triangles, on your formula sheet
+
+        $c^2 = a^2 + b^2 - 2ab\cos{C}$
+
+        (remember that angle C is opposite to side c)
+    }
+\item{Use trigonometric ratios for right triangles (stuff like $\sin{\theta} = \frac{x}{2}$)}
+\end{itemize}
+
+\subsection{Revolutions}
+Related rates questions often involve \hl{radians per second/minute} for \hl{rate of change of theta}.
+
+Some, however, have \hl{revolutions per minute (rpm)}. To convert, multiply it by $2\pi$.
+
+$$\SI{32}{\frac{rev}{min}} \cdot \SI{}{\frac{2\pi rad}{rev}} = \SI{64\pi}{\frac{rad}{min}}$$
+
+\section{Euler's Number}
+$$e \approx 2.71828$$
+$$\ln{x} = \log_e x$$
+
+\subsection{Derivative of Exponential Functions}
+$$\dv{}{x}e^u = e^u \cdot \dv{u}{x}$$
+
+\end{document}
