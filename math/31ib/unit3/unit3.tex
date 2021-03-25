@@ -39,12 +39,16 @@ Unfinished!
 
 \pagebreak
 
+\begin{center}
+ALL DERIVATIVES ARE ON YOUR FORMULA SHEET!
+\end{center}
+
 \section{Review}
 You need to review the following for this unit. There are good review resources in the notes booklet.
 
 \begin{itemize}
     \item{Trigonometry}
-    \item{Exponents and Logs}
+    \item{Exponents and Logs (notably log laws)}
     \item{The graphs of the above two}
 \end{itemize}
 
@@ -53,11 +57,9 @@ $$\sin{(x + 2)^3} = \sin{(x^3 + 2^3)}$$
 $$\sin^3{(x + 2)} = (\sin{(x + 2)})^3$$
 
 \section{Derivatives of Trigonometric Functions}
-These are on your formula sheet.
-
 \subsection{Primary}
-$$\dv{}{x} \sin{u} = \cos{u} \cdot \dv{u}{x}$$
-$$\dv{}{x} \cos{u} = -\sin{u} \cdot \dv{u}{x}$$
+$$\dv{}{x} \sin{u} = \cos{u} \cdot u'$$
+$$\dv{}{x} \cos{u} = -\sin{u} \cdot u'$$
 
 In simpler terms...
 \begin{itemize}
@@ -67,10 +69,10 @@ In simpler terms...
 \end{itemize}
 
 \subsection{Reciprocal}
-$$\dv{}{x} \csc{u} = -\csc{u}\cot{u} \cdot \dv{u}{x}$$
-$$\dv{}{x} \sec{u} = \sec{u}\tan{u} \cdot \dv{u}{x}$$
-$$\dv{}{x} \tan{u} = \sec^2{u} \cdot \dv{u}{x}$$
-$$\dv{}{x} \cot{u} = -\csc^2{u} \cdot \dv{u}{x}$$
+$$\dv{}{x} \csc{u} = -\csc{u}\cot{u} \cdot u'$$
+$$\dv{}{x} \sec{u} = \sec{u}\tan{u} \cdot u'$$
+$$\dv{}{x} \tan{u} = \sec^2{u} \cdot u'$$
+$$\dv{}{x} \cot{u} = -\csc^2{u} \cdot u'$$
 
 \section{Related Rates}
 Related rates is done the same way as before. Here are some formulas you could derive and plug in.
@@ -98,6 +100,33 @@ $$e \approx 2.71828$$
 $$\ln{x} = \log_e x$$
 
 \subsection{Derivative of Exponential Functions}
-$$\dv{}{x}e^u = e^u \cdot \dv{u}{x}$$
+$$\dv{}{x}e^u = e^u \cdot u'$$
+$$\dv{}{x}a^u = a^u \cdot \ln{a} \cdot u'$$
+
+\section{Derivatives of Logarithmic Functions}
+$$\dv{}{x}\log_b{u} = \frac{u'}{u \ln{b}}$$
+$$\dv{}{x}\ln{u} = \frac{u'}{u}$$
+
+\subsection{Restrictions}
+Remember that the argument of a log function must be greater than zero.
+
+$$\log{x}, x > 0$$
+
+You'll need to be able to determine the restrictions as well as derive log functions. Get the restrictions of the original function, before deriving.
+
+If you do get the log of a value 0 or lower, the answer is DNE.
+
+\section{Applications of Logarithmic Functions}
+\Large
+$$y = y_ie^{kt}$$
+\normalsize
+
+You do have to memorize this. (wasn't on unit exam, though...)
+\begin{itemize}
+    \item{$y$: final population}
+    \item{$y_i$: initial population}
+    \item{$k$: growth period \\ $k > 0$ is exponential growth \\ $k < 0$ is exponential decay}
+    \item{$t$: time}
+\end{itemize}
 
 \end{document}
