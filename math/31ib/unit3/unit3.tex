@@ -74,7 +74,13 @@ $$\dv{}{x} \sec{u} = \sec{u}\tan{u} \cdot u'$$
 $$\dv{}{x} \tan{u} = \sec^2{u} \cdot u'$$
 $$\dv{}{x} \cot{u} = -\csc^2{u} \cdot u'$$
 
-\section{Related Rates}
+\subsection{Warning}
+The derivative is multiplied to the entire trig function, \hl{not inside the argument}.
+
+$$\dv{}{x} \sin{u} = \cos{(u)} \cdot u'$$
+$$\dv{}{x} \sin{u} \neq \cos{(u \cdot u')}$$
+
+\section{Related Rates with Trigonometric Functions}
 Related rates is done the same way as before. Here are some formulas you could derive and plug in.
 
 \begin{itemize}
@@ -87,6 +93,15 @@ Related rates is done the same way as before. Here are some formulas you could d
     }
 \item{Use trigonometric ratios for right triangles (stuff like $\sin{\theta} = \frac{x}{2}$)}
 \end{itemize}
+
+In addition, use either pythagorem theorem or trigonometric functions to solve for any missing variables in the derived function when necessary. (often theta)
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{ladder}
+    \includegraphics[width=0.8\textwidth]{light}
+    \caption{Two of the most common types of questions: ladder sliding, and searchlight tracking straight path}
+\end{figure}
 
 \subsection{Revolutions}
 Related rates questions often involve \hl{radians per second/minute} for \hl{rate of change of theta}.
