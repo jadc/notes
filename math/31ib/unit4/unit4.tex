@@ -21,6 +21,7 @@
 \graphicspath{ {./images/} }
 %% science
 \usepackage{siunitx}
+\usepackage{physics}
 
 \begin{document}
 \maketitle
@@ -37,7 +38,149 @@ Unfinished!
 
 \pagebreak
 
-\section{Section}
-Content!
+\section{Antiderivative}
+The antiderivative is the opposite of a derivative.
+
+\begin{itemize}
+    \item{$F(x)$ = antiderivative}
+    \item{$f(x)$ = original}
+    \item{$f'(x)$ = derivative}
+\end{itemize}
+
+\subsection{C}
+The derivative of any constant is zero. Therefore, even if the original function has no constant, it could have had it in the antiderivative.
+
+This is accounted for by adding the constant variable $C$.
+$$f(x) = 2x$$
+$$F(x) = x^2 + C$$
+
+\subsection{Antiderivative Tips}
+
+\subsubsection{Polynomials}
+\begin{itemize}
+    \item{Deriving involves subtracting the exponent by 1}
+    \item{Therefore, antideriving \hl{always} involves \hl{adding 1 to the exponent}}
+    \item{Determine a coefficient for the antiderivative that, if derived, would equal the original
+            \begin{itemize}
+                \item{Keep the original coefficient}
+                \item{Divide the term by the new exponent (after adding 1)}
+                \item{Simplify}
+                \item{e.g. $f(x) = 6x^2$\\$F(x) = 6x^3 = \frac{6x^3}{3} = 2x^3$}
+                \item{$F(x) = 2x^3 + C$}
+            \end{itemize}
+        }
+    \item{Imagine constants in the original function having $x^0$ on them. Therefore, the antiderivative of $-5$ would be $-5x$}
+\end{itemize}
+
+e.g.
+$$f(x) = 8x, F(x) = x^8 + C$$
+$$f(x) = 2x + 5, F(x) = x^2 + 5x + C$$
+$$f(x) = 6x^3, F(x) = \frac{3}{2}x^4 + C$$
+$$f(x) = 2x^2 - x + 7, F(x) = \frac{2}{3}x^3 - \frac{1}{2}x^2 + 7x + C$$
+
+\subsection{Trigonometry with angle x}
+Follow the normal trigonometry derivative rules, but just in reverse. These are also on your formula sheet.
+
+$$f(x) = \cos{x} - \sin{x}$$
+$$F(x) = \sin{x} + \cos{x} + C$$
+
+\subsection{Trigonometry with angle ax}
+For all trignometric functions, do the "reverse" derivative like the previous section.
+To account for the coefficient, divide the term by the derivative of the trigonometric function's argument.
+
+This is to get rid of the coefficient on the whole term if you derive $F(x)$, therefore making it correct.
+
+$$f(x) = \cos{6x}$$
+$$F(x) = \frac{1}{6}\sin{6x} + C$$
+
+\subsection{Exponential Functions}
+\begin{itemize}
+    \item{Add 1 to the exponent}
+    \item{Divide everything by the new exponent}
+\end{itemize}
+
+$$f(x) = \sqrt[3]{x} = x^{\frac{1}{3}}$$
+$$F(x) = \frac{x^{\frac{4}{3}}}{\frac{4}{3}} = \frac{3}{4}x^{\frac{4}{3}} + C$$
+
+\subsection{Variable in Denominator}
+The following is in your formula sheet.
+$$\dv{}{x}\ln{u} = \frac{1}{u} \cdot \dv{u}{x}$$
+Using this, you can convert a fraction derivative into a natural log function antiderivative.
+
+$$f(x) = \frac{-3}{x}, F(x) = -3\ln{x} + C$$
+$$f(x) = \frac{2x}{x^2 + 1}, F(x) = \ln{(x^2 + 1)} + C$$
+
+\subsection{Euler's Number}
+\begin{itemize}
+    \item{Divide everything by the derivative of the exponent}
+\end{itemize}
+
+$$f(x) = e^{3x}$$
+$$F(x) = \frac{1}{3}e^{3x} + C$$
+
+$$f(x) = xe^{x^2}$$
+$$F(x) = \frac{xe^{x^2}}{2x} = \frac{1}{2}e^{x^2} + C$$
+
+\subsection{Reciprocal Trigonometric Functions}
+Like the derivatives of trig functions, the antiderivatives of trig functions is on your formula sheet under "INTEGRALS \& ANTIDERIVATIVES."
+
+$$f(x) = \sin^2{x}\cos{x}$$
+$$F(x) = \frac{1}{3}\sin^3{x} + C$$
+
+\pagebreak
+
+\section{Kinematics}
+Recall that,
+\begin{itemize}
+    \item{$s$ = displacement}
+    \item{$s'$ = $v$ = velocity}
+    \item{$s''$ = $v'$ = $a$ = acceleration}
+\end{itemize}
+It works backwards as well with antiderivatives.
+
+\section{Differential Equations with Initial Conditions}
+When getting the antiderivative, you'll have the unknown value of C.
+
+In questions with initial conditions, you can solve for C, then write the equation.
+
+e.g. \emph{Solve for the differential equation $\dv{s}{t} = 2t$ with the initial conditions of $s = 3$ when $t = 0$}
+$$s(0) = 3, v(t) = 2t$$
+$$s(t) = t^2 + C$$
+
+$$s(0) = 3 = 0^2 + C, C = 3$$
+$$s(t) = t^2 + 3$$
+
+More examples page 7-9 in booklet.
+
+\pagebreak
+
+\section{Integrals}
+The integral of a curve function is the \hl{area under the curve}.
+
+\subsection{Indefinite Integrals}
+Indefinite integrals have no bounds, and are the same as antiderivatives.
+
+Take the antiderivative of $f(x)$ with respect to $x$.
+$$F(x) = \int{f(x)}dx$$
+
+\subsection{Definite Integrals}
+The definite integral from $a$ to $b$ is,
+$$\int^a_b{f(x)}dx = F(a) - F(b)$$
+which is the area under the curve between an interval/range of two $x$ points.
+
+Find $F(x)$, then substitute $F(x)$ with $a$ subtracting $b$.
+
+You can ignore the $C$, since both functions have it, it will always be cancelled out.
+
+e.g. $$\int^3_1{x}dx = F(3) - F(1)$$
+$$F(x) = \frac{1}{2}x^2 + C$$
+$$(\frac{3^2}{2} + C) - (\frac{1^2}{2} + C)$$
+$$-15 - (-6) = -9$$
+
+\subsection{Properties of Integrals}
+$$\int_a^a{f(x)}dx = 0$$
+$$\int^a_b{f(x)}dx = -\int^b_a{f(x)}dx$$
+$$\int^a_b{c \cdot f(x)}dx = c\cdot\int^a_b{f(x)}dx$$
+$$\int^a_b{\Big( f(x) \pm g(x) \Big)}dx = \int^a_b{f(x)} \pm \int^a_b{g(x)}$$
 
 \end{document}
