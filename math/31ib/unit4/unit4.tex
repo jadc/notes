@@ -143,12 +143,50 @@ When getting the antiderivative, you'll have the unknown value of C.
 
 In questions with initial conditions, you can solve for C, then write the equation.
 
-e.g. \emph{Solve for the differential equation $\dv{s}{t} = 2t$ with the initial conditions of $s = 3$ when $t = 0$}
+e.g. Solve for the differential equation $\dv{s}{t} = 2t$ with the initial conditions of $s = 3$ when $t = 0$
 $$s(0) = 3, v(t) = 2t$$
 $$s(t) = t^2 + C$$
 
 $$s(0) = 3 = 0^2 + C, C = 3$$
 $$s(t) = t^2 + 3$$
+
+For questions that are related to kinematics, you will often need to start with \hl{acceleration due to gravity} ($a = \SI{9.81}{\m/\s^2}$)
+
+Find the antiderivative of acceleration to get velocity and/or displacement. 
+
+Solve for $C$ as you go by \hl{substituting values you know} from the question.
+
+Eventually you'll have all the equations you'll need to answer the problem.
+
+\pagebreak
+
+e.g. A rock is thrown down a \SI{50}{\m} deep well with a velocity of \SI{20}{\m/\s}. How long will it take the rock to hit the bottom of the well? How fast will it be going at this time?
+
+List what you know.
+
+$a(t) = \SI{-9.81}{\m/\s^2}$, $v(0) = \SI{-20}{\m/\s}$, $s(0) = \SI{50}{\m}$
+
+Find the equations you need.
+
+$$a(t) = -9.81$$
+
+$$v(t) = -9.81t + C$$
+$$-20 = -9.81(0) + C$$
+$$v(t) = -9.81t - 20$$
+
+$$s(t) = -\frac{9.81}{2}t^2 - 20t + C$$
+$$50 = -\frac{9.81}{2}(0)^2 - 20(0) + C$$
+$$s(t) = -\frac{9.81}{2}t^2 - 20t + 50$$
+
+Answer the question with your new equations.
+
+Time for rock to hit the bottom.
+$$0 = -\frac{9.81}{2}t^2 - 20t + 50$$
+$$t = \SI{1.75}{\s}$$
+
+How fast rock hit bottom.
+$$v(1.75) = -9.81(1.75) - 20$$
+$$v(1.75) = \SI{-37.2}{\m/\s}$$
 
 More examples page 7-9 in booklet.
 
@@ -157,6 +195,12 @@ More examples page 7-9 in booklet.
 \section{Integrals}
 The integral of a curve function is the \hl{area under the curve}.
 
+\subsection{Properties of Integrals}
+$$\int_a^a{f(x)}dx = 0$$
+$$\int^a_b{f(x)}dx = -\int^b_a{f(x)}dx$$
+$$\int^a_b{c \cdot f(x)}dx = c\cdot\int^a_b{f(x)}dx$$
+$$\int^a_b{\Big( f(x) \pm g(x) \Big)}dx = \int^a_b{f(x)} \pm \int^a_b{g(x)}$$
+
 \subsection{Indefinite Integrals}
 Indefinite integrals have no bounds, and are the same as antiderivatives.
 
@@ -164,23 +208,75 @@ Take the antiderivative of $f(x)$ with respect to $x$.
 $$F(x) = \int{f(x)}dx$$
 
 \subsection{Definite Integrals}
-The definite integral from $a$ to $b$ is,
+The definite integral from $a$ to $b$ is, which is the area under the curve between an interval/range of two $x$ points.
 $$\int^a_b{f(x)}dx = F(a) - F(b)$$
-which is the area under the curve between an interval/range of two $x$ points.
 
-Find $F(x)$, then substitute $F(x)$ with $a$ subtracting $b$.
+\begin{itemize}
+    \item{"Under the curve" being the area \hl{between the curve and the $x$-axis}}
+    \item{\hl{$a$/top is the larger value, $b$/bottom is the smaller value. (typically)}}
+\end{itemize}
+
+Find $F(x)$, then substitute $F(x)$ with $a$ subtracting $b$. 
 
 You can ignore the $C$, since both functions have it, it will always be cancelled out.
 
-e.g. $$\int^3_1{x}dx = F(3) - F(1)$$
+e.g. $$\int^3_1{(x)}dx = F(3) - F(1)$$
 $$F(x) = \frac{1}{2}x^2 + C$$
 $$(\frac{3^2}{2} + C) - (\frac{1^2}{2} + C)$$
 $$-15 - (-6) = -9$$
 
-\subsection{Properties of Integrals}
-$$\int_a^a{f(x)}dx = 0$$
-$$\int^a_b{f(x)}dx = -\int^b_a{f(x)}dx$$
-$$\int^a_b{c \cdot f(x)}dx = c\cdot\int^a_b{f(x)}dx$$
-$$\int^a_b{\Big( f(x) \pm g(x) \Big)}dx = \int^a_b{f(x)} \pm \int^a_b{g(x)}$$
+\section{Area Under The Curve}
+\subsection{Curve Is Positive (Above X-axis)}
+Calculate the definite integral like normal.
+
+\subsection{Curve Is Negative (Under X-axis)}
+The area under the curve is negative when the area is under the x-axis. If you just get the area under the curve normally like above, this area would be subtracted from the total.
+
+In order to properly get the area, you need to,
+\begin{itemize}
+    \item{Calculate the \hl{area above and below the x-axis separately} (split them up at x-intercept)}
+    \item{Add the \hl{absolute value} of each of them together}
+\end{itemize}
+
+e.g. Determine the area under $y = 3x - x^2$ for $0 \leq x \leq 5$
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.75\textwidth]{negative}
+\end{figure}
+0-3 is positive, 3-5 is negative.
+
+$$\abs{\int^3_1{(3x - x^2)}dx} + \abs{\int^5_3{(3x - x^2)}dx}$$
+
+\pagebreak
+
+\subsection{Areas Between Curves}
+\begin{itemize}
+    \item{Area of the curve on top minus the area of the curve below (top $-$ bottom)}
+    \item{Combine the two integral formulas into one using properties of integrals (optional, but makes things easier)}
+    \item{Some questions don't give the interval to calculate. In that case, find the intersections of the two curves (there should be two)}
+\end{itemize}
+
+e.g. \emph{Determine the area between $y = x^2 + 1$ and $y = x$ for $1 \leq x \leq 3$}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.50\textwidth]{between}
+\end{figure}
+
+$$\int^3_1{(x^2 + 1)}dx - \int^3_1{(x)}dx$$
+$$\int^3_1{(x^2 + 1) - (x)}dx$$
+
+\pagebreak
+
+e.g. \emph{Determine the area between $y = x^2$ and $y = 2x - x^2$}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.75\textwidth]{between2}
+\end{figure}
+No intervals given, but intersects are $x = 0, 1$. (only part thats between curves)
+
+$$\int^1_0{(2x - x^2)}dx - \int^1_0{(x^2)}dx$$
+$$\int^1_0{(2x - 2x^2)}dx$$
+$$F(x) = x^2 - \frac{2}{3}x^3 + C$$
+$$F(1) - F(0) = \frac{1}{3}$$
 
 \end{document}
