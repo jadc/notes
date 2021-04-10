@@ -279,4 +279,76 @@ $$\int^1_0{(2x - 2x^2)}dx$$
 $$F(x) = x^2 - \frac{2}{3}x^3 + C$$
 $$F(1) - F(0) = \frac{1}{3}$$
 
+\pagebreak
+
+\section{Volumes of Revolution}
+Volume of Revolution allows you to get the volume of a shape with just the curve of a "slice."
+
+Imagine you take a 2-D curve and rotate it around the $x$-axis at infinity small increments. The sum of area of each "rotation" would be a volume.
+
+The function's height/$y$ ends up being the radius of infinitely thin circles stacked one after the other, eventually forming the 3-D shape.
+
+Note: At this level, the curves in these questions won't be negative. (below the $x$-axis)
+
+The formulas to calculate these volumes are on your formula sheet and below.
+
+\subsection{Single Curve}
+\Large
+$$V = \pi\int^b_a{\Big[f(x)\Big]^2}dx$$
+\normalsize
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.66\textwidth]{rev1}
+    \includegraphics[width=0.66\textwidth]{rev2}
+\end{figure}
+
+
+\subsection{Between Curves}
+\Large
+$$V = \pi\int^b_a{\Big[f(x)\Big]^2 - \Big[g(x)\Big]^2}dx$$
+\normalsize
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.66\textwidth]{rev3}
+\end{figure}
+
+\subsection{Examples}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.75\textwidth]{revex1}
+    \includegraphics[width=0.75\textwidth]{revex2}
+    \includegraphics[width=0.75\textwidth]{revex3}
+\end{figure}
+
+\section{Substitution Rule}
+If you can't figure out how to get the antiderivative of something, you might need substitution rule.
+
+The end goal is to substitute the $dx$ at the end of integrals into $du$, taking something else with it as to make the integral easier to calculate.
+\begin{itemize}
+    \item{Let $u$ be equal to the most complicated portion to derive in a function}
+    \item{Derive $u$ (resulting in $\dv{u}{x} = $ ?)}
+    \item{
+        Reorder so that one side of the equation is in the original integral (including the $dx$), so that you can substitute it, leaving $du$
+        \begin{itemize}
+            \item{The derivative notation is treated like a fraction in this scenario only. \\I don't know why.}
+        \end{itemize}
+    }
+    \item{Calculate the integral with the $u$'s in the function}
+    \item{Once calculated, replace the $u$'s with what you set it equal to}
+    \item{Solve the rest of the question like normal \\(if indefinite, leave as general equation; if definite, $F(a) - F(b)$)}
+\end{itemize}
+
+\subsection{Examples}
+$$\int{(x^2 - 5)^8 2x}\;dx$$
+\begin{itemize}
+    \item{$u = x^2 - 5$}
+    \item{$\dv{u}{x} = 2x$}
+    \item{$dx = \frac{1}{2x} \cdot du$}
+    \item{$\int{(x^2-5)^8 2x}\;dx \longrightarrow \int{u^8 2x \cdot \frac{1}{2x}}du$}
+    \item{$\int{u^8}du$ can now easily be calculated to be $F(x) = \frac{u^9}{9} + C$}
+    \item{$F(x) = \frac{(x^2-5)^9}{9} + C$}
+\end{itemize}
+
 \end{document}
