@@ -14,6 +14,10 @@
 
 * 📚 Social
   * [20-1](social/20/index.md)
-  * [30-2][na]
+  * [30-1][social/30/index.md]
+
+* Physics
+  * [30-1][physics/30/index.md]
+
 
 [na]: unavailable.md
