@@ -49,10 +49,10 @@ Unfinished!
 
 \subsection{Sig Digs}
 \subsubsection{Multiplication \& Division}
-Least number of sig digs in numbers provided by question.
+Least number of \hl{sig digs} in numbers provided by question.
 
 \subsubsection{Addition \& Subtraction}
-p
+Least number of \hl{decimal places} in numbers provided by question.
 
 \subsection{Unit Analysis}
 \subsubsection{km/h to m/s}
@@ -68,6 +68,8 @@ If a variable is inversely proportional to the other, increasing one will decrea
     \includegraphics[width=0.50\textwidth]{q-prop}
     \includegraphics[width=0.50\textwidth]{q-prop-2}
 \end{figure}
+
+Tip: When determining how a variable changes proportional to the others in an equation, \hl{isolate the variable to one side}.
 
 \subsection{Conventions}
 \subsubsection{Signs}
@@ -85,6 +87,8 @@ If a variable is inversely proportional to the other, increasing one will decrea
 $$v = \frac{d}{t}$$
 Uniform = constant: velocity does not change over time.
 
+If velocity changes (starts from rest, acceleration exists) then this formula CANNOT be used. There are others on your formula sheet.
+
 \subsubsection{Formula Review}
 $$g = \SI{9.81}{\m/\s^2}$$
 
@@ -94,13 +98,22 @@ $$E_p + E_k = E_p + E_k$$
 $$\textrm{Newton's 2nd Law (Force, in N)} = \vec{F} = m\vec{a}$$
 $$\textrm{Weight (N)} = \vec{F_g} = m\vec{g}$$
 
+\subsubsection{Inertia}
+The tendency of an object to resist acceleration.
+
+Object wants to maintain the velocity it was at --- e.g. stay at rest if suddenly moved, or keep moving forward if suddenly stopped.
+
+e.g. Pulling the cover under a table fast enough doesn't drag everything with it. A large boulder being transported in a truck will smash into the driver if the truck suddenly stops.
+
 \pagebreak
 
 \section{Momentum}
 \Large $$\vec{p} = m\vec{v}$$ \normalsize
 
+Momentum is conserved between colliding objects in a isolated/closed system.
+
 \begin{itemize}
-    \item{$\vec{p}$ = momentum, product of mass and velocity\\vector quantity, $\si{\kg\cdot\m/\s}$}
+    \item{$\vec{p}$ = momentum, product of mass and velocity\\vector quantity, $\si{\kg\cdot\m/\s}$ or $\si{\N\cdot\s}$}
     \item{$m$ = mass\\scalar quantity, $\si{\kg}$}
     \item{$\vec{v}$ = velocity\\vector quantity, $\si{\m/\s}$}
 \end{itemize}
@@ -137,6 +150,11 @@ $$\vec{F} = \frac{m\Delta\vec{v}}{\Delta{t}} = m\Delta{a}$$
 $$\vec{F} \propto \frac{1}{\Delta{t}}$$
 Force is inversely proportional to time; a large force will be in small time (swift execution), a small force will be over large time.
 
+\subsection{Application}
+$$\vec{F} = \frac{\Delta\vec{p}}{\Delta{t}}$$
+
+The greater the time is for an object to, say, fall and hit the ground, the impact will have less force, if all other variables are the same. By this logic, a more cushiony ground would cause the object to take more time to hit the ground, resulting in less force, cushioning their fall. The same applies to airbags.
+
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.7\textwidth]{q-imp}
@@ -146,5 +164,15 @@ Force is inversely proportional to time; a large force will be in small time (sw
     \caption{A frictionless disc of mass \SI{0.500}{\kg} is moving in a straight line across an air table top at a speed of \SI{2.40}{\m/\s} when the disc bumps into an elastic band stretched between two fixed posts. If the elastic band exerts an opposing force of \SI{1.40}{\N} on the disc for \SI{1.50}{\s}, calculate the final velocity of the disc.}
     \includegraphics[width=0.8\textwidth]{q-imp-2}
 \end{figure}
+
+\pagebreak
+
+\section{Force as a Function of Time Graphs}
+\begin{itemize}
+    \item{$y$-axis = Force ($\vec{F}$, $\si{\N}$)}
+    \item{$x$-axis = Time ($t$, $\si{\s}$)}
+    \item{Area under line = Change in momentum, aka. Impulse ($\Delta{\vec{p}}$, $\si{\N\cdot\s}$)}
+\end{itemize}
+
 
 \end{document}
