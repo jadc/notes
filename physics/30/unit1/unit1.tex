@@ -174,5 +174,104 @@ The greater the time is for an object to, say, fall and hit the ground, the impa
     \item{Area under line = Change in momentum, aka. Impulse ($\Delta{\vec{p}}$, $\si{\N\cdot\s}$)}
 \end{itemize}
 
+\section{Conservation of Momentum (Collisions)}
+\begin{itemize}
+    \item{Momentum is used to analyze collisions and explosions}
+    \item{Kinetic energy alone is not enough for analyzing an explosion/collision, because energy could be lost in the form of heat, light, or sound}
+    \item{
+        In an \hl{isolated system} (net force must be zero)
+        \begin{itemize}
+            \item{\hl{Momentum is conserved} during collisions and explosions}
+        \end{itemize}
+    }
+\end{itemize}
+
+\subsection{Law of Conservation of Momentum}
+\begin{itemize}
+    \item{\textbf{Conservation}: to protect form loss or depletion}
+    \item{The \hl{total linear momentum} of an isolated system remains \hl{constant} (it is conserved)}
+    \item{An isolated system is one for which the \hl{vector sum} of the \hl{external forces} acting on the system is \hl{zero}}
+\end{itemize}
+
+\subsection{Elastic Collision}
+$$\sum\vec{p} = \sum\vec{p}$$
+$$\vec{p}_1 + \vec{p}_2 = \vec{p}_1\,\!' + \vec{p}_2\,\!'$$
+$$\textrm{momentum before collision} = \textrm{momentum after collision}$$
+
+An elastic collision is a collision in which colliding objects rebound \hl{without lasting deformations} OR \hl{without the generation of heat}.
+
+In an elastic collision, \hl{BOTH momentum and kinetic energy is conserved}.
+
+To verify if a collision type is elastic, check to see if $E_k$ is conserved the same way as momentum above (before = after).
+$$\sum E_k = \sum E_k$$
+Don't forget that energy is scalar, so don't give the velocity a negative sign to try to give it direction.
+
+There is no given formula for this, you must make one per question.
+
+\subsubsection{Example}
+\begin{figure}[H]
+    \caption{A $\SI{1000}{\kg}$ car travelling at $\SI{20.0}{\m/\s}$ EAST collides with a $\SI{3000}{\kg}$ truck that is stopped at a red light. Immediately following the collision, the $\SI{1000}{\kg}$ car is travelling at $\SI{10.0}{\m/\s}$ WEST. Calculate the velocity of the truck and verify that this is an elastic collsion.}
+    \includegraphics[width=0.6\textwidth]{q-elastic-1a}
+    \includegraphics[width=0.6\textwidth]{q-elastic-1b}
+    \includegraphics[width=0.5\textwidth]{q-elastic-1c}
+    \centering
+\end{figure}
+
+\subsection{Inelastic Collision}
+\begin{itemize}
+    \item{A collision in which the colliding objects become distorted/deformed and generate heat during the collision}
+    \item{Objects crumple, dent, smash, couple --- join/stick together}
+    \item{Momentum is conserved, \hl{kinetic energy is NOT conserved}}
+    \item{When objects couple, the mass of the objects will combine, and they will both share a velocity ($m_1\vec{v_1} + m_2\vec{v_2} = (m_1+m_2)\vec{v}\,'$)}
+\end{itemize}
+
+\subsubsection{Example}
+\begin{figure}[H]
+    \centering
+    \caption{A $\SI{1000}{\kg}$ car travelling at $\SI{20.0}{\m/\s}$ east collides with a $\SI{3000}{\kg}$ truck that is at rest. The two vehicles couple and move off together. Calculate the velocity of the car and truck after the collision.}
+    \includegraphics[width=0.75\textwidth]{q-inelastic-1}
+    \includegraphics[width=0.5\textwidth]{q-inelastic-1b}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \caption{A $\SI{2452}{\kg}$ car travelling at $\SI{11.1}{\m/\s}$ EAST collides with a $\SI{2682}{\kg}$ car travelling at $\SI{16.7}{\m/\s}$ WEST. The two vehicles stick together. \\a) Calculate the resulting velocity of the two cars. \\b) Calculate the impulse experienced by the $\SI{2452}{\kg}$ car. \\c) Calculate the impulse experienced by the $\SI{2682}{\kg}$ car. \\d) Compare the impulses of the two vehichles.}
+    \includegraphics[width=0.5\textwidth]{q-inelastic-2}
+\end{figure}
+\begin{figure}[H]
+    \centering
+    \caption{a.}
+    \includegraphics[width=0.50\textwidth]{q-inelastic-2b}
+\end{figure}
+\begin{figure}[H]
+    \centering
+    \caption{b. \& c.}
+    \includegraphics[width=0.50\textwidth]{q-inelastic-2c}
+\end{figure}
+d. The impulses are equal in magnitude, but in opposite directions.
+
+\subsection{Collisions in Two Dimensions (Non-linear)}
+\subsubsection{Example}
+\begin{figure}[H]
+    \centering
+    \caption{A $\SI{1000}{\kg}$ car travels EAST at $\SI{35.0}{\m/\s}$. This car collides at an intersection with a $\SI{2000}{\kg}$ car travelling NORTH at $\SI{40.0}{\m/\s}$. Calculate the velocity of the two stuck together vehicles after the collision.}
+    \includegraphics[width=0.50\textwidth]{q-2dcol}
+    \includegraphics[width=0.50\textwidth]{q-2dcol-b}
+\end{figure}
+$$\tan{\theta} = \frac{ \SI{80000}{\kg\cdot\m/\s}\textrm{(N)} }{ \SI{35000}{\kg\cdot\m/\s}\textrm{(E)} }, \theta = 66.37^\circ \textrm{ N of E}$$
+
+\subsection{Recoil or "Kickback"}
+\Large $$(m_1 + m_2)\vec{v}\,' = m_1\vec{v_1} + m_2\vec{v_2}$$ \normalsize
+Objects start coupled/stuck together to begin with, but separate later.
+
+Examples could be a person getting out of a canoe, or a person jumping off a skateboard, or two people pushing away from eachother.
+
+\subsection{Example}
+\begin{figure}[H]
+    \centering
+    \caption{If a $\SI{2.2}{\g}$ bullet is fired from a $\SI{3.00}{\kg}$ gun with a velocity of $\SI{452}{\m/\s}$, what would be the resulting recoil velocity of the gun?}
+    \includegraphics[width=0.75\textwidth]{q-recoil-1}
+\end{figure}
+$$\vec{v}_G = \SI{0.331}{\m/\s}\textrm{ backward}$$
 
 \end{document}
