@@ -99,13 +99,17 @@ $$E_p + E_k = E_p + E_k$$
 $$\textrm{Newton's 2nd Law (Force, in N)} = \vec{F} = m\vec{a}$$
 $$\textrm{Weight (N)} = \vec{F_g} = m\vec{g}$$
 
-
 \subsubsection{Inertia}
 The tendency of an object to resist acceleration.
 
 Object wants to maintain the velocity it was at --- e.g. stay at rest if suddenly moved, or keep moving forward if suddenly stopped.
 
 e.g. Pulling the cover under a table fast enough doesn't drag everything with it. A large boulder being transported in a truck will smash into the driver if the truck suddenly stops.
+
+\subsubsection{Angular Vector}
+Angular vectors are composed of $x$ and $y$ components.
+When given a vector with an angle, you will probably be given the value of the hypotenus.
+Use trigonometry to solve for each component.
 
 \pagebreak
 
@@ -328,6 +332,130 @@ If the bullet has a mass of $\SI{7.50}{\g}$ and the pendulum has a mass of $\SI{
 \end{figure}
 
 \section{Explosion}
+\begin{itemize}
+    \item{The \hl{initial momentum is (often) zero}, so the sum of the final momentums must be zero}
+    \item{Energy is never conserved}
+\end{itemize}
 
+\subsection{Example}
+A stationary bomb explodes into two fragments. The $\SI{1.70}{\kg}$ fragment flies off at $\SI{320}{\m/\s}$, the other at $\SI{180}{\m/\s}$. What is the mass of the bomb?
+
+\begin{itemize}
+    \item{$m_1 = \SI{1.70}{\kg}$}
+    \item{$m_2 = \,?$}
+    \item{$v_1 = \SI{320}{\m/\s}$}
+    \item{$v_2 = \SI{-180}{\m/\s}$}
+    \item{$\vec{v}\,' = 0$ (stationary)}
+\end{itemize}
+
+$$(m_1 + m_2)\vec{v}\,' = m_1\vec{v_1} + m_2\vec{v_2}$$
+$$\frac{0 - m_1\vec{v_1}}{\vec{v_2}} = m_2$$
+$$\frac{-(\SI{1.70}{\kg} \times \SI{320}{\m/\s})}{\SI{-180}{\m/\s}} = m_2$$
+
+$$m_B = m_1 + m_2$$
+$$m_B = \SI{1.70}{\kg} + \SI{3.02}{\kg} = \SI{4.72}{\kg}$$
+
+\pagebreak
+
+\subsection{Example II}
+A $\SI{3.00}{\kg}$ bomb is flying through the air at $\SI{120}{\m/\s}$ east when it explodes into two parts. The $\SI{1.40}{\kg}$ fragment flies off at $\SI{230}{\m/\s}$ west. What is the velocity of the other fragment?
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{q-explode-2}
+\end{figure}
+
+\pagebreak
+
+\subsection{Example III}
+A watermelon with a mass of $\SI{5.0}{\kg}$ spontaneously explodes. A mass of $\SI{1.5}{\kg}$ travels east at $\SI{6.0}{\m/\s}$. What is the final velocity of the remaining $\SI{3.5}{\kg}$? 
+
+\begin{itemize}
+    \item{$m_1 = \SI{1.5}{\kg}$}
+    \item{$m_2 = \SI{3.5}{\kg}$}
+    \item{$\vec{v}\,' = 0$ (stationary)}
+    \item{$\vec{v}_1 = \SI{6.0}{\m/\s}$}
+    \item{$\vec{v}_2 = \,?$}
+\end{itemize}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.75\textwidth]{q-explode-3a}
+\end{figure}
+
+Show that energy is not conserved in this explosion.
+$$\sum{E_{k_i}} \neq \sum{E_{k_f}}$$
+$$\frac{1}{2}mv^2 + \frac{1}{2}mv^2 \neq \frac{1}{2}mv^2 + \frac{1}{2}mv^2$$
+$$\SI{0}{\J} + \SI{0}{\J} \neq \frac{1}{2}(\SI{1.5}{\kg})(\SI{6.0}{\m/\s})^2 + \frac{1}{2}(\SI{3.5}{\kg})(\SI{2.571428571}{\m/\s})^2$$
+$$\SI{0}{\J} \neq \SI{39}{\J}$$
+The kinetic energy after the explosion is greater than before, therefore kinetic energy was not conserved.
+
+\pagebreak
+\subsection{Example IV}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.50\textwidth]{q-explode-4}
+\end{figure}
+\begin{figure}[H]
+    \centering
+    \caption{Since Piece 1 is at an angle, you must calculate the components}
+    \includegraphics[width=0.50\textwidth]{q-explode-4a}
+    \includegraphics[width=0.50\textwidth]{q-explode-4b}
+\end{figure}
+\begin{figure}[H]
+    \centering
+    \caption{Piece 3 is not at an angle, so it's $y$ component is zero}
+    \includegraphics[width=0.50\textwidth]{q-explode-4c}
+\end{figure}
+
+\pagebreak
+\begin{figure}[H]
+    \centering
+    \caption{Using conservation of momentum on each component to find Piece 2's $x$ and $y$ components}
+    \includegraphics[width=0.50\textwidth]{q-explode-4d}
+    \includegraphics[width=0.50\textwidth]{q-explode-4e}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \caption{Pythagorem and Trig to calculate the answer magnitude and direction}
+    \includegraphics[width=0.50\textwidth]{q-explode-4f}
+    \includegraphics[width=0.50\textwidth]{q-explode-4g}
+\end{figure}
+
+\pagebreak
+\section{Glancing Collision}
+When objects don't hit straight on, rather bouncing off in different directions.
+
+\subsection{Example}
+A $\SI{10.0}{\kg}$ mass is moving East at an unknown velocity when it collides with a $\SI{7.50}{\kg}$ mass that is at rest. After the collision, the $\SI{10.0}{\kg}$ mass is traveling at a velocity of $\SI{4.00}{\m/\s}, 35.0^\circ$ North of East, and the $\SI{7.50}{\kg}$ mass is traveling at a velocity of $\SI{6.12}{\m/\s}, 30.0^\circ$ South of East. Calculate the velocity of the $\SI{10.0}{\kg}$ mass prior to the collision.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{q-glance-1a}
+\end{figure}
+\begin{figure}[H]
+    \centering
+    \caption{$x$ and $y$ components of $\SI{10.0}{\kg}$ mass}
+    \includegraphics[width=0.55\textwidth]{q-glance-1b}
+\end{figure}
+\begin{figure}[H]
+    \centering
+    \caption{$x$ and $y$ components of $\SI{7.50}{\kg}$ mass}
+    \includegraphics[width=0.55\textwidth]{q-glance-1c}
+\end{figure}
+\begin{figure}[H]
+    \centering
+    \caption{Side note: The $y$ components in this case must cancel out, since momentum is conserved, and there was zero $y$ momentum before the collision. (it's basically zero)}
+    \includegraphics[width=0.50\textwidth]{q-glance-1d}
+\end{figure}
+\begin{figure}[H]
+    \centering
+    \caption{Using preservation of momentum to calculate the first object's momentum before the collision with the 2nd object}
+    \includegraphics[width=0.50\textwidth]{q-glance-1e}
+\end{figure}
+$$\vec{v} = \frac{\vec{p}}{m}$$
+$$\vec{v} = \frac{\SI{72.5}{\kg\cdot\m/\s}}{\SI{10.0}{\kg}}$$
+$$\vec{v} = \SI{7.25}{\m/\s}\textrm{, EAST}$$
 
 \end{document}
