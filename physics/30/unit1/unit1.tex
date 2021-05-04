@@ -21,20 +21,11 @@
 \graphicspath{ {./images/} }
 %% science
 \usepackage{siunitx}
-\usepackage{physics}
+
+\sisetup{exponent-product = \cdot, per-mode = fraction}
 
 \begin{document}
-%%\sisetup{exponent-product = \cdot, output-decimal-marker = {,}, per-mode = fraction}
 \maketitle
-
-
-% temp
-\begin{center}
-\Huge
-Unfinished!
-\normalsize
-\end{center}
-% temp
 
 \tableofcontents
 
@@ -56,7 +47,7 @@ Least number of \hl{decimal places} in numbers provided by question.
 
 \subsection{Unit Analysis}
 \subsubsection{km/h to m/s}
-$$\SI{100}{\km/\hour} \times \frac{\SI{1000}{\m}}{\SI{1}{\km}} \times \frac{\SI{1}{\hour}}{\SI{3600}{\second}}$$
+$$\SI{100}{\km\per\hour} \times \frac{\SI{1000}{\m}}{\SI{1}{\km}} \times \frac{\SI{1}{\hour}}{\SI{3600}{\second}}$$
 
 \subsection{Proportional}
 \Large $$a \propto b$$ \normalsize
@@ -65,8 +56,8 @@ If a variable is proportional to the other, increasing one will increase the oth
 If a variable is inversely proportional to the other, increasing one will decrease the other, and vice versa.
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.50\textwidth]{q-prop}
-    \includegraphics[width=0.50\textwidth]{q-prop-2}
+    \includegraphics[width=0.45\textwidth]{q-prop}
+    \includegraphics[width=0.45\textwidth]{q-prop-2}
 \end{figure}
 
 Tip: When determining how a variable changes proportional to the others in an equation, \hl{isolate the variable to one side}.
@@ -90,7 +81,7 @@ Uniform = constant: velocity does not change over time.
 If velocity changes (starts from rest, acceleration exists) then this formula CANNOT be used. There are others on your formula sheet.
 
 \subsubsection{Formula Review}
-$$g = \SI{9.81}{\m/\s^2}$$
+$$g = \SI{9.81}{\m\per\s^2}$$
 
 $$E_M = E_p + E_k$$
 $$\sum{E_{top}} = \sum{E_{bottom}}$$
@@ -119,9 +110,9 @@ Use trigonometry to solve for each component.
 Momentum is conserved between colliding objects in a isolated/closed system.
 
 \begin{itemize}
-    \item{$\vec{p}$ = momentum, product of mass and velocity\\vector quantity, $\si{\kg\cdot\m/\s}$ or $\si{\N\cdot\s}$}
+    \item{$\vec{p}$ = momentum, product of mass and velocity\\vector quantity, $\si{\kg\cdot\m\per\s}$ or $\si{\N\cdot\s}$}
     \item{$m$ = mass\\scalar quantity, $\si{\kg}$}
-    \item{$\vec{v}$ = velocity\\vector quantity, $\si{\m/\s}$}
+    \item{$\vec{v}$ = velocity\\vector quantity, $\si{\m\per\s}$}
 \end{itemize}
 \Large
 $$\vec{p} \propto m$$
@@ -149,7 +140,7 @@ Impulse is change in momentum; a \hl{force applied} to an object will \hl{change
 
 \subsection{Formula}
 \Large $$\Delta\vec{p} = \vec{F}\Delta{t} = m\Delta{\vec{v}}$$ \normalsize
-$$\si{\kg\cdot\m/\s} = \si{\newton\cdot\s} = \si{\kg\cdot\m/\s}$$
+$$\si{\kg\cdot\m\per\s} = \si{\newton\cdot\s} = \si{\kg\cdot\m\per\s}$$
 
 Can be reorganized into Newton's 2nd law.
 $$\vec{F} = \frac{m\Delta\vec{v}}{\Delta{t}} = m\Delta{a}$$
@@ -163,11 +154,11 @@ The greater the time is for an object to, say, fall and hit the ground, the impa
 
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.7\textwidth]{q-imp}
+    \includegraphics[width=0.4\textwidth]{q-imp}
 \end{figure}
 \begin{figure}[H]
     \centering
-    \caption{A frictionless disc of mass \SI{0.500}{\kg} is moving in a straight line across an air table top at a speed of \SI{2.40}{\m/\s} when the disc bumps into an elastic band stretched between two fixed posts. If the elastic band exerts an opposing force of \SI{1.40}{\N} on the disc for \SI{1.50}{\s}, calculate the final velocity of the disc.}
+    \caption{A frictionless disc of mass \SI{0.500}{\kg} is moving in a straight line across an air table top at a speed of \SI{2.40}{\m\per\s} when the disc bumps into an elastic band stretched between two fixed posts. If the elastic band exerts an opposing force of \SI{1.40}{\N} on the disc for \SI{1.50}{\s}, calculate the final velocity of the disc.}
     \includegraphics[width=0.8\textwidth]{q-imp-2}
 \end{figure}
 
@@ -217,7 +208,7 @@ There is no given formula for this, you must make one per question.
 
 \subsection{Example}
 \begin{figure}[H]
-    \caption{A $\SI{1000}{\kg}$ car travelling at $\SI{20.0}{\m/\s}$ EAST collides with a $\SI{3000}{\kg}$ truck that is stopped at a red light. Immediately following the collision, the $\SI{1000}{\kg}$ car is travelling at $\SI{10.0}{\m/\s}$ WEST. Calculate the velocity of the truck and verify that this is an elastic collsion.}
+    \caption{A $\SI{1000}{\kg}$ car travelling at $\SI{20.0}{\m\per\s}$ EAST collides with a $\SI{3000}{\kg}$ truck that is stopped at a red light. Immediately following the collision, the $\SI{1000}{\kg}$ car is travelling at $\SI{10.0}{\m\per\s}$ WEST. Calculate the velocity of the truck and verify that this is an elastic collsion.}
     \includegraphics[width=0.6\textwidth]{q-elastic-1a}
     \includegraphics[width=0.6\textwidth]{q-elastic-1b}
     \includegraphics[width=0.5\textwidth]{q-elastic-1c}
@@ -225,7 +216,7 @@ There is no given formula for this, you must make one per question.
 \end{figure}
 
 \subsection{Example II (find mass)}
-A proton with a mass of $\SI{1.67e-27}{\kg}$ moving $\SI{1.00e7}{\m/\s}$ strikes a particle at rest and rebounds with a velocity of $\SI{6.00e6}{\m/\s}$. If the unknown particle moves off with a speed of $\SI{4.00e6}{\m/\s}$, what is the particle?
+A proton with a mass of $\SI{1.67e-27}{\kg}$ moving $\SI{1.00e7}{\m\per\s}$ strikes a particle at rest and rebounds with a velocity of $\SI{6.00e6}{\m\per\s}$. If the unknown particle moves off with a speed of $\SI{4.00e6}{\m\per\s}$, what is the particle?
 \begin{itemize}
     \item{electron = $\SI{9.11e-31}{\kg}$}
     \item{beta particle = $\SI{9.11e-31}{\kg}$}
@@ -249,14 +240,14 @@ When objects couple, the mass of the objects will combine, and they will both sh
 \subsubsection{Example}
 \begin{figure}[H]
     \centering
-    \caption{A $\SI{1000}{\kg}$ car travelling at $\SI{20.0}{\m/\s}$ east collides with a $\SI{3000}{\kg}$ truck that is at rest. The two vehicles couple and move off together. Calculate the velocity of the car and truck after the collision.}
+    \caption{A $\SI{1000}{\kg}$ car travelling at $\SI{20.0}{\m\per\s}$ east collides with a $\SI{3000}{\kg}$ truck that is at rest. The two vehicles couple and move off together. Calculate the velocity of the car and truck after the collision.}
     \includegraphics[width=0.5\textwidth]{q-inelastic-1}
     \includegraphics[width=0.5\textwidth]{q-inelastic-1b}
 \end{figure}
 
 \begin{figure}[H]
     \centering
-    \caption{A $\SI{2452}{\kg}$ car travelling at $\SI{11.1}{\m/\s}$ EAST collides with a $\SI{2682}{\kg}$ car travelling at $\SI{16.7}{\m/\s}$ WEST. The two vehicles stick together. \\a) Calculate the resulting velocity of the two cars. \\b) Calculate the impulse experienced by the $\SI{2452}{\kg}$ car. \\c) Calculate the impulse experienced by the $\SI{2682}{\kg}$ car. \\d) Compare the impulses of the two vehichles.}
+    \caption{A $\SI{2452}{\kg}$ car travelling at $\SI{11.1}{\m\per\s}$ EAST collides with a $\SI{2682}{\kg}$ car travelling at $\SI{16.7}{\m\per\s}$ WEST. The two vehicles stick together. \\a) Calculate the resulting velocity of the two cars. \\b) Calculate the impulse experienced by the $\SI{2452}{\kg}$ car. \\c) Calculate the impulse experienced by the $\SI{2682}{\kg}$ car. \\d) Compare the impulses of the two vehichles.}
     \includegraphics[width=0.5\textwidth]{q-inelastic-2}
 \end{figure}
 \begin{figure}[H]
@@ -271,15 +262,20 @@ When objects couple, the mass of the objects will combine, and they will both sh
 \end{figure}
 d. The impulses are equal in magnitude, but in opposite directions.
 
-\subsection{Collisions in Two Dimensions (Non-linear)}
+\subsection{Collisions in Two Dimensions (Non-Linear)}
+\begin{itemize}
+    \item{The two forces colliding with one another combine to form the $x$ and $y$ component of after the collision, since momentum is conserved}
+\end{itemize}
 \subsubsection{Example}
 \begin{figure}[H]
     \centering
-    \caption{A $\SI{1000}{\kg}$ car travels EAST at $\SI{35.0}{\m/\s}$. This car collides at an intersection with a $\SI{2000}{\kg}$ car travelling NORTH at $\SI{40.0}{\m/\s}$. Calculate the velocity of the two stuck together vehicles after the collision.}
-    \includegraphics[width=0.50\textwidth]{q-2dcol}
-    \includegraphics[width=0.50\textwidth]{q-2dcol-b}
+    \caption{A $\SI{1000}{\kg}$ car travels EAST at $\SI{35.0}{\m\per\s}$. This car collides at an intersection with a $\SI{2000}{\kg}$ car travelling NORTH at $\SI{40.0}{\m\per\s}$. Calculate the velocity of the two stuck together vehicles after the collision.}
+    \includegraphics[width=0.45\textwidth]{q-2dcol}
+    \includegraphics[width=0.45\textwidth]{q-2dcol-b}
 \end{figure}
-$$\tan{\theta} = \frac{ \SI{80000}{\kg\cdot\m/\s}\textrm{(N)} }{ \SI{35000}{\kg\cdot\m/\s}\textrm{(E)} }, \theta = 66.37^\circ \textrm{ N of E}$$
+$$\tan{\theta} = \frac{ \SI{80000}{\kg\cdot\m\per\s}\textrm{(N)} }{ \SI{35000}{\kg\cdot\m\per\s}\textrm{(E)} }, \theta = \ang{66.37} \textrm{ N of E}$$
+
+\pagebreak
 
 \section{Recoil}
 \begin{figure}[H]
@@ -304,10 +300,10 @@ Examples could be a person getting out of a canoe, or a person jumping off a ska
 \subsubsection{Example}
 \begin{figure}[H]
     \centering
-    \caption{If a $\SI{2.2}{\g}$ bullet is fired from a $\SI{3.00}{\kg}$ gun with a velocity of $\SI{452}{\m/\s}$, what would be the resulting recoil velocity of the gun?}
-    \includegraphics[width=\textwidth]{q-recoil-1}
+    \caption{If a $\SI{2.2}{\g}$ bullet is fired from a $\SI{3.00}{\kg}$ gun with a velocity of $\SI{452}{\m\per\s}$, what would be the resulting recoil velocity of the gun? ($\vec{v}_G = \SI{0.331}{\m\per\s}\textrm{ backward})$
+}
+    \includegraphics[width=0.4\textwidth]{q-recoil-1}
 \end{figure}
-$$\vec{v}_G = \SI{0.331}{\m/\s}\textrm{ backward}$$
 
 \pagebreak
 
@@ -338,19 +334,19 @@ If the bullet has a mass of $\SI{7.50}{\g}$ and the pendulum has a mass of $\SI{
 \end{itemize}
 
 \subsection{Example}
-A stationary bomb explodes into two fragments. The $\SI{1.70}{\kg}$ fragment flies off at $\SI{320}{\m/\s}$, the other at $\SI{180}{\m/\s}$. What is the mass of the bomb?
+A stationary bomb explodes into two fragments. The $\SI{1.70}{\kg}$ fragment flies off at $\SI{320}{\m\per\s}$, the other at $\SI{180}{\m\per\s}$. What is the mass of the bomb?
 
 \begin{itemize}
     \item{$m_1 = \SI{1.70}{\kg}$}
     \item{$m_2 = \,?$}
-    \item{$v_1 = \SI{320}{\m/\s}$}
-    \item{$v_2 = \SI{-180}{\m/\s}$}
+    \item{$v_1 = \SI{320}{\m\per\s}$}
+    \item{$v_2 = \SI{-180}{\m\per\s}$}
     \item{$\vec{v}\,' = 0$ (stationary)}
 \end{itemize}
 
 $$(m_1 + m_2)\vec{v}\,' = m_1\vec{v_1} + m_2\vec{v_2}$$
 $$\frac{0 - m_1\vec{v_1}}{\vec{v_2}} = m_2$$
-$$\frac{-(\SI{1.70}{\kg} \times \SI{320}{\m/\s})}{\SI{-180}{\m/\s}} = m_2$$
+$$\frac{-(\SI{1.70}{\kg} \times \SI{320}{\m\per\s})}{\SI{-180}{\m\per\s}} = m_2$$
 
 $$m_B = m_1 + m_2$$
 $$m_B = \SI{1.70}{\kg} + \SI{3.02}{\kg} = \SI{4.72}{\kg}$$
@@ -358,7 +354,7 @@ $$m_B = \SI{1.70}{\kg} + \SI{3.02}{\kg} = \SI{4.72}{\kg}$$
 \pagebreak
 
 \subsection{Example II}
-A $\SI{3.00}{\kg}$ bomb is flying through the air at $\SI{120}{\m/\s}$ east when it explodes into two parts. The $\SI{1.40}{\kg}$ fragment flies off at $\SI{230}{\m/\s}$ west. What is the velocity of the other fragment?
+A $\SI{3.00}{\kg}$ bomb is flying through the air at $\SI{120}{\m\per\s}$ east when it explodes into two parts. The $\SI{1.40}{\kg}$ fragment flies off at $\SI{230}{\m\per\s}$ west. What is the velocity of the other fragment?
 
 \begin{figure}[H]
     \centering
@@ -368,13 +364,13 @@ A $\SI{3.00}{\kg}$ bomb is flying through the air at $\SI{120}{\m/\s}$ east when
 \pagebreak
 
 \subsection{Example III}
-A watermelon with a mass of $\SI{5.0}{\kg}$ spontaneously explodes. A mass of $\SI{1.5}{\kg}$ travels east at $\SI{6.0}{\m/\s}$. What is the final velocity of the remaining $\SI{3.5}{\kg}$? 
+A watermelon with a mass of $\SI{5.0}{\kg}$ spontaneously explodes. A mass of $\SI{1.5}{\kg}$ travels east at $\SI{6.0}{\m\per\s}$. What is the final velocity of the remaining $\SI{3.5}{\kg}$? 
 
 \begin{itemize}
     \item{$m_1 = \SI{1.5}{\kg}$}
     \item{$m_2 = \SI{3.5}{\kg}$}
     \item{$\vec{v}\,' = 0$ (stationary)}
-    \item{$\vec{v}_1 = \SI{6.0}{\m/\s}$}
+    \item{$\vec{v}_1 = \SI{6.0}{\m\per\s}$}
     \item{$\vec{v}_2 = \,?$}
 \end{itemize}
 
@@ -386,7 +382,7 @@ A watermelon with a mass of $\SI{5.0}{\kg}$ spontaneously explodes. A mass of $\
 Show that energy is not conserved in this explosion.
 $$\sum{E_{k_i}} \neq \sum{E_{k_f}}$$
 $$\frac{1}{2}mv^2 + \frac{1}{2}mv^2 \neq \frac{1}{2}mv^2 + \frac{1}{2}mv^2$$
-$$\SI{0}{\J} + \SI{0}{\J} \neq \frac{1}{2}(\SI{1.5}{\kg})(\SI{6.0}{\m/\s})^2 + \frac{1}{2}(\SI{3.5}{\kg})(\SI{2.571428571}{\m/\s})^2$$
+$$\SI{0}{\J} + \SI{0}{\J} \neq \frac{1}{2}(\SI{1.5}{\kg})(\SI{6.0}{\m\per\s})^2 + \frac{1}{2}(\SI{3.5}{\kg})(\SI{2.571428571}{\m\per\s})^2$$
 $$\SI{0}{\J} \neq \SI{39}{\J}$$
 The kinetic energy after the explosion is greater than before, therefore kinetic energy was not conserved.
 
@@ -428,7 +424,7 @@ The kinetic energy after the explosion is greater than before, therefore kinetic
 When objects don't hit straight on, rather bouncing off in different directions.
 
 \subsection{Example}
-A $\SI{10.0}{\kg}$ mass is moving East at an unknown velocity when it collides with a $\SI{7.50}{\kg}$ mass that is at rest. After the collision, the $\SI{10.0}{\kg}$ mass is traveling at a velocity of $\SI{4.00}{\m/\s}, 35.0^\circ$ North of East, and the $\SI{7.50}{\kg}$ mass is traveling at a velocity of $\SI{6.12}{\m/\s}, 30.0^\circ$ South of East. Calculate the velocity of the $\SI{10.0}{\kg}$ mass prior to the collision.
+A $\SI{10.0}{\kg}$ mass is moving East at an unknown velocity when it collides with a $\SI{7.50}{\kg}$ mass that is at rest. After the collision, the $\SI{10.0}{\kg}$ mass is traveling at a velocity of $\SI{4.00}{\m\per\s}, \ang{35.0}$ North of East, and the $\SI{7.50}{\kg}$ mass is traveling at a velocity of $\SI{6.12}{\m\per\s}, \ang{30.0}$ South of East. Calculate the velocity of the $\SI{10.0}{\kg}$ mass prior to the collision.
 
 \begin{figure}[H]
     \centering
@@ -455,7 +451,7 @@ A $\SI{10.0}{\kg}$ mass is moving East at an unknown velocity when it collides w
     \includegraphics[width=0.50\textwidth]{q-glance-1e}
 \end{figure}
 $$\vec{v} = \frac{\vec{p}}{m}$$
-$$\vec{v} = \frac{\SI{72.5}{\kg\cdot\m/\s}}{\SI{10.0}{\kg}}$$
-$$\vec{v} = \SI{7.25}{\m/\s}\textrm{, EAST}$$
+$$\vec{v} = \frac{\SI{72.5}{\kg\cdot\m\per\s}}{\SI{10.0}{\kg}}$$
+$$\vec{v} = \SI{7.25}{\m\per\s}\textrm{, EAST}$$
 
 \end{document}

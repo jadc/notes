@@ -1,0 +1,147 @@
+\documentclass[a4paper,12pt]{article}
+
+\title{Physics 30 \\ Electric Forces \& Fields}
+\author{Jad Chehimi}
+
+% document setup
+\renewcommand{\familydefault}{\sfdefault}
+\linespread{1.25}
+\usepackage[margin=1in]{geometry}
+\usepackage{setspace}
+\usepackage{enumitem}
+\setlist{nosep}
+\usepackage{color,soul}
+\setcounter{secnumdepth}{0}
+
+% tools
+\usepackage[hidelinks]{hyperref}
+\usepackage{float}
+%% images
+\usepackage{graphicx}
+\graphicspath{ {./images/} }
+%% science
+\usepackage{siunitx}
+\sisetup{exponent-product = \cdot, per-mode = fraction}
+
+\begin{document}
+\maketitle
+
+% temp
+\begin{center}
+\Huge
+Unfinished!
+\normalsize
+\end{center}
+% temp
+
+\tableofcontents
+
+\pagebreak
+
+\section{Electric Fields}
+\subsection{Micheal Faraday}
+\begin{itemize}
+    \item{Developed the idea of "lines of force" to describe electric fields}
+    \item{A field is a \hl{"sphere of influence"} in which a force can affect an object at a distance \hl{without contact}}
+    \item{There are electric, gravitational, and magnetic fields}
+    \item{The symbol for electric field is $|\vec{E}|$}
+\end{itemize}
+
+\subsection{Gravitational Fields}
+\Large $$\vec{g} = \SI{9.81}{\m\per\s\squared}$$ \normalsize
+
+\Large $$\vec{g} = \frac{Gm}{r^2}$$ \normalsize
+\begin{itemize}
+    \item{$G$ = gravitational constant ($\SI{6.67e-11}{\N\cdot\m\squared\per\kg\squared}$)}
+    \item{$m$ = mass of planet}
+    \item{$r$ = radius of the planet}
+\end{itemize}
+
+\pagebreak
+\section{Drawing Electric Field Lines}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.75\textwidth]{fieldlines}
+\end{figure}
+\begin{itemize}
+    \item{Like charges repel, opposite charges attract}
+    \item{The field is stronger the closer to the source charge it is}
+    \item{We \textbf{always} use a \hl{small positive test charge} to map/draw the electric field}
+\end{itemize}
+
+\subsection{Rules}
+\begin{itemize}
+    \item{The lines must originate on a positive charge and end on a negative charge (\hl{positive to negative})}
+    \item{The electric field line must be \hl{perpendicular to the surface} of the charge}
+    \item{The \hl{number of lines} drawn leaving a positive charge or approaching a negative charge is proportional to the \hl{magnitude of the charge}}
+    \item{\hl{No two field lines can cross} each other}
+\end{itemize}
+
+\subsection{Electric Field Around A Positive v/s Negative Source Charge}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.4\textwidth]{lines}
+    \includegraphics[width=0.4\textwidth]{lines2}
+\end{figure}
+
+\subsection{Electric Field Interactions}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.4\textwidth]{repel}
+    \includegraphics[width=0.4\textwidth]{attract}
+\end{figure}
+
+Use this theory with a test particle to determine the direction of an electric field. NOT signs.
+
+\section{Particles}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{particles}
+\end{figure}
+
+\section{Electric Field Strength}
+\subsection{Electric Field Around A Producer (Source Charge)}
+\Large $$|\vec{E}| = \frac{kq}{r^2}$$ \normalsize
+$$\textrm{Units: } \si{\newton\per\coulomb} \textrm{ or } \si{\V\per\m}$$
+\begin{itemize}
+    \item{$k$ = Coulomb's Constant (\SI{8.99e9}{\newton\cdot\m\squared\per\coulomb\squared})}
+    \item{$q$ = Value of the source charge (\si{\coulomb})}
+    \item{$r$ = Distance from the source charge (\si{\m})}
+\end{itemize}
+
+\subsection{Electric Field Experienced By A Charge}
+\Large $$\vec{E} = \frac{\vec{F}_e}{q}$$ \normalsize
+\begin{itemize}
+    \item{$\vec{E}$ = Electric Field (\si{\newton\per\coulomb})}
+    \item{$\vec{F}_e$ = Electrostatic Force (\si{\newton})}
+    \item{$q$ = Test Charge (in a field question, its not source charge) (\si{\coulomb})}
+\end{itemize}
+
+\subsection{Example}
+Calculate the electric field \SI{2.00}{\cm} from an alpha particle.
+$$|\vec{E}| = \frac{(\SI{8.99e9}{\newton\cdot\m\squared\per\coulomb\squared})(\SI{3.20e-19}{\coulomb})}{(\SI{2.00e-2}{\m})^2}$$
+$$|\vec{E}| = \SI{7.19e-6}{\newton\per\coulomb} \textrm{ radially outward}$$
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.3\textwidth]{fieldquestion}
+\end{figure}
+
+\subsection{Example II}
+Calculate the electric field strength at a point in space where a \SI{3.24e-6}{\coulomb} charge experiences an electrostatic force of \SI{5.29e-3}{\newton}.
+$$\vec{E} = \frac{\vec{F}_e}{q}$$
+$$\vec{E} = \frac{\SI{5.29e-3}{\newton}}{\SI{3.24e-6}{\coulomb}}$$
+$$\vec{E} = \SI{1.63e3}{\newton\per\coulomb}$$
+
+\pagebreak
+\subsection{Example III}
+Calculate the electric field midway between the two charges below if they are \SI{5.00}{\cm} apart.
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{fieldquestion3}
+\end{figure}
+
+$$|\vec{E}_{net}| = |\vec{E}_1| + |\vec{E}_2|$$
+$$|\vec{E}_{net}| = \SI{34521600}{\newton\per\coulomb}\textrm{, west} + \SI{77673600}{\newton\per\coulomb}\textrm{, west}$$
+$$|\vec{E}_{net}| = \SI{1.12e8}{\newton\per\coulomb}\textrm{, west}$$
+
+\end{document}
