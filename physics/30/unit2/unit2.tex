@@ -21,7 +21,7 @@
 \graphicspath{ {./images/} }
 %% science
 \usepackage{siunitx}
-\sisetup{exponent-product = \cdot, per-mode = fraction}
+\sisetup{exponent-product=\times, per-mode=fraction}
 
 \begin{document}
 \maketitle
@@ -143,5 +143,80 @@ Calculate the electric field midway between the two charges below if they are \S
 $$|\vec{E}_{net}| = |\vec{E}_1| + |\vec{E}_2|$$
 $$|\vec{E}_{net}| = \SI{34521600}{\newton\per\coulomb}\textrm{, west} + \SI{77673600}{\newton\per\coulomb}\textrm{, west}$$
 $$|\vec{E}_{net}| = \SI{1.12e8}{\newton\per\coulomb}\textrm{, west}$$
+
+\pagebreak
+\subsection{Electric Field Around A Producer in Two Dimensions}
+\begin{itemize}
+    \item{Calculate $\vec{E}$ of the hypotenuse}
+    \item{Use trig to get the components of the electric field vector on each side}
+\item{
+    Direction of the vector is determined by the source charge like before
+        \begin{itemize}
+            \item{if positive, towards test charge/point (repel)}
+            \item{if negative, from test charge/point to source charge (attract)}
+        \end{itemize}
+    }
+    \item{Add the $x$ and $y$ components, positive or negative depending on direction}
+    \item{You are left with the components of the net electric field vector}
+\end{itemize}
+
+\subsubsection{Example I}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.3\textwidth]{fieldtriangle}
+\end{figure}
+$$= \SI{3.43e12}{\newton\per\coulomb}$$
+
+\pagebreak
+\section{Electric Field Between Plates}
+\Large $$\vec{E} = \frac{V}{d}$$ \normalsize
+\begin{itemize}
+    \item{$V$ = total voltage across the plate (\si{\volt})}
+    \item{$d$ = total distance between the plates (\si{\meter})}
+\end{itemize}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.50\textwidth]{plate}
+\end{figure}
+
+\begin{itemize}
+    \item{The electric field between \hl{charged parallel plates} is \hl{uniform} --- identical at any point}
+    \item{To determine the \hl{direction} of the electrical field between charged parallel plates, use a \hl{small positive test charge}}
+    \item{
+        Don't forget that \hl{work is equal to $\SI{0}{\joule}$} if the $F_e$ and $d$ are \hl{not along the same line}
+        \begin{itemize}
+            \item{$\theta$ (in $W = Fd\cos{\theta}$) must be either\\\ang{0} (force and distance same direction) or \\\ang{180} (force and distance opposite directions)}
+        \end{itemize}
+    }
+\end{itemize}
+
+\subsection{Example}
+Two parallel plates are connected to a \SI{12.0}{\volt} battery. If the plates are \SI{6.00e-2}{\m} apart, calculate the electric field strength between them.
+$$\vec{E} = \frac{\SI{12.0}{\volt}}{\SI{6.00e-2}{\m}} = \SI{200}{\volt\per\m}$$
+
+\subsection{Example II}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.45\textwidth]{workplate1}
+    \includegraphics[width=0.45\textwidth]{workplate2}
+\end{figure}
+
+\section{Electric Field as a Function of r Graph}
+\begin{itemize}
+    \item{Make sure all values are times ten to the power of the same exponent before you plot}
+\end{itemize}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.75\textwidth]{graph1}
+\end{figure}
+
+In order to get a graph that is a straight line, set the $x$ to whatever is proportional to $y$. In this case, $E \propto \frac{1}{r^2}$
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.75\textwidth]{graph2}
+\end{figure}
 
 \end{document}
