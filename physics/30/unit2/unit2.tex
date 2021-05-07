@@ -57,6 +57,8 @@ Unfinished!
     \item{$r$ = radius of the planet}
 \end{itemize}
 
+$\vec{F}_g$ is ALWAYS attractive.
+
 \pagebreak
 \section{Drawing Electric Field Lines}
 \begin{figure}[H]
@@ -92,6 +94,8 @@ Unfinished!
 \end{figure}
 
 Use this theory with a test particle to determine the direction of an electric field. NOT signs.
+
+For forces, NEVER use negatives for charges ($q$) in formulas. After you calculate a value with no negative charges, look at the signs. If they are same sign, the force is repel. If they are opposite sign, the force is attractive.
 
 \section{Particles}
 \begin{figure}[H]
@@ -198,8 +202,15 @@ $$\vec{E} = \frac{\SI{12.0}{\volt}}{\SI{6.00e-2}{\m}} = \SI{200}{\volt\per\m}$$
 \subsection{Example II}
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.45\textwidth]{workplate1}
-    \includegraphics[width=0.45\textwidth]{workplate2}
+    \includegraphics[width=0.39\textwidth]{workplate1}
+    \includegraphics[width=0.5\textwidth]{workplate2}
+\end{figure}
+
+\subsection{Example III (Projectile Motion Style)}
+An electron beam enters the region between two oppositely charged parallel plates near the negatively charged plate, as shown below. The plates are \SI{0.250}{\m} long and are \SI{0.0500}{\m} apart. There is an electrical potential difference of \SI{120}{\volt} across the two plates as the beam exits the region between the parallel plates. The path of the electrons just touches the edge of one of the plates as the beam exits the region between the parallel plates. \\Determine the minimum initial speed of an electron in the beam. \\Show the direction of the electric field and explain why.
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{particleplates}
 \end{figure}
 
 \section{Electric Field as a Function of r Graph}
@@ -217,6 +228,88 @@ In order to get a graph that is a straight line, set the $x$ to whatever is prop
 \begin{figure}[H]
     \centering
     \includegraphics[width=0.75\textwidth]{graph2}
+\end{figure}
+
+Use the slope of this graph in further calculations.
+
+slope = $\frac{E}{\frac{1}{r^2}} = Er^2$
+
+You can substitute the slope into anywhere with $Er^2$.
+
+These exact things also work for force as a function of separation distance graphs.\\$m = \frac{F}{\frac{1}{r^2}} = Fr^2$
+
+\subsection{Slope}
+Use your graphing calculator functions to calculate slope. (lists)
+
+$$m = \frac{\Delta{y}}{\Delta{x}} = \frac{y_f - y_i}{x_f - x_i}$$
+
+If you don't have a graphing calculator, manually calculate slope. Make sure to select points off the graph line that are \hl{not plotted points}.
+
+\pagebreak
+\section{Coulomb's Law}
+\Large $$|\vec{F}_e| = \frac{kq_1q_2}{r^2}$$ \normalsize
+$$F_e \propto q_1q_2 \qquad F_e \propto \frac{1}{r^2}$$
+
+The magnitude of the electrostatic force of interaction between two point charges is directly proportional to the \textbf{scalar multiplication} of the magnitudes of charges and inversely proportional to the square of the distance between them.
+
+Most questions are simply just plugging in the data you're given and solving for a variable.
+
+\subsection{Data Miner Question}
+\begin{itemize}
+    \item{If two charges have \hl{brief contact}, the charges will evenly distribute}
+    \item{Add the charges together and divide by two}
+    \item{Both will share this new charge if the objects are same size and material, which it always will be at the Physics 30 level}
+    \item{Some questions ask for the speed/acceleration of charged objects. For these questions, remember that $F_e = F_c$, and $F_c = ma_c$ (which is on your formula sheet) (this doesn't apply to parallel plates questions)}
+\end{itemize}
+
+\subsubsection{Example}
+A \SI{7.50}{\micro\coulomb} charge and a \SI{-9.24}{\micro\coulomb} charge are brought into \textbf{brief contact}, then moved \SI{1.75}{\cm} away from each other. Calculate the electrostatic force between the two charges.
+$$\SI{7.50e-6}{\coulomb} + \SI{-9.24e-6}{\coulomb} = \SI{-1.74e-6}{\coulomb}$$
+$$\SI{-1.74e-6}{\coulomb} \div 2 = \SI{-8.70e-7}{\coulomb}$$
+
+$$|\vec{F}_e| = \frac{(\SI{8.99e9}{\newton\cdot\m\squared\per\coulomb\squared})(\SI{8.70e-7}{\coulomb})(\SI{8.70e-7}{\coulomb})}{(\SI{1.75e-2}{\m})^2}$$
+$|\vec{F}_e| = \SI{22.2}{\newton} \textrm{ repulsive}$ (like charges repel)
+
+\subsection{Long Answer Example}
+An electron and a proton in the hydrogen atom are separated by \SI{5.29e-11}{\m} when the electrion is in the first Bohr orbit.
+\\a) Calculate $\vec{F}_g$ between the electron and proton.
+\\b) Calculate $\vec{F}_e$ between the electron and proton.
+\\c) Which force, $\vec{F}_g$ or $\vec{F}_e$, is responsible for the electron orbiting the nucleus? Why?
+\\d) Calculate the speed of the electron as it orbits the nucleus.
+\\e) Calculate the period of the electron.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.45\textwidth]{longa}
+    \includegraphics[width=0.45\textwidth]{longb}
+\end{figure}
+c) $\vec{F}_e$ is responsible for the electron's orbit as it is significantly larger than $\vec{F}_g$.
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.45\textwidth]{longd}
+    \includegraphics[width=0.45\textwidth]{longe}
+\end{figure}
+
+\pagebreak
+\subsection{Multiple Charges Example}
+Calculate the $F_e$ exerted on charge B due to charges A and C.
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.50\textwidth]{Fequestion}
+\end{figure}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.45\textwidth]{Fequestion2}
+    \includegraphics[width=0.45\textwidth]{Fequestion3}
+    \caption{The direction of each force is where the reference charge (charge B) is going to move. \\For instance, A and B are opposite charges, they'll attract. A is on the west of B, so the force is west.}
+    \includegraphics[width=0.75\textwidth]{Fequestion4}
+\end{figure}
+
+\subsection{Multiple Charges Example I}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.7\textwidth]{multiple}
+    \includegraphics[width=0.7\textwidth]{multiple2}
 \end{figure}
 
 \end{document}
