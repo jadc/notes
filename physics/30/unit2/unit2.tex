@@ -39,12 +39,12 @@ Unfinished!
 \pagebreak
 
 \section{Electric Fields}
-\subsection{Micheal Faraday}
 \begin{itemize}
-    \item{Developed the idea of "lines of force" to describe electric fields}
+    \item{Micheal Faraday: Developed the idea of "lines of force" to describe electric fields}
     \item{A field is a \hl{"sphere of influence"} in which a force can affect an object at a distance \hl{without contact}}
     \item{There are electric, gravitational, and magnetic fields}
     \item{The symbol for electric field is $|\vec{E}|$}
+    \item{Do not mix this up with energy, which is scalar $\Delta{E}$}
 \end{itemize}
 
 \subsection{Gravitational Fields}
@@ -167,11 +167,11 @@ $$|\vec{E}_{net}| = \SI{1.12e8}{\newton\per\coulomb}\textrm{, west}$$
 \subsubsection{Example I}
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.3\textwidth]{fieldtriangle}
+    \includegraphics[width=0.6\textwidth]{fieldtriangle}
 \end{figure}
 $$= \SI{3.43e12}{\newton\per\coulomb}$$
 
-\pagebreak
+
 \section{Electric Field Between Plates}
 \Large $$\vec{E} = \frac{V}{d}$$ \normalsize
 \begin{itemize}
@@ -311,5 +311,128 @@ Calculate the $F_e$ exerted on charge B due to charges A and C.
     \includegraphics[width=0.7\textwidth]{multiple}
     \includegraphics[width=0.7\textwidth]{multiple2}
 \end{figure}
+
+\section{Electronvolts}
+Energy can be measured in Joules or in electronvolts. (\si{\electronvolt})
+
+If you need to calculate speed, energy must be in Joules. (\si{\joule})
+
+On your data sheet, it says \hl{$\SI{1}{\electronvolt} = \SI{1.60e-19}{\joule}$}
+
+\section{Voltage (Potential Differnece)}
+$$V = \frac{\Delta{E}}{q}$$
+$$\textrm{Unit} = \si{\volt} = \si{\joule\per\coulomb}$$
+
+If you apply a voltage to a charge, the charge will experience a change in energy.
+
+\subsection{Example}
+An electron is accelerated by a potential difference of \SI{20000}{\volt} in a cathode ray tube television. Calculate the change in energy experienced by the electron. Calculate the speed of the electron.
+
+$$\Delta{E} = \SI{20000}{\volt} \times \SI{1.60e-19}{\coulomb}$$
+$$\Delta{E} = \SI{3.20e-15}{\joule}$$
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\textwidth]{voltage}
+\end{figure}
+
+\subsection{Example II}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.60\textwidth]{voltspeed1}
+    \includegraphics[width=0.60\textwidth]{voltspeed2}
+\end{figure}
+
+\section{Millikan Oil Drop Experiment}
+\begin{itemize}
+    \item{
+        Millikan discovered...
+        \begin{itemize}
+            \item{charge is quantized (charge has a discrete amount)}
+            \item{the elementary charge ($e = \SI{1.60e-19}{\coulomb}$)}
+        \end{itemize}
+    }
+\end{itemize}
+
+Millikan made use of the uniform electric fields in the region between two oppositely charged parallel plates. He charged the plates by connecting each to opposite terminals of a large bank of storage batteries whose potential difference could be varied. He called this apparatus an electrical microbalance. He was able to isolate and suspend charged oil drops, and ultimately measure the charge on each oil drop.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.50\textwidth]{oil}
+\end{figure}
+\subsection{Millikan Equation}
+\Large $$\vec{F}_{net} = \vec{F}_e + \vec{F}_g$$ \normalsize
+
+To suspend an oil drop between plates, the electrostatic force must be equal and opposite to the force of gravity. Therefore, if the \hl{oil drop is suspended, $F_{net} = \SI{0}{\newton}$}, since theres zero acceleration.
+
+When the oil drop is suspended, the $g$ in $\vec{F}_g = mg$ \hl{does not equal} \SI{9.81}{\m\per\s\squared}.
+
+\Large $$\vec{F}_g = \vec{F}_e$$ \normalsize
+This is a shortcut to the above equation if $\vec{F}_{net}$ is zero --- suspended oil drop. The reason the force of gravity isn't negative is because it was cancelled by gravity being negative. ($\vec{F}_g = m(\SI{-9.81}{\m\per\s\squared})$)
+
+\subsection{Miscellaneous Equations (memorize)}
+$$\textrm{Volume of a sphere} = \frac{4}{3}\pi r^3$$
+$$\textrm{density} = \frac{\textrm{mass}}{\textrm{volume}}$$
+
+\subsubsection{Charge to Electrons}
+\Large$$n = \frac{q}{e}$$\normalsize
+\begin{itemize}
+    \item{$n$ = number of electrons}
+    \item{$q$ = charge (\si{\coulomb})}
+    \item{$e$ = elementary charge (\SI{1.60e-19}{\coulomb})}
+\end{itemize}
+
+\subsection{Example}
+An oil drop with a mass of \SI{7.32e-15}{\kg} is suspended between two parallel plates that are \SI{6.50}{\milli\m} apart. If the potential difference between these plates is \SI{650}{\volt}, how many excess electrons does this oil drop carry?
+\begin{itemize}
+    \item{$m = \SI{7.32e-15}{\kg}$}
+    \item{$\vec{a} = \SI{0}{\m\per\s\squared}$ (suspended)}
+    \item{$d = \SI{6.50e-3}{\m}$}
+    \item{$V = \SI{650}{\volt}$}
+    \item{$g = \SI{9.81}{\m\per\s\squared}$}
+\end{itemize}
+$$\vec{E} = \frac{V}{d} = \frac{\SI{650}{\volt}}{\SI{6.50e-3}{\m}} = \SI{100000}{\volt\per\m} \textrm{ or } \si{\newton\per\coulomb}$$
+$$\vec{F}_{net} = \vec{F}_e + \vec{F}_g \quad\longrightarrow\quad m\vec{a} = \vec{E}q + m\vec{g}$$
+$$q = \frac{m\vec{a} - m\vec{g}}{\vec{E}}$$
+$$q = \frac{0 - (\SI{7.32e-15}{\kg})(\SI{-9.81}{\m\per\s\squared})}{\SI{100000}{\newton\per\coulomb}} = \SI{7.18e-19}{\coulomb}$$
+$$\frac{\num{1}\textrm{ electrons}}{\SI{1.60e-19}{\coulomb}} = \frac{n\textrm{ electrons}}{\SI{7.18e-19}{\coulomb}} \textrm{ or use } n = \frac{q}{e}$$
+
+$n = \num{4.488075}\textrm{ electrons} = \num{4}\textrm{ electrons}$ (electrons cannot be fractional, so round down)
+
+\subsection{Example II}
+An oil drop weighs \SI{9.24e-15}{\newton}. If it is suspended between two horizontal plates where the electric field strength is \SI{4500}{\newton\per\coulomb}, what is the magnitude of the charge on the oil drop?
+\begin{itemize}
+    \item{$F_g = \SI{9.24e-15}{\newton}$}
+    \item{$\vec{E} = \SI{4500}{\newton\per\coulomb}$}
+\end{itemize}
+$$\vec{F}_g = \vec{F}_e = \vec{E}q$$
+$$q = \frac{\vec{F}_g}{\vec{E}} = \SI{2.05e-18}{\coulomb}$$
+
+\pagebreak
+\subsection{Example III}
+An oil drop whose mass is \SI{3.67e-15}{\kg} accelerates downward at a rate of \SI{2.75}{\m\per\s\squared} when placed between two horizontal plates that are \SI{2.50}{\centi\m} apart. The potential difference between the plates is \SI{1000}{\volt}. Assuming the oil drop is negative and the top plate is positive, what is the charge on this oil drop?
+\begin{itemize}
+    \item{$m = \SI{3.67e-15}{\kg}$}
+    \item{$g = \SI{-9.81}{\m\per\s\squared}$}
+    \item{$a = \SI{-2.75}{\m\per\s\squared}$}
+    \item{$d = \SI{2.50e-2}{\m}$}
+    \item{$V = \SI{1000}{\volt}$}
+\end{itemize}
+$$\vec{F}_{net} = \vec{F}_e + \vec{F}_g$$
+$$m\vec{a} = \vec{E}q + m\vec{g}$$
+$$q = \frac{m\vec{a} - m\vec{g}}{\frac{V}{d}} = \SI{6.48e-19}{\coulomb}$$
+
+\subsection{Example IV (No Mass Given)}
+In a Millikan Oil Drop experiment, a student sprayed oil droplets with a density of \SI{827}{\kg\per\m\cubed} between two horizontal parallel plates that were \SI{5.20}{\centi\m} apart. The student adjusted the potential difference between the plates to ber \SI{5500}{\volt} so that one of the drops becomes stationary. The diameter of this drop was measured to be \SI{4.24e-6}{\m}. Calculate the magnitude of the charge on this oil droplet.
+\begin{itemize}
+    \item{density = \SI{827}{\kg\per\m\cubed}}
+    \item{$d = \SI{5.20e-2}{\m}$}
+    \item{$V = \SI{5500}{\volt}$}
+    \item{$r = \SI{2.12e-6}{\m}$}
+\end{itemize}
+
+$$\textrm{Volume of a sphere} = \frac{4}{3}\pi r^3 = \SI{3.99e-17}{\m\cubed}$$
+$$\textrm{mass} = \textrm{density} \times \textrm{volume} = (\SI{827}{\kg\per\m\cubed})(\SI{3.99e-17}{\m\cubed}) = \SI{3.30e-14}{\kg}$$
+Solve the rest like usual, now that you have mass, $q = \SI{3.06e-18}{\coulomb}$
 
 \end{document}
