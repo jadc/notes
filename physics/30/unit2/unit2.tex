@@ -363,9 +363,7 @@ Millikan made use of the uniform electric fields in the region between two oppos
 \subsection{Millikan Equation}
 \Large $$\vec{F}_{net} = \vec{F}_e + \vec{F}_g$$ \normalsize
 
-To suspend an oil drop between plates, the electrostatic force must be equal and opposite to the force of gravity. Therefore, if the \hl{oil drop is suspended, $F_{net} = \SI{0}{\newton}$}, since theres zero acceleration.
-
-When the oil drop is suspended, the $g$ in $\vec{F}_g = mg$ \hl{does not equal} \SI{9.81}{\m\per\s\squared}.
+To suspend an oil drop between plates, the electrostatic force must be equal and opposite to the force of gravity. Therefore, if the \hl{oil drop is suspended, $F_{net} = \SI{0}{\newton}$}, since theres zero acceleration. (this also applies to the drop being in uniform motion, also zero acceleration)
 
 \Large $$\vec{F}_g = \vec{F}_e$$ \normalsize
 This is a shortcut to the above equation if $\vec{F}_{net}$ is zero --- suspended oil drop. The reason the force of gravity isn't negative is because it was cancelled by gravity being negative. ($\vec{F}_g = m(\SI{-9.81}{\m\per\s\squared})$)
@@ -434,5 +432,118 @@ In a Millikan Oil Drop experiment, a student sprayed oil droplets with a density
 $$\textrm{Volume of a sphere} = \frac{4}{3}\pi r^3 = \SI{3.99e-17}{\m\cubed}$$
 $$\textrm{mass} = \textrm{density} \times \textrm{volume} = (\SI{827}{\kg\per\m\cubed})(\SI{3.99e-17}{\m\cubed}) = \SI{3.30e-14}{\kg}$$
 Solve the rest like usual, now that you have mass, $q = \SI{3.06e-18}{\coulomb}$
+
+\pagebreak
+\section{Charging Objects}
+There are three ways an object can be charged, and in each only the electrons move. The protons stay in the nucleus.
+\begin{itemize}
+    \item{Friction}
+    \item{Conduction}
+    \item{Induction}
+\end{itemize}
+
+\subsection{Friction}
+Charging by friction occurs when electrons are "wiped" from one object onto another. e.g. rubbing
+
+\subsection{Conduction}
+Charging by conduction occurs when electrons move from one object to another through \hl{direct contact}.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.50\textwidth]{conduction}
+\end{figure}
+
+\subsubsection{Grounding}
+The process of transferring charge to and from Earth. Conductive path to Earth.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.1\textwidth]{ground}
+\end{figure}
+
+\subsection{Induction}
+Charging by induction occurs when charges in an uncharged object are rearranged \hl{without direct contact} with a charged object.
+
+e.g. If you charge a balloon through friction and place the balloon near paper, the charges of the paper will be rearranged and the paper will be attracted to the balloon.
+
+\textbf{Charge Migration}: Movement of electrons in a neutral object where one side of the object becomes positive and the other side becomes negative.
+
+\textbf{Separation of Charge}: Bringing a charged object near a neutral one will cause a separation of charge.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.75\textwidth]{induction}
+\end{figure}
+
+\section{Conservation of Charge}
+When you charge something by any method, \hl{no charges are created or destroyed}.
+
+The number of electrons and protons in the entire system is constant. Electrons move from one atom to another.
+
+\section{Materials}
+\subsection{Insulator}
+\begin{itemize}
+    \item{Electrons are tightly bound to the nucleus}
+    \item{Electrons are not free to move within the substance}
+    \item{e.g. plastic, rubber, glass, wood, air}
+\end{itemize}
+
+\subsection{Conductor}
+\begin{itemize}
+    \item{Electrons are in the outermost regions of atom}
+    \item{Electrons are free to move}
+    \item{e.g. copper, aluminum, mercury}
+\end{itemize}
+
+\section{Static Electricity}
+\begin{itemize}
+    \item{The electric charge at rest on an object}
+    \item{When something is static, it is not moving}
+    \item{The charges of static electricity do not move away from the object that they are in, so the object keeps its charge}
+\end{itemize}
+
+\section{How Lightning Forms}
+During a thunderstorm, water droplets, ice, and air move inside the storm cloud. As a result, negative charges build up, often at the bottom of the cloud. Positive charges often build up at the top.
+
+The negative charge at the bottom of the cloud may induce a positive charge on the ground. The large charge difference causes a rapid electric discharge called lighting.
+
+Different parts of clouds have different charges. In fact, most lighting happens within and between clouds.
+
+\section{Electric Current}
+Electric current is the rate of flow of electrons.
+\Large $$I = \frac{q}{t}$$ \normalsize
+\begin{itemize}
+    \item{$I$ = current (amps, \si{\ampere} = \si{\coulomb\per\s})}
+    \item{$q$ = charge (\si{\coulomb})}
+    \item{$t$ = time (\si{\s})}
+\end{itemize}
+
+\subsection{Example}
+A circuit has a constant current of \SI{6.00}{\ampere}, in one second how many electrons will travel through a light bulb in that circuit?
+$$It = q$$
+$$(\SI{6.00}{\ampere})(\SI{1}{\s}) = \SI{6.00}{\coulomb}$$
+
+$$n = \frac{q}{e}$$
+$$n = \frac{\SI{6.00}{\coulomb}}{\SI{1.60e-19}{\coulomb}} = \num{3.75e-19}\textrm{ electrons}$$
+
+\section{Pith Ball Hanging from an Insulating Thread}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{pith}
+\end{figure}
+
+When the neutral pith ball is placed near the charged Van de Graff generator, the pith ball is attracted to the generator as a result of \hl{induction}.
+
+The direction of the electrical force on the pith ball is \hl{left}.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.15\textwidth]{pithforces}
+\end{figure}
+$$\tan{\theta} = \frac{F_e}{F_g}$$
+$$F_g\tan{\theta} = F_e$$
+$$F_g = mg = \SI{2.45e-3}{\newton}$$
+$$\num{2.45e-3}\tan{\ang{20}} = F_e$$
+$$\SI{8.9e-4}{\newton} = F_e$$
 
 \end{document}
