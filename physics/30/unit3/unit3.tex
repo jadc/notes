@@ -84,35 +84,6 @@ Speed of light: $c = f\lambda$
     \item{\textbf{Amplitude}: the maximum displacement from the equilibrium position}
 \end{itemize}
 
-\section{Law of Reflection}
-
-\Large $$\angle{I} = \angle{R}$$ \normalsize
-
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=0.50\textwidth]{reflect}
-\end{figure}
-
-\begin{itemize}
-    \item{$\angle{I}$: \textbf{Angle of Incidence} \\Measured from the light ray to the normal}
-    \item{$\angle{R}$: \textbf{Angle of Reflection} \\Measured from reflected ray to normal}
-    \item{
-            \textbf{Normal}
-            \begin{itemize}
-                \item{Perpendicular to the surface}
-                \item{Broken/dotted line}
-                \item{Drawn from where the incident ray contacts the mirror surface}
-            \end{itemize}
-        }
-\end{itemize}
-
-\subsection{Example}
-A light ray strikes a flat mirror at an angle of \ang{70.0} to the mirror surface. What is the angle of reflection? What is the angle between the incident ray and the reflected ray?
-\begin{figure}[H]
-    \centering
-    \includegraphics[width=0.6\textwidth]{ex-reflect}
-\end{figure}
-
 \section{Refraction}
 The bending of a wave when entering a new medium at an angle.
 
@@ -189,13 +160,30 @@ Separation of white light into its components.
 
 The refraction of white light to form a spectrum of colours.
 
-\textbf{Spectrum}: the bands of colours making up white light (red, orange, yellow, green, blue, violet)
+\subsection{Spectrum}
+The bands of colours making up white light (red, orange, yellow, green, blue, violet)
 
 In a rainbow, light from the sun enters a spherical raindrop and different colors are refracted at different angles.
 
+\subsection{Lens}
+A lens is a transmissive optical device that focuses or disperses a light beam by means of refraction.
+
+\pagebreak
 \section{Ray Diagrams for Lenses}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.50\textwidth]{lens}
+    \caption{Red is the lens, comprised of the overlap of two spheres}
+\end{figure}
+\subsection{Points}
 \begin{itemize}
-    \item{$f$: Focal length}
+    \item{$F$: The principal focal point, where light rays appear to converge or diverse}
+    \item{$C$: Centre of curvature, center of the sphere or the radius, $= 2F$}
+\end{itemize}
+
+\subsection{Variables}
+\begin{itemize}
+    \item{$f$: Focal length (related to the radius of curvature, $f = \frac{\textrm{radius}}{2}$)}
     \item{$m$: Magnification}
     \item{$d_o$: Object distance}
     \item{$d_i$: Image distance}
@@ -204,29 +192,47 @@ In a rainbow, light from the sun enters a spherical raindrop and different color
 \end{itemize}
 
 $$\frac{1}{f} = \frac{1}{d_o} + \frac{1}{d_i}$$
-$$\frac{h_i}{h_o} = \frac{-d_i}{d_o}$$
-$$m = \frac{d_i}{d_o}$$
-$$m = \frac{h_i}{h_o}$$
+$$m = \frac{h_i}{h_o} = \frac{-d_i}{d_o}$$
 
 $f$ is positive for convex lenses.
 $f$ is negative for concave lenses.
 
-\pagebreak
-\section{Convex}
+\subsection{Rays (Striking Lenses)}
+\subsubsection{Ray 1}
 \begin{itemize}
-    \item{Ray 1 starts from the top of the object and travels parallel to the principal axis until the light ray strikes the midline of the lens}
-    \item{Ray 1 then bends and travels down through F}
-    \item{Ray 2 starts at the top of the object and travels down through F until the rayt strikes the midline of the lens}
-    \item{Ray 2 then refracts and travels parallel to the principal axis}
-    \item{The light rays converge at a point}
+    \item{Starts from top of object}
+    \item{Travels parallel to principal axis}
+    \item{After striking midline of lens, bends towards F}
 \end{itemize}
 
-\subsection{Object Beyond C}
-aka. Converging Lens
+\subsubsection{Ray 2}
+\begin{itemize}
+    \item{Starts from top of object}
+    \item{Travels towards F}
+    \item{After striking midline of lens, travels parallel to principal axis}
+\end{itemize}
 
+\subsubsection{Ray 3}
+\begin{itemize}
+    \item{Starts from top of object}
+    \item{Travels through optical center of lens}
+    \item{Does not refract/bend}
+    \item{
+        Can be used in any scenario, but only useful if...
+        \begin{itemize}
+            \item{Convex lens with object at F}
+            \item{Concave lens}
+        \end{itemize}
+    }
+\end{itemize}
+
+\pagebreak
+\section{Convex (Converging Lens)}
+
+\subsection{Object Beyond C}
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.8\textwidth]{convex}
+    \includegraphics[width=0.8\textwidth]{convex-beyondC}
 \end{figure}
 
 \hl{The resulting image can be described as...}
@@ -237,8 +243,6 @@ aka. Converging Lens
     \item{\textbf{real} (if the object and image are on opposite sides of the lens)}
 \end{itemize}
 
-
-\pagebreak
 \subsubsection{Example}
 A \SI{3.00}{\cm} tall object is placed \SI{30.0}{\cm} in front of a convex lens with a focal length of \SI{10.0}{\cm}. Calculate $d_i$, $h_i$ and $m$.
 \begin{figure}[H]
@@ -251,7 +255,7 @@ A \SI{3.00}{\cm} tall object is placed \SI{30.0}{\cm} in front of a convex lens 
 \subsection{Object At C}
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.75\textwidth]{convex-atc}
+    \includegraphics[width=0.75\textwidth]{convex-atC}
 \end{figure}
 
 \hl{The resulting image can be described as...}
@@ -262,7 +266,6 @@ A \SI{3.00}{\cm} tall object is placed \SI{30.0}{\cm} in front of a convex lens 
     \item{real}
 \end{itemize}
 
-\pagebreak
 \subsubsection{Example}
 A \SI{2.00}{\cm} tall object is placed \SI{20.0}{\cm} in front of a convex lens with a focal length of \SI{10.0}{\cm}. Calculate $d_i$, $h_i$ and $m$.
 \begin{itemize}
@@ -272,21 +275,20 @@ A \SI{2.00}{\cm} tall object is placed \SI{20.0}{\cm} in front of a convex lens 
 \end{itemize}
 $$\frac{1}{f} = \frac{1}{d_o} + \frac{1}{d_i}$$
 $$\frac{1}{d_i} = \frac{1}{f} - \frac{1}{d_o}$$
-$$\frac{1}{d_i} = \frac{1}{\SI{10.0}{\cm}} - \frac{1}{\SI{20.0}{\cm}}$$
-$$d_i = \SI{20.0}{\cm}$$
+$$\frac{1}{d_i} = \frac{1}{\SI{10.0}{\cm}} - \frac{1}{\SI{20.0}{\cm}} = \SI{20.0}{\cm}$$
 
 $$\frac{h_i}{h_o} = \frac{-d_i}{d_o}$$
 $$h_i = \frac{h_o \times -d_i}{d_o}$$
-$$h_i = \frac{\SI{2.00}{\cm} \times \SI{-20.0}{\cm}}{\SI{20.0}{\cm}}$$
+$$h_i = \frac{\SI{2.00}{\cm} \times \SI{-20.0}{\cm}}{\SI{20.0}{\cm}} = \SI{2.00}{\cm}$$
 
 $$m = \frac{d_i}{d_o}$$
 $$m = \frac{\SI{20.0}{\cm}}{\SI{20.0}{\cm}} = 1$$
 
 \pagebreak
-\subsection{Object between C and F}
+\subsection{Object Between C and F}
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.8\textwidth]{convex-bfc}
+    \includegraphics[width=0.8\textwidth]{convex-betweenCandF}
 \end{figure}
 
 \hl{The resulting image can be described as...}
@@ -297,21 +299,21 @@ $$m = \frac{\SI{20.0}{\cm}}{\SI{20.0}{\cm}} = 1$$
     \item{real}
 \end{itemize}
 
-\subsection{Object at F}
+\pagebreak
+\subsection{Object At F}
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.7\textwidth]{convex-atf}
-    \caption{Ray 2 cannot be used because the object is sitting on the focal point (F). We must use Ray 3.}
+    \includegraphics[width=0.7\textwidth]{convex-atF}
+    \caption{\hl{Ray 2 cannot be used} because the object is sitting on the focal point (F). We must use Ray 3.}
 \end{figure}
-
-Ray 3 (is an imaginary ray that) starts from the top of the object and travels down through the optical center of the lens. This ray does not refract.
 
 The rays end up running parallel to each other, so there is \hl{no image}/\hl{image at infinity}.
 
-\subsection{Convex, Object Inside F}
+\subsection{Object Within F}
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.7\textwidth]{convex-bf}
+    \includegraphics[width=0.7\textwidth]{convex-withinF}
+    \caption{The rays on their own don't form a coherent image. Continue the \textbf{refracted} rays \hl{backwards} (dotted lines) so they converge.}
 \end{figure}
 
 \hl{The resulting image can be described as...}
@@ -322,6 +324,7 @@ The rays end up running parallel to each other, so there is \hl{no image}/\hl{im
     \item{\textbf{virtual} (object and image on same side)}
 \end{itemize}
 
+\pagebreak
 \subsubsection{Example}
 A \SI{4.00}{\cm} tall object is \SI{20.0}{\cm} in front of a convex lens with a focal length of \SI{40.0}{\cm}. Calculate $d_i$, $h_i$ and $m$.
 \begin{itemize}
@@ -347,18 +350,10 @@ $$m = \num{2.00}$$
 Image will be 2.00X bigger than object.
 
 \pagebreak
-\section{Concave}
-\begin{itemize}
-    \item{Diverging lens}
-    \item{Ray 3 behaves as normal}
-    \item{Ray 1 starts off straight and bends upward after the lens}
-    \item{Use an imaginary line from point F to where ray 1 collides}
-    \item{Ray 3 and the imaginary ray form the image}
-\end{itemize}
-
+\section{Concave (Diverging Lens)}
 \begin{figure}[H]
     \centering
-    \includegraphics[width=0.75\textwidth]{concave-atf}
+    \includegraphics[width=0.75\textwidth]{concave}
 \end{figure}
 
 \hl{Concave lenses ALWAYS result in images described as...}
@@ -389,5 +384,239 @@ $h_i = \SI{1.78}{\cm}$ (erect)
 $$m = \frac{h_i}{h_o}$$
 $$m = \frac{\SI{1.78}{\cm}}{\SI{4.00}{\cm}}$$
 $m = \num{0.444}$ (diminished)
+
+\pagebreak
+\section{Reflection}
+\subsection{Law of Reflection}
+
+\Large $$\theta_I = \theta_R$$ \normalsize
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.45\textwidth]{reflectangles}
+    \includegraphics[width=0.45\textwidth]{reflect}
+\end{figure}
+
+\begin{itemize}
+    \item{$\theta_I$: \textbf{Angle of Incidence} \\Measured from the light ray to the normal}
+    \item{$\theta_R$: \textbf{Angle of Reflection} \\Measured from reflected ray to normal}
+\end{itemize}
+
+\subsubsection{Normal}
+\begin{itemize}
+    \item{Perpendicular to the surface}
+    \item{Broken/dotted line}
+    \item{Drawn from where the incident ray contacts the mirror surface}
+    \item{All angles are always measured with respect to the normal}
+\end{itemize}
+
+\subsubsection{Example}
+A light ray strikes a flat mirror at an angle of \ang{70.0} to the mirror surface. What is the angle of reflection? What is the angle between the incident ray and the reflected ray?
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.6\textwidth]{ex-reflect}
+\end{figure}
+
+\subsection{Type of Reflections}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.45\textwidth]{specular-reflection}
+    \includegraphics[width=0.45\textwidth]{diffuse-reflection}
+    \caption{Left = specular (regular) reflection, Right = diffuse (irregular) reflection}
+\end{figure}
+
+\subsection{Plane Mirror}
+A smooth, flat (planar) reflecting surface
+
+$\theta_R = \theta_I$, angle of reflection equals angle of incidence
+
+\subsubsection{Properties}
+\begin{itemize}
+    \item{\hl{Erect} (right side up)}
+    \item{\hl{Same size}}
+    \item{\hl{Equal distance} from mirror to object and mirror to image}
+    \item{\hl{Laterally reversed} (from right to left)}
+    \item{\hl{Virtual image} (inside the mirror)}
+\end{itemize}
+
+\textbf{Virtual Image}: An image from which light rays appear to come; cannot be formed on a non-reflective surface or screen.
+
+\pagebreak
+
+\section{Mirrors}
+
+\subsection{Rays (Striking Mirrors)}
+\subsubsection{Ray 1}
+\begin{itemize}
+    \item{Starts from top of object}
+    \item{Travels parallel to principal axis}
+    \item{After striking mirror, reflects back towards F}
+\end{itemize}
+
+\subsubsection{Ray 2}
+\begin{itemize}
+    \item{Starts from top of object}
+    \item{Travels towards F}
+    \item{After striking mirror, reflects back parallel to principal axis}
+\end{itemize}
+
+\subsubsection{Ray 3}
+\begin{itemize}
+    \item{Starts from C, travels up towards top of object}
+    \item{From top of object to mirror, maintain angle}
+    \item{Does not refract/bend}
+    \item{
+        Can be used in any scenario, but only useful if...
+        \begin{itemize}
+            \item{Concave mirror with object at F}
+        \end{itemize}
+    }
+\end{itemize}
+
+\section{Concave Mirrors}
+\begin{itemize}
+    \item{$f$ is positive for concave mirrors}
+    \item{Concave mirrors are \hl{converging mirrors}}
+\end{itemize}
+
+\subsection{Object Beyond C}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{concave-mirror-beyondC}
+\end{figure}
+\hl{The resulting image can be described as...}
+\begin{itemize}
+    \item{\textbf{inverted} (upside down)}
+    \item{\textbf{diminished} (smaller)}
+    \item{located between C and F}
+    \item{\textbf{real} (\hl{in front of mirror})}
+\end{itemize}
+
+\subsection{Object At C}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{concave-mirror-atC}
+\end{figure}
+\hl{The resulting image can be described as...}
+\begin{itemize}
+    \item{\textbf{inverted}}
+    \item{\textbf{same size}}
+    \item{located at C}
+    \item{\textbf{real}}
+\end{itemize}
+
+\subsection{Object Between C and F}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{concave-mirror-betweenCandF}
+\end{figure}
+\hl{The resulting image can be described as...}
+\begin{itemize}
+    \item{\textbf{inverted}}
+    \item{\textbf{enlarged}}
+    \item{located beyond C}
+    \item{\textbf{real}}
+\end{itemize}
+
+\subsubsection{Example}
+An object \SI{3.00}{\cm} tall is located \SI{15.0}{\cm} from a concave mirror with a focal length of \SI{10.0}{\cm}. Calculate $d_i$, $h_i$, and $m$.
+\begin{itemize}
+    \item{$h_o = \SI{3.00}{\cm}$}
+    \item{$d_o = \SI{15.0}{\cm}$}
+    \item{$f = \SI{10.0}{\cm}$}
+\end{itemize}
+$$\frac{1}{f} = \frac{1}{d_o} + \frac{1}{d_i}$$
+$$\frac{1}{d_i} = \frac{1}{f} - \frac{1}{d_o}$$
+$$\frac{1}{d_i} = \frac{1}{\SI{10.0}{\cm}} - \frac{1}{\SI{15.0}{\cm}}$$
+$d_i = \SI{30.0}{\cm}$ (positive $d_i$ = image is real)
+
+$$\frac{h_i}{h_o} = \frac{-d_i}{d_o}$$
+$$h_i = \frac{h_o \times -d_i}{d_o}$$
+$$h_i = \frac{\SI{3.00}{\cm} \times \SI{-30.0}{\cm}}{\SI{15.0}{\cm}}$$
+$h_i = \SI{-6.00}{\cm}$ (negative $h_i$ = image is inverted)
+
+$$m = \frac{d_i}{d_o}$$
+$$m = \frac{\SI{30.0}{\cm}}{\SI{15.0}{\cm}}$$
+$m = \num{2.00}$ (image is enlarged 2.00X)
+
+\subsection{Object At F}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{concave-mirror-atF}
+\end{figure}
+
+The rays end up running parallel to each other, so there is \hl{no image}/\hl{image at infinity}.
+
+\subsection{Object Within F}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{concave-mirror-withinF}
+\end{figure}
+\hl{The resulting image can be described as...}
+\begin{itemize}
+    \item{\textbf{erect}}
+    \item{\textbf{enlarged}}
+    \item{\textbf{virtual}}
+\end{itemize}
+
+\subsubsection{Example}
+A \SI{2.00}{\cm} tall object is placed \SI{5.00}{\cm} in front of a concave mirror with a focal length of \SI{10.0}{\cm}. Calculate $d_i$, $h_i$, and $m$.
+\begin{itemize}
+    \item{$h_o = \SI{2.00}{\cm}$}
+    \item{$d_o = \SI{5.00}{\cm}$}
+    \item{$f = \SI{10.0}{\cm}$}
+\end{itemize}
+$$\frac{1}{f} = \frac{1}{d_o} + \frac{1}{d_i}$$
+$$\frac{1}{d_i} = \frac{1}{f} - \frac{1}{d_o}$$
+$$\frac{1}{d_i} = \frac{1}{\SI{10.0}{\cm}} - \frac{1}{\SI{5.00}{\cm}}$$
+$d_i = \SI{-10.0}{\cm}$ (negative $d_i$ = image is virtual)
+
+$$\frac{h_i}{h_o} = \frac{-d_i}{d_o}$$
+$$h_i = \frac{h_o \times -d_i}{d_o}$$
+$$h_i = \frac{\SI{2.00}{\cm} \times -(\SI{-10.0}{\cm})}{\SI{5.00}{\cm}}$$
+$h_i = \SI{4.00}{\cm}$ (positive $h_i$ = image is erect)
+
+$$m = \frac{d_i}{d_o}$$
+$$m = \frac{\SI{4.00}{\cm}}{\SI{2.00}{\cm}}$$
+$m = \num{2.00}$ (image is enlarged 2.00X)
+
+\pagebreak
+\section{Convex Mirror}
+\begin{itemize}
+    \item{$f$ is negative for convex mirrors}
+    \item{Convex mirrors are \hl{diverging mirrors}}
+\end{itemize}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{convex-mirror}
+\end{figure}
+\hl{The resulting image can be described as...}
+\begin{itemize}
+    \item{\textbf{erect}}
+    \item{\textbf{diminished}}
+    \item{\textbf{virtual}}
+\end{itemize}
+
+\subsection{Example}
+A \SI{4.00}{\cm} tall object is placed \SI{12.0}{\cm} in front of a convex mirror with a focal length of \SI{15.0}{\cm}. Calculate $d_i$, $h_i$, and $m$.
+\begin{itemize}
+    \item{$h_o = \SI{4.00}{\cm}$}
+    \item{$d_o = \SI{12.0}{\cm}$}
+    \item{$f = \SI{-15.0}{\cm}$}
+\end{itemize}
+$$\frac{1}{f} = \frac{1}{d_o} + \frac{1}{d_i}$$
+$$\frac{1}{d_i} = \frac{1}{f} - \frac{1}{d_o}$$
+$$\frac{1}{d_i} = \frac{1}{\SI{-15.0}{\cm}} - \frac{1}{\SI{12.0}{\cm}}$$
+$d_i = \SI{-6.67}{\cm}$ (negative $d_i$ = image is virtual)
+
+$$\frac{h_i}{h_o} = \frac{-d_i}{d_o}$$
+$$h_i = \frac{h_o \times -d_i}{d_o}$$
+$$h_i = \frac{\SI{4.00}{\cm} \times -(\SI{-6.67}{\cm})}{\SI{12.0}{\cm}}$$
+$h_i = \SI{2.22}{\cm}$ (positive $h_i$ = image is erect)
+
+$$m = \frac{d_i}{d_o}$$
+$$m = \frac{\SI{2.22}{\cm}}{\SI{4.00}{\cm}}$$
+$m = \num{0.56}$ (image is diminished 0.56X)
 
 \end{document}
