@@ -53,7 +53,7 @@ Unfinished!
     \includegraphics[width=\textwidth]{emr}
 \end{figure}
 \begin{itemize}
-    \item{ALL EMR travels at the speed of light. ($c = \SI{3.00e8}{\m\per\s}$)}
+    \item{ALL EMR travels at the speed of light in a vacuum. ($c = \SI{3.00e8}{\m\per\s}$)}
     \item{
         \hl{Memorize the visible spectrum wavelength range}
         \begin{itemize}
@@ -72,6 +72,8 @@ Unfinished!
 \end{itemize}
 
 Speed of light: $c = f\lambda$
+
+Period: $T = \frac{1}{f}$
 
 \subsection{Transverse Wave}
 \begin{figure}[H]
@@ -618,5 +620,175 @@ $h_i = \SI{2.22}{\cm}$ (positive $h_i$ = image is erect)
 $$m = \frac{d_i}{d_o}$$
 $$m = \frac{\SI{2.22}{\cm}}{\SI{4.00}{\cm}}$$
 $m = \num{0.56}$ (image is diminished 0.56X)
+
+\section{Diffraction}
+The slight bending of light as it passes around the edge of an object.
+
+Change in shape and direction of a wave front as a result of encountering a small opening or aperture in a barrier.
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.50\textwidth]{diffraction}
+\end{figure}
+
+\section{Interference (Superposition)}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{interference}
+\end{figure}
+\subsection{Constructive}
+When crest meets crest or trough meets trough.
+
+Produces a pulse of \hl{greater amplitude}. (sum)
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.50\textwidth]{constructive-interference}
+\end{figure}
+
+\subsection{Destructive}
+When crest meets trough.
+
+Produces a pulse of \hl{lesser amplitude}. (sum)
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.50\textwidth]{destructive-interference}
+\end{figure}
+
+\subsection{Diffraction-Interferance}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{interdiff}
+\end{figure}
+
+\subsection{Standing Wave}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.75\textwidth]{standing-wave}
+    \caption{Solid: Incident pulse, Dotted: Reflected pulse}
+\end{figure}
+A standing wave, also known as a stationary wave, is a wave which oscillates in time but whose peak amplitude profile does not move in space.
+
+\begin{itemize}
+    \item{\textbf{Antinode}: \\The point of interaction between waves in which \hl{only constructive interference} occurs}
+    \item{\textbf{Node}: \\The point of interaction between waves in which \hl{only destructive interference} occurs}
+\end{itemize}
+
+Each node type is half a wavelength between eachother.
+
+\section{Thomas Young Diffraction-Interferance Experiment}
+Thomas Young's experiment \hl{supports only the light is a wave theory}. (test question) Light travels in straight lines, but it is a wave that can be diffracted and interferred.
+
+If light was a particle, you'd expect the light to go straight through two slits and form two spots on a screen. This does not occur.
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.4\textwidth]{experiment-1}
+\end{figure}
+
+What actually occurs is the light waves diffract and form bands.
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.6\textwidth]{experiment-2}
+    \includegraphics[width=0.35\textwidth]{experiment-3}
+\end{figure}
+\begin{itemize}
+    \item{\textbf{Bright Bands}: Regions of constructive interference (green dots) (aka. antinode, maxima)}
+    \item{\textbf{Dark Bands}: Regions of destructive interference (space between green dots) (aka. node, minima)}
+\end{itemize}
+
+\begin{figure}[H]
+    \centering
+    \caption{The position of the two waves varies depending on path length, and this determines if their intersection is an antinode or node}
+    \includegraphics[width=0.325\textwidth]{slit1}
+    \includegraphics[width=0.325\textwidth]{slit2}
+    \includegraphics[width=0.325\textwidth]{slit3}
+    \caption{1st: Waves of light after 2 slits forming central antinode, notice both waves are same (form a trough) at the antinode, constructive}
+    \caption{2nd: Waves of light after 2 slits forming 1st node, notice both waves are different (crest/trough), destructive}
+    \caption{3rd: Waves of light after 2 slits forming 1st antinode, notice both waves are same (form a crest) at the antinode, constructive}
+\end{figure}
+
+$n$ is the difference of path lengths, and is used to determine nodes and antinodes.
+\begin{itemize}
+    \item{Bright to bright: $n$ increases by \num{1}}
+    \item{Dark to dark: $n$ increases by \num{1}}
+    \item{Bright to dark: $n$ increases by \num{0.5}}
+\end{itemize}
+
+\pagebreak
+\subsection{Equations}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=\textwidth]{lighteq}
+\end{figure}
+
+\Large $$\lambda = \frac{d\sin{\theta}}{n}$$ \normalsize
+\begin{itemize}
+    \item{$\lambda$ = wavelength (\si{\m})}
+    \item{$d$ = distance between the slits (\si{\m})}
+    \item{$\theta$ = angle in degrees}
+    \item{$n$ = number of images (bright/dark bands) included in calculation}
+\end{itemize}
+
+\Large $$\lambda = \frac{xd}{nl}$$ \normalsize 
+($\theta$ must be \hl{less than} \ang{10} to use this equation, angle can be checked with $\tan{\theta} = \frac{x}{l}$)
+\begin{itemize}
+    \item{$\lambda$ = wavelength (\si{\m})}
+    \item{$x$ = distance between images (bright/dark bands) included in calculation}
+    \item{$d$ = distance between the slits (\si{\m})}
+    \item{$n$ = number of images (bright/dark bands) included}
+    \item{$l$ = length to the screen (\si{\m})}
+\end{itemize}
+
+\subsection{Tips}
+\begin{itemize}
+    \item{If you are given lines per meter, \hl{the reciprocal is $d$}}
+    \item{In order to get the \hl{maximum number of maxima}, solve for $n$ when the angle is \ang{90.0}}
+\end{itemize}
+
+\pagebreak
+\subsection{Example}
+A screen is \SI{1.20}{\m} from two narrow slits. The slits are a distance of \SI{3.00e-5}{\m} apart. The second order maxima is \SI{4.50e-2}{\m} from the central maximum. Determine the wavelength of light.
+\begin{itemize}
+    \item{$l$ = \SI{1.20}{\m}}
+    \item{$d = \SI{3.00e-5}{\m}$}
+    \item{$x = \SI{4.00e-2}{\m}$}
+    \item{$n = 2$}
+\end{itemize}
+
+$$\tan{\theta} = \frac{ \SI{4.50e-2}{\m} }{ \SI{1.20}{\m} }$$
+$\theta = \ang{2.15}$ (less than \ang{10}, either equation may be used)
+
+$$\lambda = \frac{xd}{nl} = \frac{ (\SI{4.50e-2}{\m})(\SI{3.00e-5}{\m}) }{ (\num{2})(\SI{1.20}{\m}) } = \SI{5.63e-7}{\m}$$
+
+\subsection{Example II}
+Monochromatic light falls on 2 slits \SI{0.0200}{\milli\m} apart producing a 4th order maximum at \ang{6.40} angle. What is the wavelength of light?
+\begin{itemize}
+    \item{$d = \SI{0.0200e-3}{\m}$}
+    \item{$\theta = \ang{6.40}$}
+    \item{$n = 4$}
+\end{itemize}
+
+$$\lambda = \frac{d\sin{\theta}}{n} = \frac{ (\SI{0.0200e-3}{\m})(\sin{\ang{6.40}}) }{ \num{4} } = \SI{5.57e-7}{\m}$$
+
+\subsection{Example III}
+A diffraction grating has \num{550} lines per \si{\milli\m}. A first order maximum is produced \SI{0.131}{\m} from the central bright band when the screen is \SI{0.342}{\m} from the grating. Determine the wavelength of light.
+\begin{itemize}
+    \item{$x = \SI{0.131}{\m}$}
+    \item{$d = \frac{1}{\SI{550000}{lines\per\m}}{\si{\m}} = \SI{1.818e-6}{\m}$}
+    \item{$n = 1$}
+    \item{$l = \SI{0.342}{\m}$}
+\end{itemize}
+
+$$\tan{\theta} = \frac{ \SI{0.131}{\m} }{ \SI{0.342}{\m} }$$
+$\theta = \ang{20.96}$ (greater than \ang{10}, only first equation may be used)
+
+$$\lambda = \frac{d\sin{\theta}}{n} = \frac{ (\SI{1.818e-6}{\m})(\sin{\ang{20.96}}) }{ \num{1} } = \SI{6.50e-7}{\m}$$
+
+\subsection{Example IV}
+A diffraction grating has \SI{5.00e5}{lines\per\m}. How many maxima can be observed if the grating is illuminated with monochromatic light of wavelength \SI{4.50e-7}{\m}.
+\begin{itemize}
+    \item{$\theta = \ang{90.0}$ (in order to get the \hl{maximum number of maxima}, the angle must be \ang{90.0})}
+    \item{$\lambda = \SI{4.50e-7}{\m}$}
+    \item{$d = \frac{1}{\SI{5.00e5}{lines\per\m}}$}
+\end{itemize}
+$$n = \frac{ d \sin{\theta} }{ \lambda } = \frac{ (\frac{1}{\SI{5.00e5}{lines\per\m}})(\sin{\ang{90.0}}) }{ \SI{4.50e-7}{\m} } = 4$$
 
 \end{document}
