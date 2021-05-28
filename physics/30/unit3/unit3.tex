@@ -791,4 +791,37 @@ A diffraction grating has \SI{5.00e5}{lines\per\m}. How many maxima can be obser
 \end{itemize}
 $$n = \frac{ d \sin{\theta} }{ \lambda } = \frac{ (\frac{1}{\SI{5.00e5}{lines\per\m}})(\sin{\ang{90.0}}) }{ \SI{4.50e-7}{\m} } = 4$$
 
+\section{Michelson's Experiment}
+Michelson attempted to find the speed of light using the following apparatus.
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.50\textwidth]{michelson}
+\end{figure}
+The light reflects off a typically spinning 8-sided mirror twice (B to mirror to A) so any \hl{distance} used in calculations must be \hl{multiplied by two}.
+
+\subsection{Example}
+If an eight-sided mirror makes \SI{420}{RPS}, how long does it take to make one-eighth of a revolution?
+$$\frac{\SI{420}{R}}{\SI{1}{\s}} = \frac{\SI{1/8}{R}}{x \si{\s}}$$
+$$x = \SI{2.98e-4}{\s}$$
+
+\subsection{Example II}
+An eight-sided mirror displayed an image when rotating at \SI{3.12e4}{RPM}, what is the speed of light if the fixed mirror was placed \SI{35.0}{\km} from the rotating mirror?
+$$v = \frac{d}{t}$$
+
+$d = \SI{35000}{\m} \times 2$ (light travels from rotating to stationary and back, so x2)
+
+$$\frac{ \SI{3.12e4}{R} }{ \SI{60}{\s} } = \frac{\SI{1/8}{R}}{x \si{\s}}$$
+$$x = \SI{2.40e-4}{\s}$$
+
+$$v = \frac{\SI{70000}{\m}}{\SI{2.40e-4}{\s}} = \SI{2.91e8}{\m\per\s}$$
+
+\subsection{Example III}
+An eight-sided mirror and a fixed mirror are \SI{30.0}{\km} apart. What is the minimum angular velocity in revolutions per second that the eight-sided mirror would have to rotate in order that light would be reflected to the observer?
+
+$$v = \frac{d}{t}$$
+$$t = \frac{d}{v} = \frac{ \SI{30000}{\m}\times2 }{ \SI{3.00e8}{\m\per\s} } = \SI{2.00e-4}{\s}$$
+
+$$\frac{\SI{1/8}{R}}{\SI{2.00e-4}{\s}} = \frac{x \si{R}}{\SI{1}{\s}}$$
+$$x = \SI{625}{RPS}$$
+
 \end{document}
